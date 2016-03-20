@@ -1,0 +1,289 @@
+% Encoding: UTF-8
+
+@Inproceedings{CezarEtAl2015,
+  author =    {G. Cezar and R. Rajagopal and B. Zhang},
+  title =     {Stability of interconnected {DC} converters},
+  booktitle = {Proc. 54th IEEE Conf. Decision and Control (CDC)},
+  year =      {2015},
+  pages =     {9--14},
+  month =     dec,
+  link =      {http://arxiv.org/abs/1503.08383},
+  doi =       {10.1109/CDC.2015.7402080},
+  keywords =  {power convertors;power system interconnection;power system stability;DC microgrid;automotive electrical system;constant power load;converter-CPL subsystem;interconnected DC converter network;load augmentation;plug-and-play property;stability;step-up/down converter;Circuit stability;Integrated circuit modeling;Mathematical model;Power system stability;Resistance;Switching circuits;Voltage control}
+}
+
+@Article{Contreras-OcanaEtAl2015,
+  author =  {Contreras-Oca{\~n}a, Jesus E and Ortega-Vazquez, Miguel A and Zhang, Baosen},
+  title =   {Cooperation and Competition among Energy Storages},
+  journal = {arXiv preprint arXiv:1511.02201},
+  year =    {2015},
+  link =    {http://arxiv.org/abs/1511.02201},
+  blog =    {2016-3-19}
+}
+
+@Inproceedings{KanoriaEtAl2011,
+  author =       {Kanoria, Yashodhan and Montanari, Andrea and Tse, David and Zhang, Baosen},
+  title =        {Distributed storage for intermittent energy sources: Control design and performance limits},
+  booktitle =    {Communication, Control, and Computing (Allerton), 2011 49th Annual Allerton Conference on},
+  year =         {2011},
+  pages =        {1310--1317},
+  organization = {IEEE},
+  link =         {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6120319}
+}
+
+@Article{KuntzeEtAl2009,
+  author =   {S. B. Kuntze and B. Zhang and L. Pavel and J. S. Aitchison},
+  title =    {Impact of Feedback Delay on Closed-Loop Stability in Semiconductor Optical Amplifier Control Circuits},
+  journal =  {Journal of Lightwave Technology},
+  year =     {2009},
+  volume =   {27},
+  number =   {9},
+  pages =    {1095--1107},
+  month =    may,
+  link =     {https://www.osapublishing.org/abstract.cfm?uri=jlt-27-9-1095},
+  doi =      {10.1109/JLT.2008.928214},
+  issn =     {0733-8724},
+  keywords = {closed loop systems;delay systems;feedforward;laser feedback;laser stability;laser theory;linear systems;optical control;optical design techniques;semiconductor device models;semiconductor optical amplifiers;state-space methods;closed-loop stability;feedback delay;hybrid feedforward-feedback controller design;integrated photonic signal processing;linear system theory;nonlinear state-space control model;phase accumulation;photonic circuit design;photonic-only control model;semiconductor optical amplifier control circuit;stable delay margin;state-space method;steady-state regulation;transient regulation;Adaptive control;Circuit stability;Control systems;Delay;Feedback circuits;Optical control;Optical feedback;Optical signal processing;Semiconductor optical amplifiers;State-space methods;Equivalent circuits;feedforward systems;optical control;optical crosstalk;optical feedback;optimal control;semiconductor optical amplifiers;state-space methods}
+}
+
+@Techreport{LamEtAl2012,
+  author = {Lam, Albert and Dominguez-Garcia, Alejandro and Zhang, Baosen and Tse, David},
+  title =  {Optimal distributed voltage regulation in power distribution networks},
+  year =   {2012}
+}
+
+@Inproceedings{LamEtAl2012a,
+  author =       {Lam, Albert and Zhang, Baosen and Tse, DN},
+  title =        {Distributed algorithms for optimal power flow problem},
+  booktitle =    {Decision and Control (CDC), 2012 IEEE 51st Annual Conference on},
+  year =         {2012},
+  pages =        {430--437},
+  organization = {IEEE},
+  link =         {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6427082}
+}
+
+@Inproceedings{LavaeiEtAl2012,
+  author =       {Lavaei, Javad and Tse, David and Zhang, Baosen},
+  title =        {Geometry of power flows in tree networks},
+  booktitle =    {Power and Energy Society General Meeting, 2012 IEEE},
+  year =         {2012},
+  pages =        {1--8},
+  organization = {IEEE},
+  link =         {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6344803}
+}
+
+@Article{LavaeiEtAl2014,
+  author =    {Lavaei, Javad and Tse, David and Zhang, Baosen},
+  title =     {Geometry of power flows and optimization in distribution networks},
+  journal =   {Power Systems, IEEE Transactions on},
+  year =      {2014},
+  volume =    {29},
+  number =    {2},
+  pages =     {572--583},
+  link =      {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6624135},
+  publisher = {IEEE}
+}
+
+@Article{LiEtAl2015,
+  author =  {Li, Pan and Zhang, Baosen and Weng, Yang and Rajagopal, Ram},
+  title =   {Autoregressive Model for Individual Consumption Data-LASSO Selection and Significance Test},
+  journal = {arXiv preprint arXiv:1511.01853},
+  year =    {2015},
+  link =    {http://arxiv.org/abs/1511.01853}
+}
+
+@Article{PatelEtAl2013,
+  author =        {Patel, Siddharth and Sevlian, Raffi and Zhang, Baosen and Rajagopal, Ram},
+  title =         {Pricing Residential Electricity Based on Individual Consumption Behaviors},
+  journal =       {arXiv preprint arXiv:1312.1243},
+  year =          {2013},
+  link =          {http://arxiv.org/abs/1312.1243},
+  __markedentry = {[zhangbao:6]}
+}
+
+@Inproceedings{PatelEtAl2014,
+  author =       {Patel, Surabhi and Sevlian, Raffi and Zhang, Baosen and Rajagopal, Ram},
+  title =        {Aggregation for load servicing},
+  booktitle =    {PES General Meeting| Conference \& Exposition, 2014 IEEE},
+  year =         {2014},
+  pages =        {1--5},
+  organization = {IEEE},
+  link =         {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6939793}
+}
+
+@Inproceedings{QinEtAl2013,
+  author =    {Junjie Qin and Baosen Zhang and R. Rajagopal},
+  title =     {Risk limiting dispatch with ramping constraints},
+  booktitle = {Proc. IEEE Int Smart Grid Communications (SmartGridComm) Conf},
+  year =      {2013},
+  pages =     {791--796},
+  month =     oct,
+  link =      {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6688056},
+  doi =       {10.1109/SmartGridComm.2013.6688056},
+  keywords =  {power generation control;power generation dispatch;power generation scheduling;probability;renewable energy sources;stochastic processes;chance constrained policy;efficient look ahead policies;multiperiod stochastic control problem;optimal dispatch control;probability distribution;ramping constraints;renewable resources;reserve generators;risk limiting dispatch;system risk;Gaussian distribution;Hafnium;Probability distribution;Three-dimensional displays}
+}
+
+@Inproceedings{RajagopalEtAl2012,
+  author =    {R. Rajagopal and D. Tse and B. Zhang},
+  title =     {Risk limiting dispatch in congested networks},
+  booktitle = {Proc. 50th Annual Allerton Conf. Communication, Control, and Computing (Allerton)},
+  year =      {2012},
+  pages =     {1900--1907},
+  month =     oct,
+  link =      {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6818365},
+  doi =       {10.1109/Allerton.2012.6483454},
+  keywords =  {computational complexity;power generation dispatch;power generation economics;power transmission lines;Monte Carlo approach;computational complexity;congested network;deterministic equilibrium equation;dispatch algorithm;dispatch procedure;market design;optimal dispatch;renewable generation forecasting;risk limiting dispatch;transmission line;two bus network;two-stage stochastic economic dispatch problem;uncertainty reduction;uncongested network;Forecasting;Limiting;Load modeling;Power transmission lines;Real-time systems;Standards;Uncertainty}
+}
+
+@Inproceedings{RatliffEtAl2016,
+  author =    {L. J. Ratliff and C. Dowling and E. Mazumdar and B. Zhang},
+  title =     {To Observe or Not to Observe: Queuing Game Framework for Urban Parking},
+  booktitle = {Submitted to IEEE Conference on Decision and Control},
+  year =      {2016},
+  link =      {https://www.dropbox.com/s/2lj40bobpsgi215/2016cdc.pdf?dl=0},
+  blog =      {2016-3-19}
+}
+
+@Article{RiquelmeEtAl2016,
+  author =  {Riquelme, Carlos and Johari, Ramesh and Zhang, Baosen},
+  title =   {Online Active Linear Regression via Thresholding},
+  journal = {arXiv preprint arXiv:1602.02845},
+  year =    {2016},
+  link =    {http://arxiv.org/abs/1602.02845},
+  blog =    {2016-3-10}
+}
+
+@Inproceedings{YuEtAl2014,
+  author =        {Y. Yu and B. Zhang and R. Rajagopal},
+  title =         {Do wind power producers have market power and exercise it?},
+  booktitle =     {Proc. IEEE PES General Meeting | Conf. Exposition},
+  year =          {2014},
+  pages =         {1--5},
+  month =         jul,
+  link =          {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6939858},
+  __markedentry = {[zhangbao:]},
+  doi =           {10.1109/PESGM.2014.6939858},
+  keywords =      {electricity supply industry;government policies;power markets;wind power plants;ERCOT control area;day-ahead;electricity markets;market power;wind power producers;Aggregates;Electricity;Electricity supply industry;Equations;Generators;Real-time systems;Wind power generation}
+}
+
+@Phdthesis{Zhang2013,
+  author = {Zhang, Baosen},
+  title =  {Control and Optimization of Power Systems with Renewables: Voltage Regulation and Generator Dispatch},
+  school = {University of California, Berkeley},
+  year =   {2013},
+  link =   {http://digitalassets.lib.berkeley.edu/etd/ucb/text/Zhang_berkeley_0028E_13633.pdf}
+}
+
+@Inproceedings{ZhangEtAl2008,
+  author =       {Zhang, Baosen and Kuntze, Scott B and Pavel, Lacra and Aitchison, J Stewart},
+  title =        {Delay-tolerant control design for Semiconductor Optical Amplifiers},
+  booktitle =    {American Control Conference, 2008},
+  year =         {2008},
+  pages =        {4154--4160},
+  organization = {IEEE},
+  link =         {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=4587145}
+}
+
+@Inproceedings{ZhangEtAl2010,
+  author =       {Zhang, Baosen and Trott, Mitchell D},
+  title =        {Reference-free audio matching for rendezvous},
+  booktitle =    {Acoustics Speech and Signal Processing (ICASSP), 2010 IEEE International Conference on},
+  year =         {2010},
+  pages =        {3570--3573},
+  organization = {IEEE},
+  link =         {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=5495931}
+}
+
+@Inproceedings{ZhangEtAl2011,
+  author =       {Zhang, Baosen and Tse, David},
+  title =        {Geometry of feasible injection region of power networks},
+  booktitle =    {Communication, Control, and Computing (Allerton), 2011 49th Annual Allerton Conference on},
+  year =         {2011},
+  pages =        {1508--1515},
+  organization = {IEEE},
+  link =         {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6120346}
+}
+
+@Article{ZhangEtAl2013,
+  author =    {Zhang, Baosen and Tse, David},
+  title =     {Geometry of injection regions of power networks},
+  journal =   {Power Systems, IEEE Transactions on},
+  year =      {2013},
+  volume =    {28},
+  number =    {2},
+  pages =     {788--797},
+  link =      {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6290429},
+  publisher = {IEEE}
+}
+
+@Inproceedings{ZhangEtAl2013a,
+  author =       {Zhang, Boming and Rajagopal, Ram and Tse, David},
+  title =        {Risk limiting dispatch in congested networks},
+  booktitle =    {Decision and Control (CDC), 2013 IEEE 52nd Annual Conference on},
+  year =         {2013},
+  pages =        {7568--7575},
+  organization = {IEEE},
+  link =         {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6761091}
+}
+
+@Inproceedings{ZhangEtAl2013b,
+  author =    {Baosen Zhang and A. D. Dominguez-Garcia and D. Tse},
+  title =     {A local control approach to voltage regulation in distribution networks},
+  booktitle = {Proc. North American Power Symp. (NAPS)},
+  year =      {2013},
+  pages =     {1--6},
+  month =     sep,
+  link =      {http://arxiv.org/abs/1307.0855},
+  doi =       {10.1109/NAPS.2013.6666945},
+  keywords =  {iterative methods;optimisation;power distribution control;reactive power;voltage control;123-bus test distribution system;34-bus test distribution system;8-bus test distribution system;distributed energy resources;iterative algorithm;local control approach;optimization problem;power distribution networks;reactive power injection;reference voltage profile;voltage regulation;Convergence;Network topology;Power system stability;Reactive power;Thermal stability;Vectors;Voltage control}
+}
+
+@Article{ZhangEtAl2014,
+  author =   {Baosen Zhang and R. Rajagopal and D. Tse},
+  title =    {Network Risk Limiting Dispatch: Optimal Control and Price of Uncertainty},
+  journal =  {IEEE Transactions on Automatic Control},
+  year =     {2014},
+  volume =   {59},
+  number =   {9},
+  pages =    {2442--2456},
+  month =    sep,
+  link =     {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6818365},
+  doi =      {10.1109/TAC.2014.2325640},
+  issn =     {0018-9286},
+  keywords = {Monte Carlo methods;computational complexity;cost optimal control;power generation dispatch;power markets;pricing;renewable energy sources;risk management;stochastic processes;computational complexity;deterministic equilibrium equations;market design;network congestion;network risk limiting dispatch;optimal control;optimal cost;renewable generation forecasting;small sample Monte Carlo approaches;specific dispatch algorithms;specific dispatch procedure;standard IEEE benchmark networks;system operators;two-node network;two-stage stochastic economic dispatch problem;uncertainty price;Forecasting;Limiting;Monte Carlo methods;Optimization;Real-time systems;Standards;Uncertainty;Renewable portfolio standards (RPS);risk limiting dispatch (RLD);system operator (SO)}
+}
+
+@Article{ZhangEtAl2015,
+  author =    {Zhang, Baosen and Lam, Albert and Dom{\'\i}nguez-Garc{\'\i}a, Alejandro D and Tse, David},
+  title =     {An optimal and distributed method for voltage regulation in power distribution systems},
+  journal =   {Power Systems, IEEE Transactions on},
+  year =      {2015},
+  volume =    {30},
+  number =    {4},
+  pages =     {1714--1726},
+  link =      {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6908041},
+  publisher = {IEEE}
+}
+
+@Article{ZhangEtAl2015a,
+  author =   {B. Zhang and R. Johari and R. Rajagopal},
+  title =    {Competition and Coalition Formation of Renewable Power Producers},
+  journal =  {IEEE Transactions on Power Systems},
+  year =     {2015},
+  volume =   {30},
+  number =   {3},
+  pages =    {1624--1632},
+  month =    may,
+  link =     {http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=7014306},
+  doi =      {10.1109/TPWRS.2014.2385869},
+  issn =     {0885-8950},
+  keywords = {load forecasting;power markets;renewable energy sources;tendering;bidding process;correlated forecast error;day-ahead electricity market;generation uncertainty reduction;independent forecast error;renewable power producer coalition formation;spatial diversity;Aggregates;Electricity supply industry;Games;Generators;Random variables;Real-time systems;Uncertainty;Coalitions and competition;Cournot games;electricity markets;renewable integration}
+}
+
+@Article{ZhangEtAl2015b,
+  author =  {Zhang, Baosen and Johari, Ramesh and Rajagopal, Ram},
+  title =   {Cournot Games with Uncertainty: Coalitions, Competition, and Efficiency},
+  journal = {arXiv preprint arXiv:1503.02479},
+  year =    {2015},
+  link =    {http://arxiv.org/abs/1503.02479}
+}

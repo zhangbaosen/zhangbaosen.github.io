@@ -1,0 +1,53 @@
+---
+layout: default
+---
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="container">
+  <div class="jumbotron">
+    <center>
+    <h2>
+    Baosen Zhang
+    </h2>
+    <p>
+      Assistant Professor<br>
+      <a href="http://www.ee.washington.edu/"> Electrical Engineering</a><br>
+      <a href="http://www.cei.washington.edu/"> Clean Energy Institute (Affiliated Faculty)</a><br>
+      <a href="http://www.washington.edu/"> University of Washington</a>
+    </p> 
+    </center>
+  </div>
+<div style="width: 50%; float:left">
+  <h3>Address</h3>
+  <p>
+  Electrical Engineering Building<br>
+  Room M310<br>
+  185 East Stevens Way NE<br>
+  Seattle, WA 9819<br>
+  </p>
+  <p><a href="https://goo.gl/maps/vtEPg1MaD6n">Map</a> (via Google Maps) </p>
+</div>
+
+<div style="width: 50%; float:right">
+   <h3>Contact</h3>
+      <p><em>E-mail:</em> <a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a> <br>
+      <em>Phone:</em> (206) 616-3818 <br>
+      <em>Mailbox: 352500</em> </p>
+</div>
+
+<div style="width: 100%; float:left">
+
+<h2> News </h2>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h4>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h4>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

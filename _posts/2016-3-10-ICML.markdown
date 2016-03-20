@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Paper on Online Active Learning Submitted to ICML "
+date:   2016-03-10
+categories: new papers
+---
+Paper submitted to ICML:
+{% bibliography --query @*[blog=2016-3-10] %}

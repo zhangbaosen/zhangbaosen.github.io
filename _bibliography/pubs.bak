@@ -1,0 +1,39 @@
+% Encoding: UTF-8
+
+@TechReport{LamEtAl2012,
+  author = {Lam, Albert and Dominguez-Garcia, Alejandro and Zhang, Baosen and Tse, David},
+  title =  {Optimal distributed voltage regulation in power distribution networks},
+  year =   {2012}
+}
+
+@Inproceedings{LamEtAl2012a,
+  author =       {Lam, Albert and Zhang, Baosen and Tse, DN},
+  title =        {Distributed algorithms for optimal power flow problem},
+  booktitle =    {Decision and Control (CDC), 2012 IEEE 51st Annual Conference on},
+  year =         {2012},
+  pages =        {430--437},
+  organization = {IEEE},
+  link =         {http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6427082}
+}
+
+@InProceedings{ZhangEtAl2011,
+  author =        {Zhang, Baosen and Tse, David},
+  title =         {Geometry of feasible injection region of power networks},
+  booktitle =     {Communication, Control, and Computing (Allerton), 2011 49th Annual Allerton Conference on},
+  year =          {2011},
+  pages =         {1508--1515},
+  organization =  {IEEE},
+  __markedentry = {[zhangbao:]}
+}
+
+@Article{ZhangEtAl2013,
+  author =        {Zhang, Baosen and Tse, David},
+  title =         {Geometry of injection regions of power networks},
+  journal =       {Power Systems, IEEE Transactions on},
+  year =          {2013},
+  volume =        {28},
+  number =        {2},
+  pages =         {788--797},
+  __markedentry = {[zhangbao:6]},
+  publisher =     {IEEE}
+}
