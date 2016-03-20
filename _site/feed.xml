@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Baosen Zhang</title>
+    <description>Baosen Zhang is an Assistant Professor in the Electrical Engineering Department at the University of Washington. 
+</description>
+    <link>http://faculty.washington.edu/zhangbao//</link>
+    <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 20 Mar 2016 14:46:43 -0700</pubDate>
+    <lastBuildDate>Sun, 20 Mar 2016 14:46:43 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Two Papers to CDC</title>
+        <description>&lt;p&gt;Two papers submitted to CDC:&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;RatliffEtAl2016&quot;&gt;L. J. Ratliff, C. Dowling, E. Mazumdar, and B. Zhang, “To Observe or Not to Observe: Queuing Game Framework for Urban Parking,” in &lt;i&gt;Submitted to IEEE Conference on Decision and Control&lt;/i&gt;, 2016. &lt;/span&gt;
+
+&lt;div id=&quot;RatliffEtAl2016-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;RatliffEtAl2016-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;RatliffEtAl2016-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{RatliffEtAl2016,
+  author = {Ratliff, L. J. and Dowling, C. and Mazumdar, E. and Zhang, B.},
+  title = {To Observe or Not to Observe: Queuing Game Framework for Urban Parking},
+  booktitle = {Submitted to IEEE Conference on Decision and Control},
+  year = {2016},
+  link = {https://www.dropbox.com/s/2lj40bobpsgi215/2016cdc.pdf?dl=0},
+  blog = {2016-3-19}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/2lj40bobpsgi215/2016cdc.pdf?dl=0&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Contreras-OcanaEtAl2015&quot;&gt;J. E. Contreras-Ocaña, M. A. Ortega-Vazquez, and B. Zhang, “Cooperation and Competition among Energy Storages,” &lt;i&gt;arXiv preprint arXiv:1511.02201&lt;/i&gt;, 2015. &lt;/span&gt;
+
+&lt;div id=&quot;Contreras-OcanaEtAl2015-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Contreras-OcanaEtAl2015-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Contreras-OcanaEtAl2015-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{Contreras-OcanaEtAl2015,
+  author = {Contreras-Oca{\~n}a, Jesus E and Ortega-Vazquez, Miguel A and Zhang, Baosen},
+  title = {Cooperation and Competition among Energy Storages},
+  journal = {arXiv preprint arXiv:1511.02201},
+  year = {2015},
+  link = {http://arxiv.org/abs/1511.02201},
+  blog = {2016-3-19},
+  arxiv = {yes}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1511.02201&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Sat, 19 Mar 2016 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2016/03/Two-Paper-Submitted-to-CDC</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2016/03/Two-Paper-Submitted-to-CDC</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper on Online Active Learning Submitted to ICML </title>
+        <description>&lt;p&gt;Paper submitted to ICML:&lt;/p&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;RiquelmeEtAl2016&quot;&gt;C. Riquelme, R. Johari, and B. Zhang, “Online Active Linear Regression via Thresholding,” &lt;i&gt;arXiv preprint arXiv:1602.02845&lt;/i&gt;, 2016. &lt;/span&gt;
+
+&lt;div id=&quot;RiquelmeEtAl2016-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;RiquelmeEtAl2016-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;RiquelmeEtAl2016-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{RiquelmeEtAl2016,
+  author = {Riquelme, Carlos and Johari, Ramesh and Zhang, Baosen},
+  title = {Online Active Linear Regression via Thresholding},
+  journal = {arXiv preprint arXiv:1602.02845},
+  year = {2016},
+  link = {http://arxiv.org/abs/1602.02845},
+  blog = {2016-3-10},
+  arxiv = {yes}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1602.02845&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 10 Mar 2016 00:00:00 -0800</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2016/03/ICML</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2016/03/ICML</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+  </channel>
+</rss>
