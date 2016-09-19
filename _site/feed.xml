@@ -6,9 +6,70 @@
 </description>
     <link>http://faculty.washington.edu/zhangbao//</link>
     <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Mar 2016 15:37:27 -0700</pubDate>
-    <lastBuildDate>Sun, 20 Mar 2016 15:37:27 -0700</lastBuildDate>
+    <pubDate>Mon, 19 Sep 2016 16:06:36 -0700</pubDate>
+    <lastBuildDate>Mon, 19 Sep 2016 16:06:36 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Special Issue of IEEE Transaction on Smartgrid</title>
+        <description>&lt;p&gt;Please consider submitting to IEEE Transactions on Smart Grid Special Section on Distributed Control and Efficient Optimization	Methods for Smart Grid.&lt;/p&gt;
+
+&lt;p&gt;The call is &lt;a href=&quot;http://www.ieee-pes.org/images/files/TSG-SI-DistributedControl_special_issue_call_for_papers.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 16 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2016/06/TOS</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2016/06/TOS</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper in ACM E-Energy</title>
+        <description>&lt;p&gt;Paper to appear in ACM E-Energy&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;ShiEtAl2016&quot;&gt;Y. Shi, B. Xu, B. Zhang, and D. Wang, “Leveraging energy storage to optimize data center electricity cost in emerging power markets,” in &lt;i&gt;ACM E-Energy 2016&lt;/i&gt;, 2016. &lt;/span&gt;
+
+&lt;div id=&quot;ShiEtAl2016-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;ShiEtAl2016-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;ShiEtAl2016-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{ShiEtAl2016,
+  author = {Shi, Yuanyuan and Xu, Bolun and Zhang, Baosen and Wang, Di},
+  title = {Leveraging energy storage to optimize data center electricity cost in emerging power markets},
+  booktitle = {ACM E-Energy 2016},
+  year = {2016},
+  link = {http://arxiv.org/abs/1606.01536},
+  blog = {2016-6-16},
+  __markedentry = {[zhangbao:6]}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1606.01536&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 16 Jun 2016 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2016/06/Eenergy</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2016/06/Eenergy</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Two Papers to CDC</title>

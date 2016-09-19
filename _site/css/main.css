@@ -515,17 +515,19 @@ a.tosu {
 
 .post-list {
   margin-left: 0;
-  list-style: none; }
-  .post-list > li {
-    margin-bottom: 30px; }
+  list-style: none;
+  /*
+      > li {
+          margin-bottom: $spacing-unit;
+      }*/ }
 
 .post-meta {
   font-size: 0.83125em;
   color: #828282; }
 
 .post-link {
-  display: block;
-  font-size: 18px; }
+  /*display: block*/
+  font-size: 14px; }
 
 /**
  * Posts
