@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Special Issue of IEEE Transaction on Smartgrid"
-date:   2016-06-16
-categories: new papers
----
-Please consider submitting to IEEE Transactions on Smart Grid Special Section on Distributed Control and Efficient Optimization	Methods for Smart Grid.
-
-The call is [here](http://www.ieee-pes.org/images/files/TSG-SI-DistributedControl_special_issue_call_for_papers.pdf)
