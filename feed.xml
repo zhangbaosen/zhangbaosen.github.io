@@ -6,70 +6,33 @@
 </description>
     <link>http://faculty.washington.edu/zhangbao//</link>
     <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 05 Oct 2017 21:02:30 -0700</pubDate>
-    <lastBuildDate>Thu, 05 Oct 2017 21:02:30 -0700</lastBuildDate>
+    <pubDate>Mon, 16 Oct 2017 09:20:18 -0700</pubDate>
+    <lastBuildDate>Mon, 16 Oct 2017 09:20:18 -0700</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Papers Accepted to IEEE Transaction on Smart Grid</title>
-        <description>&lt;p&gt;Please consider submitting to IEEE Transactions on Smart Grid Special Section on Distributed Control and Efficient Optimization	Methods for Smart Grid.&lt;/p&gt;
+        <title>Paper on Optimal Control of Battery Under Realistic Degradation Mechanisms</title>
+        <description>&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Shi17c&quot;&gt;Y. Shi, B. Xu, Y. Tan, and B. Zhang, “Optimal Battery Control Under Cycle Aging Mechanisms,” in &lt;i&gt;Submitted to IEEE Transactions on Automatic Control&lt;/i&gt;, 2017. &lt;/span&gt;
 
-&lt;p&gt;The call is &lt;a href=&quot;http://www.ieee-pes.org/images/files/TSG-SI-DistributedControl_special_issue_call_for_papers.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Jun 2016 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2016/06/TSG</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2016/06/TSG</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Special Issue of IEEE Transaction on Smartgrid</title>
-        <description>&lt;p&gt;Please consider submitting to IEEE Transactions on Smart Grid Special Section on Distributed Control and Efficient Optimization	Methods for Smart Grid.&lt;/p&gt;
-
-&lt;p&gt;The call is &lt;a href=&quot;http://www.ieee-pes.org/images/files/TSG-SI-DistributedControl_special_issue_call_for_papers.pdf&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Thu, 16 Jun 2016 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2016/06/TOS</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2016/06/TOS</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Paper in ACM E-Energy</title>
-        <description>&lt;p&gt;Paper to appear in ACM E-Energy&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;ShiEtAl2016&quot;&gt;Y. Shi, B. Xu, B. Zhang, and D. Wang, “Leveraging energy storage to optimize data center electricity cost in emerging power markets,” in &lt;i&gt;ACM E-Energy 2016&lt;/i&gt;, 2016. &lt;/span&gt;
-
-&lt;div id=&quot;ShiEtAl2016-materials&quot;&gt;
+&lt;div id=&quot;Shi17c-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('ShiEtAl2016-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;ShiEtAl2016-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{ShiEtAl2016,
-  author = {Shi, Yuanyuan and Xu, Bolun and Zhang, Baosen and Wang, Di},
-  title = {Leveraging energy storage to optimize data center electricity cost in emerging power markets},
-  booktitle = {ACM E-Energy 2016},
-  year = {2016},
-  link = {http://arxiv.org/abs/1606.01536},
-  blog = {2016-6-16},
-  __markedentry = {[zhangbao:6]}
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Shi17c-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Shi17c-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Shi17c,
+  author = {Shi, Y. and Xu, B. and Tan, Y. and Zhang, B.},
+  title = {Optimal Battery Control Under Cycle Aging Mechanisms},
+  booktitle = {Submitted to IEEE Transactions on Automatic Control},
+  year = {2017},
+  link = {https://arxiv.org/abs/1709.05715},
+  blog = {2017-09-15}
 }
 &lt;/pre&gt;
     &lt;/div&gt;
 
     
-    &lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1606.01536&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1709.05715&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
     
 
   &lt;/ul&gt;
@@ -77,9 +40,9 @@
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 16 Jun 2016 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2016/06/Eenergy</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2016/06/Eenergy</guid>
+        <pubDate>Fri, 15 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2017/09/TAC</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2017/09/TAC</guid>
         
         
         <category>new</category>
@@ -89,30 +52,31 @@
       </item>
     
       <item>
-        <title>Two Papers to CDC</title>
-        <description>&lt;p&gt;Two papers submitted to CDC:&lt;/p&gt;
+        <title>Paper on Using Generative Adversarial Networks for Scenario Generation</title>
+        <description>&lt;p&gt;Scenario generation method using Generative Adversarial Networks, code available &lt;a href=&quot;https://github.com/chennnnnyize/Renewables_Scenario_Gen_GAN&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;RatliffEtAl2016&quot;&gt;L. J. Ratliff, C. Dowling, E. Mazumdar, and B. Zhang, “To Observe or Not to Observe: Queuing Game Framework for Urban Parking,” in &lt;i&gt;Submitted to IEEE Conference on Decision and Control&lt;/i&gt;, 2016. &lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen17&quot;&gt;Y. Chen, Y. Wang, D. Kirschen, and B. Zhang, “Model-Free Renewables Scenario Generation Using Generative Adversarial Networks,” &lt;i&gt;Submitted to IEEE Transaction on Power Systems&lt;/i&gt;, 2017. &lt;/span&gt;
 
-&lt;div id=&quot;RatliffEtAl2016-materials&quot;&gt;
+&lt;div id=&quot;Chen17-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('RatliffEtAl2016-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;RatliffEtAl2016-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{RatliffEtAl2016,
-  author = {Ratliff, L. J. and Dowling, C. and Mazumdar, E. and Zhang, B.},
-  title = {To Observe or Not to Observe: Queuing Game Framework for Urban Parking},
-  booktitle = {Submitted to IEEE Conference on Decision and Control},
-  year = {2016},
-  link = {https://www.dropbox.com/s/2lj40bobpsgi215/2016cdc.pdf?dl=0},
-  blog = {2016-3-19}
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Chen17-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Chen17-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{Chen17,
+  author = {Chen, Y. and Wang, Y. and Kirschen, D. and Zhang, B.},
+  year = {2017},
+  title = {Model-Free Renewables Scenario Generation Using Generative Adversarial Networks},
+  journal = {Submitted to IEEE Transaction on Power Systems},
+  link = {https://arxiv.org/abs/1707.09676},
+  arxiv = {yes},
+  blog = {2017-09-01}
 }
 &lt;/pre&gt;
     &lt;/div&gt;
 
     
-    &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/2lj40bobpsgi215/2016cdc.pdf?dl=0&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1707.09676&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
     
 
   &lt;/ul&gt;
@@ -120,9 +84,120 @@
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Sat, 19 Mar 2016 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2016/03/Two-Paper-Submitted-to-CDC</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2016/03/Two-Paper-Submitted-to-CDC</guid>
+        <pubDate>Fri, 01 Sep 2017 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2017/09/GAN</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2017/09/GAN</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper on Using Battery Storage for Multiple Grid Applications in IEEE Transaction on Power Systems</title>
+        <description>&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Shi17&quot;&gt;Y. Shi, B. Xu, D. Wang, and B. Zhang, “Using Battery Storage for Peak Shaving and Frequency Regulation: Joint Optimization for Superlinear Gains,” &lt;i&gt;To Appear in IEEE Transaction on Power Systems&lt;/i&gt;, 2017. &lt;/span&gt;
+
+&lt;div id=&quot;Shi17-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Shi17-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Shi17-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{Shi17,
+  author = {Shi, Y. and Xu, B. and Wang, D. and Zhang, B.},
+  title = {Using Battery Storage for Peak Shaving and Frequency Regulation: Joint Optimization for Superlinear Gains},
+  journal = {To Appear in IEEE Transaction on Power Systems},
+  year = {2017},
+  link = {http://ieeexplore.ieee.org/document/8027056/},
+  blog = {2017-08-30}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/document/8027056/&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Wed, 30 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2017/08/TPS</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2017/08/TPS</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Couple Papers in IEEE Transactions on Smartgrid on Distributed Online Optimization of Demand Response and Behavior of Energy Storage</title>
+        <description>&lt;p&gt;Two papers to appear in IEEE Transactions on Smartgrid&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Contreras-OcanaEtAl2017&quot;&gt;J. E. Contreras-Ocaña, M. A. Ortega-Vazquez, and B. Zhang, “Participation of an Energy Storage Aggregator in Electricity Markets,” &lt;i&gt;To Appear in IEEE Transactions on Smargrid&lt;/i&gt;, 2017. &lt;/span&gt;
+
+&lt;div id=&quot;Contreras-OcanaEtAl2017-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Contreras-OcanaEtAl2017-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Contreras-OcanaEtAl2017-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{Contreras-OcanaEtAl2017,
+  author = {Contreras-Oca{\~n}a, Jesus E and Ortega-Vazquez, Miguel A and Zhang, Baosen},
+  title = {Participation of an Energy Storage Aggregator in Electricity Markets},
+  journal = {To Appear in IEEE Transactions on Smargrid},
+  year = {2017},
+  link = {http://arxiv.org/abs/1511.02201},
+  blog = {2017-08-11}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1511.02201&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;Li17&quot;&gt;P. Li, H. Wang, and B. Zhang, “A Distributed Online Pricing Strategy for Demand Response Programs,” &lt;i&gt;To Appear in IEEE Transactions on Smartgrid&lt;/i&gt;, 2017. &lt;/span&gt;
+
+&lt;div id=&quot;Li17-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Li17-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Li17-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{Li17,
+  author = {Li, P. and Wang, H. and Zhang, B.},
+  title = {A Distributed Online Pricing Strategy for Demand Response Programs},
+  journal = {To Appear in IEEE Transactions on Smartgrid},
+  year = {2017},
+  link = {http://ieeexplore.ieee.org/document/8008826/},
+  blog = {2017-08-11}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/document/8008826/&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2017/08/TSG_papers</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2017/08/TSG_papers</guid>
         
         
         <category>new</category>
