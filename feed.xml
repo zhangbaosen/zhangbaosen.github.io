@@ -6,13 +6,13 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Feb 2018 20:02:51 -0800</pubDate>
-    <lastBuildDate>Thu, 08 Feb 2018 20:02:51 -0800</lastBuildDate>
+    <pubDate>Mon, 19 Feb 2018 19:47:44 -0800</pubDate>
+    <lastBuildDate>Mon, 19 Feb 2018 19:47:44 -0800</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
         <title>Paper on Optimal Control of Battery Under Realistic Degradation Mechanisms</title>
-        <description>&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Shi17c&quot;&gt;Y. Shi, B. Xu, Y. Tan, and B. Zhang, “Optimal Battery Control Under Cycle Aging Mechanisms,” in &lt;i&gt;Submitted to IEEE Transactions on Automatic Control&lt;/i&gt;, 2017. &lt;/span&gt;
+        <description>&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Shi17c&quot;&gt;Y. Shi, B. Xu, Y. Tan, and B. Zhang, “Optimal Battery Control Under Cycle Aging Mechanisms,” &lt;i&gt;Submitted to IEEE Transactions on Automatic Control&lt;/i&gt;, 2017. &lt;/span&gt;
 
 &lt;div id=&quot;Shi17c-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
@@ -20,10 +20,10 @@
 
  &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Shi17c-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
     &lt;div id=&quot;Shi17c-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Shi17c,
+    &lt;pre class=&quot;collapse&quot;&gt;@article{Shi17c,
   author = {Shi, Y. and Xu, B. and Tan, Y. and Zhang, B.},
   title = {Optimal Battery Control Under Cycle Aging Mechanisms},
-  booktitle = {Submitted to IEEE Transactions on Automatic Control},
+  journal = {Submitted to IEEE Transactions on Automatic Control},
   year = {2017},
   link = {https://arxiv.org/abs/1709.05715},
   blog = {2017-09-15}
@@ -55,7 +55,7 @@
         <title>Paper on Using Generative Adversarial Networks for Scenario Generation</title>
         <description>&lt;p&gt;Scenario generation method using Generative Adversarial Networks, code available &lt;a href=&quot;https://github.com/chennnnnyize/Renewables_Scenario_Gen_GAN&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen17&quot;&gt;Y. Chen, Y. Wang, D. Kirschen, and B. Zhang, “Model-Free Renewables Scenario Generation Using Generative Adversarial Networks,” &lt;i&gt;Submitted to IEEE Transaction on Power Systems&lt;/i&gt;, 2017. &lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen17&quot;&gt;Y. Chen, Y. Wang, D. Kirschen, and B. Zhang, “Model-Free Renewables Scenario Generation Using Generative Adversarial Networks,” &lt;i&gt;To Appear in IEEE Transaction on Power Systems&lt;/i&gt;, 2018. &lt;/span&gt;
 
 &lt;div id=&quot;Chen17-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
@@ -65,11 +65,10 @@
     &lt;div id=&quot;Chen17-bibtex&quot; style=&quot;display:none;&quot;&gt;
     &lt;pre class=&quot;collapse&quot;&gt;@article{Chen17,
   author = {Chen, Y. and Wang, Y. and Kirschen, D. and Zhang, B.},
-  year = {2017},
+  year = {2018},
   title = {Model-Free Renewables Scenario Generation Using Generative Adversarial Networks},
-  journal = {Submitted to IEEE Transaction on Power Systems},
+  journal = {To Appear in IEEE Transaction on Power Systems},
   link = {https://arxiv.org/abs/1707.09676},
-  arxiv = {yes},
   blog = {2017-09-01}
 }
 &lt;/pre&gt;
