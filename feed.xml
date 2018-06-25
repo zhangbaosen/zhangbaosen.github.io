@@ -6,9 +6,107 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 May 2018 21:22:16 -0700</pubDate>
-    <lastBuildDate>Mon, 07 May 2018 21:22:16 -0700</lastBuildDate>
+    <pubDate>Mon, 25 Jun 2018 06:34:31 -0700</pubDate>
+    <lastBuildDate>Mon, 25 Jun 2018 06:34:31 -0700</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
+    
+      <item>
+        <title>Best Papers in Power and Energy General Meeting and ACE E-Energy</title>
+        <description>&lt;p&gt;PES GM, Best Conference Papers on Power System Planning, Operation, and Electricity Markets&lt;/p&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Tinu18&quot;&gt;A. Ademola-Idowu and B. Zhang, “Optimal Design of Virtual Inertia and Damping Coefficients for Virtual Synchronous Machines,” in &lt;i&gt;Power and Energy Society General Meeting&lt;/i&gt;, 2018. &lt;/span&gt;
+
+&lt;div id=&quot;Tinu18-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Tinu18-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Tinu18-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Tinu18,
+  title = {Optimal Design of Virtual Inertia and Damping Coefficients for Virtual Synchronous Machines},
+  author = {Ademola-Idowu, A. and Zhang, B.},
+  year = {2018},
+  booktitle = {Power and Energy Society General Meeting},
+  link = {http://arxiv.org/abs/1806.08488},
+  blog = {2018-6-21a}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1806.08488&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;PES GM, Best Conference Papers on Power System Stability, Control, and Protection&lt;/p&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;CO18&quot;&gt;J. E. Contreras-Ocana, U. Siddiqi, and B. Zhang, “Non-Wire Alternatives to Capacity Expansion,” in &lt;i&gt;Power and Energy Society General Meeting&lt;/i&gt;, 2018. &lt;/span&gt;
+
+&lt;div id=&quot;CO18-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('CO18-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;CO18-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{CO18,
+  title = {Non-Wire Alternatives to Capacity Expansion},
+  author = {Contreras-Ocana, Jesus E. and Siddiqi, Uzma and Zhang, Baosen},
+  year = {2018},
+  booktitle = {Power and Energy Society General Meeting},
+  link = {https://arxiv.org/abs/1711.01349},
+  blog = {2018-6-21b}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1711.01349&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;p&gt;ACM E-Energy, Best Paper Finalist&lt;/p&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;LiEnergy18&quot;&gt;P. Li, S. Sekar, and B. Zhang, “A Capacity-Price Game for Uncertain Renewables Resources,” in &lt;i&gt;Proceedings of ACM E-Energy&lt;/i&gt;, 2018. &lt;/span&gt;
+
+&lt;div id=&quot;LiEnergy18-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('LiEnergy18-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;LiEnergy18-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{LiEnergy18,
+  title = {A Capacity-Price Game for Uncertain Renewables Resources},
+  year = {2018},
+  author = {Li, P. and Sekar, S. and Zhang, B.},
+  booktitle = {Proceedings of ACM E-Energy},
+  link = {https://arxiv.org/abs/1804.06496},
+  blog = {2018-6-21c}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1804.06496&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2018/06/best_paper</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/06/best_paper</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Paper on Optimal Control of Battery Under Realistic Degradation Mechanisms</title>
@@ -55,7 +153,7 @@
         <title>Paper on Using Generative Adversarial Networks for Scenario Generation</title>
         <description>&lt;p&gt;Scenario generation method using Generative Adversarial Networks, code available &lt;a href=&quot;https://github.com/chennnnnyize/Renewables_Scenario_Gen_GAN&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen17&quot;&gt;Y. Chen, Y. Wang, D. Kirschen, and B. Zhang, “Model-Free Renewables Scenario Generation Using Generative Adversarial Networks,” &lt;i&gt;To Appear in IEEE Transaction on Power Systems&lt;/i&gt;, 2018. &lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen17&quot;&gt;Y. Chen, Y. Wang, D. Kirschen, and B. Zhang, “Model-Free Renewables Scenario Generation Using Generative Adversarial Networks,” &lt;i&gt;IEEE Transaction on Power Systems&lt;/i&gt;, 2018. &lt;/span&gt;
 
 &lt;div id=&quot;Chen17-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
@@ -67,7 +165,7 @@
   author = {Chen, Y. and Wang, Y. and Kirschen, D. and Zhang, B.},
   year = {2018},
   title = {Model-Free Renewables Scenario Generation Using Generative Adversarial Networks},
-  journal = {To Appear in IEEE Transaction on Power Systems},
+  journal = {IEEE Transaction on Power Systems},
   link = {https://arxiv.org/abs/1707.09676},
   blog = {2017-09-01}
 }
@@ -127,76 +225,6 @@
         <pubDate>Wed, 30 Aug 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2017/08/TPS</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2017/08/TPS</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Couple Papers in IEEE Transactions on Smartgrid on Distributed Online Optimization of Demand Response and Behavior of Energy Storage</title>
-        <description>&lt;p&gt;Two papers to appear in IEEE Transactions on Smartgrid&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Contreras-OcanaEtAl2017&quot;&gt;J. E. Contreras-Ocaña, M. A. Ortega-Vazquez, and B. Zhang, “Participation of an Energy Storage Aggregator in Electricity Markets,” &lt;i&gt;To Appear in IEEE Transactions on Smargrid&lt;/i&gt;, 2017. &lt;/span&gt;
-
-&lt;div id=&quot;Contreras-OcanaEtAl2017-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Contreras-OcanaEtAl2017-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Contreras-OcanaEtAl2017-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{Contreras-OcanaEtAl2017,
-  author = {Contreras-Oca{\~n}a, Jesus E and Ortega-Vazquez, Miguel A and Zhang, Baosen},
-  title = {Participation of an Energy Storage Aggregator in Electricity Markets},
-  journal = {To Appear in IEEE Transactions on Smargrid},
-  year = {2017},
-  link = {http://arxiv.org/abs/1511.02201},
-  blog = {2017-08-11}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1511.02201&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;Li17&quot;&gt;P. Li, H. Wang, and B. Zhang, “A Distributed Online Pricing Strategy for Demand Response Programs,” &lt;i&gt;To Appear in IEEE Transactions on Smartgrid&lt;/i&gt;, 2017. &lt;/span&gt;
-
-&lt;div id=&quot;Li17-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Li17-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Li17-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{Li17,
-  author = {Li, P. and Wang, H. and Zhang, B.},
-  title = {A Distributed Online Pricing Strategy for Demand Response Programs},
-  journal = {To Appear in IEEE Transactions on Smartgrid},
-  year = {2017},
-  link = {http://ieeexplore.ieee.org/document/8008826/},
-  blog = {2017-08-11}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;http://ieeexplore.ieee.org/document/8008826/&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
-</description>
-        <pubDate>Fri, 11 Aug 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2017/08/TSG_papers</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/08/TSG_papers</guid>
         
         
         <category>new</category>
