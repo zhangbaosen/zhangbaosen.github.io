@@ -4,19 +4,19 @@
     <title>Baosen Zhang</title>
     <description>Baosen Zhang is an Assistant Professor in the Electrical Engineering Department at the University of Washington. 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Jul 2018 10:50:54 -0700</pubDate>
-    <lastBuildDate>Wed, 25 Jul 2018 10:50:54 -0700</lastBuildDate>
-    <generator>Jekyll v3.7.0</generator>
+    <link>http://faculty.washington.edu/zhangbao//</link>
+    <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 31 Jul 2018 10:24:26 -0700</pubDate>
+    <lastBuildDate>Tue, 31 Jul 2018 10:24:26 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Pan and Yuanyuan Selected to the Rising Stars Workshop</title>
         <description>&lt;p&gt;Congratulations to Pan and Yuanyuan for being selected to participate in the 2018 Rising Stars in EECS workshop at MIT. The UW EE article is at &lt;a href=&quot;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&quot;&gt;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/06/STARS</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/06/STARS</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2018/06/STARS</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/06/STARS</guid>
         
         
         <category>new</category>
@@ -28,93 +28,15 @@
       <item>
         <title>Best Papers in Power and Energy General Meeting and ACE E-Energy</title>
         <description>&lt;p&gt;PES GM, Best Conference Papers on Power System Planning, Operation, and Electricity Markets&lt;/p&gt;
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Tinu18&quot;&gt;A. Ademola-Idowu and B. Zhang, “Optimal Design of Virtual Inertia and Damping Coefficients for Virtual Synchronous Machines,” in &lt;i&gt;Power and Energy Society General Meeting&lt;/i&gt;, 2018. &lt;/span&gt;
-
-&lt;div id=&quot;Tinu18-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Tinu18-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Tinu18-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Tinu18,
-  title = {Optimal Design of Virtual Inertia and Damping Coefficients for Virtual Synchronous Machines},
-  author = {Ademola-Idowu, A. and Zhang, B.},
-  year = {2018},
-  booktitle = {Power and Energy Society General Meeting},
-  link = {http://arxiv.org/abs/1806.08488},
-  blog = {2018-6-21a}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;http://arxiv.org/abs/1806.08488&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 &lt;p&gt;PES GM, Best Conference Papers on Power System Stability, Control, and Protection&lt;/p&gt;
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;CO18&quot;&gt;J. E. Contreras-Ocana, U. Siddiqi, and B. Zhang, “Non-Wire Alternatives to Capacity Expansion,” in &lt;i&gt;Power and Energy Society General Meeting&lt;/i&gt;, 2018. &lt;/span&gt;
-
-&lt;div id=&quot;CO18-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('CO18-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;CO18-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{CO18,
-  title = {Non-Wire Alternatives to Capacity Expansion},
-  author = {Contreras-Ocana, Jesus E. and Siddiqi, Uzma and Zhang, Baosen},
-  year = {2018},
-  booktitle = {Power and Energy Society General Meeting},
-  link = {https://arxiv.org/abs/1711.01349},
-  blog = {2018-6-21b}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1711.01349&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 &lt;p&gt;ACM E-Energy, Best Paper Finalist&lt;/p&gt;
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;LiEnergy18&quot;&gt;P. Li, S. Sekar, and B. Zhang, “A Capacity-Price Game for Uncertain Renewables Resources,” in &lt;i&gt;Proceedings of ACM E-Energy&lt;/i&gt;, 2018. &lt;/span&gt;
-
-&lt;div id=&quot;LiEnergy18-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('LiEnergy18-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;LiEnergy18-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{LiEnergy18,
-  title = {A Capacity-Price Game for Uncertain Renewables Resources},
-  year = {2018},
-  author = {Li, P. and Sekar, S. and Zhang, B.},
-  booktitle = {Proceedings of ACM E-Energy},
-  link = {https://arxiv.org/abs/1804.06496},
-  blog = {2018-6-21c}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1804.06496&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/06/best_paper</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/06/best_paper</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2018/06/best_paper</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/06/best_paper</guid>
         
         
         <category>new</category>
@@ -125,19 +47,19 @@
     
       <item>
         <title>Paper on Optimal Control of Battery Under Realistic Degradation Mechanisms</title>
-        <description>&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Shi17c&quot;&gt;Y. Shi, B. Xu, Y. Tan, and B. Zhang, “Optimal Battery Control Under Cycle Aging Mechanisms,” &lt;i&gt;Submitted to IEEE Transactions on Automatic Control&lt;/i&gt;, 2017. &lt;/span&gt;
+        <description>&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Shi17c&quot;&gt;Y. Shi, B. Xu, Y. Tan, and B. Zhang, “Optimal Battery Control Under Cycle Aging Mechanisms,” &lt;i&gt;To Appear in IEEE Transactions on Automatic Control&lt;/i&gt;, 2018. &lt;/span&gt;
 
 &lt;div id=&quot;Shi17c-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Shi17c-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Shi17c-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
     &lt;div id=&quot;Shi17c-bibtex&quot; style=&quot;display:none;&quot;&gt;
     &lt;pre class=&quot;collapse&quot;&gt;@article{Shi17c,
   author = {Shi, Y. and Xu, B. and Tan, Y. and Zhang, B.},
   title = {Optimal Battery Control Under Cycle Aging Mechanisms},
-  journal = {Submitted to IEEE Transactions on Automatic Control},
-  year = {2017},
+  journal = {To Appear in IEEE Transactions on Automatic Control},
+  year = {2018},
   link = {https://arxiv.org/abs/1709.05715},
   blog = {2017-09-15}
 }
@@ -154,8 +76,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Fri, 15 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2017/09/TAC</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/09/TAC</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2017/09/TAC</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2017/09/TAC</guid>
         
         
         <category>new</category>
@@ -168,19 +90,22 @@
         <title>Paper on Using Generative Adversarial Networks for Scenario Generation</title>
         <description>&lt;p&gt;Scenario generation method using Generative Adversarial Networks, code available &lt;a href=&quot;https://github.com/chennnnnyize/Renewables_Scenario_Gen_GAN&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen17&quot;&gt;Y. Chen, Y. Wang, D. Kirschen, and B. Zhang, “Model-Free Renewables Scenario Generation Using Generative Adversarial Networks,” &lt;i&gt;IEEE Transaction on Power Systems&lt;/i&gt;, 2018. &lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen17&quot;&gt;Y. Chen, Y. Wang, D. Kirschen, and B. Zhang, “Model-Free Renewables Scenario Generation Using Generative Adversarial Networks,” &lt;i&gt;IEEE Transaction on Power Systems&lt;/i&gt;, vol. 33, no. 3, pp. 3265–3275, 2018. &lt;/span&gt;
 
 &lt;div id=&quot;Chen17-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Chen17-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Chen17-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
     &lt;div id=&quot;Chen17-bibtex&quot; style=&quot;display:none;&quot;&gt;
     &lt;pre class=&quot;collapse&quot;&gt;@article{Chen17,
   author = {Chen, Y. and Wang, Y. and Kirschen, D. and Zhang, B.},
   year = {2018},
   title = {Model-Free Renewables Scenario Generation Using Generative Adversarial Networks},
   journal = {IEEE Transaction on Power Systems},
+  volume = {33},
+  number = {3},
+  pages = {3265-3275},
   link = {https://arxiv.org/abs/1707.09676},
   blog = {2017-09-01}
 }
@@ -197,8 +122,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Fri, 01 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2017/09/GAN</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/09/GAN</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2017/09/GAN</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2017/09/GAN</guid>
         
         
         <category>new</category>
@@ -209,19 +134,22 @@
     
       <item>
         <title>Paper on Using Battery Storage for Multiple Grid Applications in IEEE Transaction on Power Systems</title>
-        <description>&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Shi17&quot;&gt;Y. Shi, B. Xu, D. Wang, and B. Zhang, “Using Battery Storage for Peak Shaving and Frequency Regulation: Joint Optimization for Superlinear Gains,” &lt;i&gt;To Appear in IEEE Transaction on Power Systems&lt;/i&gt;, 2017. &lt;/span&gt;
+        <description>&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Shi17&quot;&gt;Y. Shi, B. Xu, D. Wang, and B. Zhang, “Using Battery Storage for Peak Shaving and Frequency Regulation: Joint Optimization for Superlinear Gains,” &lt;i&gt;IEEE Transaction on Power Systems&lt;/i&gt;, vol. 33, no. 3, pp. 2882–2894, 2018. &lt;/span&gt;
 
 &lt;div id=&quot;Shi17-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Shi17-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Shi17-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
     &lt;div id=&quot;Shi17-bibtex&quot; style=&quot;display:none;&quot;&gt;
     &lt;pre class=&quot;collapse&quot;&gt;@article{Shi17,
   author = {Shi, Y. and Xu, B. and Wang, D. and Zhang, B.},
   title = {Using Battery Storage for Peak Shaving and Frequency Regulation: Joint Optimization for Superlinear Gains},
-  journal = {To Appear in IEEE Transaction on Power Systems},
-  year = {2017},
+  journal = {IEEE Transaction on Power Systems},
+  year = {2018},
+  volume = {33},
+  number = {3},
+  pages = {2882-2894},
   link = {http://ieeexplore.ieee.org/document/8027056/},
   blog = {2017-08-30}
 }
@@ -238,8 +166,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Wed, 30 Aug 2017 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2017/08/TPS</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2017/08/TPS</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2017/08/TPS</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2017/08/TPS</guid>
         
         
         <category>new</category>
