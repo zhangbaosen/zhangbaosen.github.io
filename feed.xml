@@ -4,11 +4,37 @@
     <title>Baosen Zhang</title>
     <description>Baosen Zhang is an Assistant Professor in the Electrical Engineering Department at the University of Washington. 
 </description>
-    <link>http://faculty.washington.edu/zhangbao//</link>
-    <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 17 Sep 2018 13:50:12 -0700</pubDate>
-    <lastBuildDate>Mon, 17 Sep 2018 13:50:12 -0700</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 24 Sep 2018 20:38:32 -0700</pubDate>
+    <lastBuildDate>Mon, 24 Sep 2018 20:38:32 -0700</lastBuildDate>
+    <generator>Jekyll v3.7.0</generator>
+    
+      <item>
+        <title>Outreach at the Seattle Science Center</title>
+        <description>&lt;p&gt;Thanks to Chase, Ling, Tinu, Tanner and Victor for putting on a booth at the Seattle Science Center! We had demos of our research (joint with &lt;a href=&quot;http://faculty.washington.edu/ratliffl/&quot;&gt;Lilian Ratliff&lt;/a&gt;), as well as props illustrating &lt;a href=&quot;https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm&quot;&gt;max-flow/min-cut&lt;/a&gt; and the &lt;a href=&quot;https://en.wikipedia.org/wiki/Monty_Hall_problem&quot;&gt;Monty Hall&lt;/a&gt; problem. Surprising, kids got the Monty Hall faster than the adults!&lt;/p&gt;
+
+&lt;p float=&quot;left&quot;&gt;
+  &lt;img src=&quot;https://www.dropbox.com/s/igs6xzrx3v7tgud/20180923_163749.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
+  &lt;img src=&quot;https://www.dropbox.com/s/6wgjpk1dfke2mzz/20180923_105408.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
+  &lt;img src=&quot;https://www.dropbox.com/s/4nc0x98bxb3p12t/IMAG3556.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p float=&quot;left&quot;&gt;
+  &lt;img src=&quot;https://www.dropbox.com/s/r8ezo8rtusmmyp2/20180922_144433.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
+  &lt;img src=&quot;https://www.dropbox.com/s/1psdx30pbti61rl/IMAG3554.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
+&lt;/p&gt;
+</description>
+        <pubDate>Sun, 23 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2018/09/Science_center</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/09/Science_center</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Optimal Control Via Neural Networks: A Convex Approach</title>
@@ -20,7 +46,7 @@
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Chen18convex-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Chen18convex-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
     &lt;div id=&quot;Chen18convex-bibtex&quot; style=&quot;display:none;&quot;&gt;
     &lt;pre class=&quot;collapse&quot;&gt;@article{Chen18convex,
   author = {Chen, Y. and Shi, Y. and Zhang, B.},
@@ -43,8 +69,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/08/convex_nn</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/08/convex_nn</guid>
+        <link>http://localhost:4000/blog/2018/08/convex_nn</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/08/convex_nn</guid>
         
         
         <category>new</category>
@@ -63,7 +89,7 @@
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Shi17c-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Shi17c-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
     &lt;div id=&quot;Shi17c-bibtex&quot; style=&quot;display:none;&quot;&gt;
     &lt;pre class=&quot;collapse&quot;&gt;@article{Shi17c,
   author = {Shi, Y. and Xu, B. and Tan, Y. and Zhang, B.},
@@ -86,8 +112,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/08/TAC</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/08/TAC</guid>
+        <link>http://localhost:4000/blog/2018/08/TAC</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/08/TAC</guid>
         
         
         <category>new</category>
@@ -106,7 +132,7 @@
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Jaech18-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Jaech18-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
     &lt;div id=&quot;Jaech18-bibtex&quot; style=&quot;display:none;&quot;&gt;
     &lt;pre class=&quot;collapse&quot;&gt;@article{Jaech18,
   title = {Real-Time Prediction of the Duration of Distribution System Outages},
@@ -129,8 +155,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/08/NLP</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/08/NLP</guid>
+        <link>http://localhost:4000/blog/2018/08/NLP</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/08/NLP</guid>
         
         
         <category>new</category>
@@ -144,8 +170,8 @@
         <description>&lt;p&gt;Congratulations to Pan and Yuanyuan for being selected to participate in the 2018 Rising Stars in EECS workshop at MIT. The UW EE article is at &lt;a href=&quot;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&quot;&gt;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/06/STARS</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/06/STARS</guid>
+        <link>http://localhost:4000/blog/2018/06/STARS</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/06/STARS</guid>
         
         
         <category>new</category>
@@ -164,8 +190,8 @@
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/06/best_paper</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/06/best_paper</guid>
+        <link>http://localhost:4000/blog/2018/06/best_paper</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/06/best_paper</guid>
         
         
         <category>new</category>
@@ -184,7 +210,7 @@
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Chen17-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Chen17-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
     &lt;div id=&quot;Chen17-bibtex&quot; style=&quot;display:none;&quot;&gt;
     &lt;pre class=&quot;collapse&quot;&gt;@article{Chen17,
   author = {Chen, Y. and Wang, Y. and Kirschen, D. and Zhang, B.},
@@ -210,8 +236,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Fri, 01 Sep 2017 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2017/09/GAN</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2017/09/GAN</guid>
+        <link>http://localhost:4000/blog/2017/09/GAN</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/09/GAN</guid>
         
         
         <category>new</category>
