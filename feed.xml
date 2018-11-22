@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 16 Nov 2018 12:10:38 -0500</pubDate>
-    <lastBuildDate>Fri, 16 Nov 2018 12:10:38 -0500</lastBuildDate>
+    <pubDate>Thu, 22 Nov 2018 07:24:36 -0800</pubDate>
+    <lastBuildDate>Thu, 22 Nov 2018 07:24:36 -0800</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
@@ -25,7 +25,7 @@
   &lt;img src=&quot;https://www.dropbox.com/s/1psdx30pbti61rl/IMAG3554.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
 &lt;/p&gt;
 </description>
-        <pubDate>Sun, 23 Sep 2018 00:00:00 -0400</pubDate>
+        <pubDate>Sun, 23 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/09/Science_center</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/09/Science_center</guid>
         
@@ -68,7 +68,7 @@
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/08/convex_nn</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/08/convex_nn</guid>
         
@@ -111,7 +111,7 @@
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/08/TAC</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/08/TAC</guid>
         
@@ -154,7 +154,7 @@
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/08/NLP</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/08/NLP</guid>
         
@@ -169,7 +169,7 @@
         <title>Pan and Yuanyuan Selected to the Rising Stars Workshop</title>
         <description>&lt;p&gt;Congratulations to Pan and Yuanyuan for being selected to participate in the 2018 Rising Stars in EECS workshop at MIT. The UW EE article is at &lt;a href=&quot;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&quot;&gt;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/06/STARS</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/06/STARS</guid>
         
@@ -189,7 +189,7 @@
 &lt;p&gt;ACM E-Energy, Best Paper Finalist&lt;/p&gt;
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/06/best_paper</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/06/best_paper</guid>
         
@@ -235,7 +235,7 @@
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Fri, 01 Sep 2017 00:00:00 -0400</pubDate>
+        <pubDate>Fri, 01 Sep 2017 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2017/09/GAN</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2017/09/GAN</guid>
         
