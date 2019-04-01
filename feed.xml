@@ -4,11 +4,11 @@
     <title>Baosen Zhang</title>
     <description>Baosen Zhang is an Assistant Professor in the Electrical Engineering Department at the University of Washington. 
 </description>
-    <link>http://faculty.washington.edu/zhangbao//</link>
-    <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 Mar 2019 11:07:33 -0700</pubDate>
-    <lastBuildDate>Mon, 11 Mar 2019 11:07:33 -0700</lastBuildDate>
-    <generator>Jekyll v3.1.2</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 01 Apr 2019 09:29:22 -0400</pubDate>
+    <lastBuildDate>Mon, 01 Apr 2019 09:29:22 -0400</lastBuildDate>
+    <generator>Jekyll v3.7.0</generator>
     
       <item>
         <title>Paper in ICLR: designing convex neural networks for control</title>
@@ -20,7 +20,7 @@
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Chen18convex-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Chen18convex-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
     &lt;div id=&quot;Chen18convex-bibtex&quot; style=&quot;display:none;&quot;&gt;
     &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Chen18convex,
   author = {Chen, Y. and Shi, Y. and Zhang, B.},
@@ -42,9 +42,9 @@
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 10 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2019/01/ICLR</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2019/01/ICLR</guid>
+        <pubDate>Thu, 10 Jan 2019 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/2019/01/ICLR</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/ICLR</guid>
         
         
         <category>new</category>
@@ -68,9 +68,9 @@
   &lt;img src=&quot;https://www.dropbox.com/s/1psdx30pbti61rl/IMAG3554.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
 &lt;/p&gt;
 </description>
-        <pubDate>Sun, 23 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/09/Science_center</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/09/Science_center</guid>
+        <pubDate>Sun, 23 Sep 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2018/09/Science_center</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/09/Science_center</guid>
         
         
         <category>new</category>
@@ -85,9 +85,9 @@
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/08/TAC</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/08/TAC</guid>
+        <pubDate>Thu, 30 Aug 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2018/08/TAC</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/08/TAC</guid>
         
         
         <category>new</category>
@@ -102,9 +102,9 @@
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/08/NLP</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/08/NLP</guid>
+        <pubDate>Thu, 30 Aug 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2018/08/NLP</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/08/NLP</guid>
         
         
         <category>new</category>
@@ -117,9 +117,9 @@
         <title>Pan and Yuanyuan Selected to the Rising Stars Workshop</title>
         <description>&lt;p&gt;Congratulations to Pan and Yuanyuan for being selected to participate in the 2018 Rising Stars in EECS workshop at MIT. The UW EE article is at &lt;a href=&quot;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&quot;&gt;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/06/STARS</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/06/STARS</guid>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/blog/2018/06/STARS</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2018/06/STARS</guid>
         
         
         <category>new</category>
