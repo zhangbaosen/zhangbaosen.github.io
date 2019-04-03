@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Apr 2019 09:29:22 -0400</pubDate>
-    <lastBuildDate>Mon, 01 Apr 2019 09:29:22 -0400</lastBuildDate>
+    <pubDate>Wed, 03 Apr 2019 07:17:53 -0700</pubDate>
+    <lastBuildDate>Wed, 03 Apr 2019 07:17:53 -0700</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
     
       <item>
@@ -42,7 +42,7 @@
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 10 Jan 2019 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 10 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2019/01/ICLR</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2019/01/ICLR</guid>
         
@@ -68,7 +68,7 @@
   &lt;img src=&quot;https://www.dropbox.com/s/1psdx30pbti61rl/IMAG3554.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
 &lt;/p&gt;
 </description>
-        <pubDate>Sun, 23 Sep 2018 00:00:00 -0400</pubDate>
+        <pubDate>Sun, 23 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/09/Science_center</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/09/Science_center</guid>
         
@@ -85,7 +85,7 @@
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/08/TAC</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/08/TAC</guid>
         
@@ -102,7 +102,7 @@
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/08/NLP</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/08/NLP</guid>
         
@@ -117,7 +117,7 @@
         <title>Pan and Yuanyuan Selected to the Rising Stars Workshop</title>
         <description>&lt;p&gt;Congratulations to Pan and Yuanyuan for being selected to participate in the 2018 Rising Stars in EECS workshop at MIT. The UW EE article is at &lt;a href=&quot;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&quot;&gt;http://www.ee.washington.edu/spotlight/two-electrical-engineers-selected-to-attend-prestigious-conference-for-women/&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Thu, 21 Jun 2018 00:00:00 -0400</pubDate>
+        <pubDate>Thu, 21 Jun 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/06/STARS</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/06/STARS</guid>
         
