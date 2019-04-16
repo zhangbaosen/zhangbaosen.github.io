@@ -6,9 +6,52 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Apr 2019 22:17:03 -0700</pubDate>
-    <lastBuildDate>Thu, 11 Apr 2019 22:17:03 -0700</lastBuildDate>
+    <pubDate>Mon, 15 Apr 2019 20:24:18 -0700</pubDate>
+    <lastBuildDate>Mon, 15 Apr 2019 20:24:18 -0700</lastBuildDate>
     <generator>Jekyll v3.7.0</generator>
+    
+      <item>
+        <title>Paper in ACM E-Energy: Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks</title>
+        <description>&lt;p&gt;To appear as a paper in ACM E-Energy. We study how an adversary might attack forecasting techniques in power systems and analyze the potential impact on system operations, such as load shedding and increased dispatch costs. These types attack shows that forecasting techniques can be vulnerable to cyber security threats even when the adversary has no information about the system under attack and very little information about the forecasting algorithms themselves (compared to standard data injection attacks which require full knowledge of the system topology). &lt;a href=&quot;https://github.com/chennnnnyize/load_forecasts_attack&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen19&quot;&gt;Y. Chen, Y. Tan, and B. Zhang, “Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks,” in &lt;i&gt;ACM E-Energy&lt;/i&gt;, 2019. &lt;/span&gt;
+
+&lt;div id=&quot;Chen19-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Chen19-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Chen19-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Chen19,
+  author = {Chen, Y. and Tan, Y. and Zhang, B.},
+  title = {Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks},
+  year = {2019},
+  booktitle = {ACM E-Energy},
+  link = {https://arxiv.org/abs/1904.06606},
+  blog = {2019-4-15-security}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1904.06606&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 15 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2019/04/Eenergy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/04/Eenergy</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Paper in ICLR: designing convex neural networks for control</title>
