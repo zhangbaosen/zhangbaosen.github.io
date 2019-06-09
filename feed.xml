@@ -6,41 +6,15 @@
 </description>
     <link>http://faculty.washington.edu/zhangbao//</link>
     <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 May 2019 11:06:32 -0700</pubDate>
-    <lastBuildDate>Wed, 29 May 2019 11:06:32 -0700</lastBuildDate>
+    <pubDate>Sun, 09 Jun 2019 13:05:06 -0700</pubDate>
+    <lastBuildDate>Sun, 09 Jun 2019 13:05:06 -0700</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
         <title>Paper in ACM E-Energy: Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks</title>
         <description>&lt;p&gt;To appear as a paper in ACM E-Energy. We study how an adversary might attack forecasting techniques in power systems and analyze the potential impact on system operations, such as load shedding and increased dispatch costs. These types attack shows that forecasting techniques can be vulnerable to cyber security threats even when the adversary has no information about the system under attack and very little information about the forecasting algorithms themselves (compared to standard data injection attacks which require full knowledge of the system topology). &lt;a href=&quot;https://github.com/chennnnnyize/load_forecasts_attack&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen19&quot;&gt;Y. Chen, Y. Tan, and B. Zhang, “Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks,” in &lt;i&gt;ACM E-Energy&lt;/i&gt;, 2019. &lt;/span&gt;
-
-&lt;div id=&quot;Chen19-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Chen19-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Chen19-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Chen19,
-  author = {Chen, Y. and Tan, Y. and Zhang, B.},
-  title = {Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks},
-  year = {2019},
-  booktitle = {ACM E-Energy},
-  link = {https://arxiv.org/abs/1904.06606},
-  blog = {2019-4-15-security}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/1904.06606&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Mon, 15 Apr 2019 00:00:00 -0700</pubDate>
         <link>http://faculty.washington.edu/zhangbao//blog/2019/04/Eenergy</link>
@@ -57,33 +31,7 @@
         <title>Paper in ICLR: designing convex neural networks for control</title>
         <description>&lt;p&gt;To appear as a paper in ICLR. We design a class of neural networks to be input-convex, which achieves excellent learning plus control performances on tasks such as Mujoco locomotion and building energy management.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Chen18convex&quot;&gt;Y. Chen, Y. Shi, and B. Zhang, “Optimal Control Via Neural Networks: A Convex Approach,” in &lt;i&gt;International Conference on Learning Representations (ICLR)&lt;/i&gt;, 2019. &lt;/span&gt;
-
-&lt;div id=&quot;Chen18convex-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&#39;Chen18convex-bibtex&#39;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Chen18convex-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Chen18convex,
-  author = {Chen, Y. and Shi, Y. and Zhang, B.},
-  title = {Optimal Control Via Neural Networks: A Convex Approach},
-  year = {2019},
-  booktitle = {International Conference on Learning Representations (ICLR)},
-  blog = {2019-1-10-convex_nn},
-  link = {https://openreview.net/forum?id=H1MW72AcK7}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://openreview.net/forum?id=H1MW72AcK7&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 10 Jan 2019 00:00:00 -0800</pubDate>
         <link>http://faculty.washington.edu/zhangbao//blog/2019/01/ICLR</link>
