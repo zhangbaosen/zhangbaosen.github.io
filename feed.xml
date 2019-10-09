@@ -4,21 +4,51 @@
     <title>Baosen Zhang</title>
     <description>Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Oct 2019 09:50:02 -0500</pubDate>
-    <lastBuildDate>Wed, 02 Oct 2019 09:50:02 -0500</lastBuildDate>
-    <generator>Jekyll v3.7.0</generator>
+    <link>http://faculty.washington.edu/zhangbao//</link>
+    <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 09 Oct 2019 16:39:15 -0700</pubDate>
+    <lastBuildDate>Wed, 09 Oct 2019 16:39:15 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
     
       <item>
-        <title>Paper in ACM E-Energy: Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks</title>
+        <title>Invited Speaker at DOE AI Event</title>
+        <description>&lt;p&gt;I was an invented speaker at the Innovation XLab, attended by most of the DOE and National Lab leadership. For more details, see the article by our department: &lt;a href=&quot;https://www.ece.uw.edu/spotlight/baosen-zhang-ai/&quot;&gt;Baosen Zhang serves as panelist at DOE Artificial Intelligence Summit&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2019/10/DOE</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2019/10/DOE</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Bolun Xu to Join Columbia University as an Assistant Professor </title>
+        <description>&lt;p&gt;Congrats to &lt;a href=&quot;https://bolunxu.github.io/&quot;&gt;Bolun&lt;/a&gt; who will join Columbia University in Jan of 2020.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Oct 2019 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2019/10/Bolun</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2019/10/Bolun</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper in ACM E-Energy: Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks (Runner Up for Best Paper)</title>
         <description>&lt;p&gt;To appear as a paper in ACM E-Energy. We study how an adversary might attack forecasting techniques in power systems and analyze the potential impact on system operations, such as load shedding and increased dispatch costs. These types attack shows that forecasting techniques can be vulnerable to cyber security threats even when the adversary has no information about the system under attack and very little information about the forecasting algorithms themselves (compared to standard data injection attacks which require full knowledge of the system topology). &lt;a href=&quot;https://github.com/chennnnnyize/load_forecasts_attack&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Mon, 15 Apr 2019 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2019/04/Eenergy</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/04/Eenergy</guid>
+        <pubDate>Sat, 15 Jun 2019 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2019/06/Eenergy</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2019/06/Eenergy</guid>
         
         
         <category>new</category>
@@ -33,9 +63,9 @@
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 10 Jan 2019 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/blog/2019/01/ICLR</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/01/ICLR</guid>
+        <pubDate>Thu, 10 Jan 2019 00:00:00 -0800</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2019/01/ICLR</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2019/01/ICLR</guid>
         
         
         <category>new</category>
@@ -59,9 +89,9 @@
   &lt;img src=&quot;https://www.dropbox.com/s/1psdx30pbti61rl/IMAG3554.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
 &lt;/p&gt;
 </description>
-        <pubDate>Sun, 23 Sep 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2018/09/Science_center</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/09/Science_center</guid>
+        <pubDate>Sun, 23 Sep 2018 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2018/09/Science_center</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/09/Science_center</guid>
         
         
         <category>new</category>
@@ -76,9 +106,9 @@
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 30 Aug 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2018/08/TAC</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/08/TAC</guid>
+        <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2018/08/TAC</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/08/TAC</guid>
         
         
         <category>new</category>
