@@ -6,9 +6,95 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 29 Jan 2020 15:34:26 -0800</pubDate>
-    <lastBuildDate>Wed, 29 Jan 2020 15:34:26 -0800</lastBuildDate>
+    <pubDate>Thu, 20 Feb 2020 20:38:22 -0800</pubDate>
+    <lastBuildDate>Thu, 20 Feb 2020 20:38:22 -0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Paper on Learning to Solve Network Flow Problems via Neural Decoding</title>
+        <description>&lt;p&gt;Problems in power systems and operations research require repeatedly solving large-scale linear programming problems with a large number of different inputs. In energy systems with high levels of uncertain renewable resources, tens of thousands of scenarios may need to be solved every few minutes. Standard iterative algorithms for linear network flow problems, even though highly efficient, becomes a bottleneck in these applications. In this work, we propose a novel learning approach to accelerate the solving process. By leveraging the rich theory and economic interpretations of LP duality, we interpret the output of the neural network as a noisy codeword, where the codebook is given by the optimization problem’s KKT conditions. We propose a feedforward decoding strategy that finds the optimal set of active constraints. This design is error correcting and can offer orders of magnitude speedup compared to current state-of-the-art iterative solvers, while providing much better solutions in terms of feasibility and optimality compared to end-to-end learning approaches.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;chen2020learning&quot;&gt;Y. Chen and B. Zhang, “Learning to Solve Network Flow Problems via Neural Decoding,” &lt;i&gt;arXiv preprint arXiv:2002.04091&lt;/i&gt;, 2020. &lt;/span&gt;
+
+&lt;div id=&quot;chen2020learning-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('chen2020learning-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;chen2020learning-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{chen2020learning,
+  title = {Learning to Solve Network Flow Problems via Neural Decoding},
+  author = {Chen, Yize and Zhang, Baosen},
+  journal = {arXiv preprint arXiv:2002.04091},
+  year = {2020},
+  link = {https://arxiv.org/abs/2002.04091},
+  blog = {2020-02-20}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2002.04091&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 20 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2020/02/ICML</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/02/ICML</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Input Convex Neural Networks for Optimal Voltage Regulation</title>
+        <description>&lt;p&gt;The increasing penetration of renewables in distribution networks calls for faster and more advanced voltage regulation strategies. A promising approach is to formulate the problem as an optimization problem, where the optimal reactive power injection from inverters are calculated to maintain the voltages while satisfying power network constraints. However, existing optimization algorithms require the exact topology and line parameters of underlying distribution system, which are not known for most cases and are difficult to infer. In this paper, we propose to use specifically designed neural network to tackle the learning and optimization problem together. In the training stage, the proposed input convex neural network learns the mapping between the power injections and the voltages. In the voltage regulation stage, such trained network can find the optimal reactive power injections by design. We also provide a practical distributed algorithm by using the trained neural network. Theoretical bounds on the representation performance and learning efficiency of proposed model are also discussed. Numerical simulations on multiple test systems are conducted to illustrate the operation of the algorithm.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;chen2020input&quot;&gt;Y. Chen, Y. Shi, and B. Zhang, “Input Convex Neural Networks for Optimal Voltage Regulation,” 2020. &lt;/span&gt;
+
+&lt;div id=&quot;chen2020input-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('chen2020input-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;chen2020input-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{chen2020input,
+  title = {Input Convex Neural Networks for Optimal Voltage Regulation},
+  author = {Chen, Yize and Shi, Yuanyuan and Zhang, Baosen},
+  year = {2020},
+  eprint = {2002.08684},
+  link = {https://arxiv.org/abs/2002.08684},
+  blog = {2020-02-19}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2002.08684&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2020/02/TCNS</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/02/TCNS</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Invited Speaker at DOE AI Event</title>
@@ -92,23 +178,6 @@
         <pubDate>Sun, 23 Sep 2018 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2018/09/Science_center</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2018/09/Science_center</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Optimal Battery Control Under Cycle Aging Mechanisms</title>
-        <description>&lt;p&gt;Paper on using batteries in regulation markets under realistic degradation&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 30 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2018/08/TAC</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2018/08/TAC</guid>
         
         
         <category>new</category>
