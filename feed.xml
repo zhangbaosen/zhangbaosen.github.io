@@ -4,11 +4,41 @@
     <title>Baosen Zhang</title>
     <description>Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
 </description>
-    <link>http://faculty.washington.edu/zhangbao//</link>
-    <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 04 Jun 2020 13:29:16 -0700</pubDate>
-    <lastBuildDate>Thu, 04 Jun 2020 13:29:16 -0700</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 13 Jul 2020 21:53:52 -0700</pubDate>
+    <lastBuildDate>Mon, 13 Jul 2020 21:53:52 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
+    
+      <item>
+        <title>Paper on Load Forecasting During the COVID-19 Pandemic Using Mobility Data</title>
+        <description>&lt;p&gt;We recently posted a preprint &lt;a href=&quot;https://arxiv.org/abs/2006.08826&quot;&gt;Using Mobility for Load Forecasting During the COVID-19 Pandemic&lt;/a&gt; on Arxiv. We proposed a novel load forecasting method to use the mobility data and transfer learning to help forecast the volatile load during the pandemic. Code and dataset are found &lt;a href=&quot;https://github.com/chennnnnyize/Load-Forecasting-During-COVID-19&quot;&gt;here&lt;/a&gt;. This result is also &lt;a href=&quot;https://venturebeat.com/2020/06/18/ai-model-uses-smartphone-location-data-to-predict-power-grid-usage/&quot;&gt;featured in VentureBeat&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Jul 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2020/07/Nature_energy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Nature_energy</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Yuanyuan Shi to Join UCSD as an Assistant Professor </title>
+        <description>&lt;p&gt;Congrats to &lt;a href=&quot;http://shiyuanyuan.site/&quot;&gt;Yuanyuan&lt;/a&gt; who will join ECE at University of California, San Diego as an Assistant Professor after a postdoc at Caltech.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2020/07/Yuanyuan</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Yuanyuan</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Paper on Learning to Solve Network Flow Problems via Neural Decoding</title>
@@ -43,8 +73,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 20 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/02/ICML</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/02/ICML</guid>
+        <link>http://localhost:4000/blog/2020/02/ICML</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/02/ICML</guid>
         
         
         <category>new</category>
@@ -86,8 +116,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/02/TCNS</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/02/TCNS</guid>
+        <link>http://localhost:4000/blog/2020/02/TCNS</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/02/TCNS</guid>
         
         
         <category>new</category>
@@ -101,8 +131,8 @@
         <description>&lt;p&gt;I was an invented speaker at the Innovation XLab, attended by most of the DOE and National Lab leadership. For more details, see the article by our department: &lt;a href=&quot;https://www.ece.uw.edu/spotlight/baosen-zhang-ai/&quot;&gt;Baosen Zhang serves as panelist at DOE Artificial Intelligence Summit&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 09 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2019/10/DOE</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2019/10/DOE</guid>
+        <link>http://localhost:4000/blog/2019/10/DOE</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/10/DOE</guid>
         
         
         <category>new</category>
@@ -116,68 +146,8 @@
         <description>&lt;p&gt;Congrats to &lt;a href=&quot;https://bolunxu.github.io/&quot;&gt;Bolun&lt;/a&gt; who will join Columbia University in Jan of 2020.&lt;/p&gt;
 </description>
         <pubDate>Wed, 09 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2019/10/Bolun</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2019/10/Bolun</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Paper in ACM E-Energy: Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks (Runner Up for Best Paper)</title>
-        <description>&lt;p&gt;To appear as a paper in ACM E-Energy. We study how an adversary might attack forecasting techniques in power systems and analyze the potential impact on system operations, such as load shedding and increased dispatch costs. These types attack shows that forecasting techniques can be vulnerable to cyber security threats even when the adversary has no information about the system under attack and very little information about the forecasting algorithms themselves (compared to standard data injection attacks which require full knowledge of the system topology). &lt;a href=&quot;https://github.com/chennnnnyize/load_forecasts_attack&quot;&gt;Code&lt;/a&gt;&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-</description>
-        <pubDate>Sat, 15 Jun 2019 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2019/06/Eenergy</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2019/06/Eenergy</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Paper in ICLR: designing convex neural networks for control</title>
-        <description>&lt;p&gt;To appear as a paper in ICLR. We design a class of neural networks to be input-convex, which achieves excellent learning plus control performances on tasks such as Mujoco locomotion and building energy management.&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 10 Jan 2019 00:00:00 -0800</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2019/01/ICLR</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2019/01/ICLR</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Outreach at the Seattle Science Center</title>
-        <description>&lt;p&gt;Thanks to Chase, Ling, Tinu, Tanner and Victor for putting on a booth at the Seattle Science Center! We had demos of our research (joint with &lt;a href=&quot;http://faculty.washington.edu/ratliffl/&quot;&gt;Lilian Ratliff&lt;/a&gt;), as well as props illustrating &lt;a href=&quot;https://en.wikipedia.org/wiki/Ford%E2%80%93Fulkerson_algorithm&quot;&gt;max-flow/min-cut&lt;/a&gt; and the &lt;a href=&quot;https://en.wikipedia.org/wiki/Monty_Hall_problem&quot;&gt;Monty Hall&lt;/a&gt; problem. Surprising, kids got the Monty Hall faster than the adults!&lt;/p&gt;
-
-&lt;p float=&quot;left&quot;&gt;
-  &lt;img src=&quot;https://www.dropbox.com/s/igs6xzrx3v7tgud/20180923_163749.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
-  &lt;img src=&quot;https://www.dropbox.com/s/6wgjpk1dfke2mzz/20180923_105408.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
-  &lt;img src=&quot;https://www.dropbox.com/s/4nc0x98bxb3p12t/IMAG3556.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
-&lt;/p&gt;
-
-&lt;p float=&quot;left&quot;&gt;
-  &lt;img src=&quot;https://www.dropbox.com/s/r8ezo8rtusmmyp2/20180922_144433.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
-  &lt;img src=&quot;https://www.dropbox.com/s/1psdx30pbti61rl/IMAG3554.jpg?raw=1&quot; alt=&quot; &quot; width=&quot;250&quot; height=&quot;250&quot; /&gt;
-&lt;/p&gt;
-</description>
-        <pubDate>Sun, 23 Sep 2018 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2018/09/Science_center</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2018/09/Science_center</guid>
+        <link>http://localhost:4000/blog/2019/10/Bolun</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2019/10/Bolun</guid>
         
         
         <category>new</category>
