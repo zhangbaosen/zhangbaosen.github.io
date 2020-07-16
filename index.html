@@ -97,14 +97,7 @@ function toggleDiv(element){
 
     <div class="page-content">
       <div class="wrapper">
-        <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NNRHC5N');</script>
-<!-- End Google Tag Manager -->
-    <div class="page-content">
+            <div class="page-content">
       <div class="wrapper">
         <div class="container">
   <div class="jumbotron">
@@ -205,9 +198,17 @@ Spring 2019: <a href="http://zhangbaosen.github.io/teaching/EE559_2019"> EE 559,
   })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
   ga('create', 'UA-61671917-1', 'auto');
+  ga('require', 'ipMeta', {
+      serviceProvider: 'dimension2',
+      networkDomain: 'dimension3',
+      networkType: 'dimension4',
+  });
+  ga('ipMeta:loadNetworkFields');
   ga('send', 'pageview');
-
 </script>
+
+<!-- IpMeta must be included after Google Analytics -->
+<script async src="https://ipmeta.io/plugin.js"></script>
 
       </div>
     </div>
