@@ -6,9 +6,96 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 24 Aug 2020 22:12:23 -0700</pubDate>
-    <lastBuildDate>Mon, 24 Aug 2020 22:12:23 -0700</lastBuildDate>
-    <generator>Jekyll v4.0.0</generator>
+    <pubDate>Tue, 22 Sep 2020 20:59:25 -0700</pubDate>
+    <lastBuildDate>Tue, 22 Sep 2020 20:59:25 -0700</lastBuildDate>
+    <generator>Jekyll v3.7.0</generator>
+    
+      <item>
+        <title>Paper on A Lyapunov Approach for Optimal Frequency Control using Reinforcement Learning</title>
+        <description>&lt;p&gt;The increase in penetration of inverter-based resources provide us with more flexibility in frequency regulation of power systems in addition to conventional linear droop controllers. Because of the fast power electronic interfaces, inverter-based resources can be used to realize complex control functions and potentially offer large gains in performance compared to linear controllers. Reinforcement learning has emerged as popular method to find these nonlinear controllers by parameterizing them as neural networks.
+The key challenge with learning based approach is that stability constraints are difficult to enforce on the learned controllers. In addition, optimizing the controllers are nontrivial because of the time-coupled dynamics of power systems. In this paper, we propose to explicitly engineer the structure of neural network based controllers such that they guarantee system stability for all topologies and parameters. This is done by using a Lyapunov function to guide their structures. A recurrent neural network based reinforcement learning architecture is used to efficiently train the weights of controllers. The resulting controllers only use local information and outperform linear droop as well as strategies learned purely by using reinforcement learning.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;cui2020reinforcement&quot;&gt;W. Cui and B. Zhang, “Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach,” &lt;i&gt;arXiv preprint arXiv:2009.05654&lt;/i&gt;. 2020. &lt;/span&gt;
+
+&lt;div id=&quot;cui2020reinforcement-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('cui2020reinforcement-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;cui2020reinforcement-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@misc{cui2020reinforcement,
+  title = {Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach},
+  author = {Cui, Wenqi and Zhang, Baosen},
+  year = {2020},
+  journal = {arXiv preprint arXiv:2009.05654},
+  link = {https://arxiv.org/abs/2009.05654},
+  blog = {2020-09-22-2}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2009.05654&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2020/09/Lya</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/Lya</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper on Provable Guarantees using Machine Learning for DCOPF</title>
+        <description>&lt;p&gt;The DC optimal power flow (DCOPF) problem is a fundamental problem in power systems operations and planning. With high penetration of uncertain renewable resources in power systems, DCOPF needs to be solved repeatedly for a large amount of scenarios, which can be computationally challenging. As an alternative to iterative solvers, neural networks are often trained and used to solve DCOPF. These approaches can offer orders of magnitude reduction in computational time, but they cannot guarantee generalization, and small training error does not imply small testing errors. In this work, we propose a novel algorithm for solving DCOPF that guarantees the generalization performance. First, by utilizing the convexity of DCOPF problem, we train an input convex neural network. Second, we construct the training loss based on KKT optimality conditions. By combining these two techniques, the trained model has provable generalization properties, where small training error implies small testing errors. In experiments, our algorithm improves the optimality ratio of the solutions by a factor of five in comparison to end-to-end models.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;zhang2020convex&quot;&gt;L. Zhang, Y. Chen, and B. Zhang, “A Convex Neural Network Solver for DCOPF with Generalization Guarantees,” &lt;i&gt;arXiv preprint arXiv:2009.09109&lt;/i&gt;, 2020. &lt;/span&gt;
+
+&lt;div id=&quot;zhang2020convex-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('zhang2020convex-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;zhang2020convex-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{zhang2020convex,
+  title = {A Convex Neural Network Solver for DCOPF with Generalization Guarantees},
+  author = {Zhang, Ling and Chen, Yize and Zhang, Baosen},
+  year = {2020},
+  journal = {arXiv preprint arXiv:2009.09109},
+  link = {https://arxiv.org/abs/2009.09109},
+  blog = {2020-09-22-1}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2009.09109&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2020/09/DCOPF</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/DCOPF</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Paper on Load Forecasting During the COVID-19 Pandemic Using Mobility Data</title>
@@ -118,21 +205,6 @@
         <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2020/02/TCNS</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2020/02/TCNS</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Invited Speaker at DOE AI Event</title>
-        <description>&lt;p&gt;I was an invented speaker at the Innovation XLab, attended by most of the DOE and National Lab leadership. For more details, see the article by our department: &lt;a href=&quot;https://www.ece.uw.edu/spotlight/baosen-zhang-ai/&quot;&gt;Baosen Zhang serves as panelist at DOE Artificial Intelligence Summit&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 09 Oct 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2019/10/DOE</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2019/10/DOE</guid>
         
         
         <category>new</category>

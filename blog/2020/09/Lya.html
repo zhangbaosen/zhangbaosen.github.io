@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Publications</title>
-  <meta name="description" content="Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
-">
+  <title>Paper on A Lyapunov Approach for Optimal Frequency Control using Reinforcement Learning</title>
+  <meta name="description" content="The increase in penetration of inverter-based resources provide us with more flexibility in frequency regulation of power systems in addition to conventional...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/bibliography">
+  <link rel="canonical" href="http://localhost:4000/blog/2020/09/Lya">
   <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -97,9 +96,48 @@ function toggleDiv(element){
 
     <div class="page-content">
       <div class="wrapper">
-        <h2 id="journal-articles">Journal articles</h2>
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-<ol class="bibliography"></ol>
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Paper on A Lyapunov Approach for Optimal Frequency Control using Reinforcement Learning</h1>
+    <p class="post-meta"><time datetime="2020-09-22T00:00:00-07:00" itemprop="datePublished">Sep 22, 2020</time></p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    <p>The increase in penetration of inverter-based resources provide us with more flexibility in frequency regulation of power systems in addition to conventional linear droop controllers. Because of the fast power electronic interfaces, inverter-based resources can be used to realize complex control functions and potentially offer large gains in performance compared to linear controllers. Reinforcement learning has emerged as popular method to find these nonlinear controllers by parameterizing them as neural networks.
+The key challenge with learning based approach is that stability constraints are difficult to enforce on the learned controllers. In addition, optimizing the controllers are nontrivial because of the time-coupled dynamics of power systems. In this paper, we propose to explicitly engineer the structure of neural network based controllers such that they guarantee system stability for all topologies and parameters. This is done by using a Lyapunov function to guide their structures. A recurrent neural network based reinforcement learning architecture is used to efficiently train the weights of controllers. The resulting controllers only use local information and outperform linear droop as well as strategies learned purely by using reinforcement learning.</p>
+
+<ol class="bibliography"><li><span id="cui2020reinforcement">W. Cui and B. Zhang, “Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach,” <i>arXiv preprint arXiv:2009.05654</i>. 2020. </span>
+
+<div id="cui2020reinforcement-materials">
+  <ul class="nav nav-pills">
+    
+
+ <li><a data-toggle="collapse" href="javascript:toggleDiv('cui2020reinforcement-bibtex')">BibTeX</a></li>
+    <div id="cui2020reinforcement-bibtex" style="display:none;">
+    <pre class="collapse">@misc{cui2020reinforcement,
+  title = {Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach},
+  author = {Cui, Wenqi and Zhang, Baosen},
+  year = {2020},
+  journal = {arXiv preprint arXiv:2009.05654},
+  link = {https://arxiv.org/abs/2009.05654},
+  blog = {2020-09-22-2}
+}
+</pre>
+    </div>
+
+    
+    <li><a href="https://arxiv.org/abs/2009.05654">Download</a></li>
+    
+
+  </ul>
+
+
+</div></li></ol>
+
+  </div>
+
+</article>
 
       </div>
     </div>

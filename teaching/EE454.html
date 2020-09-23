@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>EE559 Optimization of Networks and Graphs, Winter 2017</title>
+  <title>Power Systems Analysis, Fall 2020</title>
   <meta name="description" content="Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/teaching/EE559">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE454">
   <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -100,50 +100,65 @@ function toggleDiv(element){
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">EE559 Optimization of Networks and Graphs, Winter 2017</h1>
+    <h1 class="post-title">Power Systems Analysis, Fall 2020</h1>
   </header>
 
   <div class="post-content">
-    <h2 id="class-syllabus">Class Syllabus:</h2>
-<p>Networks and graphs are used in almost all engineering disciplines, from communication to power systems to transportation. This class develops theoretical and algorithmic understanding of networks and graphs. For more complete information on the requirements and expectation of the class, see <a href="https://www.dropbox.com/s/xf1xph3ik7xk5ik/syllabus.pdf?dl=1">syllabus</a>.</p>
+    <h2 id="class-syllabus">Class Syllabus</h2>
+<p>This course considers the operation of power systems. We will define and discuss the major problems in steady state power system analysis, transmission line and transformer modeling,  solve power flow and optimal power flow problems, and understand stability concerns in the power system. For more information, see <a href="https://www.dropbox.com/s/9zo2mzkkmld17ct/EE454.pdf?dl=1">syllabus</a>.</p>
 
-<p>This is the main website for this class. The <a href="https://canvas.uw.edu/courses/1098566">Canvas Site</a> is only used to post grades.</p>
+<p><strong>Class</strong>: MW, 9:30am to 11:20am, online <br />
+<strong>Instructor</strong>: Baosen Zhang, zhangbao@uw.edu, Office: EEB M310 <br />
+<strong>TA</strong>: Trisha Ray, tr272@uw.edu <br />
+<strong>Zoom Link</strong>: <a href="https://washington.zoom.us/j/95623928129">https://washington.zoom.us/j/95623928129</a></p>
 
-<p><strong>Class</strong>: Monday, Wednesday, 12:30pm-2:20pm, EEB 042<br />
-<strong>Instructor</strong>: Baosen Zhang, zhangbao@uw.edu, Office: EEB M310, Office Hour: Wednesday after class</p>
+<h1 id="office-hours">Office Hours:</h1>
+<ol>
+  <li>Baosen Zhang, Friday 3:30pm-4:30pm, zoom link: <a href="https://washington.zoom.us/j/97086844883">https://washington.zoom.us/j/97086844883</a></li>
+  <li>Trisha Ray, TBD</li>
+</ol>
 
 <h1 id="note">Note:</h1>
 <ol>
-  <li>Most of the lectures will be done via the board. Some relevant papers would be posted on this website. There is no required textbook for this class. Some useful books are: “Spectral Graph Theory” by Fan Chung; “Networks: An Introduction” by Mark Newman</li>
-  <li>I will try to respond to emails within 24 hours. Please write EE559 in the subject.</li>
-  <li>This is a graduate course, so it is not as “user friendly” as undergraduate classes. I assume that you can learn the elementary topics on your own if needed.</li>
+  <li>The required textbook is Power Systems Analysis and Design, by Glover, Sarma and Overbye. An electronic version of this textbook can be purchased or rented (either in its entirety or chapter by chapter) at <a href="https://www.cengage.com/c/power-system-analysis-and-design-6e-glover/">https://www.cengage.com/c/power-system-analysis-and-design-6e-glover/</a>. The newest edition is not required.</li>
+  <li>Some references that maybe useful are
+    <ul>
+      <li>Power System Generation, Operation &amp; Control, by Wood and Wollenberg</li>
+      <li>Power Systems Analysis, by Bergen and Vittal</li>
+    </ul>
+  </li>
+  <li>Some of the material we use in the class come from <a href="https://overbye.engr.tamu.edu/course-2/ecen615fa2019/">Tom Overbye</a>, <a href="https://cusp.umn.edu/power-systems/power-generation-operation-control">Ned Mohan and Bruce Wollenberg</a>. Many thanks to them for making their course materials publicly available.</li>
+  <li>I will try to respond to emails within the day. Please write EE554 in the subject.</li>
+  <li>Lectures are recorded, office hours are not</li>
 </ol>
 
 <h1 id="schedule-of-classes">Schedule of Classes:</h1>
 <ol>
-  <li>Introduction, basics of graph theory</li>
-  <li>Spectral property of graphs</li>
-  <li>Basics of combinatoric optimization</li>
-  <li>Linear programming</li>
-  <li>Duality for graphs</li>
-  <li>Algorithms</li>
-  <li>Applications to power systems</li>
-  <li>Applications to communication and transportation</li>
-  <li>Application to social networks and biological networks</li>
-  <li>Project presentations</li>
+  <li>Introduction</li>
+  <li>Transformer modeling, Per Unit system</li>
+  <li>Transmission line modeling and operation</li>
+  <li>Solving large electrical network</li>
+  <li>Formulating and solving the power flow problem</li>
+  <li>Solving power flow</li>
+  <li>Applications of the power flow, generator modeling</li>
+  <li>Economic dispatch</li>
+  <li>Economic Dispatch, unit commitment</li>
+  <li>Frequency control</li>
+  <li>Frequency control, voltage control</li>
+</ol>
+
+<h1 id="software">Software</h1>
+<ol>
+  <li>or most of the class, you may use whatever language you are comfortable with, e.g. Matlab, Python, R, C++, Julia,… As long as you can accomplish the programming questions. For a few examples, we will use PowerWorld, which is a standard analysis tool used in industry. There is a free version at <a href="https://www.powerworld.com/gloveroverbyesarma">PowerWorld</a>. If you’re using a MAC, you can use our departmental servers to run it.</li>
 </ol>
 
 <h1 id="structure">Structure:</h1>
 <ol>
-  <li>There will be 4 or 5 homework assignments in the class and a final project. No exams.</li>
-  <li>Grade distribution: project 50%, homework 30%, class participation 20%</li>
+  <li>There will be weekly homework assignments. If you need to miss a homework, please communicate to me either before hand or as soon as possible. We will be flexible this quarter, but communication is key.</li>
+  <li>Grade distribution: homework 50%, midterm 20%, final 30%. We will revisit this distribution later in the quarter if needed.</li>
 </ol>
 
 <h1 id="homework-assignments">Homework Assignments:</h1>
-<ol>
-  <li>Homework 1, due Jan 18th in class, <a href="https://www.dropbox.com/s/iciefh921n09mqr/Homework%201.pdf?dl=1">pdf</a></li>
-  <li>Homework 2, due Feb 6th in class, <a href="https://www.dropbox.com/s/acfrvugcrniaabd/Homework%202.pdf?dl=1">pdf</a></li>
-</ol>
 
   </div>
 
