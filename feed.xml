@@ -4,10 +4,10 @@
     <title>Baosen Zhang</title>
     <description>Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Mar 2021 21:13:25 -0700</pubDate>
-    <lastBuildDate>Mon, 15 Mar 2021 21:13:25 -0700</lastBuildDate>
+    <link>http://faculty.washington.edu/zhangbao//</link>
+    <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 16 Mar 2021 13:50:32 -0700</pubDate>
+    <lastBuildDate>Tue, 16 Mar 2021 13:50:32 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
@@ -43,8 +43,23 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2021/03/Iterative</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2021/03/Iterative</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2021/03/Iterative</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2021/03/Iterative</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Postdoc Position in Machine Learning for Power Systems</title>
+        <description>&lt;p&gt;Arizona State University and the University of Washington have a joint opening for a full-time postdoctoral scholar. The postdoc will work with Prof. &lt;a href=&quot;https://urldefense.com/v3/__http://www.public.asu.edu/*yweng2/__;fg!!IKRxdwAv5BmarQ!JNpl10chHomq64rgcMHoxkesSSHZuOmQczrrY39lbPj3as7rd0CmQXoucD3e15JesEZX_g$&quot;&gt;Yang Weng&lt;/a&gt; and Prof. &lt;a href=&quot;https://urldefense.com/v3/__http://zhangbaosen.github.io/__;!!IKRxdwAv5BmarQ!JNpl10chHomq64rgcMHoxkesSSHZuOmQczrrY39lbPj3as7rd0CmQXoucD3e15JJtIUHZQ$&quot;&gt;Baosen Zhang&lt;/a&gt; on the broad topic of machine learning for power systems operation. The anticipated start time is the spring or summer of 2021. If interested, please send your CV to &lt;a href=&quot;mailto:Yang.Weng@asu.edu&quot;&gt;yang.weng@asu.edu&lt;/a&gt; and &lt;a href=&quot;mailto:zhangbao@uw.edu&quot;&gt;zhangbao@uw.edu&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 -0800</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2020/12/postdoc</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/12/postdoc</guid>
         
         
         <category>new</category>
@@ -87,8 +102,8 @@ The key challenge with learning based approach is that stability constraints are
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2020/09/Lya</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/Lya</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2020/09/Lya</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/09/Lya</guid>
         
         
         <category>new</category>
@@ -130,8 +145,8 @@ The key challenge with learning based approach is that stability constraints are
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2020/09/DCOPF</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/DCOPF</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2020/09/DCOPF</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/09/DCOPF</guid>
         
         
         <category>new</category>
@@ -145,8 +160,8 @@ The key challenge with learning based approach is that stability constraints are
         <description>&lt;p&gt;We recently posted a preprint &lt;a href=&quot;https://arxiv.org/abs/2006.08826&quot;&gt;Using Mobility for Load Forecasting During the COVID-19 Pandemic&lt;/a&gt; on Arxiv. We proposed a novel load forecasting method to use the mobility data and transfer learning to help forecast the volatile load during the pandemic. Code and dataset are found &lt;a href=&quot;https://github.com/chennnnnyize/Load-Forecasting-During-COVID-19&quot;&gt;here&lt;/a&gt;. This result is also &lt;a href=&quot;https://venturebeat.com/2020/06/18/ai-model-uses-smartphone-location-data-to-predict-power-grid-usage/&quot;&gt;featured in VentureBeat&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2020/07/Nature_energy</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Nature_energy</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2020/07/Nature_energy</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/07/Nature_energy</guid>
         
         
         <category>new</category>
@@ -160,8 +175,51 @@ The key challenge with learning based approach is that stability constraints are
         <description>&lt;p&gt;Congrats to &lt;a href=&quot;http://shiyuanyuan.site/&quot;&gt;Yuanyuan&lt;/a&gt; who will join ECE at University of California, San Diego as an Assistant Professor after a postdoc at Caltech.&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2020/07/Yuanyuan</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Yuanyuan</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2020/07/Yuanyuan</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/07/Yuanyuan</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper on Learning to Solve Network Flow Problems via Neural Decoding</title>
+        <description>&lt;p&gt;Problems in power systems and operations research require repeatedly solving large-scale linear programming problems with a large number of different inputs. In energy systems with high levels of uncertain renewable resources, tens of thousands of scenarios may need to be solved every few minutes. Standard iterative algorithms for linear network flow problems, even though highly efficient, becomes a bottleneck in these applications. In this work, we propose a novel learning approach to accelerate the solving process. By leveraging the rich theory and economic interpretations of LP duality, we interpret the output of the neural network as a noisy codeword, where the codebook is given by the optimization problem’s KKT conditions. We propose a feedforward decoding strategy that finds the optimal set of active constraints. This design is error correcting and can offer orders of magnitude speedup compared to current state-of-the-art iterative solvers, while providing much better solutions in terms of feasibility and optimality compared to end-to-end learning approaches.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;chen2020learning&quot;&gt;Y. Chen and B. Zhang, “Learning to Solve Network Flow Problems via Neural Decoding,” &lt;i&gt;arXiv preprint arXiv:2002.04091&lt;/i&gt;, 2020. &lt;/span&gt;
+
+&lt;div id=&quot;chen2020learning-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('chen2020learning-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;chen2020learning-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{chen2020learning,
+  title = {Learning to Solve Network Flow Problems via Neural Decoding},
+  author = {Chen, Yize and Zhang, Baosen},
+  journal = {arXiv preprint arXiv:2002.04091},
+  year = {2020},
+  link = {https://arxiv.org/abs/2002.04091},
+  blog = {2020-02-20}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2002.04091&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 20 Feb 2020 00:00:00 -0800</pubDate>
+        <link>http://faculty.washington.edu/zhangbao//blog/2020/02/ICML</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/02/ICML</guid>
         
         
         <category>new</category>
@@ -203,8 +261,8 @@ The key challenge with learning based approach is that stability constraints are
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2020/02/TCNS</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/02/TCNS</guid>
+        <link>http://faculty.washington.edu/zhangbao//blog/2020/02/TCNS</link>
+        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/02/TCNS</guid>
         
         
         <category>new</category>
