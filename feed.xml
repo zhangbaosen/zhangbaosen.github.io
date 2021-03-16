@@ -6,12 +6,12 @@
 </description>
     <link>http://faculty.washington.edu/zhangbao//</link>
     <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Mar 2021 13:50:32 -0700</pubDate>
-    <lastBuildDate>Tue, 16 Mar 2021 13:50:32 -0700</lastBuildDate>
+    <pubDate>Tue, 16 Mar 2021 14:00:34 -0700</pubDate>
+    <lastBuildDate>Tue, 16 Mar 2021 14:00:34 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Paper on Iterative Solutions for ACOPF</title>
+        <title>Paper on Solving ACOPF Iteratively to get Global Optimal Solutions</title>
         <description>&lt;p&gt;The existence of multiple solutions to AC optimal power flow (ACOPF) problems has been noted for decades. Existing solvers are generally successful in finding local solutions, which are stationary points but may not be globally optimal. In this paper, we propose a simple iterative approach to find globally optimal solutions to ACOPF problems. First, we call an existing solver for the ACOPF problem. From the solution and the associated dual variables, we form a partial Lagrangian. Then we optimize this partial Lagrangian and use its solution as a warm start to call the solver again for the ACOPF problem. By repeating this process, we can iteratively improve the solution quality, moving from local solutions to global ones. We show the effectiveness our algorithm on standard IEEE networks. The simulation results show that our algorithm can escape from local solutions to achieve global optimums within a few iterations.&lt;/p&gt;
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Zhang21&quot;&gt;L. Zhang and B. Zhang, “An Iterative Approach to Finding Global Solutions of AC Optimal Power Flow Problems,” &lt;i&gt;Submitted to IEEE Transactions on Power Engineering Letters&lt;/i&gt;, 2021. &lt;/span&gt;
