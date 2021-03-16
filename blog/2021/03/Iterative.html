@@ -6,11 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Paper on Load Forecasting During the COVID-19 Pandemic Using Mobility Data</title>
-  <meta name="description" content="We recently posted a preprint Using Mobility for Load Forecasting During the COVID-19 Pandemic on Arxiv. We proposed a novel load forecasting method to use t...">
+  <title>Paper on Iterative Solutions for ACOPF</title>
+  <meta name="description" content="The existence of multiple solutions to AC optimal power flow (ACOPF) problems has been noted for decades. Existing solvers are generally successful in findin...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/2020/07/Nature_energy">
+  <link rel="canonical" href="http://localhost:4000/blog/2021/03/Iterative">
   <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -99,12 +99,40 @@ function toggleDiv(element){
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title" itemprop="name headline">Paper on Load Forecasting During the COVID-19 Pandemic Using Mobility Data</h1>
-    <p class="post-meta"><time datetime="2020-07-13T00:00:00-07:00" itemprop="datePublished">Jul 13, 2020</time></p>
+    <h1 class="post-title" itemprop="name headline">Paper on Iterative Solutions for ACOPF</h1>
+    <p class="post-meta"><time datetime="2021-03-15T00:00:00-07:00" itemprop="datePublished">Mar 15, 2021</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p>We recently posted a preprint <a href="https://arxiv.org/abs/2006.08826">Using Mobility for Load Forecasting During the COVID-19 Pandemic</a> on Arxiv. We proposed a novel load forecasting method to use the mobility data and transfer learning to help forecast the volatile load during the pandemic. Code and dataset are found <a href="https://github.com/chennnnnyize/Load-Forecasting-During-COVID-19">here</a>. This result is also <a href="https://venturebeat.com/2020/06/18/ai-model-uses-smartphone-location-data-to-predict-power-grid-usage/">featured in VentureBeat</a>.</p>
+    <p>The existence of multiple solutions to AC optimal power flow (ACOPF) problems has been noted for decades. Existing solvers are generally successful in finding local solutions, which are stationary points but may not be globally optimal. In this paper, we propose a simple iterative approach to find globally optimal solutions to ACOPF problems. First, we call an existing solver for the ACOPF problem. From the solution and the associated dual variables, we form a partial Lagrangian. Then we optimize this partial Lagrangian and use its solution as a warm start to call the solver again for the ACOPF problem. By repeating this process, we can iteratively improve the solution quality, moving from local solutions to global ones. We show the effectiveness our algorithm on standard IEEE networks. The simulation results show that our algorithm can escape from local solutions to achieve global optimums within a few iterations.</p>
+
+<ol class="bibliography"><li><span id="Zhang21">L. Zhang and B. Zhang, “An Iterative Approach to Finding Global Solutions of AC Optimal Power Flow Problems,” <i>Submitted to IEEE Transactions on Power Engineering Letters</i>, 2021. </span>
+
+<div id="Zhang21-materials">
+  <ul class="nav nav-pills">
+    
+
+ <li><a data-toggle="collapse" href="javascript:toggleDiv('Zhang21-bibtex')">BibTeX</a></li>
+    <div id="Zhang21-bibtex" style="display:none;">
+    <pre class="collapse">@article{Zhang21,
+  title = {An Iterative Approach to Finding Global Solutions of AC Optimal Power Flow Problems},
+  author = {Zhang, Ling and Zhang, Baosen},
+  journal = {Submitted to IEEE Transactions on Power Engineering Letters},
+  year = {2021},
+  link = {https://arxiv.org/abs/2102.12075},
+  blog = {2021-03-15}
+}
+</pre>
+    </div>
+
+    
+    <li><a href="https://arxiv.org/abs/2102.12075">Download</a></li>
+    
+
+  </ul>
+
+
+</div></li></ol>
 
   </div>
 

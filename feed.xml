@@ -4,19 +4,47 @@
     <title>Baosen Zhang</title>
     <description>Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
 </description>
-    <link>http://faculty.washington.edu/zhangbao//</link>
-    <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 12 Mar 2021 16:35:49 -0800</pubDate>
-    <lastBuildDate>Fri, 12 Mar 2021 16:35:49 -0800</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 15 Mar 2021 21:13:25 -0700</pubDate>
+    <lastBuildDate>Mon, 15 Mar 2021 21:13:25 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
-        <title>Postdoc Position in Machine Learning for Power Systems</title>
-        <description>&lt;p&gt;Arizona State University and the University of Washington have a joint opening for a full-time postdoctoral scholar. The postdoc will work with Prof. &lt;a href=&quot;https://urldefense.com/v3/__http://www.public.asu.edu/*yweng2/__;fg!!IKRxdwAv5BmarQ!JNpl10chHomq64rgcMHoxkesSSHZuOmQczrrY39lbPj3as7rd0CmQXoucD3e15JesEZX_g$&quot;&gt;Yang Weng&lt;/a&gt; and Prof. &lt;a href=&quot;https://urldefense.com/v3/__http://zhangbaosen.github.io/__;!!IKRxdwAv5BmarQ!JNpl10chHomq64rgcMHoxkesSSHZuOmQczrrY39lbPj3as7rd0CmQXoucD3e15JJtIUHZQ$&quot;&gt;Baosen Zhang&lt;/a&gt; on the broad topic of machine learning for power systems operation. The anticipated start time is the spring or summer of 2021. If interested, please send your CV to &lt;a href=&quot;mailto:Yang.Weng@asu.edu&quot;&gt;yang.weng@asu.edu&lt;/a&gt; and &lt;a href=&quot;mailto:zhangbao@uw.edu&quot;&gt;zhangbao@uw.edu&lt;/a&gt;.&lt;/p&gt;
+        <title>Paper on Iterative Solutions for ACOPF</title>
+        <description>&lt;p&gt;The existence of multiple solutions to AC optimal power flow (ACOPF) problems has been noted for decades. Existing solvers are generally successful in finding local solutions, which are stationary points but may not be globally optimal. In this paper, we propose a simple iterative approach to find globally optimal solutions to ACOPF problems. First, we call an existing solver for the ACOPF problem. From the solution and the associated dual variables, we form a partial Lagrangian. Then we optimize this partial Lagrangian and use its solution as a warm start to call the solver again for the ACOPF problem. By repeating this process, we can iteratively improve the solution quality, moving from local solutions to global ones. We show the effectiveness our algorithm on standard IEEE networks. The simulation results show that our algorithm can escape from local solutions to achieve global optimums within a few iterations.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Zhang21&quot;&gt;L. Zhang and B. Zhang, “An Iterative Approach to Finding Global Solutions of AC Optimal Power Flow Problems,” &lt;i&gt;Submitted to IEEE Transactions on Power Engineering Letters&lt;/i&gt;, 2021. &lt;/span&gt;
+
+&lt;div id=&quot;Zhang21-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Zhang21-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Zhang21-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{Zhang21,
+  title = {An Iterative Approach to Finding Global Solutions of AC Optimal Power Flow Problems},
+  author = {Zhang, Ling and Zhang, Baosen},
+  journal = {Submitted to IEEE Transactions on Power Engineering Letters},
+  year = {2021},
+  link = {https://arxiv.org/abs/2102.12075},
+  blog = {2021-03-15}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2102.12075&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Tue, 08 Dec 2020 00:00:00 -0800</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/12/postdoc</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/12/postdoc</guid>
+        <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2021/03/Iterative</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/03/Iterative</guid>
         
         
         <category>new</category>
@@ -30,19 +58,19 @@
         <description>&lt;p&gt;The increase in penetration of inverter-based resources provide us with more flexibility in frequency regulation of power systems in addition to conventional linear droop controllers. Because of the fast power electronic interfaces, inverter-based resources can be used to realize complex control functions and potentially offer large gains in performance compared to linear controllers. Reinforcement learning has emerged as popular method to find these nonlinear controllers by parameterizing them as neural networks.
 The key challenge with learning based approach is that stability constraints are difficult to enforce on the learned controllers. In addition, optimizing the controllers are nontrivial because of the time-coupled dynamics of power systems. In this paper, we propose to explicitly engineer the structure of neural network based controllers such that they guarantee system stability for all topologies and parameters. This is done by using a Lyapunov function to guide their structures. A recurrent neural network based reinforcement learning architecture is used to efficiently train the weights of controllers. The resulting controllers only use local information and outperform linear droop as well as strategies learned purely by using reinforcement learning.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;cui2020reinforcement&quot;&gt;W. Cui and B. Zhang, “Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach,” &lt;i&gt;arXiv preprint arXiv:2009.05654&lt;/i&gt;. 2020. &lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Cui2021a&quot;&gt;W. Cui and B. Zhang, “Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach,” &lt;i&gt;Submitted to IEEE Transaction on Power Systems&lt;/i&gt;, 2021. &lt;/span&gt;
 
-&lt;div id=&quot;cui2020reinforcement-materials&quot;&gt;
+&lt;div id=&quot;Cui2021a-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
     
 
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('cui2020reinforcement-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;cui2020reinforcement-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@misc{cui2020reinforcement,
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Cui2021a-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Cui2021a-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{Cui2021a,
   title = {Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach},
   author = {Cui, Wenqi and Zhang, Baosen},
-  year = {2020},
-  journal = {arXiv preprint arXiv:2009.05654},
+  year = {2021},
+  journal = {Submitted to IEEE Transaction on Power Systems},
   link = {https://arxiv.org/abs/2009.05654},
   blog = {2020-09-22-2}
 }
@@ -59,8 +87,8 @@ The key challenge with learning based approach is that stability constraints are
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/09/Lya</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/09/Lya</guid>
+        <link>http://localhost:4000/blog/2020/09/Lya</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/Lya</guid>
         
         
         <category>new</category>
@@ -73,7 +101,7 @@ The key challenge with learning based approach is that stability constraints are
         <title>Paper on Provable Guarantees using Machine Learning for DCOPF</title>
         <description>&lt;p&gt;The DC optimal power flow (DCOPF) problem is a fundamental problem in power systems operations and planning. With high penetration of uncertain renewable resources in power systems, DCOPF needs to be solved repeatedly for a large amount of scenarios, which can be computationally challenging. As an alternative to iterative solvers, neural networks are often trained and used to solve DCOPF. These approaches can offer orders of magnitude reduction in computational time, but they cannot guarantee generalization, and small training error does not imply small testing errors. In this work, we propose a novel algorithm for solving DCOPF that guarantees the generalization performance. First, by utilizing the convexity of DCOPF problem, we train an input convex neural network. Second, we construct the training loss based on KKT optimality conditions. By combining these two techniques, the trained model has provable generalization properties, where small training error implies small testing errors. In experiments, our algorithm improves the optimality ratio of the solutions by a factor of five in comparison to end-to-end models.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;zhang2020convex&quot;&gt;L. Zhang, Y. Chen, and B. Zhang, “A Convex Neural Network Solver for DCOPF with Generalization Guarantees,” &lt;i&gt;arXiv preprint arXiv:2009.09109&lt;/i&gt;, 2020. &lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;zhang2020convex&quot;&gt;L. Zhang, Y. Chen, and B. Zhang, “A Convex Neural Network Solver for DCOPF with Generalization Guarantees,” &lt;i&gt;Submitted to IEEE Transactions on Control of Networked Systems&lt;/i&gt;, 2020. &lt;/span&gt;
 
 &lt;div id=&quot;zhang2020convex-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
@@ -85,7 +113,7 @@ The key challenge with learning based approach is that stability constraints are
   title = {A Convex Neural Network Solver for DCOPF with Generalization Guarantees},
   author = {Zhang, Ling and Chen, Yize and Zhang, Baosen},
   year = {2020},
-  journal = {arXiv preprint arXiv:2009.09109},
+  journal = {Submitted to IEEE Transactions on Control of Networked Systems},
   link = {https://arxiv.org/abs/2009.09109},
   blog = {2020-09-22-1}
 }
@@ -102,8 +130,8 @@ The key challenge with learning based approach is that stability constraints are
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/09/DCOPF</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/09/DCOPF</guid>
+        <link>http://localhost:4000/blog/2020/09/DCOPF</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/DCOPF</guid>
         
         
         <category>new</category>
@@ -117,8 +145,8 @@ The key challenge with learning based approach is that stability constraints are
         <description>&lt;p&gt;We recently posted a preprint &lt;a href=&quot;https://arxiv.org/abs/2006.08826&quot;&gt;Using Mobility for Load Forecasting During the COVID-19 Pandemic&lt;/a&gt; on Arxiv. We proposed a novel load forecasting method to use the mobility data and transfer learning to help forecast the volatile load during the pandemic. Code and dataset are found &lt;a href=&quot;https://github.com/chennnnnyize/Load-Forecasting-During-COVID-19&quot;&gt;here&lt;/a&gt;. This result is also &lt;a href=&quot;https://venturebeat.com/2020/06/18/ai-model-uses-smartphone-location-data-to-predict-power-grid-usage/&quot;&gt;featured in VentureBeat&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/07/Nature_energy</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/07/Nature_energy</guid>
+        <link>http://localhost:4000/blog/2020/07/Nature_energy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Nature_energy</guid>
         
         
         <category>new</category>
@@ -132,51 +160,8 @@ The key challenge with learning based approach is that stability constraints are
         <description>&lt;p&gt;Congrats to &lt;a href=&quot;http://shiyuanyuan.site/&quot;&gt;Yuanyuan&lt;/a&gt; who will join ECE at University of California, San Diego as an Assistant Professor after a postdoc at Caltech.&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/07/Yuanyuan</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/07/Yuanyuan</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Paper on Learning to Solve Network Flow Problems via Neural Decoding</title>
-        <description>&lt;p&gt;Problems in power systems and operations research require repeatedly solving large-scale linear programming problems with a large number of different inputs. In energy systems with high levels of uncertain renewable resources, tens of thousands of scenarios may need to be solved every few minutes. Standard iterative algorithms for linear network flow problems, even though highly efficient, becomes a bottleneck in these applications. In this work, we propose a novel learning approach to accelerate the solving process. By leveraging the rich theory and economic interpretations of LP duality, we interpret the output of the neural network as a noisy codeword, where the codebook is given by the optimization problem’s KKT conditions. We propose a feedforward decoding strategy that finds the optimal set of active constraints. This design is error correcting and can offer orders of magnitude speedup compared to current state-of-the-art iterative solvers, while providing much better solutions in terms of feasibility and optimality compared to end-to-end learning approaches.&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;chen2020learning&quot;&gt;Y. Chen and B. Zhang, “Learning to Solve Network Flow Problems via Neural Decoding,” &lt;i&gt;arXiv preprint arXiv:2002.04091&lt;/i&gt;, 2020. &lt;/span&gt;
-
-&lt;div id=&quot;chen2020learning-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('chen2020learning-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;chen2020learning-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{chen2020learning,
-  title = {Learning to Solve Network Flow Problems via Neural Decoding},
-  author = {Chen, Yize and Zhang, Baosen},
-  journal = {arXiv preprint arXiv:2002.04091},
-  year = {2020},
-  link = {https://arxiv.org/abs/2002.04091},
-  blog = {2020-02-20}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2002.04091&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 20 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/02/ICML</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/02/ICML</guid>
+        <link>http://localhost:4000/blog/2020/07/Yuanyuan</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Yuanyuan</guid>
         
         
         <category>new</category>
@@ -218,8 +203,8 @@ The key challenge with learning based approach is that stability constraints are
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Wed, 19 Feb 2020 00:00:00 -0800</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/02/TCNS</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/02/TCNS</guid>
+        <link>http://localhost:4000/blog/2020/02/TCNS</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/02/TCNS</guid>
         
         
         <category>new</category>
