@@ -4,11 +4,11 @@
     <title>Baosen Zhang</title>
     <description>Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
 </description>
-    <link>http://faculty.washington.edu/zhangbao//</link>
-    <atom:link href="http://faculty.washington.edu/zhangbao//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 Mar 2021 06:12:47 -0700</pubDate>
-    <lastBuildDate>Thu, 18 Mar 2021 06:12:47 -0700</lastBuildDate>
-    <generator>Jekyll v3.7.0</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 26 Mar 2021 13:42:36 -0700</pubDate>
+    <lastBuildDate>Fri, 26 Mar 2021 13:42:36 -0700</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Paper on Solving ACOPF Iteratively to get Global Optimal Solutions</title>
@@ -43,8 +43,8 @@
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2021/03/Iterative</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2021/03/Iterative</guid>
+        <link>http://localhost:4000/blog/2021/03/Iterative</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/03/Iterative</guid>
         
         
         <category>new</category>
@@ -87,8 +87,8 @@ The key challenge with learning based approach is that stability constraints are
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/09/Lya</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/09/Lya</guid>
+        <link>http://localhost:4000/blog/2020/09/Lya</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/Lya</guid>
         
         
         <category>new</category>
@@ -130,8 +130,8 @@ The key challenge with learning based approach is that stability constraints are
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/09/DCOPF</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/09/DCOPF</guid>
+        <link>http://localhost:4000/blog/2020/09/DCOPF</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/DCOPF</guid>
         
         
         <category>new</category>
@@ -145,8 +145,8 @@ The key challenge with learning based approach is that stability constraints are
         <description>&lt;p&gt;We recently posted a preprint &lt;a href=&quot;https://arxiv.org/abs/2006.08826&quot;&gt;Using Mobility for Load Forecasting During the COVID-19 Pandemic&lt;/a&gt; on Arxiv. We proposed a novel load forecasting method to use the mobility data and transfer learning to help forecast the volatile load during the pandemic. Code and dataset are found &lt;a href=&quot;https://github.com/chennnnnyize/Load-Forecasting-During-COVID-19&quot;&gt;here&lt;/a&gt;. This result is also &lt;a href=&quot;https://venturebeat.com/2020/06/18/ai-model-uses-smartphone-location-data-to-predict-power-grid-usage/&quot;&gt;featured in VentureBeat&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/07/Nature_energy</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/07/Nature_energy</guid>
+        <link>http://localhost:4000/blog/2020/07/Nature_energy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Nature_energy</guid>
         
         
         <category>new</category>
@@ -160,8 +160,8 @@ The key challenge with learning based approach is that stability constraints are
         <description>&lt;p&gt;Congrats to &lt;a href=&quot;http://shiyuanyuan.site/&quot;&gt;Yuanyuan&lt;/a&gt; who will join ECE at University of California, San Diego as an Assistant Professor after a postdoc at Caltech.&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://faculty.washington.edu/zhangbao//blog/2020/07/Yuanyuan</link>
-        <guid isPermaLink="true">http://faculty.washington.edu/zhangbao//blog/2020/07/Yuanyuan</guid>
+        <link>http://localhost:4000/blog/2020/07/Yuanyuan</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Yuanyuan</guid>
         
         
         <category>new</category>
