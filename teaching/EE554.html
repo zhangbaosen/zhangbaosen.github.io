@@ -6,8 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Large Electric Energy Systems Analysis, Spring 2020</title>
-  <meta name="description" content="Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
+  <title>Large Electric Energy Systems Analysis, Fall 2021</title>
+  <meta name="description" content="Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
@@ -100,26 +100,20 @@ function toggleDiv(element){
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Large Electric Energy Systems Analysis, Spring 2020</h1>
+    <h1 class="post-title">Large Electric Energy Systems Analysis, Fall 2021</h1>
   </header>
 
   <div class="post-content">
     <h2 id="class-syllabus">Class Syllabus</h2>
-<p>This course considers the operation of large scale power systems. We will define and discuss the major problems in steady state power system analysis, design and code a computer program to efficiently solve large systems of linear and nonlinear equations, learn how to take advantage of sparsity, solve power flow and optimal power flow problems, and understand pros and cons of different algorithms. For more information, see <a href="https://www.dropbox.com/s/givaiixy9ncpqg1/Syllabus.pdf?dl=1">syllabus</a>.</p>
+<p>This course introduces the operation of large-scale power systems from a modern point of view. We will define and discuss the major problems in power system analysis, operations, dynamics and economics. We will talk about different formulations and tools that are commonly used in practice, and how they are changing when large amount of renewable resources are present in the grid. The open problems and current approaches are discussed in each of the these topics. No previous power engineering background is required. Familiarity with senior level undergraduate linear algebra and calculus is assumed. For more information, see <a href="https://www.dropbox.com/s/0jr526mad2gp0i7/EE554.pdf?dl=1">syllabus</a>.</p>
 
-<p><strong>Class</strong>: TTh, 2:30pm to 4:30pm, online <br />
+<p><strong>Class</strong>: WF, 12:30pm to 2:20pm, MGH 074 <br />
 <strong>Instructor</strong>: Baosen Zhang, zhangbao@uw.edu, Office: EEB M310 <br />
 <strong>Project Presentations</strong>: <em>Last week of class</em> <br />
-<strong>Zoom Link</strong>: <a href="https://washington.zoom.us/j/866817812">https://washington.zoom.us/j/866817812</a></p>
-
-<h1 id="office-hours">Office Hours:</h1>
-<ol>
-  <li>Please email me to schedule office hours.</li>
-</ol>
+<strong>Office Hours</strong>: Fridays 3-4pm, in person or at https://washington.zoom.us/j/98821969764</p>
 
 <h1 id="note">Note:</h1>
 <ol>
-  <li>This course will be taught entirely online, which is new for me. It’s important to have frequent communication with me to let me know what is working and what is not.</li>
   <li>There are no required textbook for the class. Some useful references are:
     <ul>
       <li>Power System Generation, Operation and Control, by A. Wood &amp; B. Wollenberg</li>
@@ -127,27 +121,19 @@ function toggleDiv(element){
       <li>Convex Optimization of Power Systems, J. Taylor</li>
     </ul>
   </li>
-  <li>We use the material provided by <a href="https://overbye.engr.tamu.edu/course-2/ecen615fa2019/">Tom Overbye</a>, <a href="https://cusp.umn.edu/power-systems/power-generation-operation-control">Ned Mohan and Bruce Wollenberg</a>. Many thanks to them for making their course materials publicly available.</li>
+  <li>We will sometimes use the material provided by <a href="https://overbye.engr.tamu.edu/course-2/ecen615fa2019/">Tom Overbye</a>, <a href="https://cusp.umn.edu/power-systems/power-generation-operation-control">Ned Mohan and Bruce Wollenberg</a> and <a href="https://www.edx.org/course/principles-of-modeling-simulations-and-control-for-electric-energy-systems">Marija Ilic</a>. Many thanks to them for making their course materials publicly available.</li>
   <li>I will try to respond to emails within 24 hours. Please write EE554 in the subject.</li>
 </ol>
 
 <h1 id="schedule-of-classes">Schedule of Classes:</h1>
 <ol>
-  <li>Logistics of the course, overview of power system analysis, <a href="https://www.dropbox.com/s/lmvx08iveaz3l7l/Lecture1_update.pdf?dl=1">Lecture 1</a>, <a href="https://www.dropbox.com/s/x7w7cteei910bd2/Lecture2_update.pdf?dl=1">Lecture 2</a></li>
-  <li>Solution of systems of non-linear equations, <a href="https://www.dropbox.com/s/y17xszrb1zpybyv/Lecture3_udpated.pdf?dl=1">Lecture 3</a>, <a href="https://www.dropbox.com/s/hznpr8dkk4rhg3c/Lecture4_update.pdf?dl=1">Lecture 4</a></li>
-  <li>Sensitivities and Contingencies, <a href="https://www.dropbox.com/s/o3gz2nlzotufzur/Lecture%205_update.pdf?dl=1">Lecture 5</a>, <a href="https://www.dropbox.com/s/c73fsrlgu8phxm4/Lecture%206%20update.pdf?dl=1">Lecture 6</a>, <a href="https://www.energy.gov/sites/prod/files/oeprod/DocumentsandMedia/BlackoutFinal-Web.pdf">2003 Blackout Report</a>,</li>
-  <li>State Estimation, <a href="https://www.dropbox.com/s/e1fl4jgqbgzfr04/Lecture%207_udpate.pdf?dl=1">Lecture 7</a>, <a href="https://www.dropbox.com/s/eu1o1aeg0mj6kro/Lecture%208_update.pdf?dl=1">Lecture 8</a></li>
-  <li>Optimal Power Flow, <a href="https://www.dropbox.com/s/i0av4jziysapfln/Lecture%209_update.pdf?dl=1">Lecture 9</a>, <a href="https://www.dropbox.com/s/zhgiktf8mwpovlb/Lecture%2010_udpate.pdf?dl=1">Lecture 10</a>, more on interior point methods can be found in <a href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Convex Optimization</a> Chapter 11</li>
-  <li>Unit Commitment, <a href="https://www.dropbox.com/s/k09ufdrpoplkaft/Lecture%2011_update.pdf?dl=1">Lecture 11</a></li>
-  <li>Unit Commitment, <a href="https://www.dropbox.com/s/rmsrzj4pss85r6q/Lecture%2012_updated.pdf?dl=1">Lecture 12</a>, <a href="https://www.dropbox.com/s/lswp0c4f8zrowa3/Lecture%2013.pdf?dl=1">Lecture 13</a></li>
-  <li>Unit Commitment, Stability, <a href="https://www.dropbox.com/s/xyuiv6i7wappmb6/Lecture%2013_updated.pdf?dl=1">Lecture 13</a>, <a href="https://www.dropbox.com/s/0j3tq9f9fh1gi94/Lecture%2014_update.pdf?dl=1">Lecture 14</a></li>
-  <li>Dealing with Uncertainties, <a href="https://www.dropbox.com/s/skzd5nqj0buvx20/Lecture%2015_update.pdf?dl=1">Lecture 15</a>, <a href="https://www.dropbox.com/s/0vs3cst0obju1li/Lecture%2016_update.pdf?dl=1">Lecture 16</a></li>
-  <li>Dealing with Uncertainties, <a href="https://www.dropbox.com/s/d8llbfg2ys82iaw/Lecture%2017_update.pdf?dl=1">Lecture 17</a>, <a href="https://www.dropbox.com/s/rym30o9o280fzpm/Lecture%2018.pdf?dl=1">Lecture 18</a></li>
+  <li>Logistics of the course, introduction to power system analysis</li>
+  <li>Power system models</li>
 </ol>
 
 <h1 id="optimization-software">Optimization Software</h1>
 <ol>
-  <li>You can use whatever software you like. Matlab is probably the easiest to use with established tools like <a href="https://matpower.org/">MatPower</a>, although some developers are moving away from it. Newer languages like Python and Julia both have active communities developing power system toolboxes, like <a href="https://pypsa.org/">PyPSA</a> and <a href="https://github.com/lanl-ansi/PowerModels.jl">PowerModels</a>.</li>
+  <li>You can use whatever software you like. Newer languages like Python and Julia are recommended. Matlab is probably the easiest to use with established tools like <a href="https://matpower.org/">MatPower</a>, although some people in academia and industry are moving away from it. Python and Julia both have active communities developing power system toolboxes, like <a href="https://pypsa.org/">PyPSA</a> and <a href="https://github.com/lanl-ansi/PowerModels.jl">PowerModels</a>.</li>
 </ol>
 
 <h1 id="structure">Structure:</h1>
@@ -157,11 +143,9 @@ function toggleDiv(element){
 </ol>
 
 <h1 id="homework-assignments">Homework Assignments:</h1>
-<ol>
-  <li><a href="https://www.dropbox.com/s/emdnp9ht8tvc4ss/assignment1.pdf?dl=1">Homework 1</a>, Due April 16, 11:59pm, submit by email.</li>
-  <li><a href="https://www.dropbox.com/s/gro0qh2tmvds3fw/assignment2.pdf?dl=1">Homework 2</a>, Due April 30, 11:59pm, submit by email.</li>
-  <li><a href="https://www.dropbox.com/s/98eymnshg2yxuc0/assignment_3.pdf?dl=1">Homework 3</a>, Due May 16, 11:59pm, submit by email.</li>
-</ol>
+
+<h1 id="health-and-safety">Health and Safety:</h1>
+<p>As we return to in person instruction, I want to acknowledge the difficulties of this past 18 months and inform you of my expectations for our safety as we begin this class together. We will follow the University of Washington’s COVID-19 Face Covering Policy found at <a href="https://www.ehs.washington.edu/system/files/resources/COVID-19-face-cover-policy.pdf">https://www.ehs.washington.edu/system/files/resources/COVID-19-face-cover-policy.pdf</a>. If you have tested positive for COVID-19, please inform UW Environment Health and Safety (EH\&amp;S) at <a href="https://www.ehs.washington.edu/">https://www.ehs.washington.edu/</a>, and they will provide directions to me. If you’re isolating, class material will be provided. If you feel unwell, you do not need to come to class and the lecture materials would be provided.</p>
 
   </div>
 
@@ -193,7 +177,7 @@ function toggleDiv(element){
       </div>
 
       <div class="footer-col footer-col-3">
-        <p>Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
+        <p>Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington.
 </p>
       </div>
     </div>

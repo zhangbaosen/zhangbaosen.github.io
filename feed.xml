@@ -2,45 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Baosen Zhang</title>
-    <description>Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington. 
+    <description>Baosen Zhang is an Assistant Professor in the Electrical and Computer Engineering Department at the University of Washington.
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Sep 2021 16:35:51 -0700</pubDate>
-    <lastBuildDate>Thu, 02 Sep 2021 16:35:51 -0700</lastBuildDate>
+    <pubDate>Thu, 23 Sep 2021 21:56:35 -0700</pubDate>
+    <lastBuildDate>Thu, 23 Sep 2021 21:56:35 -0700</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Paper on Solving ACOPF Iteratively to get Global Optimal Solutions</title>
         <description>&lt;p&gt;The existence of multiple solutions to AC optimal power flow (ACOPF) problems has been noted for decades. Existing solvers are generally successful in finding local solutions, which are stationary points but may not be globally optimal. In this paper, we propose a simple iterative approach to find globally optimal solutions to ACOPF problems. First, we call an existing solver for the ACOPF problem. From the solution and the associated dual variables, we form a partial Lagrangian. Then we optimize this partial Lagrangian and use its solution as a warm start to call the solver again for the ACOPF problem. By repeating this process, we can iteratively improve the solution quality, moving from local solutions to global ones. We show the effectiveness our algorithm on standard IEEE networks. The simulation results show that our algorithm can escape from local solutions to achieve global optimums within a few iterations.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Zhang21&quot;&gt;L. Zhang and B. Zhang, “An Iterative Approach to Finding Global Solutions of AC Optimal Power Flow Problems,” &lt;i&gt;Submitted to IEEE Transactions on Power Engineering Letters&lt;/i&gt;, 2021. &lt;/span&gt;
-
-&lt;div id=&quot;Zhang21-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Zhang21-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Zhang21-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{Zhang21,
-  title = {An Iterative Approach to Finding Global Solutions of AC Optimal Power Flow Problems},
-  author = {Zhang, Ling and Zhang, Baosen},
-  journal = {Submitted to IEEE Transactions on Power Engineering Letters},
-  year = {2021},
-  link = {https://arxiv.org/abs/2102.12075},
-  blog = {2021-03-15}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2102.12075&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2021/03/Iterative</link>
@@ -58,33 +32,7 @@
         <description>&lt;p&gt;The increase in penetration of inverter-based resources provide us with more flexibility in frequency regulation of power systems in addition to conventional linear droop controllers. Because of the fast power electronic interfaces, inverter-based resources can be used to realize complex control functions and potentially offer large gains in performance compared to linear controllers. Reinforcement learning has emerged as popular method to find these nonlinear controllers by parameterizing them as neural networks.
 The key challenge with learning based approach is that stability constraints are difficult to enforce on the learned controllers. In addition, optimizing the controllers are nontrivial because of the time-coupled dynamics of power systems. In this paper, we propose to explicitly engineer the structure of neural network based controllers such that they guarantee system stability for all topologies and parameters. This is done by using a Lyapunov function to guide their structures. A recurrent neural network based reinforcement learning architecture is used to efficiently train the weights of controllers. The resulting controllers only use local information and outperform linear droop as well as strategies learned purely by using reinforcement learning.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Cui2021a&quot;&gt;W. Cui and B. Zhang, “Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach,” &lt;i&gt;Submitted to IEEE Transaction on Power Systems&lt;/i&gt;, 2021. &lt;/span&gt;
-
-&lt;div id=&quot;Cui2021a-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('Cui2021a-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Cui2021a-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{Cui2021a,
-  title = {Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach},
-  author = {Cui, Wenqi and Zhang, Baosen},
-  year = {2021},
-  journal = {Submitted to IEEE Transaction on Power Systems},
-  link = {https://arxiv.org/abs/2009.05654},
-  blog = {2020-09-22-2}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2009.05654&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2020/09/Lya</link>
@@ -101,33 +49,7 @@ The key challenge with learning based approach is that stability constraints are
         <title>Paper on Provable Guarantees using Machine Learning for DCOPF</title>
         <description>&lt;p&gt;The DC optimal power flow (DCOPF) problem is a fundamental problem in power systems operations and planning. With high penetration of uncertain renewable resources in power systems, DCOPF needs to be solved repeatedly for a large amount of scenarios, which can be computationally challenging. As an alternative to iterative solvers, neural networks are often trained and used to solve DCOPF. These approaches can offer orders of magnitude reduction in computational time, but they cannot guarantee generalization, and small training error does not imply small testing errors. In this work, we propose a novel algorithm for solving DCOPF that guarantees the generalization performance. First, by utilizing the convexity of DCOPF problem, we train an input convex neural network. Second, we construct the training loss based on KKT optimality conditions. By combining these two techniques, the trained model has provable generalization properties, where small training error implies small testing errors. In experiments, our algorithm improves the optimality ratio of the solutions by a factor of five in comparison to end-to-end models.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;zhang2020convex&quot;&gt;L. Zhang, Y. Chen, and B. Zhang, “A Convex Neural Network Solver for DCOPF with Generalization Guarantees,” &lt;i&gt;Submitted to IEEE Transactions on Control of Networked Systems&lt;/i&gt;, 2020. &lt;/span&gt;
-
-&lt;div id=&quot;zhang2020convex-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv('zhang2020convex-bibtex')&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;zhang2020convex-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{zhang2020convex,
-  title = {A Convex Neural Network Solver for DCOPF with Generalization Guarantees},
-  author = {Zhang, Ling and Chen, Yize and Zhang, Baosen},
-  year = {2020},
-  journal = {Submitted to IEEE Transactions on Control of Networked Systems},
-  link = {https://arxiv.org/abs/2009.09109},
-  blog = {2020-09-22-1}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2009.09109&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2020/09/DCOPF</link>
