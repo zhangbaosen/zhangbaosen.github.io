@@ -6,19 +6,64 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 02 Mar 2022 16:24:23 -0800</pubDate>
-    <lastBuildDate>Wed, 02 Mar 2022 16:24:23 -0800</lastBuildDate>
+    <pubDate>Wed, 02 Mar 2022 22:02:20 -0800</pubDate>
+    <lastBuildDate>Wed, 02 Mar 2022 22:02:20 -0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
-        <title>Paper on Solving ACOPF Iteratively to get Global Optimal Solutions</title>
-        <description>&lt;p&gt;The existence of multiple solutions to AC optimal power flow (ACOPF) problems has been noted for decades. Existing solvers are generally successful in finding local solutions, which are stationary points but may not be globally optimal. In this paper, we propose a simple iterative approach to find globally optimal solutions to ACOPF problems. First, we call an existing solver for the ACOPF problem. From the solution and the associated dual variables, we form a partial Lagrangian. Then we optimize this partial Lagrangian and use its solution as a warm start to call the solver again for the ACOPF problem. By repeating this process, we can iteratively improve the solution quality, moving from local solutions to global ones. We show the effectiveness our algorithm on standard IEEE networks. The simulation results show that our algorithm can escape from local solutions to achieve global optimums within a few iterations.&lt;/p&gt;
+        <title>Decentralized Safe Reinforcement Learning for Voltage Control</title>
+        <description>&lt;p&gt;As more inverter-connected renewable resources are integrated into the grid, frequency stability may degrade because of the reduction in mechanical inertia and damping. A common approach to mitigate this degradation in performance is to use the power electronic interfaces of the renewable resources for primary frequency control. Since inverter-connected resources can realize almost arbitrary responses to frequency changes, they are not limited to reproducing the linear droop behaviors. To fully leverage their capabilities, reinforcement learning (RL) has emerged as a popular method to design nonlinear controllers to optimize a host of objective functions.
+Because both inverter-connected resources and synchronous generators would be a significant part of the grid in the near and intermediate future, the learned controller of the former should be stabilizing with respect to the nonlinear dynamics of the latter. To overcome this challenge, we explicitly engineer the structure of neural network-based controllers such that they guarantee system stability by construction, through the use of a Lyapunov function. A recurrent neural network architecture is used to efficiently train the controllers. The resulting controllers only use local information and outperform optimal linear droop as well as other state-of-the-art learning approaches.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Cui22&quot;&gt;W. Cui, J. Li, and B. Zhang, “Decentralized Safe Reinforcement Learning for Voltage Control,” in &lt;i&gt;Power Systems Computation Conference (PSCC)&lt;/i&gt;, 2022. &lt;/span&gt;
+
+&lt;div id=&quot;Cui22-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;Cui22-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Cui22-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Cui22,
+  title = {Decentralized Safe Reinforcement Learning for Voltage Control},
+  author = {Cui, W. and Li, J. and Zhang, B.},
+  link = {https://arxiv.org/abs/2110.01126},
+  year = {2022},
+  booktitle = {Power Systems Computation Conference (PSCC)},
+  blog = {2022-2-20}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2110.01126&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Sun, 20 Feb 2022 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2022/02/Voltage</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2022/02/Voltage</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper on Predicting Power System Dynamics and Transients using a Frequency Domain Approach</title>
+        <description>&lt;p&gt;The dynamics of power grids are governed by a large number of nonlinear ordinary differential equations (ODEs). To safely operate the system, operators need to check that the states described by this set of ODEs stay within prescribed limits after various faults. Limited by the size and stiffness of the ODEs, current numerical integration techniques are often too slow to be useful in real-time or large-scale resource allocation problems. In addition, detailed system parameters are often not exactly known. Machine learning approaches have been proposed to reduce the computational efforts, but existing methods generally suffer from overfitting and failures to predict unstable behaviors.
+This paper proposes a novel framework for power system dynamic predictions by learning in the frequency domain. The intuition is that although the system behavior is complex in the time domain, there are relatively few dominate modes in the frequency domain. Therefore, we learn to predict by constructing neural networks with Fourier transform and filtering layers. System topology and fault information are encoded by taking a multi-dimensional Fourier transform, allowing us to leverage the fact that the trajectories are sparse both in time and spatial (across different buses) frequencies. We show that the proposed approach does not need detailed system parameters, speeds up prediction computations by orders of magnitude and is highly accurate for different fault types. Joint work with Microsoft Research.&lt;/p&gt;
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2021/03/Iterative</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2021/03/Iterative</guid>
+        <pubDate>Sat, 15 Jan 2022 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2022/01/Nature_sub</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2022/01/Nature_sub</guid>
         
         
         <category>new</category>
@@ -29,61 +74,57 @@
     
       <item>
         <title>Paper on A Lyapunov Approach for Optimal Frequency Control using Reinforcement Learning</title>
-        <description>&lt;p&gt;The increase in penetration of inverter-based resources provide us with more flexibility in frequency regulation of power systems in addition to conventional linear droop controllers. Because of the fast power electronic interfaces, inverter-based resources can be used to realize complex control functions and potentially offer large gains in performance compared to linear controllers. Reinforcement learning has emerged as popular method to find these nonlinear controllers by parameterizing them as neural networks.
-The key challenge with learning based approach is that stability constraints are difficult to enforce on the learned controllers. In addition, optimizing the controllers are nontrivial because of the time-coupled dynamics of power systems. In this paper, we propose to explicitly engineer the structure of neural network based controllers such that they guarantee system stability for all topologies and parameters. This is done by using a Lyapunov function to guide their structures. A recurrent neural network based reinforcement learning architecture is used to efficiently train the weights of controllers. The resulting controllers only use local information and outperform linear droop as well as strategies learned purely by using reinforcement learning.&lt;/p&gt;
+        <description>&lt;p&gt;As more inverter-connected renewable resources are integrated into the grid, frequency stability may degrade because of the reduction in mechanical inertia and damping. A common approach to mitigate this degradation in performance is to use the power electronic interfaces of the renewable resources for primary frequency control. Since inverter-connected resources can realize almost arbitrary responses to frequency changes, they are not limited to reproducing the linear droop behaviors. To fully leverage their capabilities, reinforcement learning (RL) has emerged as a popular method to design nonlinear controllers to optimize a host of objective functions.
+Because both inverter-connected resources and synchronous generators would be a significant part of the grid in the near and intermediate future, the learned controller of the former should be stabilizing with respect to the nonlinear dynamics of the latter. To overcome this challenge, we explicitly engineer the structure of neural network-based controllers such that they guarantee system stability by construction, through the use of a Lyapunov function. A recurrent neural network architecture is used to efficiently train the controllers. The resulting controllers only use local information and outperform optimal linear droop as well as other state-of-the-art learning approaches.&lt;/p&gt;
+
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Cui2021a&quot;&gt;W. Cui, Y. Jiang, and B. Zhang, “Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach,” &lt;i&gt;Submitted to IEEE Transaction on Power Systems&lt;/i&gt;, 2021. &lt;/span&gt;
+
+&lt;div id=&quot;Cui2021a-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;Cui2021a-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;Cui2021a-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{Cui2021a,
+  title = {Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach},
+  author = {Cui, Wenqi and Jiang, Yan and Zhang, Baosen},
+  year = {2021},
+  journal = {Submitted to IEEE Transaction on Power Systems},
+  link = {https://arxiv.org/abs/2009.05654},
+  blog = {2021-12-10}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2009.05654&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Fri, 10 Dec 2021 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2021/12/Lya-copy</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/12/Lya-copy</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>Paper on Solving ACOPF Iteratively to get Global Optimal Solutions</title>
+        <description>&lt;p&gt;The existence of multiple solutions to AC optimal power flow (ACOPF) problems has been noted for decades. Existing solvers are generally successful in finding local solutions, which are stationary points but may not be globally optimal. In this paper, we propose a simple iterative approach to find globally optimal solutions to ACOPF problems. First, we call an existing solver for the ACOPF problem. From the solution and the associated dual variables, we form a partial Lagrangian. Then we optimize this partial Lagrangian and use its solution as a warm start to call the solver again for the ACOPF problem. By repeating this process, we can iteratively improve the solution quality, moving from local solutions to global ones. We show the effectiveness our algorithm on standard IEEE networks. The simulation results show that our algorithm can escape from local solutions to achieve global optimums within a few iterations.&lt;/p&gt;
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2020/09/Lya</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/Lya</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Paper on Provable Guarantees using Machine Learning for DCOPF</title>
-        <description>&lt;p&gt;The DC optimal power flow (DCOPF) problem is a fundamental problem in power systems operations and planning. With high penetration of uncertain renewable resources in power systems, DCOPF needs to be solved repeatedly for a large amount of scenarios, which can be computationally challenging. As an alternative to iterative solvers, neural networks are often trained and used to solve DCOPF. These approaches can offer orders of magnitude reduction in computational time, but they cannot guarantee generalization, and small training error does not imply small testing errors. In this work, we propose a novel algorithm for solving DCOPF that guarantees the generalization performance. First, by utilizing the convexity of DCOPF problem, we train an input convex neural network. Second, we construct the training loss based on KKT optimality conditions. By combining these two techniques, the trained model has provable generalization properties, where small training error implies small testing errors. In experiments, our algorithm improves the optimality ratio of the solutions by a factor of five in comparison to end-to-end models.&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-</description>
-        <pubDate>Tue, 22 Sep 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2020/09/DCOPF</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/09/DCOPF</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Paper on Load Forecasting During the COVID-19 Pandemic Using Mobility Data</title>
-        <description>&lt;p&gt;We recently posted a preprint &lt;a href=&quot;https://arxiv.org/abs/2006.08826&quot;&gt;Using Mobility for Load Forecasting During the COVID-19 Pandemic&lt;/a&gt; on Arxiv. We proposed a novel load forecasting method to use the mobility data and transfer learning to help forecast the volatile load during the pandemic. Code and dataset are found &lt;a href=&quot;https://github.com/chennnnnyize/Load-Forecasting-During-COVID-19&quot;&gt;here&lt;/a&gt;. This result is also &lt;a href=&quot;https://venturebeat.com/2020/06/18/ai-model-uses-smartphone-location-data-to-predict-power-grid-usage/&quot;&gt;featured in VentureBeat&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 13 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2020/07/Nature_energy</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Nature_energy</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Yuanyuan Shi to Join UCSD as an Assistant Professor </title>
-        <description>&lt;p&gt;Congrats to &lt;a href=&quot;http://shiyuanyuan.site/&quot;&gt;Yuanyuan&lt;/a&gt; who will join ECE at University of California, San Diego as an Assistant Professor after a postdoc at Caltech.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Jul 2020 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2020/07/Yuanyuan</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2020/07/Yuanyuan</guid>
+        <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2021/03/Iterative</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2021/03/Iterative</guid>
         
         
         <category>new</category>
