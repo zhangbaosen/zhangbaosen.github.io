@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Apr 2022 10:50:21 -0400</pubDate>
-    <lastBuildDate>Thu, 14 Apr 2022 10:50:21 -0400</lastBuildDate>
+    <pubDate>Sun, 17 Apr 2022 14:32:09 -0700</pubDate>
+    <lastBuildDate>Sun, 17 Apr 2022 14:32:09 -0700</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -43,7 +43,7 @@ Because both inverter-connected resources and synchronous generators would be a 
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Sun, 20 Feb 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 20 Feb 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2022/02/Voltage</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2022/02/Voltage</guid>
         
@@ -61,7 +61,7 @@ This paper proposes a novel framework for power system dynamic predictions by le
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Sat, 15 Jan 2022 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 15 Jan 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2022/01/Nature_sub</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2022/01/Nature_sub</guid>
         
@@ -105,7 +105,7 @@ Because both inverter-connected resources and synchronous generators would be a 
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Fri, 10 Dec 2021 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 10 Dec 2021 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2021/12/Lya-copy</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2021/12/Lya-copy</guid>
         
@@ -122,7 +122,7 @@ Because both inverter-connected resources and synchronous generators would be a 
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Mon, 15 Mar 2021 00:00:00 -0400</pubDate>
+        <pubDate>Mon, 15 Mar 2021 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2021/03/Iterative</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2021/03/Iterative</guid>
         
