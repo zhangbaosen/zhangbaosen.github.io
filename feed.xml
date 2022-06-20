@@ -6,8 +6,8 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 26 May 2022 11:14:32 -0700</pubDate>
-    <lastBuildDate>Thu, 26 May 2022 11:14:32 -0700</lastBuildDate>
+    <pubDate>Mon, 20 Jun 2022 10:24:33 -0700</pubDate>
+    <lastBuildDate>Mon, 20 Jun 2022 10:24:33 -0700</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
     
       <item>
@@ -15,33 +15,7 @@
         <description>&lt;p&gt;As more inverter-connected renewable resources are integrated into the grid, frequency stability may degrade because of the reduction in mechanical inertia and damping. A common approach to mitigate this degradation in performance is to use the power electronic interfaces of the renewable resources for primary frequency control. Since inverter-connected resources can realize almost arbitrary responses to frequency changes, they are not limited to reproducing the linear droop behaviors. To fully leverage their capabilities, reinforcement learning (RL) has emerged as a popular method to design nonlinear controllers to optimize a host of objective functions.
 Because both inverter-connected resources and synchronous generators would be a significant part of the grid in the near and intermediate future, the learned controller of the former should be stabilizing with respect to the nonlinear dynamics of the latter. To overcome this challenge, we explicitly engineer the structure of neural network-based controllers such that they guarantee system stability by construction, through the use of a Lyapunov function. A recurrent neural network architecture is used to efficiently train the controllers. The resulting controllers only use local information and outperform optimal linear droop as well as other state-of-the-art learning approaches.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Cui22&quot;&gt;W. Cui, J. Li, and B. Zhang, “Decentralized Safe Reinforcement Learning for Voltage Control,” in &lt;i&gt;Power Systems Computation Conference (PSCC)&lt;/i&gt;, 2022. &lt;/span&gt;
-
-&lt;div id=&quot;Cui22-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;Cui22-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Cui22-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Cui22,
-  title = {Decentralized Safe Reinforcement Learning for Voltage Control},
-  author = {Cui, W. and Li, J. and Zhang, B.},
-  link = {https://arxiv.org/abs/2110.01126},
-  year = {2022},
-  booktitle = {Power Systems Computation Conference (PSCC)},
-  blog = {2022-2-20}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2110.01126&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Sun, 20 Feb 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2022/02/Voltage</link>
@@ -77,33 +51,7 @@ This paper proposes a novel framework for power system dynamic predictions by le
         <description>&lt;p&gt;As more inverter-connected renewable resources are integrated into the grid, frequency stability may degrade because of the reduction in mechanical inertia and damping. A common approach to mitigate this degradation in performance is to use the power electronic interfaces of the renewable resources for primary frequency control. Since inverter-connected resources can realize almost arbitrary responses to frequency changes, they are not limited to reproducing the linear droop behaviors. To fully leverage their capabilities, reinforcement learning (RL) has emerged as a popular method to design nonlinear controllers to optimize a host of objective functions.
 Because both inverter-connected resources and synchronous generators would be a significant part of the grid in the near and intermediate future, the learned controller of the former should be stabilizing with respect to the nonlinear dynamics of the latter. To overcome this challenge, we explicitly engineer the structure of neural network-based controllers such that they guarantee system stability by construction, through the use of a Lyapunov function. A recurrent neural network architecture is used to efficiently train the controllers. The resulting controllers only use local information and outperform optimal linear droop as well as other state-of-the-art learning approaches.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Cui2021a&quot;&gt;W. Cui, Y. Jiang, and B. Zhang, “Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach,” &lt;i&gt;Submitted to IEEE Transaction on Power Systems&lt;/i&gt;, 2021. &lt;/span&gt;
-
-&lt;div id=&quot;Cui2021a-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;Cui2021a-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Cui2021a-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{Cui2021a,
-  title = {Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach},
-  author = {Cui, Wenqi and Jiang, Yan and Zhang, Baosen},
-  year = {2021},
-  journal = {Submitted to IEEE Transaction on Power Systems},
-  link = {https://arxiv.org/abs/2009.05654},
-  blog = {2021-12-10}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2009.05654&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Fri, 10 Dec 2021 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2021/12/Lya-copy</link>
