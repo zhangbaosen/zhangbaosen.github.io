@@ -6,9 +6,51 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Jan 2023 15:51:03 -0800</pubDate>
-    <lastBuildDate>Thu, 19 Jan 2023 15:51:03 -0800</lastBuildDate>
+    <pubDate>Fri, 20 Jan 2023 12:42:30 -0800</pubDate>
+    <lastBuildDate>Fri, 20 Jan 2023 12:42:30 -0800</lastBuildDate>
     <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Paper on Efficient Reinforcement Learning Through Trajectory Generation</title>
+        <description>&lt;p&gt;A key barrier to using reinforcement learning (RL) in many real-world applications is the requirement of a large number of system interactions to learn a good control policy. Off-policy and Offline RL methods have been proposed to reduce the number of interactions with the physical environment by learning control policies from historical data. However, their performances suffer from the lack of exploration and the distributional shifts in trajectories once controllers are updated. Moreover, most RL methods require that all states are directly observed, which is difficult to be attained in many settings. To overcome these challenges, we propose a trajectory generation algorithm, which adaptively generates new trajectories as if the system is being operated and explored under the updated control policies. Motivated by the fundamental lemma for linear systems, assuming sufficient excitation, we generate trajectories from linear combinations of historical trajectories. For linear feedback control, we prove that the algorithm generates trajectories with the exact distribution as if they are sampled from the real system using the updated control policy. In particular, the algorithm extends to systems where the states are not directly observed. Experiments show that the proposed method significantly reduces the number of sampled data needed for RL algorithms.&lt;/p&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;cui2022efficient&quot;&gt;W. Cui, L. Huang, W. Yang, and B. Zhang, “Efficient Reinforcement Learning Through Trajectory Generation,” &lt;i&gt;arXiv preprint arXiv:2211.17249&lt;/i&gt;, 2022. &lt;/span&gt;
+
+&lt;div id=&quot;cui2022efficient-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;cui2022efficient-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;cui2022efficient-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@article{cui2022efficient,
+  title = {Efficient Reinforcement Learning Through Trajectory Generation},
+  author = {Cui, Wenqi and Huang, Linbin and Yang, Weiwei and Zhang, Baosen},
+  journal = {arXiv preprint arXiv:2211.17249},
+  year = {2022},
+  blog = {2023-1-19},
+  link = {https://arxiv.org/abs/2211.17249}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2211.17249&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+</description>
+        <pubDate>Thu, 19 Jan 2023 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2023/01/L4DC_trajectory</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2023/01/L4DC_trajectory</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Decentralized Safe Reinforcement Learning for Voltage Control</title>
