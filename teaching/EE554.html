@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Large Electric Energy Systems Analysis, Fall 2021</title>
+  <title>Large Electric Energy Systems Analysis, Winter 2024</title>
   <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
 ">
 
@@ -100,21 +100,25 @@ function toggleDiv(element){
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Large Electric Energy Systems Analysis, Fall 2021</h1>
+    <h1 class="post-title">Large Electric Energy Systems Analysis, Winter 2024</h1>
   </header>
 
   <div class="post-content">
     <h2 id="class-syllabus">Class Syllabus</h2>
-<p>This course introduces the operation of large-scale power systems from a modern point of view. We will define and discuss the major problems in power system analysis, operations, dynamics and economics. We will talk about different formulations and tools that are commonly used in practice, and how they are changing when large amount of renewable resources are present in the grid. The open problems and current approaches are discussed in each of the these topics. No previous power engineering background is required. Familiarity with senior level undergraduate linear algebra and calculus is assumed. For more information, see <a href="https://www.dropbox.com/s/0jr526mad2gp0i7/EE554.pdf?dl=1">syllabus</a>.</p>
+<p>This course introduces the operation of large-scale power systems from a modern point of view. We will define and discuss the major problems in power system analysis, operations, dynamics and economics. We will talk about different formulations and tools that are commonly used in practice, and how they are changing when large amount of renewable resources are present in the grid. The open problems and current approaches are discussed in each of the these topics. No previous power engineering background is required. Familiarity with senior level undergraduate linear algebra and calculus is assumed. For more information, see <a href="https://www.dropbox.com/scl/fi/3enrzc133hcq4a8i48a4z/EE554.pdf?rlkey=jrxezu9oz2zvk14xtzks0lbzw&amp;dl=1">syllabus</a>.</p>
 
-<p><strong>Class</strong>: WF, 12:30pm to 2:20pm, MGH 074 <br />
+<p><strong>Class</strong>: WF, 10:30am to 12:00pm, ECE 042 <br />
 <strong>Instructor</strong>: Baosen Zhang, zhangbao@uw.edu, Office: EEB M310 <br />
-<strong>Project Presentations</strong>: <em>Last week of class</em> <br />
-<strong>Office Hours</strong>: Fridays 3-4pm, in person or at https://washington.zoom.us/j/98821969764</p>
+<strong>Office Hours</strong>: Tuesday 3pm-3:45pm</p>
 
-<h1 id="note">Note:</h1>
+<h1 id="textbook-and-references">Textbook and References:</h1>
 <ol>
-  <li>There are no required textbook for the class. Some useful references are:
+  <li>We will use the following textbook:
+    <ul>
+      <li>Power System Analysis, A Mathematical Approach, by Steven Low. It can accessed at <a href="http://netlab.caltech.edu/book/book.html">http://netlab.caltech.edu/book/book.html</a> Please note that this book is still in the draft stage, so there might be some errors and typos.</li>
+    </ul>
+  </li>
+  <li>These references can be helpful:
     <ul>
       <li>Power System Generation, Operation and Control, by A. Wood &amp; B. Wollenberg</li>
       <li>Computational Methods for Electric Power Systems, M. L. Crow</li>
@@ -127,36 +131,29 @@ function toggleDiv(element){
 
 <h1 id="schedule-of-classes">Schedule of Classes:</h1>
 <ol>
-  <li>Logistics of the course, <a href="https://www.dropbox.com/s/i9ymbcygfjvvurn/Lecture1_updated.pdf?dl=1">lecture notes</a>, introduction to power system analysis <a href="https://www.dropbox.com/s/o3uqwvq541tnrg2/Lecture%202.pdf?dl=1">lecture notes</a></li>
-  <li>Power system models, <a href="https://www.dropbox.com/s/6mdty12m1i6byg9/Note%20Oct%206%2C%202021.pdf?dl=1">lecture notes</a>, power flow <a href="https://www.dropbox.com/s/088asza2wvbvgp5/Note%20Oct%208%2C%202021%20%282%29.pdf?dl=1">lecture notes</a></li>
-  <li>Power flow, <a href="https://www.dropbox.com/s/29pifmufbfufwqy/Note%20Oct%2013%2C%202021.pdf?dl=1">lecture notes</a>, <a href="https://www.dropbox.com/s/kqnhtt6rruvdbyq/Note%20Oct%2015%2C%202021.pdf?dl=1">lecture notes 2</a></li>
-  <li>State Estimation, <a href="https://www.dropbox.com/s/9vbpfukznp1zfaf/Note%20Oct%2020%2C%202021.pdf?dl=1">lecture notes</a>, <a href="https://www.dropbox.com/s/mxkqphk260u1i90/Note%20Oct%2022%2C%202021.pdf?dl=1">lecture notes 2</a></li>
-  <li>Unconstrained Optimization, <a href="https://www.dropbox.com/s/29xu7o2u8nx4oig/Note%20Oct%2027%2C%202021.pdf?dl=1">lecture notes</a>; Equality Constraints <a href="https://www.dropbox.com/s/jop2ksdwnsg11k1/Note%20Oct%2029%2C%202021.pdf?dl=1">lecture note</a></li>
-  <li>Constrained Optimization and markets, <a href="https://www.dropbox.com/s/0ok9tvu2utsplsv/Note%20Nov%203%2C%202021.pdf?dl=1">lecture notes</a></li>
-  <li>Constrained Optimization, <a href="https://www.dropbox.com/s/6oi3ek2uoxo6q0g/Note%20Nov%2010%2C%202021.pdf?dl=1">lecture notes</a>, <a href="https://www.dropbox.com/s/8lvty8bocbrppyq/Note%20Nov%2012%2C%202021.pdf?dl=1">inequality constraints</a></li>
-  <li>Power System Dynamics, <a href="https://www.dropbox.com/s/ecvh0tif7o4grwj/Note%20Nov%2017%2C%202021%20%282%29.pdf?dl=1">lecture 1</a>, <a href="https://www.dropbox.com/s/3vi54dr3ndp81nm/Note%20Nov%2019%2C%202021.pdf?dl=1">lecture 2</a></li>
-  <li>Frequency stability, <a href="https://www.dropbox.com/s/4421d73xggiexvf/Note%20Dec%201%2C%202021.pdf?dl=1">lecture 1</a>, <a href="https://www.dropbox.com/s/123eca9cyb6dujn/Note%20Dec%203%2C%202021.pdf?dl=1">lecture 2</a></li>
+  <li>Logistics of the course,  introduction to power system analysis</li>
+  <li>Power system models</li>
 </ol>
 
 <h1 id="optimization-software">Optimization Software</h1>
 <ol>
-  <li>You can use whatever software you like. Newer languages like Python and Julia are recommended. Matlab is probably the easiest to use with established tools like <a href="https://matpower.org/">MatPower</a>, although some people in academia and industry are moving away from it. Python and Julia both have active communities developing power system toolboxes, like <a href="https://pypsa.org/">PyPSA</a> and <a href="https://github.com/lanl-ansi/PowerModels.jl">PowerModels</a>.</li>
+  <li>You can use whatever software you like. Newer languages like Python and Julia are recommended.  Both have active communities developing power system toolboxes, like <a href="https://pypsa.org/">PyPSA</a> and <a href="https://github.com/lanl-ansi/PowerModels.jl">PowerModels</a>. Some of you maybe more familiar with Matlab, and it has established tools like <a href="https://matpower.org/">MatPower</a>, although some people in academia and industry are moving away from it.</li>
 </ol>
 
-<h1 id="structure">Structure:</h1>
+<h1 id="grading-structure">Grading Structure:</h1>
 <ol>
-  <li>There will be biweekly homework assignments. No late homework would be accepted.</li>
-  <li>Grade distribution: homework 40%, project 40%, participation 20%</li>
+  <li>There will be weekly homework assignments. No late homework would be accepted.</li>
+  <li>Grade distribution: homework 80%, class participation 20%.</li>
+  <li>Bonus points for finding typos and mistakes in the textbook.</li>
+  <li>You’re encouraged to discuss homework questions with other students. However, the solutions must be your own.</li>
 </ol>
 
 <h1 id="homework-assignments">Homework Assignments:</h1>
-<ol>
-  <li><a href="https://www.dropbox.com/s/zq5ao6lwf6hsbdv/homework1.pdf?dl=1">Homework 1</a>, due Oct 20th, 11:59pm. Submit on <a href="https://canvas.uw.edu/courses/1477871/assignments/6753756">CANVAS</a></li>
-  <li><a href="https://www.dropbox.com/s/fp322yf8z6vtk3q/homework2.pdf?dl=1">Homework 2</a>, due Oct 29th, 11:59pm. Submit on <a href="https://canvas.uw.edu/courses/1477871/assignments/6785120">CANVAS</a></li>
-</ol>
 
-<h1 id="health-and-safety">Health and Safety:</h1>
-<p>As we return to in person instruction, I want to acknowledge the difficulties of this past 18 months and inform you of my expectations for our safety as we begin this class together. We will follow the University of Washington’s COVID-19 Face Covering Policy found at <a href="https://www.ehs.washington.edu/system/files/resources/COVID-19-face-cover-policy.pdf">https://www.ehs.washington.edu/system/files/resources/COVID-19-face-cover-policy.pdf</a>. If you have tested positive for COVID-19, please inform UW Environment Health and Safety (EH\&amp;S) at <a href="https://www.ehs.washington.edu/">https://www.ehs.washington.edu/</a>, and they will provide directions to me. If you’re isolating, class material will be provided. If you feel unwell, you do not need to come to class and the lecture materials would be provided.</p>
+<h1 id="ai-policy">AI Policy:</h1>
+<p>AI content generators, such as ChatGPT, present opportunities that can contribute to your learning and academic work. If you use such tools, you must clearly state where they are used and how they contributed to your work. Otherwise, using these technologies may violate academic standards of the University.</p>
+
+<p>For other course policies, please see the syllabus.</p>
 
   </div>
 

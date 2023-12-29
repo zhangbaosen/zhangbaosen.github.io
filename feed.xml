@@ -6,9 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 04 Jun 2023 14:22:10 -0700</pubDate>
-    <lastBuildDate>Sun, 04 Jun 2023 14:22:10 -0700</lastBuildDate>
-    <generator>Jekyll v4.2.1</generator>
+    <pubDate>Fri, 29 Dec 2023 15:06:27 -0800</pubDate>
+    <lastBuildDate>Fri, 29 Dec 2023 15:06:27 -0800</lastBuildDate>
+    <generator>Jekyll v4.3.3</generator>
     
       <item>
         <title>SIGEnergy Rising Star Award</title>
@@ -28,33 +28,7 @@
       <item>
         <title>Paper on Efficient Reinforcement Learning Through Trajectory Generation</title>
         <description>&lt;p&gt;A key barrier to using reinforcement learning (RL) in many real-world applications is the requirement of a large number of system interactions to learn a good control policy. Off-policy and Offline RL methods have been proposed to reduce the number of interactions with the physical environment by learning control policies from historical data. However, their performances suffer from the lack of exploration and the distributional shifts in trajectories once controllers are updated. Moreover, most RL methods require that all states are directly observed, which is difficult to be attained in many settings. To overcome these challenges, we propose a trajectory generation algorithm, which adaptively generates new trajectories as if the system is being operated and explored under the updated control policies. Motivated by the fundamental lemma for linear systems, assuming sufficient excitation, we generate trajectories from linear combinations of historical trajectories. For linear feedback control, we prove that the algorithm generates trajectories with the exact distribution as if they are sampled from the real system using the updated control policy. In particular, the algorithm extends to systems where the states are not directly observed. Experiments show that the proposed method significantly reduces the number of sampled data needed for RL algorithms.&lt;/p&gt;
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;cui2022efficient&quot;&gt;W. Cui, L. Huang, W. Yang, and B. Zhang, “Efficient Reinforcement Learning Through Trajectory Generation,” &lt;i&gt;arXiv preprint arXiv:2211.17249&lt;/i&gt;, 2022. &lt;/span&gt;
-
-&lt;div id=&quot;cui2022efficient-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;cui2022efficient-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;cui2022efficient-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{cui2022efficient,
-  title = {Efficient Reinforcement Learning Through Trajectory Generation},
-  author = {Cui, Wenqi and Huang, Linbin and Yang, Weiwei and Zhang, Baosen},
-  journal = {arXiv preprint arXiv:2211.17249},
-  year = {2022},
-  blog = {2023-1-19},
-  link = {https://arxiv.org/abs/2211.17249}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2211.17249&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 19 Jan 2023 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2023/01/L4DC_trajectory</link>
@@ -71,33 +45,7 @@
         <title>Safe and Efficient Model Predictive Control Using Neural Networks: An Interior Point Approach</title>
         <description>&lt;p&gt;Model predictive control (MPC) provides a useful means for controlling systems with constraints, but suffers from the computational burden of repeatedly solving an optimization problem in real time. Offline (explicit) solutions for MPC attempt to alleviate real time computational challenges using either multiparametric programming or machine learning. The multiparametric approaches are typically applied to linear or quadratic MPC problems, while learning-based approaches can be more flexible and are less memory-intensive. Existing learning-based approaches offer significant speedups, but the challenge becomes ensuring constraint satisfaction while maintaining good performance. In this paper, we provide a neural network parameterization of MPC policies that explicitly encodes the constraints of the problem. By exploring the interior of the MPC feasible set in an unsupervised learning paradigm, the neural network finds better policies faster than projection-based methods and exhibits substantially shorter solve times. We use the proposed policy to solve a robust MPC problem, and demonstrate the performance and computational gains on a standard test system.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Tabas2022CDC&quot;&gt;D. Tabas and B. Zhang, “Safe and Efficient Model Predictive Control Using Neural Networks: An Interior Point Approach,” in &lt;i&gt;IEEE Conference on Decision and Control (CDC)&lt;/i&gt;, 2022. &lt;/span&gt;
-
-&lt;div id=&quot;Tabas2022CDC-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;Tabas2022CDC-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Tabas2022CDC-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Tabas2022CDC,
-  author = {Tabas, Daniel and Zhang, Baosen},
-  booktitle = {IEEE Conference on Decision and Control (CDC)},
-  title = {Safe and Efficient Model Predictive Control Using Neural Networks: An Interior Point Approach},
-  year = {2022},
-  link = {https://arxiv.org/abs/2203.12196},
-  blog = {2022-12-1}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2203.12196&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Thu, 01 Dec 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2022/12/Gauge</link>
@@ -114,35 +62,7 @@
         <title>Paper on Stable Reinforcement Learning for Optimal Frequency Control: A Distributed Averaging-Based Integral Approach</title>
         <description>&lt;p&gt;Frequency control plays a pivotal role in reliable power system operations. It is conventionally performed in a hierarchical way that first rapidly stabilizes the frequency deviations and then slowly recovers the nominal frequency. However, as the generation mix shifts from synchronous generators to renewable resources, power systems experience larger and faster frequency fluctuations due to the loss of inertia, which adversely impacts the frequency stability. This has motivated active research in algorithms that jointly address frequency degradation and economic efficiency in a fast timescale, among which the distributed averaging-based integral (DAI) control is a notable one that sets controllable power injections directly proportional to the integrals of frequency deviation and economic inefficiency signals. Nevertheless, DAI does not typically consider the transient performance of the system following power disturbances and has been restricted to quadratic operational cost functions. This paper aims to leverage nonlinear optimal controllers to simultaneously achieve optimal transient frequency control and find the most economic power dispatch for frequency restoration. To this end, we integrate reinforcement learning (RL) to the classic DAI, which results in RL-DAI control. Specifically, we use RL to learn a neural network-based control policy mapping from the integral variables of DAI to the controllable power injections which provides optimal transient frequency control, while DAI inherently ensures the frequency restoration and optimal economic dispatch. Compared to existing methods, we provide provable guarantees on the stability of the learned controllers and extend the set of allowable cost functions to a much larger class. Simulations on the 39-bus New England system illustrate our results.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;jiang2022stable&quot;&gt;Y. Jiang, W. Cui, B. Zhang, and J. Cortés, “Stable Reinforcement Learning for Optimal Frequency Control: A Distributed Averaging-Based Integral Approach,” &lt;i&gt;IEEE Open Journal of Control Systems&lt;/i&gt;, vol. 1, pp. 194–209, 2022. &lt;/span&gt;
-
-&lt;div id=&quot;jiang2022stable-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;jiang2022stable-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;jiang2022stable-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{jiang2022stable,
-  title = {Stable Reinforcement Learning for Optimal Frequency Control: A Distributed Averaging-Based Integral Approach},
-  author = {Jiang, Yan and Cui, Wenqi and Zhang, Baosen and Cort{\&apos;e}s, Jorge},
-  journal = {IEEE Open Journal of Control Systems},
-  year = {2022},
-  volume = {1},
-  pages = {194-209},
-  link = {https://ieeexplore.ieee.org/document/9869334},
-  blog = {2022-11-15}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://ieeexplore.ieee.org/document/9869334&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Tue, 15 Nov 2022 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2022/11/OJCS</link>
@@ -159,33 +79,7 @@
         <title>Cyber-Physical Attack Leveraging Subsynchronous Resonance</title>
         <description>&lt;p&gt;This paper discusses how a cyber attack could take advantage of torsional resonances in the shaft of turbo-generators to inflict severe physical damage to a power system. If attackers were able to take over the control of a battery energy storage device, they could modulate the injection of this device at a frequency that matches one of the sub-synchronous resonance frequencies of a generator. Small changes in injection might be sufficient to excite one of these mechanical resonances, resulting in metal fatigue and ultimately a catastrophic failure in the shaft of the generator. Using a state-space model of the electromechanical system, the paper develops transfer functions linking the magnitude of the malicious injections to the magnitude of oscillations in the speed and angle of the various masses connected to the shaft. Numerical results from a two-area power system demonstrate the existence of vulnerable frequencies and show that damaging mechanical oscillations can be triggered without causing easily detectable signals at the generator terminals.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Li_Kirschen_22&quot;&gt;B. Li, B. Zhang, and D. S. Kirschen, “Cyber-Physical Attack Leveraging Subsynchronous Resonance,” in &lt;i&gt;Bulk Power Systems Dynamics and Control Symposium (IREP)&lt;/i&gt;, 2022. &lt;/span&gt;
-
-&lt;div id=&quot;Li_Kirschen_22-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;Li_Kirschen_22-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Li_Kirschen_22-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{Li_Kirschen_22,
-  author = {Li, Bosong and Zhang, Baosen and Kirschen, Daniel S.},
-  title = {Cyber-Physical Attack Leveraging Subsynchronous Resonance},
-  year = {2022},
-  booktitle = {Bulk Power Systems Dynamics and Control Symposium (IREP)},
-  link = {https://arxiv.org/abs/2207.04149},
-  blog = {2022-7-8}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2207.04149&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2022/07/Subsyn</link>
@@ -203,33 +97,7 @@
         <description>&lt;p&gt;As more inverter-connected renewable resources are integrated into the grid, frequency stability may degrade because of the reduction in mechanical inertia and damping. A common approach to mitigate this degradation in performance is to use the power electronic interfaces of the renewable resources for primary frequency control. Since inverter-connected resources can realize almost arbitrary responses to frequency changes, they are not limited to reproducing the linear droop behaviors. To fully leverage their capabilities, reinforcement learning (RL) has emerged as a popular method to design nonlinear controllers to optimize a host of objective functions.
 Because both inverter-connected resources and synchronous generators would be a significant part of the grid in the near and intermediate future, the learned controller of the former should be stabilizing with respect to the nonlinear dynamics of the latter. To overcome this challenge, we explicitly engineer the structure of neural network-based controllers such that they guarantee system stability by construction, through the use of a Lyapunov function. A recurrent neural network architecture is used to efficiently train the controllers. The resulting controllers only use local information and outperform optimal linear droop as well as other state-of-the-art learning approaches.&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;Cui2021a&quot;&gt;W. Cui, Y. Jiang, and B. Zhang, “Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach,” &lt;i&gt;IEEE Transaction on Power Systems&lt;/i&gt;, 2022. &lt;/span&gt;
-
-&lt;div id=&quot;Cui2021a-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;Cui2021a-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;Cui2021a-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@article{Cui2021a,
-  title = {Reinforcement Learning for Optimal Frequency Control: A Lyapunov Approach},
-  author = {Cui, Wenqi and Jiang, Yan and Zhang, Baosen},
-  year = {2022},
-  journal = {IEEE Transaction on Power Systems},
-  link = {https://arxiv.org/abs/2009.05654},
-  blog = {2022-5-20}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2009.05654&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
         <pubDate>Fri, 20 May 2022 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2022/05/Lya</link>
