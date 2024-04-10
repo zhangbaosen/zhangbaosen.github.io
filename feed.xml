@@ -6,15 +6,15 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 05 Apr 2024 15:10:17 -0700</pubDate>
-    <lastBuildDate>Fri, 05 Apr 2024 15:10:17 -0700</lastBuildDate>
+    <pubDate>Tue, 09 Apr 2024 20:09:04 -1000</pubDate>
+    <lastBuildDate>Tue, 09 Apr 2024 20:09:04 -1000</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
       <item>
         <title>SIGEnergy Rising Star Award</title>
         <description>&lt;p&gt;I’m honored to receive the 2022 SIGEnergy Rising Star Award. For more information, please see &lt;a href=&quot;https://energy.acm.org/2023/01/31/sigenergy-rising-star-award-2022-winner/&quot;&gt;https://energy.acm.org/2023/01/31/sigenergy-rising-star-award-2022-winner/&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Feb 2023 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 01 Feb 2023 00:00:00 -1000</pubDate>
         <link>http://localhost:4000/blog/2023/02/SigEnergy</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2023/02/SigEnergy</guid>
         
@@ -30,7 +30,7 @@
         <description>&lt;p&gt;A key barrier to using reinforcement learning (RL) in many real-world applications is the requirement of a large number of system interactions to learn a good control policy. Off-policy and Offline RL methods have been proposed to reduce the number of interactions with the physical environment by learning control policies from historical data. However, their performances suffer from the lack of exploration and the distributional shifts in trajectories once controllers are updated. Moreover, most RL methods require that all states are directly observed, which is difficult to be attained in many settings. To overcome these challenges, we propose a trajectory generation algorithm, which adaptively generates new trajectories as if the system is being operated and explored under the updated control policies. Motivated by the fundamental lemma for linear systems, assuming sufficient excitation, we generate trajectories from linear combinations of historical trajectories. For linear feedback control, we prove that the algorithm generates trajectories with the exact distribution as if they are sampled from the real system using the updated control policy. In particular, the algorithm extends to systems where the states are not directly observed. Experiments show that the proposed method significantly reduces the number of sampled data needed for RL algorithms.&lt;/p&gt;
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 19 Jan 2023 00:00:00 -0800</pubDate>
+        <pubDate>Thu, 19 Jan 2023 00:00:00 -1000</pubDate>
         <link>http://localhost:4000/blog/2023/01/L4DC_trajectory</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2023/01/L4DC_trajectory</guid>
         
@@ -47,7 +47,7 @@
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 01 Dec 2022 00:00:00 -0800</pubDate>
+        <pubDate>Thu, 01 Dec 2022 00:00:00 -1000</pubDate>
         <link>http://localhost:4000/blog/2022/12/Gauge</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2022/12/Gauge</guid>
         
@@ -64,7 +64,7 @@
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Tue, 15 Nov 2022 00:00:00 -0800</pubDate>
+        <pubDate>Tue, 15 Nov 2022 00:00:00 -1000</pubDate>
         <link>http://localhost:4000/blog/2022/11/OJCS</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2022/11/OJCS</guid>
         
@@ -81,7 +81,7 @@
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Fri, 08 Jul 2022 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 08 Jul 2022 00:00:00 -1000</pubDate>
         <link>http://localhost:4000/blog/2022/07/Subsyn</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2022/07/Subsyn</guid>
         
@@ -99,7 +99,7 @@ Because both inverter-connected resources and synchronous generators would be a 
 
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Fri, 20 May 2022 00:00:00 -0700</pubDate>
+        <pubDate>Fri, 20 May 2022 00:00:00 -1000</pubDate>
         <link>http://localhost:4000/blog/2022/05/Lya</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2022/05/Lya</guid>
         
