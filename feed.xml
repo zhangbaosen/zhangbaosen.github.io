@@ -6,15 +6,42 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Apr 2024 22:13:54 -0700</pubDate>
-    <lastBuildDate>Sun, 21 Apr 2024 22:13:54 -0700</lastBuildDate>
+    <pubDate>Wed, 24 Apr 2024 18:48:46 -0700</pubDate>
+    <lastBuildDate>Wed, 24 Apr 2024 18:48:46 -0700</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
       <item>
         <title>Three papers in PSCC</title>
         <description>&lt;p&gt;We have three papers that will appear at the PSCC Conferece:&lt;/p&gt;
 
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;li2024socially&quot;&gt;J. Li, M. Motoki, and B. Zhang, “Socially Optimal Energy Usage via Adaptive Pricing,” in &lt;i&gt;Power Systems Computation Conference (PSCC)&lt;/i&gt;, 2024. &lt;/span&gt;
+&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;jiang2024oscillationsaware&quot;&gt;Y. Jiang, H. Min, and B. Zhang, “Oscillations-Aware Frequency Security Assessment via Efficient Worst-Case Frequency Nadir Computation,” in &lt;i&gt;Power Systems Computation Conference (PSCC)&lt;/i&gt;, 2024. &lt;/span&gt;
+
+&lt;div id=&quot;jiang2024oscillationsaware-materials&quot;&gt;
+  &lt;ul class=&quot;nav nav-pills&quot;&gt;
+    
+
+ &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;jiang2024oscillationsaware-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
+    &lt;div id=&quot;jiang2024oscillationsaware-bibtex&quot; style=&quot;display:none;&quot;&gt;
+    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{jiang2024oscillationsaware,
+  title = {Oscillations-Aware Frequency Security Assessment via Efficient Worst-Case Frequency Nadir Computation},
+  author = {Jiang, Yan and Min, Hancheng and Zhang, Baosen},
+  year = {2024},
+  booktitle = {Power Systems Computation Conference (PSCC)},
+  link = {https://arxiv.org/abs/2402.16765},
+  blog = {2024-4-11-PSCC}
+}
+&lt;/pre&gt;
+    &lt;/div&gt;
+
+    
+    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2402.16765&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
+    
+
+  &lt;/ul&gt;
+
+
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;&lt;span id=&quot;li2024socially&quot;&gt;J. Li, M. Motoki, and B. Zhang, “Socially Optimal Energy Usage via Adaptive Pricing,” in &lt;i&gt;Power Systems Computation Conference (PSCC)&lt;/i&gt;, 2024. &lt;/span&gt;
 
 &lt;div id=&quot;li2024socially-materials&quot;&gt;
   &lt;ul class=&quot;nav nav-pills&quot;&gt;
@@ -62,33 +89,6 @@
 
     
     &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2303.10256&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;jiang2024oscillationsaware&quot;&gt;Y. Jiang, H. Min, and B. Zhang, “Oscillations-Aware Frequency Security Assessment via Efficient Worst-Case Frequency Nadir Computation,” in &lt;i&gt;Power Systems Computation Conference (PSCC)&lt;/i&gt;, 2024. &lt;/span&gt;
-
-&lt;div id=&quot;jiang2024oscillationsaware-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;jiang2024oscillationsaware-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;jiang2024oscillationsaware-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{jiang2024oscillationsaware,
-  title = {Oscillations-Aware Frequency Security Assessment via Efficient Worst-Case Frequency Nadir Computation},
-  author = {Jiang, Yan and Min, Hancheng and Zhang, Baosen},
-  year = {2024},
-  booktitle = {Power Systems Computation Conference (PSCC)},
-  link = {https://arxiv.org/abs/2402.16765},
-  blog = {2024-4-11-PSCC}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2402.16765&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
     
 
   &lt;/ul&gt;
