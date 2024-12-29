@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Power System Dynamics, Fall 2022</title>
+  <title>Power System Dynamics, Winter 2025</title>
   <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
 ">
 
@@ -100,28 +100,27 @@ function toggleDiv(element){
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Power System Dynamics, Fall 2022</h1>
+    <h1 class="post-title">Power System Dynamics, Winter 2025</h1>
   </header>
 
   <div class="post-content">
     <h2 id="class-syllabus">Class Syllabus</h2>
-<p>We will cover how to think about power system dynamics, from various models to current challenges. We will develop a rigorous way of looking at system dynamics and explain what measures are taken and what control schemes are implemented to maintain the stability of power systems. We will get to a point where we can read and understand advanced methods as described in recent papers published in the scientific literature. For more information, see <a href="https://www.dropbox.com/s/frca5ib8ckcg8ai/EE552.pdf?dl=1">syllabus</a>.</p>
+<p>We will cover how to think about power system dynamics, from various models to current challenges. It is surprising nontrivial to understand why the power system is stable, since disturbances occur constantly–from turning on and off lights to lightning strike on the lines–and there is no explicit real-time communication in the grid. We will develop a rigorous way of looking at system dynamics and explain what measures are taken and what control schemes are implemented to maintain the stability of power systems. We will get to a point where we can read and understand advanced methods as described in recent papers published in the scientific literature. For more information, see <a href="https://www.dropbox.com/scl/fi/hhmcpikbck1m2mnnn5w5n/EE552.pdf?rlkey=r770hp9pyr4o6ysv6s20li39s&amp;dl=1">syllabus</a>.</p>
 
-<p>This is the main website for this class. The <a href="https://canvas.uw.edu/courses/1579292">Canvas Site</a> is only used to post grades.</p>
+<p>This is the main website for this class. The <a href="https://canvas.uw.edu/courses/1786177">Canvas Site</a> is only used to post grades.</p>
 
-<p><strong>Class</strong>: WF, 10:30-noon, MGH 058.<br />
+<p><strong>Class</strong>: WF, 12:30-2pm, ECE 026 .<br />
 <strong>Instructor</strong>: Baosen Zhang, zhangbao@uw.edu, Office: ECE M310</p>
 
 <h1 id="office-hours">Office Hours:</h1>
 <ol>
-  <li>My office hours: Fridays 3 to 4pm, ECE M310</li>
+  <li>My office hours:</li>
   <li>You’re welcome to schedule other times by emailing me.</li>
 </ol>
 
 <h1 id="note">Note:</h1>
 <ol>
   <li>I will try to respond to emails within 24 hours. Please write EE552 in the subject.</li>
-  <li>Please refer to the official <a href="https://www.washington.edu/coronavirus/">UW website</a> for the most up to date COVID guidelines. There is no additional requirements for this class other than the official UW ones.</li>
   <li>ou will need to do computer simulations for some homework problems. You may use whatever language you are comfortable with, e.g. Matlab, Python, R, C++, Julia,… As long as you can do the homework questions.</li>
 </ol>
 
@@ -129,7 +128,7 @@ function toggleDiv(element){
 <p>There are no required textbooks for this class. Some references that maybe helpful are:</p>
 <ol>
   <li>'’Power System Dynamics – Stability and Control’’, J Machowski, Z Lubosny, J W Bialek, J R Bumby, Third Edition, Wiley 2020 (A standard textbook)</li>
-  <li>'’Power System Stability and Control’’, Prabha Kundur, McGraw Hill, 1994 (The classical book on this subject)</li>
+  <li>'’Power System Stability and Control’’, Prabha Kundur, McGraw Hill, 1994 (The classical book on this subject, although it can be intimadating)</li>
   <li>'’Power System Dynamics and Stability’’, Peter W Sauer and M A Pai, Prentice Hall, 1998 (A more mathematical treatment of the subject)</li>
   <li>'’Voltage Stability of Electric Power Systems’’, T Van Cutsem, C Vournas,, Kluwer, 1998 (A detailed book on voltage stability)</li>
 </ol>
@@ -137,36 +136,32 @@ function toggleDiv(element){
 <h1 id="schedule-of-classes">Schedule of Classes:</h1>
 <ol>
   <li>Introduction to power systems operations and stability</li>
-  <li>Linear systems <a href="https://www.dropbox.com/s/gr2eviedxvk8z7f/Note%20Oct%205%2C%202022.pdf?dl=1">slides</a>, invariant sets<a href="https://www.dropbox.com/s/migz27mu7ns5o0u/Note%20Oct%207%2C%202022.pdf?dl=1">slides</a></li>
-  <li>Lyapunov stability, <a href="https://www.dropbox.com/s/bon7ghuqcuynbt9/Note%20Oct%2012%2C%202022.pdf?dl=1">slides 1</a>, <a href="https://www.dropbox.com/s/g7kryos9zboud45/Note%20Oct%2014%2C%202022.pdf?dl=1">slides 2</a></li>
-  <li>Lyapunov stability, power system models <a href="https://www.dropbox.com/s/2259ir2cvx30igx/Note%20Oct%2019%2C%202022.pdf?dl=1">slides</a>, <a href="https://www.dropbox.com/s/tyldw4xe4xwmv9u/Note%20Oct%2021%2C%202022.pdf?dl=1">slide 2</a></li>
-  <li>Power system small signal stability <a href="https://www.dropbox.com/s/l68p7umn0ehbc6j/Note%20Oct%2026%2C%202022%20%282%29.pdf?dl=1">slides</a>, transient stability <a href="https://www.dropbox.com/s/6rtrjwycpyh6p8m/Note%20Oct%2028%2C%202022.pdf?dl=1">slides</a></li>
-  <li>Voltage stability, <a href="https://www.dropbox.com/s/lou5b5x5s6pnvbe/Note%20Nov%202%2C%202022.pdf?dl=1">slides</a>, DistFlow equations, <a href="https://www.dropbox.com/s/tx5r4to0r2slu3l/Note%20Nov%204%2C%202022.pdf?dl=1">slides</a></li>
-  <li>Optimal control, <a href="https://www.dropbox.com/s/umu15hcua082mq3/Note%20Nov%2016%2C%202022.pdf?dl=1">slides</a>, <a href="https://www.dropbox.com/s/akhlgnyk5lqaq7w/Note%20Nov%2018%2C%202022.pdf?dl=1">slide 2</a></li>
-  <li>Power electronic control, <a href="https://www.dropbox.com/s/aqx53lu3cr964yq/Note%20Nov%2023%2C%202022%20%282%29.pdf?dl=1">slides</a>, <a href="https://www.dropbox.com/s/oicvs9xbqq4kugq/Note%20Nov%2023%2C%202022.pdf?dl=1">chaotic behavior</a>, more information at [Nonlinear Phenomena in Power Electronics]https://ieeexplore.ieee.org/book/5263135;</li>
-  <li>Buck converter control, <a href="https://www.dropbox.com/s/ctbogrhyq717586/Note%20Nov%2030%2C%202022.pdf?dl=1">slides</a></li>
+  <li>Components of the power system, frequency and voltage stability</li>
+  <li>Linear systems</li>
+  <li>Power system small signal stability</li>
+  <li>Lyapunov stability</li>
+  <li>Lyapunov stability, power system models</li>
+  <li>Voltage stability</li>
+  <li>Optimal control</li>
+  <li>Power electronic control</li>
 </ol>
 
 <h1 id="structure">Structure:</h1>
 <ol>
-  <li>Power system dynamics is complex and involves too many mathematical derivations and is thus not easily understood. More importantly, because of the integration of renewables, many ideas and techniques are changing in real-time. Just listening to a lecture is not going to be that useful.  Instead, we will take an active approach to learning.</li>
+  <li>Power system dynamics is complex and involves both mathematical derivations and intuitive arguments and is thus not easily understood. More importantly, because of the integration of renewables, many ideas and techniques are changing in real-time. Just listening to a lecture is not going to be that useful.  Instead, we will take an active approach to learning.</li>
   <li>There will be biweekly homework assignments.</li>
-  <li>During class, some students would be randomly picked to present their solutions on the board. A random number generator would be used, but since the class is not that big, each person will be picked fairly often.</li>
-  <li>Some homework questions will be hard, and you’re not expected to have solved it perfectly. You will be graded on whether you have made a solid attempt at solving the problem, and whether your presentation helped other students understand the concepts better.</li>
+  <li>Some homework questions will be hard, and you’re not expected to have solved it completely. You will be graded on whether you have made a solid attempt at solving the problem.</li>
 </ol>
 
 <h1 id="grade-distribution">Grade Distribution:</h1>
-<p>Homework 40%, project 40% and participation 20%</p>
+<p>Homework 80% and participation 20%</p>
 
 <h1 id="homework-assignments">Homework Assignments:</h1>
-<ol>
-  <li><a href="https://www.dropbox.com/s/qtcvrwam2xnt5qk/homework1.pdf?dl=1">Homework 1</a>, due Oct 13th, 11:59pm. Submit at <a href="https://canvas.uw.edu/courses/1579292/assignments/7741102">Canvas</a>. <a href="https://www.dropbox.com/s/o7zt3ydaghwfcng/Homework%201%20solution.pdf?dl=1">Solution</a></li>
-  <li><a href="https://www.dropbox.com/s/erbl8zgy7dbxens/homework2.pdf?dl=1">Homework 2</a>, due Oct 27th, 11:59pm. Submit at <a href="https://canvas.uw.edu/courses/1579292/assignments/7769792">Canvas</a>. <a href="https://www.dropbox.com/s/w3q4x9b91hjar2o/Homework%202%20solution%20.pdf?dl=1">Solution</a></li>
-  <li><a href="https://www.dropbox.com/s/4i64nnp0z33bbus/homework3.pdf?dl=1">Homework 3</a>, due Nov 17th, 11:59pm. Submit at <a href="https://canvas.uw.edu/courses/1579292/assignments/7797786">Canvas</a>. <a href="https://www.dropbox.com/s/zw9o9iowy6getc3/Note%20Dec%205%2C%202022.pdf?dl=1">Solution</a></li>
-</ol>
 
-<h1 id="project">Project:</h1>
-<p>Submit at <a href="https://canvas.uw.edu/courses/1579292/assignments/7864370">CANVAS</a>. One submission per group (any member can submit).</p>
+<h1 id="ai-policy">AI Policy:</h1>
+<p>AI content generators, such as ChatGPT, present opportunities that can contribute to your learning and academic work. If you use such tools, you must clearly state where they are used and how they contributed to your work. Otherwise, using these technologies may violate academic standards of the University.</p>
+
+<p>For other course policies, please see the syllabus.</p>
 
   </div>
 
