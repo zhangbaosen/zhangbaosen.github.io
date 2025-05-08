@@ -1,0 +1,758 @@
+<h1>1 Introduction</h1>
+<p>The purpose of this lab is to get you familiar with power
+system transient stability analysis using computer software tools. In
+this lab, you will learn the basic concepts of transient stability and
+associated assessment methods. Case studies will be performed for you to
+understand the nature of the power system transient stability behavior,
+including generator 'swing' characteristics and associated voltage and
+power oscillation dynamics. Through this lab, you will gain an improved
+understanding on the various factors that affect the transient stability
+of power systems.</p>
+<hr />
+<h2>1.1 Background</h2>
+<h3>1.1.1 Power System Transient Stability</h3>
+<p>Transient stability is the ability of a power system to remain in
+synchronism when subjected to large transient disturbances. These
+disturbances may include faults on transmission elements, loss of load,
+loss of generation, or loss of system components such as transformers or
+transmission lines. Although many different forms of power system
+stability have emerged and become problematic in recent years, transient
+stability still remains a basic and important consideration in power
+system design and operation. While it is true that the operation of many
+power systems is limited by phenomena such as voltage stability or
+small-signal stability, most systems are prone to transient instability
+under certain conditions or contingencies and hence the understanding
+and analysis of transient stability remain fundamental issues. Also,
+transient instability can occur in a very short time frame (a few
+seconds), leaving no time for operator intervention to mitigate
+problems. It is therefore essential to deal with the problem in the
+design stage or severe operating restrictions may result.</p>
+<p>Following a disturbance, synchronous machine frequencies undergo
+transient deviations from synchronous frequency and power angles change.
+The objective of transient stability study is to determine whether or
+not the machines will return to synchronous frequency with new
+steady-state power angles. In many cases, transient stability is
+determined using “swing curves” plotted for a generator subjected to a
+particular system disturbance. Trace “a” shown below shows that the
+generator power angle recovers and oscillates around a new equilibrium
+point. It is deemed to be transiently stable. However, in trace “b”, the
+power angle increases aperiodically and is considered transiently
+unstable. What factors determine whether a machine will be stable or
+unstable? How can the stability of large power systems be analyzed? If a
+case is unstable, what can be done to enhance stability? These are some
+of the questions to be solved in this lab.</p>
+<p><img src="https://www.dropbox.com/scl/fi/xrtbm1ic17rn1v2aff5ts/stable_vs_unstable.jpeg?rlkey=k5gfjolx3nex6dwsbyhczsl1x&amp;dl=1" alt="" /></p>
+<p>figure 1. Typical swing curves.</p>
+<h3>1.1.2 Methods of Transient stability Analysis</h3>
+<p>You may have learned the theory of swing equation and equal area
+criterion in the lecture. It can be used to conduct analytical studies
+on small systems. For a practical system with large numbers of
+generators, transmission units and loads, the time-domain based
+simulation method is a more applicable approach.</p>
+<p>For stability assessment, the power system is normally represented
+using a positive sequence model. The network is represented by a
+traditional positive sequence power flow model that defines the
+transmission topology, line reactances, connected loads and generation,
+and pre-disturbance voltage profile.</p>
+<p>Generators can be represented with various levels of detail, selected
+based on such factors as length of simulation, severity of disturbance,
+and accuracy required. The most basic model for synchronous generators
+consists of a constant internal voltage behind a constant transient
+reactance, and the rotating inertia constant. This is the so-called
+classical representation that neglects the machine physical construction
+factors (damper windings, saturation, etc), the generation controls
+(excitation and governor systems) and the details of the prime mover.
+More detailed models have been utilized in commercial transient
+stability programs.</p>
+<p>Transient stability studies are commonly performed after power flow
+studies. Based on the pre- disturbance system profiles, time-domain
+simulation can be conducted. The results are examined, usually through a
+graphical plotting, to determine if the system remains stable and to
+assess the details of the dynamic behavior of the system. Typical
+procedures for the transient stability analysis are as follows.</p>
+<ol>
+<li>
+<p>Collect data of network topology and power system components for
+power flow studies</p>
+<ul>
+<li>
+<p>one-line diagram of the network</p>
+</li>
+<li>
+<p>transmission line and transformer data</p>
+</li>
+<li>
+<p>shunt capacitors and reactors data</p>
+</li>
+<li>
+<p>bus load data</p>
+</li>
+<li>
+<p>generator real power output, scheduled voltage</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Collect specified data for transient stability studies</p>
+<ul>
+<li>
+<p>Dynamic data: Includes model types and associated parameters for
+generators, motors, protections, and other dynamic devices and their
+controls.</p>
+</li>
+<li>
+<p>Switching data: Includes the details of the disturbance to be
+applied. This includes the time at which the fault is applied, where the
+fault is applied, the type of fault and its fault impedance if required,
+the duration of the fault, the elements lost as a result of the fault,
+and the total length of the simulation.</p>
+</li>
+<li>
+<p>Program control data: Specifies such items as the type of
+numerical integration to use and time-step.</p>
+</li>
+<li>
+<p>System monitoring data: This specifies which quantities are to be
+monitored (output) during the simulation.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Solve power flow for the system</p>
+</li>
+<li>
+<p>Perform transient stability studies</p>
+<ul>
+<li>
+<p>Perform time domain simulation.</p>
+</li>
+<li>
+<p>Plot system swing curves to determine if the system remains
+stable.</p>
+</li>
+<li>
+<p>Repeat the above process for different fault locations and
+different scenarios.</p>
+</li>
+<li>
+<p>Document all study results</p>
+</li>
+</ul>
+</li>
+</ol>
+<h2>1.2 Required Software</h2>
+<p>The following software is installed on the computers that are
+provided in the laboratory. The following installation instructions are
+provided if you care to install the software on your own computers. It
+is your responsibility to get this working on your own hardware as
+little support will be provided by the laboratory staff as it can become
+too time consuming. Both Matlab/Simulink and the PSAT toolbox should be
+able to be installed on Windows, macOS and Linux.</p>
+<h3>1.2.1 Matlab/Simulink</h3>
+<p>As a UW student, you have access to Matlab. More information <a href="https://it.uw.edu/uware/matlab/">here</a></p>
+<h3>1.2.2 PSAT</h3>
+<p>The Power System Analysis Toolbox (PSAT) is a Matlab toolbox for
+electric power system analysis and simulation.</p>
+<p><img src="https://www.dropbox.com/scl/fi/4o52xkq3wq8yizvulqii0/psat_logo.png?rlkey=9x5vxg0fix55r28uoswyxw7eq&amp;dl=1" alt="" /></p>
+<p>figure 2. PSAT (Power System Analysis Toolbox)</p>
+<h4>1.2.2.1 Installation Instructions</h4>
+<ol>
+<li>
+<p>Download the Power System Analysis Toolbox (PSAT) from <a href="http://faraday1.ucd.ie/psat.html">here</a></p>
+</li>
+<li>
+<p>Extract the downloaded <code>.zip</code> file to the Matlab
+toolbox directory at <code>Program files/MATLAB/2025a/toobox/</code> by
+default on Windows. There should be a similar directory for other
+operating systems.</p>
+</li>
+<li>
+<p>Add a PSAT toolbox installation path to the same directory that
+you extracted the toolbox too using the <code>Set Path</code> button on
+the toolbar in Matlab.</p>
+</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/s8a5g5u47tkg3hlj220hn/matlab_set_path.png?rlkey=l5ftaqftb0tcba36kzq3egim2&amp;dl=1" alt="" /></p>
+<p>figure 3. Set PSAT toolbox path in MATLAB.</p>
+<ol start="4">
+<li>Launch PSAT by typing <code>psat</code> in the Matlab command window
+and after a few moments the PSAT control windows should be displayed as
+shown below.</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/e1d7uws9cdd3eofnv2gx8/psat_window.png?rlkey=2n96qvgy3chgkbcr0lae8c21x&amp;dl=1" alt="" /></p>
+<p>figure 4. PSAT main command windows.</p>
+<h1>2 Lab Procedure</h1>
+<p>The system used for this experiment consists of 9 buses and 3
+generating stations. It is so called WSCC 3-machine, 9-bus system and is
+widely used in power system transient stability studies. The system is
+shown in figure 5.</p>
+<p><img src="https://www.dropbox.com/scl/fi/61w3ix9b47u83nr9wngng/the_system.png?rlkey=4t862jsn22w462oya6j9a3dn3&amp;dl=1" alt="" /></p>
+<p>figure 5: The test system (The WSCC 3-machine, 9-bus
+system)</p>
+<h2>2.1 PSAT Familiarization</h2>
+<p>PSAT is a free Matlab toolbox for electric power system analysis and
+control. It includes power flow, continuation power flow, optimal power
+flow, small signal stability analysis and time domain simulation. All
+operations can be assessed by means of graphical user interfaces (GUIs)
+and a Simulink-based library provides a user friendly tool for network
+design.</p>
+<h3>2.1.1 Load the Basecase</h3>
+<ol>
+<li>Download the .zip file from below which contains the Base Case that
+will be used for this lab and extract it somewhere you can find in your
+user space. It is usually easiest if you put the file in your default
+Matlab workspace. The extracted .zip file contains a single .mdl file
+titled <code>Lab_4_Basecase.mdl</code>.</li>
+</ol>
+<h4><a href="https://www.dropbox.com/scl/fi/uf4g9xv2ml177v0bqxbp1/Lab_4_Basecase.mdl?rlkey=vg4fegltuppf156eig301gbwb&amp;dl=1">Base Case Download</a></h4>
+<ol start="2">
+<li>In the PSAT command window click on the <code>Open Data File</code>
+button as shown below or navigate the menus to
+<code>File/Open/Data File</code>.</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/v3g4cabmcxgau3moeygge/open_data_file.png?rlkey=q0v2aaoym174gi0m4zif1skc1&amp;dl=1" alt="" /></p>
+<p>figure 6. Open Data file button.</p>
+<ol start="3">
+<li>From the opened Load Data File screen, navigate the directory
+structure to where you have the .mdl file extracted. Make sure that the
+Filters is to <code>PSAT Simulink (.mdl)</code> and select the correct
+Basecase file under <code>Files in current path:</code> and then click
+on the <code>Load</code> button.</li>
+</ol>
+<p><strong>Note:</strong> The mdl file contains the single-line 9-bus
+system diagram in a Simulink file format which was constructed with the
+PSAT simulink library. When we <code>Load Data file</code>, PSAT
+extracts the data from the Simulink and creates another file which ends
+with a <code>.m</code>, which it then uses in its simulation
+calculations. You can review some of this conversion process in the
+Matlab Command Window.</p>
+<p><img src="https://www.dropbox.com/scl/fi/yok94wbevq60m2lobno0j/load_data_file.png?rlkey=lc5x67qkvxhipobcinfjr2lm6&amp;dl=1" alt="" /></p>
+<p>figure 7. Load a simulink .mdl file into the PSAT
+toolbox for analysis.</p>
+<ol start="4">
+<li>To view and/or edit the single-line diagram of the system in
+Simulink, you can go to <code>File/Open/Simulink Model</code> and open
+the same downloaded .mdl file.</li>
+</ol>
+<p><strong>Note:</strong> If you make changes to the Simulink model you
+need to first save the new model in the .mdl format and then make sure
+that you <code>Load Data file</code> in PSAT before carrying out any
+simulation.</p>
+<p><strong>Note:</strong> The Simulink library blocks may have an
+Unrecognized functions or variables error and are highlighted in red. As
+we are not using the Simulink solver this does not matter. If the red
+highlight bothers you, you can try simulating the model in Simulink,
+nothing will really simulate but it will create the missing variables
+and the errors will go away.</p>
+<p><strong>Note:</strong> You can double click on the blocks in the
+model to edit their <code>Block Parameters</code>.</p>
+<p><img src="https://www.dropbox.com/scl/fi/gtwmany9siim6gwz1xvkn/simulink_model.png?rlkey=zitw2548al0yni91joiy40v69&amp;dl=1" alt="" /></p>
+<p>figure 8. An open .mdl file in Simulink where the
+system can be edited.</p>
+<ol start="5">
+<li>Change the system frequency to 60 Hz in the main PSAT window as this
+is the typical system frequency in North America, it defaults to 50Hz as
+the PSAT software is written somewhere in Europe where that is the
+typical system frequency.</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/px89krxqwluopc179umfi/base_freq.png?rlkey=kmpynx4j4mwb2t83v2z6dn8fb&amp;dl=1" alt="" /></p>
+<p>figure 9. Change the system base frequency to
+60Hz.</p>
+<h3>2.1.2 Simulate the Basecase</h3>
+<ol start="6">
+<li>To complete a Power Flow Analysis of the system press the “Power
+Flow” button in the PSAT main window, the status of the simulation gets
+logged in the Matlab Command Window.</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/dmzdmp2nhstprufu0hoce/power_flow.png?rlkey=leqcem28a0ktjsgs6lkovzvgz&amp;dl=1" alt="" /></p>
+<p>figure 10. Complete a Power Flow Analysis of the
+System.</p>
+<ol start="7">
+<li>Press the button shown below to view the Static Report of the Power
+Flow Analysis results.</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/953m3u3pofeasbxhdba1i/static_report_button.png?rlkey=0znky3nky0le30e9ezlqjb9rl&amp;dl=1" alt="" /></p>
+<p>figure 11. Open the Static Report of the Power Flow
+Analysis.</p>
+<ol start="8">
+<li>An example of the Static Report results are shown below.</li>
+</ol>
+<p><strong>Note:</strong> In the upper parameter boxes the highlighted
+entries indicate the values of the selected bus.</p>
+<p><strong>Note:</strong> You can change the units displayed in the
+boxes by clicking on the unit displayed at the top of each box.</p>
+<p><strong>Note:</strong> For Active and Reactive Power you can also
+select where to display the following</p>
+<ul>
+<li>G - The generated power on the bus.</li>
+<li>L - The comsumed power on the bus.</li>
+<li>I - Shows both: generated as a positive number and consumed as a
+negative number.</li>
+</ul>
+<p><strong>Note:</strong> You can click on the icon to open up a
+bargraph plot to compare the results of each bus.</p>
+<p><strong>Note:</strong> You can generate/save a Static Report by
+pressing on the Report button. The report output format and other
+options can be configured by selecting what you want under the
+<code>Preferences Menu</code>.</p>
+<p><img src="https://www.dropbox.com/scl/fi/5v65krbfo80541sgf1a0e/static_report.png?rlkey=ga6978guchgl04o71ao59ms7j&amp;dl=1" alt="" /></p>
+<p>figure 12. An example Static Report.</p>
+<h3>2.1.3 Basecase results</h3>
+<ol start="9">
+<li>Compare your Power Flow Analysis results in the Static Report with
+the reference results shown below.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th>POWER FLOW RESULTS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bus #</td>
+<td>Voltage (pu)</td>
+<td>phase (°)</td>
+<td>P_gen (pu)</td>
+<td>Q_gen (pu)</td>
+<td>P_Load (pu)</td>
+<td>Q_Load (pu)</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1.02500</td>
+<td>9.28000</td>
+<td>1.63</td>
+<td>0.06654</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>2</td>
+<td>1.04000</td>
+<td>0.00000</td>
+<td>0.71641</td>
+<td>0.27046</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>3</td>
+<td>1.02500</td>
+<td>4.66480</td>
+<td>0.85</td>
+<td>-0.1086</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>4</td>
+<td>1.02580</td>
+<td>3.71970</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>5</td>
+<td>1.01590</td>
+<td>0.72754</td>
+<td>—</td>
+<td>—</td>
+<td>1</td>
+<td>0.35</td>
+</tr>
+<tr>
+<td>6</td>
+<td>1.01270</td>
+<td>-3.68740</td>
+<td>—</td>
+<td>—</td>
+<td>0.9</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1.02580</td>
+<td>-2.21680</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr>
+<td>8</td>
+<td>0.99563</td>
+<td>-3.98880</td>
+<td>—</td>
+<td>—</td>
+<td>1.25</td>
+<td>0.5</td>
+</tr>
+<tr>
+<td>9</td>
+<td>1.03240</td>
+<td>1.96670</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+<td>—</td>
+</tr>
+</tbody>
+</table>
+<p>Table 1. Reference Power Flow results for the Base Case.</p>
+<ol start="10">
+<li>Change the Report output format to Excel by going to
+<code>Preferences/Select Test Viewer</code> and selecting
+<code>Excel</code> and clicking on OK. Generate the Report and Save it
+with an appropriate name. Have a look at the report to see what is
+included.</li>
+</ol>
+<h2>2.2 Transient Stability Analysis</h2>
+<p>Transient stability examines the impact of disturbances on power
+systems considering the operating conditions. The analysis of the
+dynamic behavior of power systems for the transient stability gives
+information about the ability of a power system to sustain synchronism
+during and after a disturbance.</p>
+<p>In this task, a fault will be placed on one of the buses to
+demonstrate how the system behaves. A system can recover if a fault is
+cleared quickly enough before the whole system collapses.</p>
+<ol start="11">
+<li>Add a fault to bus 4 by doing the following.
+<ol>
+<li>With the Simulink model of the system open also open the PSAT
+simulink library by clicking on the appropriate button in the PSAT main
+window.</li>
+</ol>
+</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/jj5getqgrl72rf5hnv65j/psat_library_button.png?rlkey=lqqh4i1o5cft17f2zk5h4bdzj&amp;dl=1" alt="" /></p>
+<p>figure 13. PSAT Simulink library button.</p>
+<pre><code>2. In the base case Simulink model, double click on bus 4 (the thick
+   black line) to open the `Block Parameter` window for Bus 4.
+   Change the `Number of outputs:` from 2 to 3. You will then
+   see another output appear on the bus 4 in the Simulink model.
+</code></pre>
+<p><img src="https://www.dropbox.com/scl/fi/zsgzzwnci87asjuaq2mk3/bus_4_new_output.png?rlkey=4yx3qgodlc3kmunze5wpfcyjv&amp;dl=1" alt="" /></p>
+<p>figure 14. Adding a new output on bus 4.</p>
+<pre><code>3. From the PSAT Simulink library, either drag and drop or copy and
+   paste a `Fault` (from the Faults and Breakers library) to
+   your base case some where near bus 4.
+</code></pre>
+<p><img src="https://www.dropbox.com/scl/fi/q3071jb0u7j5uxwa6dvbj/insert_fault.png?rlkey=vphn93mdp0qimpulxv3ubtrj9&amp;dl=1" alt="" /></p>
+<p>figure 15: Faults and Breakers catalogue of the PSAT
+Simulink library.</p>
+<pre><code>4. Wire the newly added Fault to the new output your created on bus
+   4.
+</code></pre>
+<p><img src="https://www.dropbox.com/scl/fi/rsymzmgl6nsg9clrvup3o/wire_fault.png?rlkey=0q2ox6q89joezxkjqmzm5csgv&amp;dl=1" alt="" /></p>
+<p>figure 16: Connect the new Fault to bus 4.</p>
+<pre><code>5. Double click the fault and setup the following parameters:
+
+
+   - Power, voltage and frequency: \[100 230 60\]
+   - Fault time: 1.0
+   - Fault clearing time: 1.15
+</code></pre>
+<p><strong>Note:</strong> The duration of the fault will be the
+<code>Fault clearing time</code> minus the <code>Fault time</code> as
+both of the times above are the times in the simulation that the events
+occur.</p>
+<pre><code>6. Save this new case with a new appropriate name making sure to
+   save it as an .mdl file so it can be loaded into PSAT.
+</code></pre>
+<p>12. Load the new .mdl Data File you just created by clicking on the
+<code>Open Data File</code> button in the PSAT main window. Make sure to
+adjust the file type <code>Filter</code> so <code>.mdl</code> files can
+be seen.</p>
+<ol start="13">
+<li>Go to Settings in the PSAT main window and check the selection of
+<code>Convert PQ bus to Z</code> to increase the simulation’s stability.</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/2f49ek74ine2fwny21kj3/convert_PQ_to_Z.png?rlkey=auc0btn9zzajv8qntkj6fda9j&amp;dl=1" alt="" /></p>
+<p>figure 17: Convert PQ bus to Z.</p>
+<ol start="14">
+<li>Run a Time Domain simulation in PSAT by clicking on the button shown
+below. The Time Domain solution requires an initial Power Flow solution
+before it is run and it will do it automatically if a current solution
+is not available.</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/o8irha2bjej7qkkohpmqg/time_domain.png?rlkey=x0uctv8gdd86mem7fbke8nci3&amp;dl=1" alt="" /></p>
+<p>figure 18: Run a Time Domain simulation.</p>
+<ol start="15">
+<li>
+<p>Using the PSAT <code>Plot tool</code>, plot the following and
+save the resulting graphs using a screen capture tool like
+<code>Snip &amp; Sketch</code> to save the plot as an image file to
+include in your Postlab.</p>
+<p><strong>Note:</strong> The first 3 plots below have a fault clearing
+time of 0.15s.</p>
+<p><strong>Note:</strong> You can change the length of the simulation
+from the PSAT main window as shown below.</p>
+<p><img src="https://www.dropbox.com/scl/fi/orgasyeaw1xrvfeqjqnlk/end_time.png?rlkey=x2ys47b8kstxia2ttuonjw6pf&amp;dl=1" alt="" /></p>
+<p>figure 19. Simulation End Time.</p>
+<p><strong>Note:</strong> You can examine the resulting waveforms in
+more detail by using the plots zoom controls.</p>
+<ol>
+<li>
+<strong>Power Angle at Generator Buses</strong>: Select the power
+angle (δ) of the 3 synchronous generators (ie. delta_Syn_1) to plot them
+against time. Use delta_Syn_1 as reference angle by selecting it in the
+appropriate box. Click on the <code>Plot</code> button to generate the
+graph in the available space. Use the default simulation end time of 20
+seconds.</li>
+</ol>
+</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/at6it6wvgkbg9rsyx9n92/psat_plot.png?rlkey=di1f10dtp17kioay4o0xt0pv1&amp;dl=1" alt="" /></p>
+<p>figure 20. Select the parameters that you would like
+to plot. The power angles of the 3 generators shown.</p>
+<pre><code>2. **Voltage at Generator Buses:** Select the bus
+   voltages that the 3 synchronous generators are attached to (ie. V\_Bus 1)
+   to plot them against time. Click on the `Plot` button to
+   generate the graph in the available space. Change the simulation end
+   time to 3 seconds (or use the Zoom tool) so what is occuring to the
+   voltages during the fault can be seen.
+
+3. **Power at Generator Buses:** Select the 3
+   synchronous generator power quantities (ie. p\_Syn\_1) to plot them
+   against time. Click on the `Plot` button to generate the
+   graph in the available space. Change the simulation end time back to 20
+   seconds.
+
+4. **Unstable - Power Angle at Generator Buses:** The
+   longest fault time duration that the system can recover from and remain
+   stable is named as critical fault clearing time. Run the simulation
+   while increasing the fault duration by 0.01 second increments to find
+   the critical fault clearing time for bus 4. Record the critical fault
+   clearing time in the appropriate places in the results table and plot
+   the power angle (δ) of the 3 generators when the system goes
+   unstable.
+</code></pre>
+<h4></h4>
+<h3>2.2.1 Postlab Questions</h3>
+<p>Is the system stable? Explain why.</p>
+<p>Explain what is occurring in the generator plots for both the voltage and the power, that you obtained, when a fault is applied to bus 4 between 1.0 to 1.15 seconds of the simulation.</p>
+<h2>2.3 Impact of Fault Location</h2>
+<p>The amount of time a fault is sustained before the system collapses
+can vary depending on where in the system the fault occurs. Therefore
+the system’s critical fault clearing time should be different if a fault
+occurs in a different location (ie. on a different bus).</p>
+<ol start="16">
+<li>
+<p>Using a similar procedure as the previous section to complete the
+table below, determine the systems critical fault clearing time when a
+single fault occurs at each of the 9 buses. Record your results in the
+table provided on your results sheet.</p>
+<p><strong>Note:</strong> You already completed bus 4 in the previous
+section.</p>
+</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th>CRITICAL FAULT CLEARING TIME</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bus #</td>
+<td>Bus Voltage (kV)</td>
+<td>Critical fault clearing time (s)</td>
+</tr>
+<tr>
+<td>---</td>
+<td>---</td>
+<td>---</td>
+</tr>
+<tr>
+<td>1</td>
+<td>18.0</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>16.5</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>13.8</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>230.0</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>230.0</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>230.0</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>230.0</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>230.0</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>230.0</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Table 3. The systems critical fault clearing time for a fault occuring
+at each bus separately.</p>
+<h4>Note</h4>
+<p>It is important that the fault voltage rating matches the voltage
+rating of the bus.</p>
+<p><img src="https://www.dropbox.com/scl/fi/e16se2p91o0rcing42gyp/bus_voltage.png?rlkey=jlp8jdhi92st532t8jc410jkc&amp;dl=1" alt="" /></p>
+<p>figure 21. The rated bus voltage.</p>
+<p><img src="https://www.dropbox.com/scl/fi/i22fprv2pphgq8luiugn4/fault_voltage.png?rlkey=pnho1lecxsb7uhn2u8e5ucff7&amp;dl=1" alt="" /></p>
+<p>figure 22. The rated fault voltage.</p>
+<h3>2.3.1 Postlab Questions</h3>
+<p>Which fault location is most susceptible to cause a system
+transient that will lead to an unstable system? What are the potential
+reasons for that?</p>
+<p>Explain why doing a fault location scan, like was completed in
+the lab, could be useful.</p>
+<h2>2.4 Impact of Line Tripping</h2>
+<p>If a circuit breaker protecting a transmission line trips either
+before or during a fault event the critical fault clearing time will be
+effected.</p>
+<p>For this case, we will start with the same case that we used in the
+<code>Transient Stability Analysis</code> where we had a fault on bus 4.
+However for this new case we will add a breaker in the line from bus 7
+to bus 8 that will open before the fault occurs and then close again
+after the fault transient has subsided. The goal of this task is to see
+how a change in the system effects the critical fault clearing time.</p>
+<ol start="17">
+<li>Add a Breaker to the line from bus 7 to bus 8 by doing the
+following.
+<ol>
+<li>
+<p>Open the <code>.mdl</code> file that you saved in the
+<code>Transient Stability Analyses</code> section where you just added a
+fault on bus 4 into Simulink. As this is the case we want to compare
+to.</p>
+</li>
+<li>
+<p>Open the PSAT Simulink library and copy a <code>Breaker</code>
+from the <code>Faults &amp; Breakers</code> catalogue someone near
+either bus 7 or bus 8 in your base case.</p>
+</li>
+</ol>
+</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/jfaw75d0pt48xjlq2qp13/insert_breaker.png?rlkey=rtxgwubogipllsvo2qmy71q3y&amp;dl=1" alt="" /></p>
+<p>figure 23. A Breaker in the Faults and Breaker
+catalogue of the PSAT Simulink library.</p>
+<pre><code>3. Delete the wire connecting the bus to the line element and place the
+   new Breaker in series with the line by wiring the breaker to both the
+   line element and the appropriate bus.
+</code></pre>
+<p><img src="https://www.dropbox.com/scl/fi/tmf7pgfrmlyoqabg1id0e/wire_breaker.png?rlkey=1bx7q8lpl6eytznn50nz7mxii&amp;dl=1" alt="" /></p>
+<p>figure 24. A breaker inserted in series with the line
+that connects bus 7 to bus 8.</p>
+<pre><code>4. Double click on the `Breaker` element and the
+   `Block Parameters` for the `Breaker` will open.
+   Set the parameters as shown below.
+</code></pre>
+<p><img src="https://www.dropbox.com/scl/fi/kel2vps2i3hbadcwlu4qe/breaker_settings.png?rlkey=sc7iidvdri86uh1ub2a4bpcxp&amp;dl=1" alt="" /></p>
+<p>figure 25. The breakers parameter settings.</p>
+<pre><code>5. Save the new case with a new appropriate name as a `.mdl`
+   file.
+</code></pre>
+<p>18. Load the newly saved file into PSAT using the PSAT command
+window.</p>
+<ol start="19">
+<li>Like you did in the previous sections, determine the system’s new
+critical fault clearing time when the newly added Breaker is open.
+Record your results in the table provided on your results
+sheet.</li>
+</ol>
+<h3>2.4.1 Postlab Questions</h3>
+<p>How does a line being removed from the system effect the systems transient stability? Explain.</p>
+<h2>2.5 Impact of Inertia</h2>
+<p>The inertia of a generator will effect how fast the power angle
+changes when a transient occurs which means that it will either take
+longer or shorter for that generator to reach the point of instability
+depending if the inertia is increased or decreased.</p>
+<p>For this case, we will again start with the same case that we used in
+the <code>Transient Stability Analysis</code> where we had a fault on
+bus 4. However for this new case we will increase the inertia of all
+three of the generators of the system to demonstrate its effect on the
+critical fault clearing time.</p>
+<ol start="20">
+<li>For this test we are going to double the inertia of all three of
+the generators in the system. Follow the steps below to change the
+inertia of a generator.
+<ol>
+<li>
+<p>Start again by reopening the <code>.mdl</code> file that you
+saved in the <code>Transient Stability Analyses</code> section where you
+just added a fault on bus 4 into Simulink. As this is the case that we
+want to compare to.</p>
+</li>
+<li>
+<p>Double click the generator to open the
+<code>Block Parameter</code> window. Double the <code>Inertia</code>
+value that is shown below.</p>
+<p><strong>Note:</strong> You can use math in the parameters so you can
+simply add a 2* infront of the inertia parameter to double it.</p>
+</li>
+</ol>
+</li>
+</ol>
+<p><img src="https://www.dropbox.com/scl/fi/ipd6bub24macil6uc0nre/gen_inertia.png?rlkey=erohmge5vppo76duogj8qt55l&amp;dl=1" alt="" /></p>
+<p>figure 26. Setting the Inertia of a generator.</p>
+<pre><code>3. Modify all 3 generators so that their inertia is
+   doubled.
+
+4. Save the new case with a new appropriate name as a
+   `.mdl` file.
+</code></pre>
+<ol start="21">
+<li>
+<p>Load the newly saved file into PSAT using the PSAT command
+window.</p>
+</li>
+<li>
+<p>Like you did in the previous sections, determine the systems new
+critical fault clearing time when the systems generators inertia are all
+doubled. Record your results in the table provided on your results
+sheet.</p>
+</li>
+</ol>
+<h3>2.5.1 Postlab Questions</h3>
+<p>How does the inertia of all of the generators in the system
+effect the systems transient stability? Explain.</p>
