@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
+  <title>Project 2 Transient Stability</title>
   <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE456/456_project2">
   <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -100,64 +100,44 @@ function toggleDiv(element){
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">About</h1>
+    <h1 class="post-title">Project 2 Transient Stability</h1>
   </header>
 
   <div class="post-content">
-    <p><img src="/images/baosen.jpg" width="250" height="300" /></p>
+    <p>We will look at load and renewable expansion where transient stability becomes the limiting factor.</p>
 
-<p>I joined the department of Electrical and Computer Engineering at the University of Washington in 2015. My research interests are in the area of cyberphysical and power systems, spanning from control/optimization, statistics and machine learning to power electronics. If you are interested in any of these, I’m sure we can find things to chat about. My CV is <a href="https://www.dropbox.com/s/cilfsm38l90q0wg/CV.pdf?dl=1">here</a>.</p>
+<h2 id="base-model">Base Model</h2>
 
-<p>I completed my PhD in Electrical Engineering and Computer Sciences at UC Berkeley in 2013, where I worked with <a href="https://web.stanford.edu/~dntse/">David Tse</a> and my thesis is <a href="http://www.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-146.html">here</a>. I was a postdoc at Stanford, jointly hosted by <a href="http://web.stanford.edu/~rjohari/">Ramesh Johari</a> and <a href="https://profiles.stanford.edu/ram-rajagopal">Ram Rajagopal</a>. I received my undergraduate degree in <a href="http://engsci.utoronto.ca/">Engineering Science</a> (Electrical Option) from the University of Toronto.</p>
+<p>We start with the base model used in the <a href="\teaching\EE456\stability">transient stability exercise</a>. From now on, we assume that you have done that exercise.</p>
 
-<h2 id="industrial-relationships">Industrial Relationships</h2>
+<h2 id="design-objective">Design Objective</h2>
 
-<p>We are fortunate to collaborate with some great companies and utilities in the Seattle area, including Microsoft Research, Doosan GridTech (formally 1Energy Systems), Distributed Energy&amp;Power (Centrica), Seattle City Light, Battery Informatics and Google.</p>
+<p>We assume that the load in the system will grow substantially and we want to meet the load with renewable (wind) generation. We won’t be adding any new transmission lines to the system, so the new loads would be met with new generation and perhaps upgraded transmission lines.</p>
 
-<h2 id="funding-sources">Funding Sources</h2>
+<h2 id="step-1-understanding-the-limits-of-the-existing-system">Step 1: Understanding the Limits of the Existing System</h2>
 
-<p>Support from the National Science Foundation, US Department of Energy, the Washington Research Foundation, the UW Clean Energy Institute, Doosan GridTech, Centrica, and Microsoft are gratefully acknowledged.</p>
+<p>Start with the system in the <a href="\teaching\EE456\stability">transient stability exercise</a>. We want to understand what the limit of the system is under various contingencies.</p>
 
-<h2 id="best-papers">Best Papers</h2>
 <ol>
-  <li>Highlight Paper, Power Systems Computation Conference (PSCC), <a href="https://www.sciencedirect.com/science/article/pii/S0378779620305447">Data-Driven Optimal Voltage Regulation Using Input Convex Neural Networks</a></li>
-  <li>Best Paper Runner Up, ACM E-Energy, 2019: <a href="https://dl.acm.org/citation.cfm?id=3328314">Exploiting Vulnerabilities of Load Forecasting Through Adversarial Attacks</a></li>
-  <li>Prize Paper (1 out of 4 for the entire conference) Power and Energy Society General Meeting, 2018: <a href="https://arxiv.org/abs/1906.01867">Non-Wire Alternatives: an Additional Value Stream for Distributed Energy Resources</a></li>
-  <li>Best Conference Papers on Power System Stability, Control, and Protection, Power and Energy Society General Meeting, 2018</li>
-  <li>Best Paper Finalist, ACM E-Energy, 2018</li>
+  <li>
+    <p>Enumerate all possible line outages (we looked at one in the exercise), and study the transient stability behavior. We need a metric to quantify how stable the system is. A simple and commonly used metric is the following ratio: 
+\(S=\max_{t \geq 0} \max_{i,j} \frac{\delta_i (t)-\delta_j (t)}{2\pi}.\)
+This ratio measures the largest angle separation between any pair of buses throughout the transient. Assuming the fault clearing time as given the the exercise, find and record what this number is.</p>
+  </li>
+  <li>
+    <p>One way to stress the system is to have a longer fault clearing time, since this can be thought as the system ``drifting’’ further away from its base state. Find a fault clearing time that would lead to large angle swings. Can you find a time that would lead to \(S \geq \frac{1}{4} = \frac{\pi/4}{2\pi}\), which is often seen as a sign of the system becoming unstable.</p>
+  </li>
+  <li>
+    <p>We want to push the load to a point where the power flow problem is not solvable anymore. Note, this is not a dynamic phenomena. Because there is more than one load, there is not a unique way to increase the load. There are two common approaches. The first one is to multiple all load by a factor (larger than 1), the second is to pick a load and just increase that particular load (you can pick any one you want). Try both and report when power flow stop converging.</p>
+  </li>
 </ol>
 
-<h2 id="awards">Awards</h2>
+<h2 id="step-2-adding-a-wind-power-plant">Step 2: Adding a Wind Power Plant</h2>
 <ol>
-  <li>NSF CAREER Award, 2019</li>
-  <li>Forbes 30 under 30 in Energy, 2015</li>
-  <li>NSERC Graduate Fellowship, 2008-2013</li>
-  <li>UC Berkeley Fellowship, 2008</li>
-  <li>Ontario Professional Engineers Foundation for Education Gold Medal, 2008</li>
+  <li>The wind power plant models are built into PSAT. You can take a look at some of the included case files, for example, d_014_dyn_wind.mdl in the PSAT test folder. Add a wind power plant to your system.</li>
+  <li>Using the load values you found in Step 1.3, find the minimum size of the wind turbine you need to install such that the power flow problem is solvable.</li>
+  <li>We want to dynamic performance to not degrade when load increases and a wind plant is added. There are several ways to do this, from adding damping and inertia to the existing synchronous generators, adding synthetic inertia and damping to wind, to just increasing the output of wind power. Using the following cost table (the instructor will provide the costs soon), find the most cost efficient way to achieve the same dynamic performance as the base system we started with.</li>
 </ol>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-61671917-1"></script>
-
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-61671917-1');
-</script>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61671917-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-
 
   </div>
 
