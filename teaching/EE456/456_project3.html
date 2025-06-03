@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Project 3 Restoration</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE456/456_project3">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Project 3 Restoration</h1>
+  </header>
+
+  <div class="post-content">
+    <p>This is a bonus project. We look at finding the optimal restoration process. An interesting thing to note is that we have two networks to work with: the electrical network and the travel network. The interaction between these systems is best illustrated by an example.</p>
+
+<h2 id="example">Example</h2>
+<p>Consider the electrical system below. The feeder is numbered as bus 0 and is the root of the tree. Note that we assume the topology of the network is given and it will always be a tree. In practice, the network always operate as a tree but there are switches. That makes the problem too complicated and we won’t look switching in this class. The weights on the nodes represents how “important” that load is, and larger means more important.</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/1m8z19svcks5hi4mbgt5c/electrical.png?rlkey=yb2ol52tjx4zpynksr9ahvp6w&amp;dl=1" alt="distribution system with a feeder and 3 buses" /></p>
+
+<p>Note the tree topology defines a partial ordering of the buses. We say bus $i$ to be an ancestor of bus $j$ if the path from the root (bus $0$) to bus $j$ contains bus $i$. In the figure above, bus 2 is an ancestor of bus 3. The bus $j$ can only be energized if all of its ancestors are energized.</p>
+
+<p>In addition to the electrical network, we have a travel network that defines the time it takes for an repair crew to get from one bus to another bus. We typically do not include the feeder in this network, since we assume that the feeder is already energized. Since one could travel directly from any bus to any other bus, we have a complete graph:</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/qaz8vuxivkxg4oc4ervp6/travel.png?rlkey=xjq1loz59zlu3648azv90p7kg&amp;dl=1" alt="3 bus complete graph with weights on the edges" /></p>
+
+<p>Here the weights on the edges denote the travel time between two buses.</p>
+
+<p>Our goal is to find a sequence of buses that a crew should visit. To make things simple, we assume that a bus is repaired instantaneously once a crew get there. Given such a sequence, we define a metric called harm (H) as:</p>
+
+\[H=\sum_i \text{time bus i is not repaired} \cdot w_i\]
+
+<p>and we want to minimize $H$.</p>
+
+<p>For the example above, let’s compare two repair sequences, $s_1={1, 3, 2}$ and $s_2={2,3,1}$. The harm associated with $s_1$ is $H_1=0\cdot 1+(0.1+0.5)\cdot (10+5)=9$ (note that bus 3 cannot be energized until bus 2 is repaired). The harm associated with $s_2$ is $H_2=0\cdot 5+0.5\cdot 10 + 0.6 \cdot 1=2.6$, which is quite a bit smaller than $H_1$. Therefore $s_2$ is the better repair sequence.</p>
+
+<h2 id="questions">Questions</h2>
+<p>Consider the following electrical network and travel networks:</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/dy4nkk1u5r137q162duv1/4bus.png?rlkey=uq9xzuq43evubsr1e39ll3r1z&amp;dl=1" alt="enter image description here" /></p>
+
+<p><img src="https://www.dropbox.com/scl/fi/owve47tza23ciktkalicw/4bus_travel.png?rlkey=nluxrz04upj6jjrew2vwnq7l4&amp;dl=1" alt="enter image description here" /></p>
+
+<ol>
+  <li>Find two repair sequences, where one is bad and one is good. Note it is very difficult to show that a sequence is optimal (it is a <a href="https://en.wikipedia.org/wiki/NP-hardness">NP-hard</a> problem). So often we show that a solution is pretty good. To do this, we can find a baseline solution, for example, picking a random sequence, and show that a more carefully chosen sequence has lower harm.</li>
+  <li>What happens when you have two crews? How much better can you do?</li>
+</ol>
+
+  </div>
+
+</article>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>
