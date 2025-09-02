@@ -105,11 +105,11 @@ function toggleDiv(element){
 
   <div class="post-content">
     <h2 id="class-syllabus">Class Syllabus</h2>
-<p>This course introduces the operation of large-scale power systems from a modern point of view. We will define and discuss the major problems in power system analysis, operations, dynamics and economics. We will talk about different formulations and tools that are commonly used in practice, and how they are changing when large amount of renewable resources are present in the grid. The open problems and current approaches are discussed in each of the these topics. No previous power engineering background is required. Familiarity with senior level undergraduate linear algebra and calculus is assumed. For more information, see <a href="https://www.dropbox.com/scl/fi/b0dledpyw6q5wlbkdcc0y/EE554.pdf?rlkey=c3rom6y3mp0jd9ixwgykr757s&amp;dl=1">syllabus</a>.</p>
+<p>This course introduces the operation of large-scale power systems from a modern point of view. We will define and discuss the major problems in power system analysis, operations, dynamics and economics. We will talk about different formulations and tools that are commonly used in practice, and how they are changing when large amount of renewable resources are present in the grid. The open problems and current approaches are discussed in each of the these topics. No previous power engineering background is required. Familiarity with senior level undergraduate linear algebra and calculus is assumed. For more information, see <a href="/teaching/EE554/554_syllabus">detailed syllabus</a>.</p>
 
-<p><strong>Class</strong>: WF, 10:30am to 12:00pm, MGH 248 <br />
+<p><strong>Class</strong>: MW, 10:30am-12pm, BAG 331A <br />
 <strong>Instructor</strong>: Baosen Zhang, zhangbao@uw.edu, Office: EEB M310 <br />
-<strong>Office Hours</strong>: Tuesday 3:15pm-4:15pm</p>
+<strong>Office Hours</strong>:</p>
 
 <h1 id="textbook-and-references">Textbook and References:</h1>
 <ol>
@@ -132,15 +132,13 @@ function toggleDiv(element){
 
 <h1 id="schedule-of-classes">Schedule of Classes:</h1>
 <ol>
-  <li>Logistics of the course,  introduction to power system analysis. Chapters 1.1, 1.3 in the textbook</li>
-  <li>Power system models, power flow equations. Chapters 2.2, 4.2, in the textbook.</li>
-  <li>Solving power flow equations, Newton methods. Chapters 4.3, 4.4, 4.5</li>
-  <li>Convexity, Chapter 11.1. The book does not cover linear programming on its own. A good reference for LPs is ``Bertsimas D, Tsitsiklis JN. Introduction to linear optimization. Belmont, MA: Athena Scientific; 1997.’’</li>
+  <li>Logistics of the course,  introduction to power system analysis.</li>
 </ol>
 
-<h1 id="optimization-software">Optimization Software</h1>
+<h1 id="coding-and-ai">Coding and AI</h1>
 <ol>
-  <li>You can use whatever software you like. Newer languages like Python and Julia are recommended.  Both have active communities developing power system toolboxes, like <a href="https://pypsa.org/">PyPSA</a> and <a href="https://github.com/lanl-ansi/PowerModels.jl">PowerModels</a>. Some of you maybe more familiar with Matlab, and it has established tools like <a href="https://matpower.org/">MatPower</a>, although some people in academia and industry are moving away from it. If you use LLM tools for coding, please clearly describe your prompts (e.g., saying that ``I asked ChatGPT and this is the code’’ is not sufficient for homework solutions.)</li>
+  <li>You can use whatever software you like. Newer languages like Python and Julia are recommended.  Both have active communities developing power system toolboxes, like <a href="https://pypsa.org/">PyPSA</a>, <a href="https://github.com/lanl-ansi/PowerModels.jl">PowerModels</a>, <a href="https://www.pandapower.org/">PandaPower</a> and many others. Some of you maybe more familiar with Matlab and it has established tools like <a href="https://matpower.org/">MatPower</a>. UW also has access to PowerWorld and please contact me if you prefer to use it.</li>
+  <li>You may use AI tools such as ChatGPT or Copilot. For some larger problems, you perhaps should. Please clearly indicate how these are used in your homework solutions. Please remember that you’re ultimately responsible for the answers.</li>
 </ol>
 
 <h1 id="grading-structure">Grading Structure:</h1>
@@ -152,18 +150,11 @@ function toggleDiv(element){
 </ol>
 
 <h1 id="homework-assignments">Homework Assignments:</h1>
-<ol>
-  <li><a href="https://www.dropbox.com/scl/fi/tw00wyyh69b4ay4qu34b1/Assignment-1.pdf?rlkey=9712khguhm3j8lxo173h0w22x&amp;dl=1">Homework 1</a>, due Oct 9th, 11:59pm. Submit to <a href="https://canvas.uw.edu/courses/1747059/assignments/9727500">CANVAS</a>. <a href="https://www.dropbox.com/scl/fi/u2gjpypt96ekft7mchgui/Solution-1.pdf?rlkey=8sktq9k5b76e3a87pzn58fa3c&amp;dl=1">Solution</a></li>
-  <li><a href="https://www.dropbox.com/scl/fi/ocd36gjk7yppo76bl1rct/Assignment-2.pdf?rlkey=yan8qreye7h7s9vrgjynbaqua&amp;dl=1">Homework 2</a>, due Oct 21st, 11:59pm. Submit to <a href="https://canvas.uw.edu/courses/1747059/assignments/9748669">CANVAS</a>. <a href="https://www.dropbox.com/scl/fi/d3me17fhs2ftslbmianay/Solution-2.pdf?rlkey=0deem0xtwgrmd99ggauclhx91&amp;dl=1">Solution</a></li>
-  <li><a href="https://www.dropbox.com/scl/fi/6t89ay4jazmixsvql98p6/Assignment-3.pdf?rlkey=60d2oit2qfh5xnsda6pxxmsb3&amp;dl=1">Homework 3</a>, due Oct 28th, 11:59pm. Submit to <a href="https://canvas.uw.edu/courses/1747059/assignments/9764375">CANVAS</a></li>
-  <li><a href="https://www.dropbox.com/scl/fi/8ono3qr9kozcfgdf3sc9f/Assignment-4.pdf?rlkey=dntuuys4ipl3l1hriqljqx1cq&amp;dl=1">Homework 4</a>, due Nov 7th, 11:59pm. Submit to <a href="https://canvas.uw.edu/courses/1747059/assignments/9778231">CANVAS</a></li>
-  <li><a href="https://www.dropbox.com/scl/fi/hlnysb7kk8zz8pauwm4u0/Assignment-5.pdf?rlkey=xw39paykgws4hkd2anx18d7zl&amp;dl=1">Homework 5</a>, due Nov 25th, 11:59pm. Submit to <a href="https://canvas.uw.edu/courses/1747059/assignments/9805820">CANVAS</a>
-    <h1 id="ai-policy">AI Policy:</h1>
-    <p>AI content generators, such as ChatGPT, present opportunities that can contribute to your learning and academic work. If you use such tools, you must clearly state where they are used and how they contributed to your work. Otherwise, using these technologies may violate academic standards of the University.</p>
-  </li>
-</ol>
 
-<p>For other course policies, please see the syllabus.</p>
+<h1 id="ai-policy">AI Policy:</h1>
+<p>AI content generators, such as ChatGPT, present opportunities that can contribute to your learning and academic work. If you use such tools, you must clearly state where they are used and how they contributed to your work. Otherwise, using these technologies may violate academic standards of the University.</p>
+
+<p>For other course policies, please see the detailed syllabus.</p>
 
   </div>
 
