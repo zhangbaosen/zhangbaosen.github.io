@@ -6,15 +6,15 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 15 Sep 2025 14:20:02 -0700</pubDate>
-    <lastBuildDate>Mon, 15 Sep 2025 14:20:02 -0700</lastBuildDate>
+    <pubDate>Tue, 16 Sep 2025 21:10:40 -0500</pubDate>
+    <lastBuildDate>Tue, 16 Sep 2025 21:10:40 -0500</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
     
       <item>
         <title>The Base Power Company is Looking for Interns</title>
         <description>&lt;p&gt;Two of my former students, Chase Dowling and Daniel Tabas, are looking for interns. Specifically, they are looking for people to design and implementation of sequential decision algorithms for trading energy and ancillary services in the Texas markets. They are great people and I’m sure the problem is interesting! For more information see this &lt;a href=&quot;https://job-boards.greenhouse.io/basepowercompany/jobs/4474393008&quot;&gt;job posting&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 25 Jan 2025 00:00:00 -0800</pubDate>
+        <pubDate>Sat, 25 Jan 2025 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/blog/2025/01/Basepower</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2025/01/Basepower</guid>
         
@@ -31,7 +31,7 @@
 
 &lt;p&gt;Visit the &lt;a href=&quot;https://www.cei.washington.edu/research/postdoctoral/distinguished-postdoctoral-fellowship/&quot;&gt;UW CEI website&lt;/a&gt; to learn more, or apply directly via &lt;a href=&quot;https://urldefense.com/v3/__https://apply.interfolio.com/159460__;!!K-Hz7m0Vt54!gQeGYUx6MyLTC3t0cjNn3KUCzU2uUADWU_n1ee0xy2CurbveaY8fiPgB3C_PeoQXBhhjKU4kaE_quwxESnuEEnoFd03dwQ$&quot;&gt;Interfolio&lt;/a&gt;. If you have any questions, please let me know.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 16 Dec 2024 00:00:00 -0800</pubDate>
+        <pubDate>Mon, 16 Dec 2024 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/blog/2024/12/CEI</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2024/12/CEI</guid>
         
@@ -46,7 +46,7 @@
         <title>Recent students and postocs starting their own labs: Wenqi Cui at NYU, Zixiao Ma at Binghamton and Yan Jiang at CUHK.</title>
         <description>&lt;p&gt;Three people from the group at starting their career as Assistant Professors: &lt;a href=&quot;https://wenqi-cui.github.io/&quot;&gt;Wenqi Cui (NYU)&lt;/a&gt;, &lt;a href=&quot;https://zixiaoma1991.github.io/&quot;&gt;Zixiao Ma (Binghamton)&lt;/a&gt;, and &lt;a href=&quot;https://sse.cuhk.edu.cn/en/teacher/1757&quot;&gt;Yan Jiang (CUHK)&lt;/a&gt;. If you’re a student thinking about where to go for graduate schools, please consider them!&lt;/p&gt;
 </description>
-        <pubDate>Thu, 11 Apr 2024 00:00:00 -0700</pubDate>
+        <pubDate>Thu, 11 Apr 2024 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/blog/2024/04/Students</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2024/04/Students</guid>
         
@@ -143,7 +143,7 @@
 
 &lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 11 Apr 2024 00:00:00 -0700</pubDate>
+        <pubDate>Thu, 11 Apr 2024 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/blog/2024/04/PSCC</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2024/04/PSCC</guid>
         
@@ -158,7 +158,7 @@
         <title>SIGEnergy Rising Star Award</title>
         <description>&lt;p&gt;I’m honored to receive the 2022 SIGEnergy Rising Star Award. For more information, please see &lt;a href=&quot;https://energy.acm.org/2023/01/31/sigenergy-rising-star-award-2022-winner/&quot;&gt;https://energy.acm.org/2023/01/31/sigenergy-rising-star-award-2022-winner/&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Wed, 01 Feb 2023 00:00:00 -0800</pubDate>
+        <pubDate>Wed, 01 Feb 2023 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/blog/2023/02/SigEnergy</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2023/02/SigEnergy</guid>
         
@@ -174,7 +174,7 @@
         <description>&lt;p&gt;A key barrier to using reinforcement learning (RL) in many real-world applications is the requirement of a large number of system interactions to learn a good control policy. Off-policy and Offline RL methods have been proposed to reduce the number of interactions with the physical environment by learning control policies from historical data. However, their performances suffer from the lack of exploration and the distributional shifts in trajectories once controllers are updated. Moreover, most RL methods require that all states are directly observed, which is difficult to be attained in many settings. To overcome these challenges, we propose a trajectory generation algorithm, which adaptively generates new trajectories as if the system is being operated and explored under the updated control policies. Motivated by the fundamental lemma for linear systems, assuming sufficient excitation, we generate trajectories from linear combinations of historical trajectories. For linear feedback control, we prove that the algorithm generates trajectories with the exact distribution as if they are sampled from the real system using the updated control policy. In particular, the algorithm extends to systems where the states are not directly observed. Experiments show that the proposed method significantly reduces the number of sampled data needed for RL algorithms.&lt;/p&gt;
 &lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
 </description>
-        <pubDate>Thu, 19 Jan 2023 00:00:00 -0800</pubDate>
+        <pubDate>Thu, 19 Jan 2023 00:00:00 -0600</pubDate>
         <link>http://localhost:4000/blog/2023/01/L4DC_trajectory</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2023/01/L4DC_trajectory</guid>
         
