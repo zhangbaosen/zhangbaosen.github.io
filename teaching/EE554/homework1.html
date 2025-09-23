@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>EE559 Optimization of Networks and Graphs, Winter 2017</title>
+  <title>EE 554 Largescale Electric Systems Analysis Homework Assigments</title>
   <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/teaching/EE559">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE554/homework1">
   <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
 </head>
 
@@ -100,50 +100,65 @@ function toggleDiv(element){
         <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">EE559 Optimization of Networks and Graphs, Winter 2017</h1>
+    <h1 class="post-title">EE 554 Largescale Electric Systems Analysis Homework Assigments</h1>
   </header>
 
   <div class="post-content">
-    <h2 id="class-syllabus">Class Syllabus:</h2>
-<p>Networks and graphs are used in almost all engineering disciplines, from communication to power systems to transportation. This class develops theoretical and algorithmic understanding of networks and graphs. For more complete information on the requirements and expectation of the class, see <a href="https://www.dropbox.com/s/xf1xph3ik7xk5ik/syllabus.pdf?dl=1">syllabus</a>.</p>
+    <h1 id="homework-1">Homework 1</h1>
 
-<p>This is the main website for this class. The <a href="https://canvas.uw.edu/courses/1098566">Canvas Site</a> is only used to post grades.</p>
+<p>Due Oct 3th at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1828831/assignments/10721423">https://canvas.uw.edu/courses/1828831/assignments/10721423</a></p>
 
-<p><strong>Class</strong>: Monday, Wednesday, 12:30pm-2:20pm, EEB 042<br />
-<strong>Instructor</strong>: Baosen Zhang, zhangbao@uw.edu, Office: EEB M310, Office Hour: Wednesday after class</p>
+<h2 id="problem-1">Problem 1</h2>
 
-<h1 id="note">Note:</h1>
-<ol>
-  <li>Most of the lectures will be done via the board. Some relevant papers would be posted on this website. There is no required textbook for this class. Some useful books are: “Spectral Graph Theory” by Fan Chung; “Networks: An Introduction” by Mark Newman</li>
-  <li>I will try to respond to emails within 24 hours. Please write EE559 in the subject.</li>
-  <li>This is a graduate course, so it is not as “user friendly” as undergraduate classes. I assume that you can learn the elementary topics on your own if needed.</li>
-</ol>
+<p>We will use matrices extensively in this class, often in the context of solving linear system of equations. For the following equations, find all the solutions, or
+explain why there is no solution. You may use a computer.</p>
 
-<h1 id="schedule-of-classes">Schedule of Classes:</h1>
-<ol>
-  <li>Introduction, basics of graph theory</li>
-  <li>Spectral property of graphs</li>
-  <li>Basics of combinatoric optimization</li>
-  <li>Linear programming</li>
-  <li>Duality for graphs</li>
-  <li>Algorithms</li>
-  <li>Applications to power systems</li>
-  <li>Applications to communication and transportation</li>
-  <li>Application to social networks and biological networks</li>
-  <li>Project presentations</li>
-</ol>
+<p>a) Solve \(\begin{bmatrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 0 &amp; 5 \\ 6 &amp; 11 &amp; 2 \end{bmatrix} x =\begin{bmatrix} 1 \\2 \\ 3 \end{bmatrix}\)</p>
 
-<h1 id="structure">Structure:</h1>
-<ol>
-  <li>There will be 4 or 5 homework assignments in the class and a final project. No exams.</li>
-  <li>Grade distribution: project 50%, homework 30%, class participation 20%</li>
-</ol>
+<p>b) Solve \(\begin{bmatrix} 1 &amp; 2 \\ -0.5 &amp; -1 \end{bmatrix} x = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</p>
 
-<h1 id="homework-assignments">Homework Assignments:</h1>
-<ol>
-  <li>Homework 1, due Jan 18th in class, <a href="https://www.dropbox.com/s/iciefh921n09mqr/Homework%201.pdf?dl=1">pdf</a></li>
-  <li>Homework 2, due Feb 6th in class, <a href="https://www.dropbox.com/s/acfrvugcrniaabd/Homework%202.pdf?dl=1">pdf</a></li>
-</ol>
+<p>c) Solve \(\begin{bmatrix} 2 &amp; 0 &amp; 1 \\ -1 &amp; 1 &amp; 2 \end{bmatrix} x = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</p>
+
+<h2 id="problem-2">Problem 2</h2>
+
+<p>Some questions about matrices.</p>
+
+<p>a) Let \(\mathbf{A}\) be a \(n\) by \(n\) symmetric real matrix. Show the eigenvalues of \(\mathbf{A}\) are real.</p>
+
+<p>b) Find a 2 by 2 matrix with just one eigenvalue. Note, matrices with repeated eigenvalues do not count. For example, the identity matrix has 2 eigenvalues both equal to 1, but it’s not what this question is asking for. We are looking for a matrix with just 1 eigenvalue.</p>
+
+<p>c) Let \(\mathbf{A}\) and \(\mathbf{B}\) be two matrices where \(\mathbf{AB}\) and \(\mathbf{BA}\) both make sense. Let \(\mathrm{Tr}\) be the trace operator. Show that \(\mathrm{Tr} (\mathbf{AB})=\mathrm{Tr} (\mathbf{BA})\).</p>
+
+<h2 id="problem-3">Problem 3</h2>
+<p>Complex numbers. Note that \(z^*\) denote the complex conjugate of \(z\).</p>
+
+<p>a) Let \(z_1\) and \(z_2\) be two complex numbers, both with magnitude equal to 2. What is the largest possible value of \(\mathrm{Re} (z_1 \cdot z_2)\)?</p>
+
+<p>b) A subset \(U\) of \(\mathbb{C}^n\) is called a complex subspace of \(\mathbb{C}^n\) if it contains \(0\) and if, given \(\mathbf{v}\) and \(\mathbf{u}\) in \(U\), \(\mathbf{v}+\mathbf{u}\) and \(z \mathbf{v}\) lie in \(U\) (for any complex scalar \(z\)). Determine whether \(U\) is a complex subspace of \(\mathbb{C}^3\) in each of the case below.</p>
+
+<p>i. \(U=\{(z,z^*,0) \vert z \in \mathbb{C}\}\)</p>
+
+<p>ii. \(U=\mathbb{R}^3\)</p>
+
+<p>iii. \(U=\{(v+w, v-3w, v) \vert v,w \in \mathbb{C}\}\)</p>
+
+<h2 id="problem-4">Problem 4</h2>
+<p>Basic circuits. The values of the elements are \(R_1=1 \Omega\), \(R_2=2 \Omega\), \(Z_C=-j0.5 \Omega\), \(Z_L = j 3 \Omega\).</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/mi2x6cyu93l7fgctybe8w/Circuit_homework1.png?rlkey=p79m39suo4c1an1j0jlemj9vt&amp;dl=1" alt="Circuit for problem 4" width="400" /></p>
+
+<p>a) Find the active power and reactive power produced by the source.</p>
+
+<p>b) Suppose we want the source to only deliver active power. Add to element to the circuit to achieve it (there are many ways to do this).</p>
+
+<h2 id="problem-5">Problem 5</h2>
+<p>Given a network with \(n\) buses. We say the network is connected if there is a path from any bus to any other bus.</p>
+
+<p>a) What is the smallest number of edges a connected network can have?</p>
+
+<p>b) What about the largest number of edges?</p>
+
+<p>c) For a practical grid, would it have a lot or a few edges?</p>
 
   </div>
 
