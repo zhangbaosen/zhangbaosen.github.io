@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EE 554 Largescale Electric Systems Analysis Homework Assigments</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE554/homework1_solultion">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+     <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">EE 554 Largescale Electric Systems Analysis Homework Assigments</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="homework-1-solution">Homework 1 Solution</h1>
+
+<h2 id="problem-1">Problem 1</h2>
+
+<p>We will use matrices extensively in this class, often in the context of solving linear system of equations. For the following equations, find all the solutions, or
+explain why there is no solution. You may use a computer.</p>
+
+<p>a) Solve \(\begin{bmatrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 0 &amp; 5 \\ 6 &amp; 11 &amp; 2 \end{bmatrix} x =\begin{bmatrix} 1 \\2 \\ 3 \end{bmatrix}\)</p>
+
+<p>b) Solve \(\begin{bmatrix} 1 &amp; 2 \\ -0.5 &amp; -1 \end{bmatrix} x = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</p>
+
+<p>c) Solve \(\begin{bmatrix} 2 &amp; 0 &amp; 1 \\ -1 &amp; 1 &amp; 2 \end{bmatrix} x = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</p>
+
+<h3 id="solution">Solution</h3>
+<p>a) Straight forward computation since the matrix is invertible.</p>
+
+<p>b) No solution. Since \(\begin{bmatrix} 1 \\ 2 \end{bmatrix}\) is not in the column space of \(\begin{bmatrix} 1 &amp; 2 \\ -0.5 &amp; -1 \end{bmatrix}\).</p>
+
+<p>c) There are infinite number of solutions. They can be parameterized as \(x_0+ t z\) where \(x_0\) is any particular solution and \(z\) is in the null space of the matrix, and $t$ ranges over all real numbers. For example,</p>
+
+\[x=\begin{bmatrix} 0 \\ 0 \\ 1 \end{bmatrix} + t \begin{bmatrix} 1 \\ 5 \\ -2 \end{bmatrix}.\]
+
+<h2 id="problem-2">Problem 2</h2>
+
+<p>Some questions about matrices.</p>
+
+<p>a) Let \(\mathbf{A}\) be a \(n\) by \(n\) symmetric real matrix. Show the eigenvalues of \(\mathbf{A}\) are real.</p>
+
+<p>b) Find a 2 by 2 matrix with just one eigenvalue. Note, matrices with repeated eigenvalues do not count. For example, the identity matrix has 2 eigenvalues both equal to 1, but it’s not what this question is asking for. We are looking for a matrix with just 1 eigenvalue.</p>
+
+<p>c) Let \(\mathbf{A}\) and \(\mathbf{B}\) be two matrices where \(\mathbf{AB}\) and \(\mathbf{BA}\) both make sense. Let \(\mathrm{Tr}\) be the trace operator. Show that \(\mathrm{Tr} (\mathbf{AB})=\mathrm{Tr} (\mathbf{BA})\).</p>
+
+<h3 id="solution-1">Solution</h3>
+<p>a) Let \(\lambda\) and \(v\) be an eigenvalue eigenvector pair. A common mistake is to assume that \(v\) is real. This turns out to be true, but the prove often involves showing the eigenvalue is real first. There are multiple ways to show \(\lambda\) is real, one way is to look at \(v^H A^H A v\) (where \(\cdot^H\)) is the Hermitian transpose) and expand it as</p>
+
+\[v^H A^H A v= v^H A A v=v^H A (\lambda v) = \lambda v^H A v = \lambda^2 v^H v.\]
+
+<p>Rearranging, we have \(\lambda^2=\frac{\Vert Av \Vert^2}{\Vert v \Vert^2}&gt;0\).  A quick calculation shows that if \(a^2 &gt;0\) for a complex \(a\), \(a\) is purely real.</p>
+
+<p>b) This matrix, \(A=\begin{bmatrix} 0 &amp; 1 \\ 0 &amp; 0 \end{bmatrix}\), is one example. It is easy to check that one eigenvalue eigenvector pair is \(0\) and \(\begin{bmatrix} 0 \\ 1 \end{bmatrix}.\) We can also directly check that there is no other eigenvalue and other eigenvector pair, where the eigenvector is linearly independent to \(\begin{bmatrix} 0 \\ 1 \end{bmatrix}\). This matrix is in some sense the only way this phenomenon can happen. For more information, see <a href="https://en.wikipedia.org/wiki/Jordan_normal_form">Jordan normal form</a>.</p>
+
+<p>c) This can be checked by direct calculation. More precisely,</p>
+
+\[\mathrm{Tr}(AB)= \sum_i \sum_j A_{ij} B_{ji} = \sum_j \sum_i B_{ji} A_{ij} = \mathrm{Tr}(BA).\]
+
+<h2 id="problem-3">Problem 3</h2>
+<p>Complex numbers. Note that \(z^*\) denote the complex conjugate of \(z\).</p>
+
+<p>a) Let \(z_1\) and \(z_2\) be two complex numbers, both with magnitude equal to 2. What is the largest possible value of \(\mathrm{Re} (z_1 \cdot z_2)\)?</p>
+
+<p>b) A subset \(U\) of \(\mathbb{C}^n\) is called a complex subspace of \(\mathbb{C}^n\) if it contains \(0\) and if, given \(\mathbf{v}\) and \(\mathbf{u}\) in \(U\), \(\mathbf{v}+\mathbf{u}\) and \(z \mathbf{v}\) lie in \(U\) (for any complex scalar \(z\)). Determine whether \(U\) is a complex subspace of \(\mathbb{C}^3\) in each of the case below.</p>
+
+<p>i. \(U=\{(z,z^*,0) \vert z \in \mathbb{C}\}\)</p>
+
+<p>ii. \(U=\mathbb{R}^3\)</p>
+
+<p>iii. \(U=\{(v+w, v-3w, v) \vert v,w \in \mathbb{C}\}\)</p>
+
+<h3 id="solution-2">Solution</h3>
+
+<p>a) The maximum is achieved where \(z_1\) and \(z_2\) are exactly out of phase, that is, \(z_1=2 e^{j\theta}\) and \(z_2=2 e^{-j \theta}\). And the maximum is 2.</p>
+
+<p>b) i) No. Multiplying a vector by \(j\) can make it move out of \(U\).</p>
+
+<p>ii) No. Again, mulitplying by \(j\) can move elements out of \(U\).</p>
+
+<p>iii) Yes, by directly checking the conditions. Or one can use the fact that it is a linear combination of \(v\) and \(w\).</p>
+
+<h2 id="problem-4">Problem 4</h2>
+<p>Basic circuits. The values of the elements are \(R_1=1 \Omega\), \(R_2=2 \Omega\), \(Z_C=-j0.5 \Omega\), \(Z_L = j 3 \Omega\).</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/mi2x6cyu93l7fgctybe8w/Circuit_homework1.png?rlkey=p79m39suo4c1an1j0jlemj9vt&amp;dl=1" alt="Circuit for problem 4" width="400" /></p>
+
+<p>a) Find the active power and reactive power produced by the source.</p>
+
+<p>b) Suppose we want the source to only deliver active power. Add to element to the circuit to achieve it (there are many ways to do this).</p>
+
+<h3 id="solution-3">Solution.</h3>
+<p>a) The equivalent impedance is \(Z_{eq}=1.1176 + j2.5294\). The complex power is</p>
+
+\[S=P+jQ= 100*\left( \frac{100}{Z_{eq}} \right)^* = 1.46 + j3.30 (kVA).\]
+
+<p>b) The idea is to cancel out the reactive component of the load. For example, we can add a capacitor in series with the load with impedance \(-j 2.5294 \Omega\). One could also be added in parallel.</p>
+
+<h2 id="problem-5">Problem 5</h2>
+<p>Given a network with \(n\) buses. We say the network is connected if there is a path from any bus to any other bus.</p>
+
+<p>a) What is the smallest number of edges a connected network can have?</p>
+
+<p>b) What about the largest number of edges?</p>
+
+<p>c) For a practical grid, would it have a lot or a few edges?</p>
+
+<h3 id="solution-4">Solution.</h3>
+
+<p>a) A connected tree is the sparsest possible networks and has \(n-1\)$ edges.</p>
+
+<p>b) A complete graph, where all buses have an edge between them, is the densest possible. It has \({ n \choose 2}\) edges.</p>
+
+<p>c) Grids are very sparse since constructing a line is very costly in terms of money, time and politics. They have \(O(n)\) edges, for example, between \(2n\) and \(3n\) edges.</p>
+
+  </div>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</article>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+  </body>
+
+</html>
+
