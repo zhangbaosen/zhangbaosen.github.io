@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EE 554 Largescale Electric Systems Analysis Homework Assigments</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE554/homework2_solution">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+     <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">EE 554 Largescale Electric Systems Analysis Homework Assigments</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="homework-2">Homework 2</h1>
+
+<p>Due Oct 11th at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1828831/assignments/10766564">https://canvas.uw.edu/courses/1828831/assignments/10766564</a>.</p>
+
+<h2 id="problem-1">Problem 1</h2>
+
+<p>Let \(A\) and \(B\) be real \(n\) by \(n\) matrices. Suppose both are nonsingular.</p>
+
+<p>a) Show that \(AB\) is nonsingular.</p>
+
+<p>b) Find an example where \(A+B\) is singular.</p>
+
+<h3 id="solution">Solution.</h3>
+
+<p>a) Many ways to do this. One could use the identity \(det(AB)=det(A)det(B)\). Another way to show this is to suppose \(AB\) is singular. Then there exist some vector \(u\), not zero, such that \(ABu=0\). But \(Bu\) cannot be 0 since \(B\) is nonsingular. Also \(A (Bu)\) cannot be \(0\) since \(A\) is nonsingular, and we have a contradiction.</p>
+
+<p>b) Take \(B=-A\).</p>
+
+<h2 id="problem-2">Problem 2</h2>
+
+<p>We say a real symmetric matrix is positive semidefinite if \(x^T A x \geq 0\) for all \(x\).</p>
+
+<p>a) Find a matrix that is positive semidefinite but not positive definite.</p>
+
+<p>b) Show that for an arbitrary matrix \(B\), the matrix \(B^T B\) is positive semidefinite.</p>
+
+<h3 id="solution-1">Solution.</h3>
+
+<p>a) Any matrix that is not full rank. For example, \(\begin{bmatrix} 1 &amp; 1 \\ 1 &amp; 1 \end{bmatrix}\). Note that \(\begin{bmatrix} 1 \\ -1 \end{bmatrix}\) is in the null space.</p>
+
+<p>b) Let \(u\) be some arbitrary vector. We have \(u^T (B^T B) u= (Bu)^T Bu = \Vert Bu \Vert^2 \geq 0\).</p>
+
+<h2 id="problem-3">Problem 3</h2>
+
+<p>An extremely useful fact about symmetric matrices is that their eigenvectors always form an orthogonal basis. That is, if a \(n\) by \(n\) real matrix \(A\) is symmetric, it has \(n\) eigenvectors \(u_1, \dots, u_n\) and \(u_i^T u_j =0\) if \(i \neq j\). This holds for complex matrices if we replace symmetric by hermitian. We won’t prove this statement here. It can also be generalized significantly to include infinite dimensional operators. For the following problem, we look at how it can be used.</p>
+
+<p>a) Show that all eigenvalues of a positive definite matrix are positive and all eigenvalues of a positive semidefinite matrix are nonnegative.</p>
+
+<p>b) Let \(A\) be a symmetric matrix. What is the largest \(\lambda\) such that \(A - \lambda I \succ 0\). Recall that \(\succ\) means positive definiteness and \(I\) is the identity matrix.</p>
+
+<h3 id="solution-2">Solution.</h3>
+
+<p>a) We will do this for positive definite matrices, positive semidefinite follows similarly. Suppose an eigenvalue \(\lambda\) is negative. Let \(u\) be the associated eigenvector. We have \(u^T A u=\lambda \Vert u \Vert^2 &lt;0\), which contradicts \(A\) being positive definite.</p>
+
+<p>b) Note any eigenvector of \(A\) is an eigenvector of \(\lambda I\) with eigenvalue \(\lambda\). If the eigenvalues of \(A\) are \(\mu_1,\dots,\mu_n\), ordered as \(\mu_1 \geq \mu_2 \geq \dots \geq \mu_n\), the eigenvalues of \(A-\lambda I\) are \(\mu_i-\lambda I, \dots, \mu_n -\lambda\). To have \(A - \lambda I \succ 0\), we need \(\mu_i-\lambda I, \dots, \mu_n -\lambda\) to be all positive. So the largest \(\lambda\) is \(\mu_n\).</p>
+
+<h2 id="problem-4">Problem 4</h2>
+
+<p>The notation of positive definiteness is usually defined for symmetric matrices. We can extend to nonsymmetric square matrices using the same definition as before: given a \(n\) by \(n\) matrix \(A\) (not necessarily symmetric), we say \(A\) is positive definte if \(x^T A x &gt;0\) for all nonzero vectors \(x\).</p>
+
+<p>a) Show that \(A\) is positive definite if and only if \(A+A^T\) is positive definite.</p>
+
+<p>b) Suppose \(A\) and \(B\) and symmetric postive definite matrices, is \(AB\) positive semidefinite?</p>
+
+<h3 id="solution-3">Solution</h3>
+
+<p>a) This follows from the fact \(x^T A x= x^T A^T x\), hence \(x^T A x = x^T \frac{A+A^T}{2} x\).</p>
+
+<p>b) No. For example, take \(A=\begin{bmatrix} 5 &amp; 2 \\ 2 &amp; 1 \end{bmatrix}\) and \(B=\begin{bmatrix} 2 &amp; -1 \\ -1 &amp; 2 \end{bmatrix}\).</p>
+
+<h2 id="problem-5">Problem 5</h2>
+
+<p>Consider the following network.</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/kmve3i5gi4plc3kz87w5a/h2p5.png?rlkey=4w7b3lsfi3mqc11kx89o4org2&amp;dl=1" alt="Circuit for problem 5" width="400" /></p>
+
+<p>a) Suppose the voltages are \(V_1=1+0.1j, V_2=0.9+0.5j, V_3=-0.8+0.2j, V_4=-0.3+j, V_5=1-0.2j\). Find the current injections.</p>
+
+<p>b) Suppose the current injections are \(I_1=2, I_2=-j, I_3=0.5-2j, I_4=0.5+0.5j, I_5=1-j\). Find the bus voltages. Hint: check whether the \(Y\)-bus matrix is invertable.</p>
+
+<h3 id="solution-4">Solution</h3>
+
+<p>a) Straight forward caculation. We have</p>
+
+\[I=YV= \begin{bmatrix}
+5.6 - 1j &amp; -2 + j &amp; -1 + 0.1j &amp; -0.6 + 0.9j &amp; 0 \\
+-2 + j &amp; 2.5 - 3j &amp; -0.5 + 2j &amp; 0 &amp; 0 \\
+-1 + 0.1j &amp; -0.5 + 2j &amp; 1.5 - 2.1j &amp; 0 &amp; 0 \\
+-0.6 + 0.9j &amp; 0 &amp; 0 &amp; 1.7 - 1.4j &amp; -0.1 + j \\
+0 &amp; 0 &amp; 0 &amp; -0.1 + j &amp; 0.1 - j
+\end{bmatrix}  \begin{bmatrix}
+1 + 0.1j \\
+0.9 + 0.5j \\
+-0.8 + 0.2j \\
+-0.3 + 1j \\
+1 - 0.2j
+\end{bmatrix}= \begin{bmatrix} 3.46 - 1.69j \\
+   1.65 - 2.35j \\
+  -3.24 + 3.53j \\
+   0.30 + 3.98j \\
+  -1.07 - 1.42j
+  \end{bmatrix}\]
+
+<p>b) The \(Y\) matrix is invertible, so we have</p>
+
+\[V=Y^{-1} I = \begin{bmatrix}
+0.6289 - 1.6292j \\
+0.9557 - 2.4347j \\
+1.3792 - 2.6164j \\
+0.5423 - 1.1416j \\
+1.6314 - 0.2505j
+\end{bmatrix}\]
+
+<h2 id="problem-6">Problem 6</h2>
+<p>Schur complement can be used to reduce the size of circuits by removing internal buses. This is called Kron reduction. We will work through it for the following circuit, with the goal  of finding an equivalent circuit that “gets rid of” the internal nodes between buses 1 and 2.</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/4457gyk5elqpb727b8kv6/h2p6.png?rlkey=y3nfgp0jtgsao2q0pmoixe3sa&amp;dl=1" alt="Circuit for problem 6" width="400" /></p>
+
+<p>a) First, find the \(Y\)-bus matrix.</p>
+
+<p>b) Schur complement can be used to partially solve linear equations. Namely, given \(M=\begin{bmatrix} A &amp; B \\ D &amp; C \end{bmatrix}\) and suppose we want to solve</p>
+
+\[\begin{bmatrix} A &amp; B \\ D &amp; C \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} a \\ b \end{bmatrix}.\]
+
+<p>Performing the operations used in Gaussian elimination, we can write \(x\) as</p>
+
+\[x = (M/C)^{-1} \hat{a}, \quad  \hat{a}=a-BC^{-1}b.\]
+
+<p>Applying this to our circuit, and noticing that the current injections in the internal nodes all sum to $0$, find a relationship between just \(\begin{bmatrix} I_1 \\ I_2 \end{bmatrix}\) and \(\begin{bmatrix} V_1 \\ V_2 \end{bmatrix}\).</p>
+
+<p>c) Draw the resulting equivalent circuit. Note this circuit might have shunt elements.</p>
+
+<h3 id="solution-5">Solution</h3>
+
+<p>a) The \(Y\)-bus matrix is</p>
+
+\[Y = \begin{bmatrix}
+3 - 1.5j &amp; 0 &amp; -1 + j &amp; -2 + 0.5j &amp; 0 &amp; 0 &amp; 0 \\
+0 &amp; 2.2 - 5j &amp; 0 &amp; 0 &amp; 0 &amp; -1.5 + 2j &amp; -0.7 + 3j \\
+-1 + j &amp; 0 &amp; 1.5 - 1.7j &amp; 0 &amp; -0.5 + 0.7j &amp; 0 &amp; 0 \\
+-2 + 0.5j &amp; 0 &amp; 0 &amp; 2.2 - 1.5j &amp; -0.2 + j &amp; 0 &amp; 0 \\
+0 &amp; 0 &amp; -0.5 + 0.7j &amp; -0.2 + j &amp; 1.1 - 2.3j &amp; -0.4 + 0.6j &amp; 0 \\
+0 &amp; -1.5 + 2j &amp; 0 &amp; 0 &amp; -0.4 + 0.6j &amp; 2.4 - 3.2j &amp; -0.5 + 0.6j \\
+0 &amp; -0.7 + 3j &amp; 0 &amp; 0 &amp; 0 &amp; -0.5 + 0.6j &amp; 1.2 - 3.6j
+\end{bmatrix}\]
+
+<p>b) The idea is to partition \(Y\) as</p>
+
+<p>\(Y = \begin{bmatrix}
+Y_{ee} &amp; Y_{ei} \\
+Y_{ei}^T &amp; Y_{ii}
+\end{bmatrix}\)
+where</p>
+<ul>
+  <li>\(Y_{ee}\) is the admittance submatrix corresponding to buses 1 and 2 (the external buses)</li>
+  <li>\(Y_{ii}\) is the admittance submatrix corresponding to the other buses (the internal buses)</li>
+  <li>\(Y_{ei}\) represent the coupling between external and internal buses.</li>
+</ul>
+
+<p>Using Schur complement formula and the fact that the internal buses have zero net current injection, the reduced admittance matrix \(Y^{\text{Kron}}\) is given by:</p>
+
+\[Y^{\text{Kron}} = Y_{ee} - Y_{ei} Y_{ii}^{-1} Y_{ei}^T\]
+
+<p>Numerically, this is</p>
+
+\[\begin{bmatrix}
+0.2291 - 0.3356j &amp; -0.2291 + 0.3356j \\
+-0.2291 + 0.3356j &amp; 0.2291 - 0.3356j
+\end{bmatrix}.\]
+
+<p>c) This is just a two bus network without shunts.</p>
+
+
+  </div>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</article>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+  </body>
+
+</html>
+
