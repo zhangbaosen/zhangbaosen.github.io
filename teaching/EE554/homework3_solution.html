@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EE 554 Largescale Electric Systems Analysis Homework Assigments</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE554/homework3_solution">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+     <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">EE 554 Largescale Electric Systems Analysis Homework Assigments</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="homework-3">Homework 3</h1>
+
+<p>Due Oct 18th at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1828831/assignments/10779006">https://canvas.uw.edu/courses/1828831/assignments/10779006</a>.</p>
+
+<h2 id="problem-1">Problem 1</h2>
+
+<p>Consider the following system of nonlinear equations</p>
+
+\[\begin{align} 
+x_1^2-x_1 x_2+x_2 &amp;= 1 \\ 
+x_2^3-x_1^2 x_2 &amp;=6
+\end{align}\]
+
+<p>Solve it using the Newton Raphson method. Plot the trajectory of the iterations. That is, start at your chosen initial point, and plot the subsequent values of \(x_1\) and \(x_2\) in each iteration until they converge.</p>
+
+<h3 id="solution">Solution.</h3>
+
+<h2 id="problem-2">Problem 2</h2>
+
+<p>Consider the following function
+\(f(\theta_1, \theta_2)=\begin{bmatrix} f_1(\theta_1,\theta_2) \\ f_2(\theta_1,\theta_2) \end{bmatrix} = \begin{bmatrix} \cos(\theta_1-\theta_2)+\sin(\theta_1) \\ \sin(\theta_1-\theta_2)+\cos(\theta_2) \end{bmatrix}.\)</p>
+
+<p>a) Plot the all possible values of \(f_1\) and \(f_2\) by varying \(\theta_1\) and \(\theta_2\).</p>
+
+<p>b) Say we want to solve</p>
+
+\[f=\begin{bmatrix} 3 \\ 1 \end{bmatrix}.\]
+
+<p>This equation doesn’t have a solution (adding \(\sin\) and \(\cos\) cannot be bigger than \(2\)). If we tried to use Newton Raphson, the algorithm would diverge or oscillate. But suppose we use the regularized version. That is, at each step \(k\), we solve (with some positive \(\lambda\))</p>
+
+\[\min_{\Delta \theta}  \; \Vert f (\theta^{(k)}) + \nabla f (\theta^{(k)}) \Delta \theta \Vert ^2+\lambda \Vert \Delta \theta \Vert^2\]
+
+<p>and update the soluiton as \(\theta^{(k+1)}=\theta^{(k)}+\Delta \theta\).</p>
+
+<p>Would this converge? If so, what does it converge to? If not, why not?</p>
+
+<p>a) The feasible region (the achievable values of \(f_1\) and \(f_2\)) are</p>
+
+<h2 id="problem-3">Problem 3</h2>
+
+<p>A fundamental problem in power system operations is that given a set of active and reactive injections, we want to know whether they are feasible. That is, whether they can be achieved by some complex voltages. Currently, we don’t really have an algorithm that’s better than just to solve power flow and see. Note that the feasibility problem looks to be an easier problem, since it’s just asking for a yes/no answer, but solving power flow returns the actual voltages. Later in the course will look at cases where answering yes/no quesitons is easier to finding the soluiton. For this problem, we look at a necessary condition on the active powers.</p>
+
+<p>For a \(n+1\)-bus system where bus \(0\) is the slack bus. Show that if an active power injection vector \((P_0,\dots,P_n)\) is feasible, then it must satisfy \(\sum_{i=0}^{n+1} P_i \geq 0\).</p>
+
+<h3 id="solution-1">Solution.</h3>
+
+<p>There are many ways to show this. One way is to decompose the sum of nodal power injections into power flow on the edges:</p>
+
+\[\sum_{i=0}^n P_i = \sum_{i=0}^n \sum{j \sim i} P_{ij} = \sum_{(i,j) \text{ is an edge}} P_{ij}+P_{ji}.\]
+
+<p>We now show that \(P_{ij}+P_{ji} \geq 0\) for all \((i,j)\). Using \(\theta_{ij}\) as a shorthand for \(\theta_i-\theta_j\), we have:</p>
+
+\[P_{ij}+P_{ji}= g_{ij} V_i^2 -g_{ij} V_i V_j \cos(\theta_{ij})+b_{ij} V_i V_j \sin(\theta_{ij})+ g_{ij} V_j^2 -g_{ij} V_i V_j \cos(\theta_{ij})-b_{ij} V_i V_j \sin(\theta_{ij}) = g_{ij} (V_i^2-2V_i V_j \cos(\theta_{ij}+V_j^2)).\]
+
+<p>Since \(g_{ij}&gt;0\) (resistances are positive) and \(V_i^2-2V_i V_j \cos(\theta_{ij}+V_j^2 \geq V_i^2-2V_i V_j +V_j^2=(V_i-V_j)^2 \geq 0\), we can conclude that the original sum is nonnegative. In fact, \(g_{ij} (V_i^2-2V_i V_j \cos(\theta_{ij}+V_j^2))\) is the thermal loss on that line, and \(\sum P_i\) is the total thermal loss in the system. So this problem verifies the first law of thermal dyanmics (loss must be nonnegative) in the power system context.</p>
+
+<h2 id="problem-4">Problem 4</h2>
+
+<p>It is often useful to have a softer measure of how “feasible” a power injection is. More precisely, we say a power injection is more feasible if after a large perturbation, it remains feasible. Conversely, we say a power injection is on the feasibility boundary if it is feasible, but can become infeasible after a very small perturbation. Find a metric that quantifies how feasible a soultion is. Hint: this is related to question 2b).</p>
+
+<h3 id="solution-2">Solution.</h3>
+
+<p>Here we provide a metric based on the inverse function theorem. Consider a continuous function \(f\)$ from \(\mathbb{R}^n\) to \(\mathbb{R}^n\). We want to know whether an inverse function \(f^{-1}\) exists. Note that it is often too much to ask for \(f^{-1}\) to exist for every point. For example, \(\sin^{-1}\) typically maps \([-1,1]\) to only \([-\frac{\pi}{2},\frac{pi}{2}]\) even though \(\sin\) is defined for all real numbers. For multivariate functions, we typically cannot get these type of defined ranges. So the question becomes suppose \(f(x)=y\), then does there exist an open set \(\mathcal{X}\) containing \(x\), and an open set \(\mathcal{Y}\) containing \(y\), such that \(f^{-1}\) exists from \(\mathcal{Y}\) to \(\mathcal{X}\). This is answered by the <a href="https://en.wikipedia.org/wiki/Inverse_function_theorem">inverse function theorem</a>, which says if the \(f\) is continuous differentiable at \(x\) and its Jacobian \(J(x)\) is nonsingular, then \(f^{-1}\) exists for some open sets \(\mathcal{X}\) and \(\mathcal{Y}\).</p>
+
+<p>The way this is used in power flow is to let \(f\) be the power flow equation, \(x\) be \((V,\theta)\) and \(y\) be the active and reactive powers. Then if we can find an \(x\) that solves \(f(x)=y\) and if \(J(x)\) is not singular, then we know \(f^{-1}\) exists for some set around \(y\), and for a small enough \(\Delta y\), \(f^{-1}(y+\Delta y)\) makes sense. Or in aother word, loads around \(y\) is feasible.</p>
+
+<p>Of course, this theorem doesn’t say anything about how large \(\mathcal{X}\) and \(\mathcal{Y}\) are. A heuristic is to look at how close to singular \(J(x)\) is, with the idea that a \(J\) far from being singular would be able to tolerate larger changes in the load, or ``more’’ feasible. As covered in the class, this can be done by looking at the condition number of \(J\).</p>
+
+<p>Note that the inverse function theorem is not directly computationally useful, since it doesn’t give a way to compute \(J^{-1}\) (just it exists). Also, the heuristic of looking at the condition number of \(J\) doesn’t directly give an quantitative measure of how large \(\Delta y\) can be. Finding a more explicit metric, in the form of ``for any \(\Delta y\) where \(\Vert \Delta y \Vert&lt;0.1\) (replacing 0.1 by any easily computable number), \(y+\Delta y\) is feasible’’, is a long standing problem in our field.</p>
+
+<h2 id="problem-5">Problem 5</h2>
+
+<p>Consider following system. For simplicity, we fix all the voltages to be \(1\) and only consider active power. The feasible set of all possible \((P_1,P_2)\) that is achievable by varying the angles at buses 1 and 2. Show the condition you derived in problem 4 makes sense for this example. That is, if your condition decided a point is on the boundary, is it actually on the boundary? You don’t need to prove things analytically and can do this through plotting.</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/o98gi5amg9fvskn03ynwi/h3p5.png?rlkey=qu59owsdst474iu5zlmxpvbjq&amp;dl=1" alt="Network for problem 5" width="400" /></p>
+
+
+  </div>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</article>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+  </body>
+
+</html>
+
