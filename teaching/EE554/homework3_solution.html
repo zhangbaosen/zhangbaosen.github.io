@@ -124,6 +124,13 @@ x_2^3-x_1^2 x_2 &amp;=6
 
 <h3 id="solution">Solution.</h3>
 
+<p>What the algorithm does depends on the starting point. Note this problem is actually simple enough that we can compute the solutions, they are \((1,2)\) and \((-2.5,-1.5)\). 
+The following figures shows three possible behaviors.</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/lj4uj74kphsaiw6h0wjyj/converge_pos.png?rlkey=a0yk9874wf8779ld8h1o3h6yt&amp;dl=1" alt="Converge_1" width="250" /> <img src="https://www.dropbox.com/scl/fi/t466q3ob8bokoagaljic5/converge_neg.png?rlkey=fzunaslh2j11q4wa867emisvb&amp;dl=1" alt="Converge_2" width="250" /> <img src="https://www.dropbox.com/scl/fi/hoezd4v8irvp3dpl536ie/diverge.png?rlkey=xj69q8jn1bxhe0n54giysu0kn&amp;dl=1" alt="Diverge" width="250" /></p>
+
+<p>The algorithm converges for the first two starting points, although to different values. It does not converge for the third starting point. This example shows some of the difficulties of using the Newton methd, since it is really not obvious there are two solutions, and that \((-0.5,-1.5)\) is a bad starting point.</p>
+
 <h2 id="problem-2">Problem 2</h2>
 
 <p>Consider the following function
@@ -143,7 +150,11 @@ x_2^3-x_1^2 x_2 &amp;=6
 
 <p>Would this converge? If so, what does it converge to? If not, why not?</p>
 
-<p>a) The feasible region (the achievable values of \(f_1\) and \(f_2\)) can be found by iterating over all possible values of</p>
+<p>The feasible region (the achievable values of \(f_1\) and \(f_2\)) can be found by iterating over all possible values of \(\theta_1\) and \(\theta_2\).</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/3ec2jiw3hv24snmenykvo/f1f2.png?rlkey=ej841z9dre1kejau16qw9o59u&amp;dl=1" alt="Converge_1" width="400" /></p>
+
+<p>The red point is \((3,1)\), which is not achievable. The algorithm could settle to a point like the black one, where it gets “close” to the target. Where it goes exactly is controlled by \(\lambda\). Note that the feasible region is actually convex (by inspection), but is nontrivial to show this is the case by looking at the equations that defines it. This is part of the challenge of working with the power flow equations: the geometry is not obivous from the algebraic equations.</p>
 
 <h2 id="problem-3">Problem 3</h2>
 
@@ -155,7 +166,7 @@ x_2^3-x_1^2 x_2 &amp;=6
 
 <p>There are many ways to show this. One way is to decompose the sum of nodal power injections into power flow on the edges:</p>
 
-\[\sum_{i=0}^n P_i = \sum_{i=0}^n \sum{j \sim i} P_{ij} = \sum_{(i,j) \text{ is an edge}} P_{ij}+P_{ji}.\]
+\[\sum_{i=0}^n P_i = \sum_{i=0}^n \sum_{j \sim i} P_{ij} = \sum_{(i,j) \text{ is an edge}} P_{ij}+P_{ji}.\]
 
 <p>We now show that \(P_{ij}+P_{ji} \geq 0\) for all \((i,j)\). Using \(\theta_{ij}\) as a shorthand for \(\theta_i-\theta_j\), we have:</p>
 
@@ -175,13 +186,19 @@ x_2^3-x_1^2 x_2 &amp;=6
 
 <p>Of course, this theorem doesn’t say anything about how large \(\mathcal{X}\) and \(\mathcal{Y}\) are. A heuristic is to look at how close to singular \(J(x)\) is, with the idea that a \(J\) far from being singular would be able to tolerate larger changes in the load, or ``more’’ feasible. As covered in the class, this can be done by looking at the condition number of \(J\).</p>
 
-<p>Note that the inverse function theorem is not directly computationally useful, since it doesn’t give a way to compute \(J^{-1}\) (just it exists). Also, the heuristic of looking at the condition number of \(J\) doesn’t directly give an quantitative measure of how large \(\Delta y\) can be. Finding a more explicit metric, in the form of ``for any \(\Delta y\) where \(\Vert \Delta y \Vert&lt;0.1\) (replacing 0.1 by any easily computable number), \(y+\Delta y\) is feasible’’, is a long standing problem in our field.</p>
+<p>Note that the inverse function theorem is not directly computationally useful, since it doesn’t give a way to compute \(f^{-1}\) (just it exists). Also, the heuristic of looking at the condition number of \(J\) doesn’t directly give an quantitative measure of how large \(\Delta y\) can be. Finding a more explicit metric, in the form of ``for any \(\Delta y\) where \(\Vert \Delta y \Vert&lt;0.1\) (replacing 0.1 by any easily computable number), \(y+\Delta y\) is feasible’’, is an open problem.</p>
 
 <h2 id="problem-5">Problem 5</h2>
 
 <p>Consider following system. For simplicity, we fix all the voltages to be \(1\) and only consider active power. The feasible set of all possible \((P_1,P_2)\) that is achievable by varying the angles at buses 1 and 2. Show the condition you derived in problem 4 makes sense for this example. That is, if your condition decided a point is on the boundary, is it actually on the boundary? You don’t need to prove things analytically and can do this through plotting.</p>
 
 <p><img src="https://www.dropbox.com/scl/fi/o98gi5amg9fvskn03ynwi/h3p5.png?rlkey=qu59owsdst474iu5zlmxpvbjq&amp;dl=1" alt="Network for problem 5" width="400" /></p>
+
+<h3 id="solution-3">Solution</h3>
+
+<p>See below for the feasible region. Every point on the boundary of the region would have a Jacobian that is singular.</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/iliycu10fk2867m19neut/p1p2.png?rlkey=nojk2am60wd3jc7e0zass9nd2&amp;dl=1" alt="Feasible Region" width="400" /></p>
 
 
   </div>
