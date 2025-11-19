@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EE 554 Largescale Electric Systems Analysis Homework Assigments</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE554/homework4_solution">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+     <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">EE 554 Largescale Electric Systems Analysis Homework Assigments</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="homework-4">Homework 4</h1>
+
+<p>Due Oct 25th at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1828831/assignments/10790845">https://canvas.uw.edu/courses/1828831/assignments/10790845</a>.</p>
+
+<h2 id="problem-1">Problem 1</h2>
+
+<p>Consider the following tree network with paramters \(y_{01}=0.81-j0.91, y_{12}=0.13-j 0.92, y_{23}=0.64-j0.91, y_{24}=0.28-j0.55, y_{45}=0.96-j0.96\). Assume that all the voltage magnitudes are one. The active power loads are \(0.07, 0.04, 0.03, 0.02, 0.02\) at buses 1, 2, 3, 4, 5, respectfully (note these are loads, so if we write them as injections, there is a minus sign). Find the power flow solution (since the voltage magnitudes are fixed, this is equivalent to finding the angles). Note because \(g\)’s are not zero, it is slightly more complicated than the case covered in class. But the same strategy works, start at the leafs of the tree and go upstream.</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/upe2hwesaps2hijiicbdr/h4p1.png?rlkey=36u36fyt2bjr0ta1zut8uvvj4&amp;dl=1" alt="Network for problem 1" width="400" /></p>
+
+<h3 id="solution">Solution</h3>
+
+<p>This problem can be solved by solving the equation of the following form for each line:</p>
+
+\[g-g\cos(\theta)+b\sin(\theta)=P.\]
+
+<p>It is not linear, but as an equation with a single variable, it is easy to solve (by discretizing and doing a search, for example). Starting at bus \(5\), we solve</p>
+
+\[0.96-0.96\cos(\theta)+0.96\sin(\theta)=-0.02.\]
+
+<p>We get \(\theta=-0.021\) or \(4.732\). We pick the smaller angle since larger angle leads to a very large loss and tend to create infeasiblities upstream (think in term of the two bus power injection region). Since the \(\theta\) in the above equation is the angle difference between bus 4 and bus 5 referenced to bus 5, we have \(\theta_4-\theta_5=0.021\). 
+This allows us to compute the power flow from bus \(4\) to bus \(5\), given by \(0.96-0.96\cos(\theta)+0.96\sin(-\theta)= 0.02037\). This is slightly larger than the load at bus 5 due to the losses.</p>
+
+<p>Now we group bus 4 and 5 together, as a bus with a total load of ‘load at bus 4+power transferred from 4 to 5’=\(0.02+0.02037=0.04037\). Repeating the procedure, we get \(\theta_2-\theta_4=0.074\). Repeating this process gives us all the angle differences.</p>
+
+<h2 id="problem-2">Problem 2</h2>
+
+<p>For the optimization problem below, you can use direct substitution to solve them (write \(x_2\) in terms of \(x_1\) and differentiate the objective function).</p>
+
+<p>a) Let \(C_1(x_1)= 0.5 x_1^2+x_1\), \(C_2(x_2)= x_2^2 + 2 x_2\), \(L=1\), solve</p>
+
+\[\begin{align} 
+\min_{x_1,x_2} \; &amp; C_1(x_1)+C_2(x_2) \\
+&amp; x_1+x_2 = L
+\end{align}\]
+
+<p>b) Let \(C_1(x_1)= 2x_1^2+0.5 x_1\), \(C_2(x_2)= 0.1 x_2^2 + 2 x_2\), \(L=2\), solve</p>
+
+\[\begin{align} 
+\min_{x_1,x_2} \; &amp; C_1(x_1)+C_2(x_2) \\
+&amp; x_1+x_2 = L
+\end{align}\]
+
+<p>c) let \(x_1^*\) and \(x_2^*\) be the optimal solutions. Evaluate \(C_1'(x_1^*)\) and \(C_2'(x_2^*)\) for both cases. What you do observe? This is a general principle that guides of much of power system market design.</p>
+
+<h3 id="solution-1">Solution</h3>
+
+<p>a) We get \((x_1^*,x_2^*)=(1,0)\).</p>
+
+<p>b) We get \((x_1^*,x_2^*)=(19/42,65/42)\).</p>
+
+<p>c) In both cases we observe that \(C_1'(x_1^*)=C_2'(x_2^*)\).</p>
+
+<h2 id="problem-3">Problem 3</h2>
+
+<p>a) Show that if \(f\) and \(g\) are both convex, then \(f+g\) is convex.</p>
+
+<p>b) Does there exist \(f\) and \(g\) both convex, and \(f-g\) is also convex.</p>
+
+<p>c) Consider \(f(x,y)=xy\), with domain \(x&gt;0\) and \(y&gt;0\). Is this function convex?</p>
+
+<h3 id="solution-2">Solution</h3>
+
+<p>a) Can directly check using the definition of convexity.</p>
+
+<p>b) Yes, when \(f\) is convex and \(g\) is affine.</p>
+
+<p>c) The gradient is \(\begin{bmatrix} y \\ x \end{bmatrix}\) and the Hessian is \(\begin{bmatrix} 0 &amp; 1 \\ 1 &amp; 0 \end{bmatrix}\). The Hessian is indefinite, so the function is not convex.</p>
+
+<h2 id="problem-4">Problem 4</h2>
+
+<p>Let \(A\) and \(B\) be two convex sets.</p>
+
+<p>a) Show that \(A \cap B\) is convex.</p>
+
+<p>b) Is \(A \cup B\) convex?</p>
+
+<h3 id="solution-3">Solution</h3>
+
+<p>a) Yes, directly check by definition.</p>
+
+<p>b) No in general. For example, take \(A=[0,1]\) and \(B=[2 3]\).</p>
+
+<h2 id="problem-5">Problem 5</h2>
+
+<p>Consider the function \(f(x_1, x_2)=2x_1^3+x_1^2+2x_1x_2+\frac{1}{2}x_2^2-8x_1-2x_2-10\). Find the range of values of \((x_1,x_2)\) for whith \(f\) is convex, if any.</p>
+
+<h3 id="solution-4">Solution</h3>
+
+<p>The Hessian of the function is</p>
+
+\[H(x_1,x_2)=
+\begin{bmatrix}
+12x_1+2 &amp; 2\\[6pt]
+2 &amp; 1
+\end{bmatrix}\]
+
+<p>For \(f\) to be convex, we need \(H\) to be positive semidefinite. Using the fact that the trace is the sum of the eigenvalues and the determinant is the product of the eigenvalues, the condition that both eigenvalues are nonnegative. is the same as that the trace and the determinant are both nonnegative. Therefore, we need \(12 x_1 +3 \geq 0\) and \(12 x_1-2 \geq 0\), or equivalently, \(x_1 \geq \frac{1}{6}\).</p>
+
+<h2 id="problem-6">Problem 6</h2>
+
+<p>This is to get started on solving convex problem using a solver. Pick whatever language you’re comfortable with, learn how to call a convex optimization solver. A popular one is <a href="https://www.cvxpy.org/">cvxpy</a>, or its equivalent in <a href="https://cvxr.com/cvx/doc/quickstart.html">Matlab</a> or <a href="https://jump.dev/Convex.jl/stable/">Julia</a>, but there are many different ones out there and any of them would work. Solve the following problems, provide the optimal objective values and optimal solutions in your homework solutions.</p>
+
+<p>a) Solve</p>
+
+\[\begin{align}
+\min_{x_1,x_2} \; &amp; (x_1-2x_2)^2+x_1  \\
+\mbox{s.t. } &amp; 0 \leq x_2 \leq 1 \\
+&amp; x_1 \geq 0 
+\end{align}\]
+
+<p>b) Solve</p>
+
+\[\begin{align}
+\min_{x_1,x_2,x_3} \; &amp;   \vert x_1 \vert +e^{x_2+x_3} - \log (x_1+x_3) \\ 
+\mbox{s.t. } &amp; x_1 + x_3 \geq 2 \\ 
+&amp; 0 \leq x_2 \leq 3 \\ 
+&amp; x_1 \leq 1 
+\end{align}\]
+
+<h3 id="solution-5">Solution</h3>
+
+<p>a) \((x_1^*,x_2^*)=(0,0)\) with the optimal value being \(0\).</p>
+
+<p>b) \((x_1^*,x_2^*,x_3^*)=(1,0,1)\) with the optimal value being about \(3.025\).</p>
+
+
+  </div>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</article>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+  </body>
+
+</html>
+
