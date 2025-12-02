@@ -122,7 +122,7 @@ function toggleDiv(element){
 	\quad
 	C_2(x_2)= \begin{cases} 
 	0.5 x_2 &amp; \mbox{ if }  0 \leq x_2 \leq 2 \\
-	3 x_1-5 &amp; \mbox{ if } x_1 &gt; 2
+	3 x_2-5 &amp; \mbox{ if } x_2 &gt; 2
 	\end{cases}\]
 
 <p>We want to solve the following optimization problem</p>
@@ -152,7 +152,7 @@ function toggleDiv(element){
 
 <p>We continue with the last problem and add in some more constraints.</p>
 
-<p>a) Most storages are not 100% efficient. Suppose the storage has a charging efficiency of 90% (for every 1 unit of energy drawn from the grid, only 0.9 units gets to the SoC) and a discharging efficiency of 85% (for every 1 unit of energy out of the storage, only 0.8 units get to the grid). Add this to the optimization problem in 2b) and resolve.</p>
+<p>a) Most storages are not 100% efficient. Suppose the storage has a charging efficiency of 90% (for every 1 unit of energy drawn from the grid, only 0.9 units gets to the SoC) and a discharging efficiency of 85% (for every 1 unit of energy out of the storage, only 0.85 units get to the grid). Add this to the optimization problem in 2b) and resolve.</p>
 
 <p>b) There is some cost of using the storage, for example, batteries runs down faster if they are used more aggressively. In addition, the health of a battery storage degrades if it is either too full or too empty. Let’s say that every unit charged or discharged has a cost of \(1\), and if the storage incurs a flat cost of \(0.5\) per time unit if it is below 20% or above 80% SoC. Rewrite the optimization problem in part a) and resolve it.</p>
 
