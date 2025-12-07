@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EE 554 Largescale Electric Systems Analysis Homework Assigments</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE554/homework5_solutions">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+     <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">EE 554 Largescale Electric Systems Analysis Homework Assigments</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="homework-5">Homework 5</h1>
+
+<p>Due  at 11:59pm at Nov 15th. Submit to <a href="https://canvas.uw.edu/courses/1828831/assignments/10827992">https://canvas.uw.edu/courses/1828831/assignments/10827992</a>.</p>
+
+<h2 id="problem-1">Problem 1</h2>
+
+<p>Consider the following problem of supplying a load with two generators:</p>
+
+\[\begin{align}
+C(L)=\min\; &amp; x_1^2+ 5 x_1 + 2 x_2^2+ 3 x_2  \\ 
+\mbox{s.t. } &amp; x_1+x_2 = L \\ 
+\end{align}\]
+
+<p>where \(L&gt;0\) is some load. Find \(C(L)\) and confirm that the price \(C'(L)\) is equal to the dual variable (Lagrange multiplier) associated with the constraint.</p>
+
+<h3 id="solution">Solution.</h3>
+
+<p>Substituting \(x_2\) in terms of \(L-x_1\) and minimizing, we can find</p>
+
+<p>\(C(L)=\frac{2}{3} L^2 + \frac{13}{3} L - \frac{1}{3}\) and the price is</p>
+
+<p>\(C'(L)= \frac{4}{3} L + \frac{13}{3}\).</p>
+
+<p>If we dualize the problem and write out the Lagrangian, we get</p>
+
+\[\mathcal{L}= x_1^2+ 5 x_1 + 2 x_2^2+ 3 x_2+ \lambda (L-x_1-x_2)\]
+
+<p>taking derivatives and using the equality constraint we have</p>
+
+\[\begin{align}
+2 x_1+5 -\lambda &amp;=0 \\
+4 x_2+3 - \lambda &amp;=0 \\
+x_1+x_2 &amp;= L
+\end{align}\]
+
+<p>Solving for \(\lambda\) in terms of \(L\) gives \(\lambda= \frac{4}{3} L+ \frac{13}{3}\).</p>
+
+<h2 id="problem-2">Problem 2</h2>
+
+<p>This problem illustrates that the cost could be nondifferentiable. Consider the following problem</p>
+
+\[\begin{align}
+C(L)=\min\; &amp; x_1 + 3 x_2  \\ 
+\mbox{s.t. } &amp; x_1+x_2 = L \\ 
+			 &amp; 0 \leq x_1 \leq 1 \\
+			 &amp; x_2 \geq 0
+\end{align}\]
+
+<p>Find \(C(L)\) and plot it. It would not be differentiable at \(L=1\). What is the price of power at \(L=1\)?</p>
+
+<h3 id="solution-1">Solution.</h3>
+
+<p>The plot of \(C(L)\) is shown below:
+<img src="https://www.dropbox.com/scl/fi/dlmn3hm5ttc5sj8htk3i6/h5p2.png?rlkey=oeadwwj2lc7z2fxkvi5n1f916&amp;dl=1" alt="Cost curve" width="400" /></p>
+
+<p>The price of power is the derivative from the right, which would be \(3\). This is consistent with the dual variable interpretation of of the price. The Lagrangian is</p>
+
+\[\mathcal{L} = x_1+3x_2+\lambda(L-x_1-x_2) -\mu_1(x_1)+\mu_2(x_1-1)-\mu_3(x_2).\]
+
+<p>At \(L=1\), the KKT conditions are that \(\mu_1\) and \(\mu_3\) are \(0\) (constraint not tight) and</p>
+
+\[\begin{align}
+1- \lambda+\mu_2 &amp;=0 \\
+3 -\lambda &amp;=0
+\end{align}\]
+
+<p>So taking the derivative from the right hand side is not an arbitrary choice.</p>
+
+<h2 id="problem-3">Problem 3</h2>
+
+<p>Consider the DC power flow model for a three bus fully connected network (e.g., a triangle). Suppose that the line between bus 1 and bus 2 has a capacity of 1 and the other lines have infinite capacity. All lines ahve equal susceptance values (\(b_{ij}\) are all equal). Bus 1 is the generator and buses 2 and 3 are load buses.</p>
+
+<p>a) Suppose that the load at bus 2 is 1 and the load at bus 3 is 0.5. Find the power flow on the lines, if they exist, that satisfies these loads and the line capacity constraint.</p>
+
+<p>b) Suppose that the load at bus 2 is 2 and the load at bus 3 is 4. Find the power flow on the lines, if they exist, that satisfies these loads and the line capacity constraint.</p>
+
+<h3 id="solution-2">Solution.</h3>
+
+<p>It is easier to write down equations that govern power flow first. Let \(x_1\) be the generation and \(d_2\) and \(d_3\) be the loads, respectively. Let \(f_{i,j}\) denote the power flow from bus \(i\) to bus \(j\). We have the following equations</p>
+
+<p>\(\begin{align}
+x_1 &amp;= d_2+d_3 \mbox{ global power balance for a lossless network} \\
+f_{12}+f_{23}+f_{31} &amp;= 0 \mbox{ Kirchoff's voltage law} \\ 
+f_{12}-f_{23} &amp;= d_2 \mbox{ load balance at bus 2} \\ 
+f_{23}-f_{31} &amp;= d_3 \mbox{ load balance at bus 3} \\
+-1 \leq f_{12} &amp; \leq 1  \mbox{ Line capacity} 
+\end{align}\)
+The four equality</p>
+
+<h2 id="problem-4">Problem 4</h2>
+
+<p>a) Same setup as the previous problem. Plot the feasible region of the loads at bus \(2\) and bus \(3\) that satisfies the line capacity constraint.</p>
+
+<p>b) We remove the line between bus $1$ and bus $2$. Find the feasible region of the loads at bus \(2\) and bus \(3\). Is it bigger or smaller than the region in problem a)?</p>
+
+<h2 id="problem-5">Problem 5</h2>
+
+<p>Consider the 3 bus network below with data given in Tables below.</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/89h72xs2afskp8zc5rng2/3bus2.png?rlkey=1qk7awnc7hib0iolfgpb2qlbx&amp;dl=1" alt="Network for problem 5" width="400" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Generator</th>
+      <th>Capacity (MW)</th>
+      <th>Marginal Cost ($/MWh)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>A</td>
+      <td>150</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>B</td>
+      <td>200</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>C</td>
+      <td>150</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>D</td>
+      <td>400</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Table:</strong> Generation data for problem 5.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Branch</th>
+      <th>Reactance</th>
+      <th>Capacity (MW)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1-2</td>
+      <td>0.2</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>1-3</td>
+      <td>0.3</td>
+      <td>250</td>
+    </tr>
+    <tr>
+      <td>2-3</td>
+      <td>0.3</td>
+      <td>250</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Table:</strong> Branch data for problem 5.</p>
+
+<p>a)  Find the least cost generating solution satisfying all the loads and line flow capacities. You should use a computer.</p>
+
+<p>b) Find the prices at each of the buses. Note, all convex optimization solvers can report the dual variables. For equality constraints, different solvers would interpret it in different ways. That is, \(Ax=b\) can be dualized as \(\lambda ^T (Ax-b)\) or \(\lambda^T (b-Ax)\). You may need to do some post processing to flip the sign of the dual variable.</p>
+
+<h2 id="problem-6">Problem 6</h2>
+
+<p>Consider DC pwoer flow. There are some generators and loads in the system. Suppose the generator costs are \(c_i x_i\). If all the \(c_i\)’s are positive, could the price at any of the load buses ever be negative? If yes, find an example. If not, prove it. Hint: consider the impact of line constraints. Also, ChatGPT gives a very meandering answer that is partly correct, partly wrong, and partly irrelevant.</p>
+
+
+  </div>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</article>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+  </body>
+
+</html>
+
