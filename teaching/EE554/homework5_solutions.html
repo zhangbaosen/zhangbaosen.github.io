@@ -187,20 +187,36 @@ C(L)=\min\; &amp; x_1 + 3 x_2  \\
 
 <p>It is easier to write down equations that govern power flow first. Let \(x_1\) be the generation and \(d_2\) and \(d_3\) be the loads, respectively. Let \(f_{i,j}\) denote the power flow from bus \(i\) to bus \(j\). We have the following equations</p>
 
-<p>\(\begin{align}
-x_1 &amp;= d_2+d_3 \mbox{ global power balance for a lossless network} \\
-f_{12}+f_{23}+f_{31} &amp;= 0 \mbox{ Kirchoff's voltage law} \\ 
-f_{12}-f_{23} &amp;= d_2 \mbox{ load balance at bus 2} \\ 
-f_{23}-f_{31} &amp;= d_3 \mbox{ load balance at bus 3} \\
--1 \leq f_{12} &amp; \leq 1  \mbox{ Line capacity} 
-\end{align}\)
-The four equality</p>
+\[\begin{align}
+x_1 = d_2+d_3 &amp;\mbox{ global power balance for a lossless network} \\
+f_{12}+f_{23}+f_{31} = 0 &amp; \mbox{ Kirchoff's voltage law} \\ 
+f_{12}-f_{23} = d_2 &amp; \mbox{ load balance at bus 2} \\ 
+f_{23}-f_{31} = d_3 &amp; \mbox{ load balance at bus 3} \\
+-1 \leq f_{12}  \leq 1  &amp; \mbox{ Line capacity} 
+\end{align}\]
+
+<p>The four equality constraints can be used to eliminate 4 variables. We can write everything in terms of \(d_2\) and \(d_3\):
+\(f_{12} = \frac{2d_2 + d_3}{3}, \qquad
+f_{23} = \frac{d_3 - d_2}{3}, \qquad
+f_{31} = -\,\frac{d_2 + 2d_3}{3}\)
+In particular, the bounds on \(f_{12}\) becomes bounds on \(\frac{2 d_2 + d_3}{3}\).</p>
+
+<p>a) \(f_{12}=\frac{2 \cdot 1+0.5}{3} \leq 1\), so this is feasible. The line capacities are \(f_{12} = \frac{5}{6}, \qquad f_{23} = -\frac{1}{6}, \qquad f_{31} = -\frac{2}{3}.\)</p>
+
+<p>b) \(f_{12}=\frac{2 c\dot 2 +4}{3} \geq 1\), so the problem is infeasible.</p>
 
 <h2 id="problem-4">Problem 4</h2>
 
 <p>a) Same setup as the previous problem. Plot the feasible region of the loads at bus \(2\) and bus \(3\) that satisfies the line capacity constraint.</p>
 
-<p>b) We remove the line between bus $1$ and bus $2$. Find the feasible region of the loads at bus \(2\) and bus \(3\). Is it bigger or smaller than the region in problem a)?</p>
+<p>b) We remove the line between bus 1 and bus 2. Find the feasible region of the loads at bus \(2\) and bus \(3\). Is it bigger or smaller than the region in problem a)?</p>
+
+<h3 id="solution-3">Solution.</h3>
+<p>a) The region is given below</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/6cw2nustywe6xg3blhhuv/h5p4.png?rlkey=i87umzeukwcxalzogqynprkdn&amp;dl=1" alt="Feasible region" width="400" /></p>
+
+<p>b) If we get rid of the line between \(1\) and \(2\), there are no line constraints and no cycle (Kirchoff’s voltage law) constraints. The the feasible region is actually the entire first quadrant (\(d_2 \geq 0, \quad d_3 \geq 0\)), which is big than the region in a). This shows that adding a (capacitated line) do not always help. Of course, in pratice, all lines would have some constraints, but one needs to be careful about adding lines since adding more lines do not always improve power flow.</p>
 
 <h2 id="problem-5">Problem 5</h2>
 
@@ -275,9 +291,21 @@ The four equality</p>
 
 <p>b) Find the prices at each of the buses. Note, all convex optimization solvers can report the dual variables. For equality constraints, different solvers would interpret it in different ways. That is, \(Ax=b\) can be dualized as \(\lambda ^T (Ax-b)\) or \(\lambda^T (b-Ax)\). You may need to do some post processing to flip the sign of the dual variable.</p>
 
+<h3 id="solution-4">Solution.</h3>
+
+<p>a) Using a solver, we get the optimal solutions is \(X_A= 80 \; MW, \quad X_B=0, \quad X_C=40 \; MW, \quad X_D=400 \; MW\).</p>
+
+<p>b) The prices are \(\lambda_1=13.33 \; \$/MW, \quad \lambda_2=12 \; \$/MW, \lambda_3=10 \; \$/MW\).</p>
+
 <h2 id="problem-6">Problem 6</h2>
 
 <p>Consider DC pwoer flow. There are some generators and loads in the system. Suppose the generator costs are \(c_i x_i\). If all the \(c_i\)’s are positive, could the price at any of the load buses ever be negative? If yes, find an example. If not, prove it. Hint: consider the impact of line constraints. Also, ChatGPT gives a very meandering answer that is partly correct, partly wrong, and partly irrelevant.</p>
+
+<h3 id="solution-5">Solution.</h3>
+
+<p>Yes. Consider a fully connected three bus network, with equal line susceptance. The load and generation are shown below. As shown in the second figure, increasing the load at bus $2$ by \(\epsilon\), allows bus 1 go transmit more power to bus $3$. This increases the cost by \(2 \epsilon\) (coming out of bus 1 and going into buses 2 and 3), and decreases the cost by \(3 \epsilon\) (bus 3 generates less), with a net increase of cost by \(-\epsilon\). Hence the price would be \(-1\) at bus 2.</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/fuoscxa6cbz3zu6nkf6un/h5p6.png?rlkey=3v9pve37t9dnk4a64l7p0c9nc&amp;dl=1" alt="Solution for problem 6" width="800" /></p>
 
 
   </div>
