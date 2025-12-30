@@ -6,25 +6,9 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Dec 2025 10:09:17 -0800</pubDate>
-    <lastBuildDate>Tue, 30 Dec 2025 10:09:17 -0800</lastBuildDate>
+    <pubDate>Tue, 30 Dec 2025 10:10:09 -0800</pubDate>
+    <lastBuildDate>Tue, 30 Dec 2025 10:10:09 -0800</lastBuildDate>
     <generator>Jekyll v4.3.3</generator>
-    
-      <item>
-        <title>UW ECE invites applications for two tenure-track positions.</title>
-        <description>&lt;p&gt;The Department of Electrical &amp;amp; Computer Engineering invites applications for two tenure-track positions. We are hiring in all areas of ECE, including power systems and power electronics. To ensure full consideration of your application, please submit all materials no later than December 15, 2025. Priority will be given to those applications received by November 15, 2025. Applications will only be accepted via Interfolio: &lt;a href=&quot;https://apply.interfolio.com/175789&quot;&gt;https://apply.interfolio.com/175789&lt;/a&gt;. If you have any questions, feel free to reach out to me.&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 28 Oct 2025 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2025/10/Search</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2025/10/Search</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
     
       <item>
         <title>The Base Power Company is Looking for Interns</title>
