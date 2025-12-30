@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EE 552 Power Systems Control Syllabus</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE552/552_syllabus">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+     <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">EE 552 Power Systems Control Syllabus</h1>
+  </header>
+
+  <div class="post-content">
+    <h2 id="course-information">Course Information</h2>
+<p>Time and Location: WF 10:30am-12pm, ECE 026 <br />
+Instructor: Baosen Zhang, zhangbao@uw.edu <br />
+Office hour: ECE M310,
+Website: The main website is <a href="http://zhangbaosen.github.io/teaching/EE552">http://zhangbaosen.github.io/teaching/EE552</a>. We use the Canvas website for grading and homework submissions.</p>
+
+<h2 id="course-description">Course Description:</h2>
+<p>Upon completing this course, the student should be able to:</p>
+<ul>
+  <li>Define and discuss the major problems in power system dynamics</li>
+  <li>Discuss the various models that are used to analyze power system dynamics</li>
+  <li>Develop a rigorous way of looking at system dynamics</li>
+  <li>Explain what measures are taken and what control schemes are implemented to maintain the stability of power systems</li>
+  <li>Design and code a computer program to analyze some aspect of power system dynamics</li>
+  <li>Use the knowledge of the fundamentals of power system dynamics and control acquired during the course to read and understand advanced methods as described in recent papers published in the scientific literature.</li>
+</ul>
+
+<h2 id="prerequisites">Prerequisite(s)</h2>
+<p>This class requires basic linear algebra and linear system theory, calculus and classical mechanics. Knowing power system operations is helpful, but not required.</p>
+
+<h2 id="textbooks">Textbook(s)</h2>
+<p>There is no required textbook for this class. Some references that maybe useful are</p>
+<ul>
+  <li>“Power System Dynamics – Stability and Control”, J Machowski, Z Lubosny, J W Bialek, J R Bumby, Third Edition, Wiley 2020 (A standard textbook)</li>
+  <li>“Power System Stability and Control”, Prabha Kundur, McGraw Hill, 1994 (The classical book on this subject)</li>
+  <li>“Power System Dynamics and Stability”, Peter W Sauer and M A Pai, Prentice Hall, 1998 (A more mathematical treatment of the subject)</li>
+  <li>“Voltage Stability of Electric Power Systems”, T Van Cutsem, C Vournas, Kluwer, 1998 (A detailed book on voltage stability)</li>
+</ul>
+
+<h2 id="assignments">Assignments</h2>
+<p>Homework Assignments: Roughly Biweekly homework assignments</p>
+
+<h2 id="grade-distribution">Grade Distribution</h2>
+<ul>
+  <li>Homework, 80%</li>
+  <li>Class Participation, 20%</li>
+</ul>
+
+<h2 id="notes">Notes</h2>
+<ul>
+  <li>Power system dynamics is a vast subject. Because of the integration of renewables, many ideas and techniques are changing in real-time. The material is complex and involves both mathematical derivations and intuitive arguments, and is thus not easily understood. Just listening to a lecture is not going to be that useful. Instead, we will take an active approach to learning.
+    <ol>
+      <li>Do the homework problems.</li>
+      <li>Some homework questions will be hard, and you’re not expected to have solved it perfectly. You will be graded on whether you have made a solid attempt at solving the problem.</li>
+    </ol>
+  </li>
+  <li>You may use whatever language you are comfortable with, e.g. Matlab, Python, Julia, C++,… There will be questions where you have to use a computer.</li>
+  <li>You may use AI tools. Please clearly indicate how these are used in your homework solutions. Please remember that you’re ultimately responsible for the answers.</li>
+</ul>
+
+<h2 id="course-policies">Course Policies</h2>
+
+<h3 id="late-homework-assignments-will-not-be-accepted-without-permission-from-the-instructor">Late homework assignments will not be accepted without permission from the instructor.</h3>
+
+<h3 id="ai-tools-and-academic-integrity">AI Tools and Academic Integrity</h3>
+<p>AI content generators, such as ChatGPT, present opportunities that can contribute to your learning and academic work. If you use such tools, you must clearly state where they are used and how they contributed to your work. Otherwise, using these technologies may violate academic standards of the University.</p>
+
+<h3 id="disabled-students">Disabled Students</h3>
+<p>If you have a documented disability and wish to discuss academic accommodations, please contact Disability Resources for Students (DRS), a unit within the Division of Student Life at UW. They will inform me and I’m happy to make reasonable accommodation.</p>
+
+<h3 id="conduct">Conduct</h3>
+<p>The University of Washington Student Conduct Code (WAC 478-121) defines prohibited academic and behavioral conduct and describes how the University holds students accountable as they pursue their academic goals. Allegations of misconduct by students may be referred to the appropriate campus office for investigation and resolution. More information can be found online at <a href="https://www.washington.edu/studentconduct/">https://www.washington.edu/studentconduct/</a>.</p>
+
+<h3 id="academic-honesty-policy-summary">Academic Honesty Policy Summary</h3>
+<p>I expect every member of the class to conform to the highest standards of academic integrity. Cheating can result in failure of the course and/or eventual expulsion from the University. For more information, please see <a href="https://www.washington.edu/cssc/facultystaff/academic-misconduct/">https://www.washington.edu/cssc/facultystaff/academic-misconduct/</a>.
+Because your homework has a bearing on your grade, it must be your own original work. You may compare homework answers and discuss problem solving methods with other students in the class, but the final result - the work you hand in - must consist of work that you, and you only, have performed. Copying homework done by someone else, or copying old homework or the answer key, copying the work of anyone else on examinations, the use of unauthorized notes or other unauthorized aids during examinations, and knowingly permitting your work to be copied for the purpose of cheating are all examples of cheating.</p>
+
+<h3 id="medical-excuse-notes">Medical Excuse Notes</h3>
+<p>Students are expected to attend class and to participate in all graded activities. To protect student privacy and the integrity of the academic experience, students will not be required to provide a medical excuse note to justify an absence from class due to illness. A student absent from any graded class activity or examination due to illness must request, in writing, to take a rescheduled examination or perform work judged by the instructor to be the equivalent. Students are responsible for taking any number of examinations for which they are scheduled on a given day and may not request an adjustment for this reason alone.</p>
+
+<h3 id="religious-accommodations">Religious Accommodations</h3>
+<p>Washington state law requires that UW develop a policy for accommodation of student absences or significant hardship due to reasons of faith or conscience, or for organized religious activities. The UW’s policy, including more information about how to request an accommodation, is available at <a href="https://registrar.washington.edu/staffandfaculty/religious-accommodations-policy/">Religious Accommodations Policy</a>.</p>
+
+  </div>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</article>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+  </body>
+
+</html>
+
