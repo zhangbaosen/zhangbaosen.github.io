@@ -6,9 +6,24 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Jan 2026 09:31:57 -0800</pubDate>
-    <lastBuildDate>Thu, 15 Jan 2026 09:31:57 -0800</lastBuildDate>
+    <pubDate>Thu, 22 Jan 2026 20:52:12 -0800</pubDate>
+    <lastBuildDate>Thu, 22 Jan 2026 20:52:12 -0800</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Microsoft Research is looking for interns to work on AI and power.</title>
+        <description>&lt;p&gt;Microsoft Research (MSR) is seeking Research Interns to work at the intersection of artificial intelligence (AI) and electricity infrastructure planning. Research Interns will join ongoing research efforts that explore how AI—especially large language models (LLMs) and agentic AI systems—can support planning, permitting, siting, grid modeling, and decision-making in electricity systems. The team is fantastic and I will be involved as well. Application link: &lt;a href=&quot;https://apply.careers.microsoft.com/careers/job/1970393556734896&quot;&gt;https://apply.careers.microsoft.com/careers/job/1970393556734896&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 22 Jan 2026 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/blog/2026/01/MSR_intern</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2026/01/MSR_intern</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>The Base Power Company is Looking for Interns</title>
@@ -49,134 +64,6 @@
         <pubDate>Thu, 11 Apr 2024 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/blog/2024/04/Students</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2024/04/Students</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Three papers in PSCC</title>
-        <description>&lt;p&gt;We have three papers that will appear at the PSCC Conferece:&lt;/p&gt;
-
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;li&gt;&lt;span id=&quot;jiang2024oscillationsaware&quot;&gt;Y. Jiang, H. Min, and B. Zhang, “Oscillations-Aware Frequency Security Assessment via Efficient Worst-Case Frequency Nadir Computation,” in &lt;i&gt;Power Systems Computation Conference (PSCC)&lt;/i&gt;, 2024. &lt;/span&gt;
-
-&lt;div id=&quot;jiang2024oscillationsaware-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;jiang2024oscillationsaware-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;jiang2024oscillationsaware-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{jiang2024oscillationsaware,
-  title = {Oscillations-Aware Frequency Security Assessment via Efficient Worst-Case Frequency Nadir Computation},
-  author = {Jiang, Yan and Min, Hancheng and Zhang, Baosen},
-  year = {2024},
-  booktitle = {Power Systems Computation Conference (PSCC)},
-  link = {https://arxiv.org/abs/2402.16765},
-  blog = {2024-4-11-PSCC}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2402.16765&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;li2024socially&quot;&gt;J. Li, M. Motoki, and B. Zhang, “Socially Optimal Energy Usage via Adaptive Pricing,” in &lt;i&gt;Power Systems Computation Conference (PSCC)&lt;/i&gt;, 2024. &lt;/span&gt;
-
-&lt;div id=&quot;li2024socially-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;li2024socially-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;li2024socially-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{li2024socially,
-  title = {Socially Optimal Energy Usage via Adaptive Pricing},
-  author = {Li, Jiayi and Motoki, Matthew and Zhang, Baosen},
-  year = {2024},
-  booktitle = {Power Systems Computation Conference (PSCC)},
-  link = {https://arxiv.org/abs/2310.13254},
-  blog = {2024-4-11-PSCC}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2310.13254&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;&lt;span id=&quot;stiasny2023pinnsim&quot;&gt;J. Stiasny, B. Zhang, and S. Chatzivasileiadis, “PINNSim: A Simulator for Power System Dynamics based on Physics-Informed Neural Networks,” in &lt;i&gt;Power Systems Computation Conference (PSCC)&lt;/i&gt;, 2024. &lt;/span&gt;
-
-&lt;div id=&quot;stiasny2023pinnsim-materials&quot;&gt;
-  &lt;ul class=&quot;nav nav-pills&quot;&gt;
-    
-
- &lt;li&gt;&lt;a data-toggle=&quot;collapse&quot; href=&quot;javascript:toggleDiv(&apos;stiasny2023pinnsim-bibtex&apos;)&quot;&gt;BibTeX&lt;/a&gt;&lt;/li&gt;
-    &lt;div id=&quot;stiasny2023pinnsim-bibtex&quot; style=&quot;display:none;&quot;&gt;
-    &lt;pre class=&quot;collapse&quot;&gt;@inproceedings{stiasny2023pinnsim,
-  title = {PINNSim: A Simulator for Power System Dynamics based on Physics-Informed Neural Networks},
-  author = {Stiasny, Jochen and Zhang, Baosen and Chatzivasileiadis, Spyros},
-  year = {2024},
-  booktitle = {Power Systems Computation Conference (PSCC)},
-  link = {https://arxiv.org/abs/2303.10256},
-  blog = {2024-4-11-PSCC}
-}
-&lt;/pre&gt;
-    &lt;/div&gt;
-
-    
-    &lt;li&gt;&lt;a href=&quot;https://arxiv.org/abs/2303.10256&quot;&gt;Download&lt;/a&gt;&lt;/li&gt;
-    
-
-  &lt;/ul&gt;
-
-
-&lt;/div&gt;&lt;/li&gt;&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 11 Apr 2024 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/blog/2024/04/PSCC</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2024/04/PSCC</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>SIGEnergy Rising Star Award</title>
-        <description>&lt;p&gt;I’m honored to receive the 2022 SIGEnergy Rising Star Award. For more information, please see &lt;a href=&quot;https://energy.acm.org/2023/01/31/sigenergy-rising-star-award-2022-winner/&quot;&gt;https://energy.acm.org/2023/01/31/sigenergy-rising-star-award-2022-winner/&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 01 Feb 2023 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2023/02/SigEnergy</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2023/02/SigEnergy</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>Paper on Efficient Reinforcement Learning Through Trajectory Generation</title>
-        <description>&lt;p&gt;A key barrier to using reinforcement learning (RL) in many real-world applications is the requirement of a large number of system interactions to learn a good control policy. Off-policy and Offline RL methods have been proposed to reduce the number of interactions with the physical environment by learning control policies from historical data. However, their performances suffer from the lack of exploration and the distributional shifts in trajectories once controllers are updated. Moreover, most RL methods require that all states are directly observed, which is difficult to be attained in many settings. To overcome these challenges, we propose a trajectory generation algorithm, which adaptively generates new trajectories as if the system is being operated and explored under the updated control policies. Motivated by the fundamental lemma for linear systems, assuming sufficient excitation, we generate trajectories from linear combinations of historical trajectories. For linear feedback control, we prove that the algorithm generates trajectories with the exact distribution as if they are sampled from the real system using the updated control policy. In particular, the algorithm extends to systems where the states are not directly observed. Experiments show that the proposed method significantly reduces the number of sampled data needed for RL algorithms.&lt;/p&gt;
-&lt;ol class=&quot;bibliography&quot;&gt;&lt;/ol&gt;
-</description>
-        <pubDate>Thu, 19 Jan 2023 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2023/01/L4DC_trajectory</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2023/01/L4DC_trajectory</guid>
         
         
         <category>new</category>

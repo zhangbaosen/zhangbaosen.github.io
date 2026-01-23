@@ -11,7 +11,7 @@
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/teaching/EE552/homework1">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE552/homework2">
   <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
      <script type="text/javascript" id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
@@ -107,42 +107,42 @@ function toggleDiv(element){
   </header>
 
   <div class="post-content">
-    <h1 id="homework-1">Homework 1</h1>
+    <h1 id="homework-2">Homework 2</h1>
 
-<p>Due at 11:59pm on Jan 16th. Submit to <a href="https://canvas.uw.edu/courses/1862386/assignments/11073140">https://canvas.uw.edu/courses/1862386/assignments/11073140</a>.</p>
+<p>Due at 11:59pm on Jan 30th. Submit to <a href="https://canvas.uw.edu/courses/1862386/assignments/11123228">https://canvas.uw.edu/courses/1862386/assignments/11123228</a>.</p>
 
 <h2 id="problem-1">Problem 1</h2>
 
-<p>Compute the matrix exponential, that is, \(e^A\) of the following matrices by hand. Show your work.</p>
-
-<p>a) \(A = \begin{bmatrix} -1 &amp; 1 \\ 2 &amp; -2 \end{bmatrix}\)</p>
-
-<p>b) \(A=\begin{bmatrix} 0 &amp; -1 \\ 1 &amp; 0 \end{bmatrix} t\), where \(t\) is a variable.</p>
+<p>Consider the system \(\dot{x}=A x\). Show that the nonnegative orthant (\(\mathbb{R}_+^n = \{x:x_i \geq 0 \; \forall i\}\)) is invariant if and only if \(A_{ij} \geq 0\) for all \(i \neq j\). That is, show that nonegative trajectories stay nonengative if and only if the off diagonal entries of \(A\) are nonnegative.</p>
 
 <h2 id="problem-2">Problem 2</h2>
+<p>The system \(\dot{x}=Ax\) is called constant norm if for every trajectory, \(\Vert x(t) \Vert\) is constant, that is, it doesn’t depend on \(t\). The system is called constant speed if for every trajectory, \(\Vert \dot{x}(t)\Vert\) is constant.</p>
 
-<p>Consider the following matrix</p>
+<p>a) Find the conditions on \(A\) under which the system is constant norm.</p>
 
-\[A=\begin{bmatrix} 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\ -1 &amp; -1 &amp; 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\0 &amp; 0 &amp; 0 &amp; -1 &amp; -1 \end{bmatrix}\]
+<p>b) Find the conditions on \(A\) under which the system is constant speed.</p>
 
-<p>a) What are the eigenvalues of \(A\)?</p>
+<p>c) Is every constant norm system a constant speed system?</p>
 
-<p>b) Solve \(\dot{x}= A x\), with \(x(0)=\begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \end{bmatrix}^T\)</p>
+<p>d) Is every constant speed system a constant norm system?</p>
 
 <h2 id="problem-3">Problem 3</h2>
 
-<p>Consider two points moving on the real line. Their positions are \(x_1\) and \(x_2\). They following the following dyanmics</p>
+<p>Consider the nonlinear system</p>
 
-\[\begin{align}
-\dot{x}_1&amp;=x_1-x_2 \\ 
-\dot{x}_2 &amp;=x_2- x_1 
-\end{align}\]
+<p>\(\ddot{x} = -g(x)\),</p>
 
-<p>a) Is the system stable?</p>
-
-<p>b) Suppose \(x(0)=\begin{bmatrix} 1 \\ -2 \end{bmatrix}\), what value would \(x(t)\) converge to?</p>
+<p>where \(g\) is some increasing function with \(g(0)=0\). Find a conserved quantity for this system. Hint: think back to the case of \(g(x)=x\), and see how the conserved quantity was constructed (think about integrals).</p>
 
 <h2 id="problem-4">Problem 4</h2>
+
+<p>Compute the graident of the following functions:</p>
+
+<p>a) \(f(x_1,x_2)= x_1 x_2 + x_1 \cos(x_2)\)</p>
+
+<p>b) \(f(x)=\frac{1}{\Vert x \Vert} a^Tx\), where \(x\) is a vector in \(\mathbb{R}^n\) and \(a\) is a constant vector. To be tehnical, we can define \(f(0)=0\), although it doesn’t really matter in the gradident calculation.</p>
+
+<h2 id="problem-5">Problem 5</h2>
 
 <p>Consider the single bus swing equation:</p>
 
@@ -151,26 +151,7 @@ function toggleDiv(element){
 M \dot{\omega} &amp;= -D \omega - B \theta
 \end{align}\]
 
-<p>A natural question we want to ask is whether one system is more stable than another. But it is not immediately obvious what ``more’’ means.</p>
-
-<p>a) Define a metric, that is, a number, that quantifies how stable a system is.</p>
-
-<p>b) What values of \(M\) and \(D\) would make the system more stable with respect to the metric defined in a).</p>
-
-<h2 id="problem-5">Problem 5</h2>
-
-<p>Consider the single bus swing equation with the power term explictly added in</p>
-
-\[\begin{align}
-\dot{\theta} &amp;=\omega \\
-M \dot{\omega} &amp;= -D \omega - B \theta + P_{in}
-\end{align}\]
-
-<p>a) What is the equilibrium point as a function of \(P_{in}\)?</p>
-
-<p>b) Pick some values for \(M, D, B, P_{in}\). Suppose the system starts at \(t=0\) at the equilibrium. At time \(t=1\), \(P_{in}\) becomes \(\frac{P_{in}}{2}\). Plot the trajectory of the system. That is, plot \(\theta(t)\) and \(\omega(t)\) for \(t \geq 0\). Note, one way to approach this problem is to think of the system changes to a new system with a different equilibrium at \(t=1\). Then treat the old equilibrium as the initial value of the new system.</p>
-
-<p>c) ick some values for \(M, D, B, P_{in}\). Suppose the system starts at \(t=0\) at the equilibrium. At time \(t=1\), \(B\) takes the value \(\frac{B}{2}\). At time \(t=3\), \(B\) returns to its original value. Plot the trajectory of the system.</p>
+<p>Take \(M\), \(D\) and \(B\) to all be \(1\). We know the system is stable. But let’s say we have a more strigent requirement: the frequency should stay within \(\pm 0.1\). Find all initial points such that all the frequency is within this bound for all \(t\geq 0\).</p>
 
 
   </div>
