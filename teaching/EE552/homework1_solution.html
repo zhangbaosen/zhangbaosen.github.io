@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EE 552 Dynamics and Control of Power Systems</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE552/homework1_solution">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+     <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">EE 552 Dynamics and Control of Power Systems</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="homework-1">Homework 1</h1>
+
+<p>Due at 11:59pm on Jan 16th. Submit to <a href="https://canvas.uw.edu/courses/1862386/assignments/11073140">https://canvas.uw.edu/courses/1862386/assignments/11073140</a>.</p>
+
+<h2 id="problem-1">Problem 1</h2>
+
+<p>Compute the matrix exponential, that is, \(e^A\) of the following matrices by hand. Show your work.</p>
+
+<p>a) \(A = \begin{bmatrix} -1 &amp; 1 \\ 2 &amp; -2 \end{bmatrix}\)</p>
+
+<p>b) \(A=\begin{bmatrix} 0 &amp; -1 \\ 1 &amp; 0 \end{bmatrix} t\), where \(t\) is a variable.</p>
+
+<h3 id="solution">Solution</h3>
+
+<p>a) The eigenvalue and eigenvector pairs are:</p>
+
+\[\lambda_1=0, v_1=\begin{bmatrix} 1 \\ 1 \end{bmatrix}; \; \; \lambda_1=-3, v_1=\begin{bmatrix} 1 \\ -2 \end{bmatrix}\]
+
+<p>Using the fact that \(e^A=V e^\Lambda V^{-1}\) (where \(V=[v_1 \, v_2]\)), we have</p>
+
+\[e^A \approx \begin{bmatrix} 0.6833 &amp; 0.3167 \\ 0.6335 &amp; 0.3665 \end{bmatrix}.\]
+
+<p>b) Similar calculation as before, we get</p>
+
+\[e^{At} = \begin{bmatrix} \cos t &amp; -\sin t \\ \sin t &amp; \cos t \end{bmatrix}\]
+
+<h2 id="problem-2">Problem 2</h2>
+
+<p>Consider the following matrix</p>
+
+\[A=\begin{bmatrix} 1 &amp; 1 &amp; 0 &amp; 0 &amp; 0 \\ -1 &amp; -1 &amp; 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\0 &amp; 0 &amp; 0 &amp; -1 &amp; -1 \end{bmatrix}\]
+
+<p>a) What are the eigenvalues of \(A\)?</p>
+
+<p>b) Solve \(\dot{x}= A x\), with \(x(0)=\begin{bmatrix} 1 &amp; 1 &amp; 1 &amp; 1 &amp; 1 \end{bmatrix}^T\)</p>
+
+<h3 id="solution-1">Solution</h3>
+
+<p>a) All the eigenvalues are 0.</p>
+
+<p>b) The matrix is nilpotent, in particular, \(A^4=0\). We use the definition of \(e^{At} = I + At + \frac{A^2t^2}{2!} + \frac{A^3t^3}{3!} + \dots\), where</p>
+
+\[A^2 =\begin{bmatrix} 0 &amp; 0 &amp; 0 &amp; 1 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 1 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \end{bmatrix}, \;\; A^3 = \begin{bmatrix} 0 &amp; 0 &amp; 0 &amp; -1 &amp; -1 \\ 0 &amp; 0 &amp; 0 &amp; 1 &amp; 1 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \\ 0 &amp; 0 &amp; 0 &amp; 0 &amp; 0 \end{bmatrix}, \;\; A^4=A^5=\dots=0.\]
+
+<p>And</p>
+
+\[x(t)=(I+At+(At)^2/2+(At)^3/3!)x(0)= \begin{bmatrix} 1 + 2t + 0.5t^2 - \frac{1}{3}t^3 \\ 1 - t + 0.5t^2 + \frac{1}{3}t^3 \\ 1 \\ 1 + 2t \\ 1 - 2t \end{bmatrix}\]
+
+<h2 id="problem-3">Problem 3</h2>
+
+<p>Consider two points moving on the real line. Their positions are \(x_1\) and \(x_2\). They following the following dyanmics</p>
+
+\[\begin{align}
+\dot{x}_1&amp;=x_1-x_2 \\ 
+\dot{x}_2 &amp;=x_2- x_1 
+\end{align}\]
+
+<p>a) Is the system stable?</p>
+
+<p>b) Suppose \(x(0)=\begin{bmatrix} 1 \\ -2 \end{bmatrix}\), what value would \(x(t)\) converge to?</p>
+
+<h3 id="solution-2">Solution</h3>
+
+<p>This problem contained an unfortunate typo. It is obviously not stable, since if \(x_1\) is large and positive, \(\dot{x}_1\) is also large and positive (similarly to \(x_2\)). Part b) is not very meaningful.</p>
+
+<p>The actual system is suppose to be</p>
+
+\[\begin{align}
+\dot{x}_1&amp;=-x_1+x_2 \\ 
+\dot{x}_2 &amp;=-x_2+ x_1 
+\end{align}\]
+
+<h2 id="problem-4">Problem 4</h2>
+
+<p>Consider the single bus swing equation:</p>
+
+\[\begin{align}
+\dot{\theta} &amp;=\omega \\
+M \dot{\omega} &amp;= -D \omega - B \theta
+\end{align}\]
+
+<p>A natural question we want to ask is whether one system is more stable than another. But it is not immediately obvious what ``more’’ means.</p>
+
+<p>a) Define a metric, that is, a number, that quantifies how stable a system is.</p>
+
+<p>b) What values of \(M\) and \(D\) would make the system more stable with respect to the metric defined in a).</p>
+
+<h3 id="solution-3">Solution</h3>
+
+<p>See <a href="https://www.dropbox.com/scl/fi/408utxpqz17zwhxk813tl/Note-Feb-7.pdf?rlkey=hzfn7ee720yp5w356td4mu24l&amp;dl=1">note</a></p>
+
+<h2 id="problem-5">Problem 5</h2>
+
+<p>Consider the single bus swing equation with the power term explictly added in</p>
+
+\[\begin{align}
+\dot{\theta} &amp;=\omega \\
+M \dot{\omega} &amp;= -D \omega - B \theta + P_{in}
+\end{align}\]
+
+<p>a) What is the equilibrium point as a function of \(P_{in}\)?</p>
+
+<p>b) Pick some values for \(M, D, B, P_{in}\). Suppose the system starts at \(t=0\) at the equilibrium. At time \(t=1\), \(P_{in}\) becomes \(\frac{P_{in}}{2}\). Plot the trajectory of the system. That is, plot \(\theta(t)\) and \(\omega(t)\) for \(t \geq 0\). Note, one way to approach this problem is to think of the system changes to a new system with a different equilibrium at \(t=1\). Then treat the old equilibrium as the initial value of the new system.</p>
+
+<p>c) Pick some values for \(M, D, B, P_{in}\). Suppose the system starts at \(t=0\) at the equilibrium. At time \(t=1\), \(B\) takes the value \(\frac{B}{2}\). At time \(t=3\), \(B\) returns to its original value. Plot the trajectory of the system.</p>
+
+<h3 id="solution-4">Solution</h3>
+
+<p>a) The equilibrium is \(\theta^*=P/B, \omega^*=0\).</p>
+
+<p>b) We pick all values to be \(1\). The trajectories are</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/8u09hvqwvy5jflzhx34p0/h1_1.png?rlkey=qcxbxz92g4yzwe0rrflctvgn2&amp;dl=1" alt="Trajectories for 5b)" width="400" /></p>
+
+<p>c) Trajectories are</p>
+
+<p><img src="https://www.dropbox.com/scl/fi/blirswzts1rm9t2ok7qgf/h1_2.png?rlkey=tmfifriz64dk45pnietvq6rhp&amp;dl=1" alt="Trajectories for 5c)" width="400" /></p>
+
+
+  </div>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</article>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+  </body>
+
+</html>
+
