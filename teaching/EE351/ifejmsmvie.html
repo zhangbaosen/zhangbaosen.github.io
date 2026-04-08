@@ -125,7 +125,7 @@ function toggleDiv(element){
 
 <p>(e) The imaginary part of \(\dfrac{A + 2B}{A - B} \times (3A + 2B) - \dfrac{A + B}{2A - B}\)</p>
 
-<h3 id="solutions">Solutions.</h3>
+<h3 id="solution">Solution.</h3>
 
 <p>a) \(\vert A \vert = \sqrt{(-3)^2 + (-2)^2} = \sqrt{9 + 4} = \sqrt{13}\), \(\theta_A = 213.69^\circ\) (note \(A\) is in the third quadrant), and \(A = \sqrt{13}\angle 213.69^\circ\).</p>
 
@@ -153,6 +153,18 @@ function toggleDiv(element){
 
 <p>(d) The phase of the voltage in degrees</p>
 
+<h3 id="solution-1">Solution.</h3>
+
+<p>a) \(V_{rms} = \frac{V_m}{\sqrt{2}} = \frac{200\sqrt{2}}{\sqrt{2}} = {200 \text{ V}}\)</p>
+
+<p>b) For a pure sinusoidal/cosinusoidal waveform over a full cycle:</p>
+
+\[V_{avg} = {0 \text{ V}}\]
+
+<p>c) \(\omega = 2\pi f \implies f = \frac{\omega}{2\pi} = \frac{120\pi}{2\pi} = {60 \text{ Hz}}\)</p>
+
+<p>d) \(\phi = -\frac{\pi}{3} \text{ rad} = -\frac{\pi}{3} \times \frac{180°}{\pi} = {-60°}\)</p>
+
 <h2 id="problem-3">Problem 3</h2>
 
 <p>A sinusoidal current reaches its maximum value of 50 A every 10 ms.</p>
@@ -160,6 +172,12 @@ function toggleDiv(element){
 <p>(a) What is the frequency of this current?</p>
 
 <p>(d) What is its RMS value?</p>
+
+<h3 id="solutions">Solutions.</h3>
+
+<p>a) \(f = \frac{1}{T} = \frac{1}{0.01} = {100 \text{ Hz}}\)</p>
+
+<p>b) \(I_{rms} = \frac{I_m}{\sqrt{2}} = \frac{50}{\sqrt{2}} = \frac{50\sqrt{2}}{2} = {25\sqrt{2} \approx 35.36 \text{ A}}\)</p>
 
 <h2 id="problem-4">Problem 4</h2>
 
@@ -174,6 +192,24 @@ function toggleDiv(element){
 <p>a) Find \(p(t)\).</p>
 
 <p>b) Find the average value of \(p(t)\).</p>
+
+<h3 id="solutions-1">Solutions.</h3>
+
+<p>a) Finding \(p(t) = v(t) \cdot i(t)\)</p>
+
+\[p(t) = V_{\max} \sin(\omega t + \alpha) \cdot I_{\max} \cos(\omega t - \beta)\]
+
+<p>Using the fact that \(\sin(A)\cos(B) = \frac{1}{2}\left[\sin(A + B) + \sin(A - B)\right]\), we have</p>
+
+\[p(t) = \frac{V_{\max} I_{\max}}{2} \left[\sin(2\omega t + \alpha - \beta) + \sin(\alpha + \beta)\right]\]
+
+<p>Substituting \(\alpha = 20^\circ\) and \(\beta = 80^\circ\):</p>
+
+\[{p(t) = \frac{V_{\max} I_{\max}}{2} \left[\sin(2\omega t - 60^\circ) + \sin(100^\circ)\right]}\]
+
+<p>b) The average of the oscillating term \(\sin(2\omega t - 60^\circ)\) over a full cycle is zero, so:</p>
+
+\[P_{avg} = \frac{V_{\max} I_{\max}}{2} \sin(100^\circ)\approx 0.4924 \cdot V_{\max} I_{\max} \text{ W}\]
 
 <h2 id="problem-5">Problem 5</h2>
 
@@ -193,6 +229,30 @@ function toggleDiv(element){
 
 <p>(d) The load impedance</p>
 
+<h3 id="solutions-2">Solutions.</h3>
+<p>(a) The peak voltage is \(V_{\max} = 110\sqrt{2} \text{ V}\), so the RMS magnitude is: \(V_{rms} = \frac{V_{\max}}{\sqrt{2}} = \frac{110\sqrt{2}}{\sqrt{2}} = 110 \text{ V}\)</p>
+
+<p>The phase angle is: \(\phi_v = \frac{\pi}{3} \text{ rad} = 60^\circ\)</p>
+
+\[\mathbf{V} = 110\angle 60^\circ \text{ V}\]
+
+<p>(b) The peak current is \(I_{\max} = 15\sqrt{2} \text{ A}\), so the RMS magnitude is:
+\(I_{rms} = \frac{I_{\max}}{\sqrt{2}} = \frac{15\sqrt{2}}{\sqrt{2}} = 15 \text{ A}\)</p>
+
+<p>The phase angle is: \(\phi_i = -\frac{\pi}{15} \text{ rad} = -12^\circ\)</p>
+
+\[{\mathbf{I} = 15\angle{-12^\circ} \text{ A}}\]
+
+<p>(c) Phase Angle of Current with Respect to Voltage</p>
+
+\[\theta = \phi_i - \phi_v = -12^\circ - 60^\circ = -72^\circ\]
+
+<p>Since \(\theta &lt; 0\), the current lags the voltage by \(72^\circ\).</p>
+
+<p>(d) Load Impedance \(\mathbf{Z} = \frac{\mathbf{V}}{\mathbf{I}} = \frac{110\angle 60^\circ}{15\angle{-12^\circ}}\)</p>
+
+\[{\mathbf{Z} = 7.333\angle 72^\circ \ \Omega \;=\; 2.266 + j6.974 \ \Omega}\]
+
 <h2 id="problem-6">Problem 6</h2>
 
 <p>The impedance of two complex loads is as follows:</p>
@@ -202,6 +262,19 @@ function toggleDiv(element){
 <p>(a) What is the impedance of these two loads when connected in series? Give the answer in polar form.</p>
 
 <p>(b) What is the impedance of these two loads when connected in parallel? Give teh answer in rectangular form.</p>
+
+<h3 id="solutions-3">Solutions.</h3>
+<p>a) \(Z_{series} = Z_1 + Z_2 = (5 + j3) + (10 - j5) = 15 - j2 \ \Omega\)</p>
+
+<p>Converting to polar form:</p>
+
+\[\vert Z_{series} \vert = \sqrt{15^2 + (-2)^2} = \sqrt{225 + 4} = \sqrt{229} \approx 15.133 \ \Omega\]
+
+\[\angle Z_{series} = \arctan\!\left(\frac{-2}{15}\right) \approx -7.595^\circ\]
+
+\[Z_{series} = 15.133\angle{-7.595^\circ} \ \Omega\]
+
+<p>(b) \(Z_{parallel} = \frac{Z_1 Z_2}{Z_1 + Z_2} = 4.214 + j0.895 \ \Omega\)</p>
 
 <h2 id="problem-7">Problem 7</h2>
 
@@ -213,6 +286,27 @@ function toggleDiv(element){
 
 <p>Find the voltage across the reactance.</p>
 
+<h3 id="solutions-4">Solutions.</h3>
+<p>Converting to phasors, we have</p>
+
+\[\mathbf{V} = \frac{156}{\sqrt{2}}\angle 60^\circ = 110.31\angle 60^\circ \text{ V}\]
+
+\[\mathbf{I} = \frac{150}{\sqrt{2}}\angle 0^\circ = 106.07\angle 0^\circ \text{ A}\]
+
+<p>The load impedance is</p>
+
+\[\mathbf{Z} = \frac{\mathbf{V}}{\mathbf{I}} = \frac{110.31\angle 60^\circ}{106.07\angle 0^\circ} = 1.04\angle 60^\circ \ \Omega=0.52 + j0.9 \ \Omega\]
+
+<p>So the resistance and reactance are: \(R = 0.52 \ \Omega \qquad X = 0.9 \ \Omega\)</p>
+
+<p>The reactance voltage phasor is:</p>
+
+\[\mathbf{V}_X = \mathbf{I} \cdot jX = 106.07\angle 0^\circ \times 0.9\angle 90^\circ=95.46\angle 90^\circ \text{ V}\]
+
+<p>Full credit if just the phasor form is given. The time domain waveform is</p>
+
+\[v_X(t) = 95.46\sqrt{2}\,\sin(377t + 90^\circ) \text{ V}\]
+
 <h2 id="problem-8">Problem 8</h2>
 
 <p>An electric load consists of a \(5\ \Omega\) resistance, a \(10\ \Omega\) inductive reactance, and a \(15\ \Omega\) capacitive reactance connected in series. The total impedance of the load is connected across a 110 V (rms) source. Compute the following:</p>
@@ -220,6 +314,18 @@ function toggleDiv(element){
 <p>(a) The source current</p>
 
 <p>(b) The voltage across the capacitor</p>
+
+<h3 id="solutions-5">Solutions.</h3>
+
+\[\mathbf{Z} = R + jX_L - jX_C = 5 + j10 - j15 = 5 - j5 \ \Omega=7.071\angle{-45^\circ} \ \Omega\]
+
+<p>a) The source current is</p>
+
+\[\mathbf{I} = \frac{\mathbf{V}_s}{\mathbf{Z}} = \frac{110\angle 0^\circ}{7.071\angle{-45^\circ}}=15.556\angle 45^\circ \text{ A (rms)}\]
+
+<p>(b) Voltage Across the Capacitor</p>
+
+<p>The capacitive reactance in phasor form is \(\mathbf{Z}_C = -j15 = 15\angle{-90^\circ} \ \Omega = 233.34\angle{-45^\circ} \text{ V (rms)}\)</p>
 
 <h2 id="problem-9">Problem 9</h2>
 
@@ -231,11 +337,72 @@ function toggleDiv(element){
 
 <p>(b) Calculate \(Z_{AB}\) if this circuit operates at 60 Hz</p>
 
+<h3 id="solutions-6">Solutions.</h3>
+
+<p>a) We have \(\omega = 2\pi f = 2\pi(50) = 314.159 \text{ rad/s}\)</p>
+
+<p>Individual admittances for a parallel circuit:</p>
+
+\[Y_R = \frac{1}{R} = \frac{1}{15} = 0.0667 \text{ S}\]
+
+\[Y_L = \frac{1}{j\omega L} = \frac{1}{j(314.159)(0.1)} = \frac{1}{j31.416} = -j0.03183 \text{ S}\]
+
+\[Y_C = j\omega C = j(314.159)(10 \times 10^{-6}) = j0.003142 \text{ S}\]
+
+<p>Total admittance:</p>
+
+\[Y_{AB} = Y_R + Y_L + Y_C== 0.0667 - j0.02869 \text{ S}= 0.0667 - j0.02869 \text{ S} = 0.07261\angle{-23.27^\circ} \text{ S}\]
+
+<p>(b) Here \(\omega = 2\pi f = 2\pi(60) = 376.991 \text{ rad/s}\)</p>
+
+<p>Individual admittances:</p>
+
+\[Y_R = \frac{1}{15} = 0.0667 \text{ S}\]
+
+\[Y_L = \frac{1}{j\omega L} = \frac{1}{j(376.991)(0.1)} = \frac{1}{j37.699} = -j0.02653 \text{ S}\]
+
+\[Y_C = j\omega C = j(376.991)(10 \times 10^{-6}) = j0.003770 \text{ S}\]
+
+<p>The total admittance is \(Y_{AB} = 0.0667 - j0.02653 + j0.003770 = 0.0667 - j0.02276 \text{ S}\)</p>
+
+<p>Then</p>
+
+\[\mathbf{Z}_{AB} = \frac{1}{Y_{AB}} = \frac{1}{0.0667 - j0.02276}=13.428 + j4.582 \ \Omega=14.188\angle{18.84^\circ} \ \Omega\]
+
 <h2 id="problem-10">Problem 10</h2>
 
 <p>Calculate the Thevenin and Norton equivalents of the circuit shown below, with source \(110\angle 0^\circ\) V and impedances \(j5\ \Omega\), \(-j2\ \Omega\), \(2\ \Omega\), \(j4\ \Omega\), \(10\ \Omega\), and \(5\ \Omega\).</p>
 
 <p><img src="https://www.dropbox.com/scl/fi/yp0gzp42jhxzmx5y24p72/h1_2.png?rlkey=cc4mc5pr2yis0el6inul24y6e&amp;dl=1" alt="" width="400" /></p>
+
+<h3 id="solutions-7">Solutions.</h3>
+
+<p>First, we find the Thevenin Impedance \(Z_{th}\) by deactivating the source (short circuit). Looking into terminals a-b, the circuit seen as the \(-j2 \ \Omega\) and \(10 \ \Omega\) shunt branch in parallel with the series \(j5 \ \Omega\) and \(2 \ \Omega\) branch. So we have</p>
+
+\[Z_{shunt} = 10 - j2 \ \Omega\]
+
+\[Z_{series} = 2 + j5 \ \Omega\]
+
+\[Z_{th} = Z_{series} \vert Z_{shunt} = \frac{Z_{series} \cdot Z_{shunt}}{Z_{series} + Z_{shunt}}= 3.255 + j3.020 \ \Omega\]
+
+<p>Converting to polar:
+\(|Z_{th}| = \sqrt{(3.255)^2 + (3.020)^2} = \sqrt{10.595 + 9.120} = \sqrt{19.715} = 4.440 \ \Omega\)</p>
+
+\[\angle Z_{th} = \arctan\!\left(\frac{3.020}{3.255}\right) = 42.85^\circ\]
+
+\[Z_{th} = 3.255 + j3.020 \ \Omega = 4.440\angle 42.85^\circ \ \Omega\]
+
+<p>The  Thevenin Voltage \(V_{th}\) can be computed as the open circuit voltage at terminals a-b.</p>
+
+<p>The circuit reduces to a voltage divider between \(Z_{series} = 2 + j5 \ \Omega\) and \(Z_{shunt} = 10 - j2 \ \Omega\):</p>
+
+\[\mathbf{V}_{th} = \mathbf{V}_s \cdot \frac{Z_{shunt}}{Z_{series} + Z_{shunt}}= 110\angle 0^\circ \cdot \frac{10 - j2}{12 + j3}= 90.67\angle{-25.35^\circ} \text{ V}\]
+
+<p>The Norton Current \(I_{N}\)</p>
+
+\[\mathbf{I}_{N} = \frac{\mathbf{V}_{th}}{Z_{th}} = \frac{90.67\angle{-25.35^\circ}}{4.440\angle 42.85^\circ}=20.42\angle{-68.20^\circ} \text{ A}\]
+
+<p>The Norton impendance is \(Z_{N} = Z_{th} = 3.255 + j3.020 \ \Omega = 4.440\angle 42.85^\circ \ \Omega\), connected in parallel with the source.</p>
 
 <h2 id="problem-11">Problem 11</h2>
 
@@ -252,6 +419,26 @@ function toggleDiv(element){
 <p>(b) Compute the current \(\bar{I}_3\) flowing in the branch with \(R_3\) and \(C_3\)</p>
 
 <p><img src="https://www.dropbox.com/scl/fi/c2ylxpcynqzn0stl86o7p/h1_3.png?rlkey=uwxttiwgxoypwz03xrczff0il&amp;dl=1" alt="" width="400" /></p>
+
+<h3 id="solutions-8">Solutions.</h3>
+
+<p>The source voltage phasor is \(\mathbf{V}_s = 630\angle 0^\circ \text{ V}\). The impedances are \(Z_{R_1} = 5 \ \Omega\), \(Z_{L_1} = j\omega L_1 = j(376.991)(0.005) = j1.885 \ \Omega\), \(Z_{R_2} = 250 \ \Omega\), \(Z_{L_2} = j\omega L_2 = j(376.991)(0.05) = j18.850 \ \Omega\), \(Z_{R_3} = 50 \ \Omega\), \(Z_{C_3} = \frac{1}{j\omega C_3} = \frac{1}{j(376.991)(500 \times 10^{-6})} = \frac{1}{j0.18850} = -j5.305 \ \Omega\).</p>
+
+<p>Parallel branch impedances are \(Z_2 = R_2 + Z_{L_2} = 250 + j18.850 \ \Omega\), \(Z_3 = R_3 + Z_{C_3} = 50 - j5.305 \ \Omega\). Their parallel combination is \(Z_{23} = \frac{Z_2 \cdot Z_3}{Z_2 + Z_3}=41.866 - j3.165 \ \Omega\).</p>
+
+<p>The total impendance is \(Z_{total} = Z_{R_1} + Z_{L_1} + Z_{23}=46.866 - j1.280 \ \Omega=46.884\angle{-1.565^\circ} \ \Omega\).</p>
+
+<p>a) Source Current \(\bar{I}\)</p>
+
+\[\bar{I} = \frac{\mathbf{V}_s}{Z_{total}} = \frac{630\angle 0^\circ}{46.884\angle{-1.565^\circ}}=13.437\angle 1.565^\circ \text{ A (rms)}\]
+
+<p>(b) The voltage across the parallel combination is:</p>
+
+\[\mathbf{V}_{23} = \bar{I} \cdot Z_{23} =  563.87\angle{-2.764^\circ} \text{ V}\]
+
+<p>Then</p>
+
+<p>\(\bar{I}_3 = \frac{\mathbf{V}_{23}}{Z_3} = \frac{563.87\angle{-2.764^\circ}}{50 - j5.305}= 11.214\angle 3.289^\circ \text{ A (rms)}\).</p>
 
 
   </div>
