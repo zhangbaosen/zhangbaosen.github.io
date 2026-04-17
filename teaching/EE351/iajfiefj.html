@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EE 351</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE351/iajfiefj">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+     <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">EE 351</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="homework-2">Homework 2</h1>
+
+<p>Due at 11:59pm on Thursday, April 16th. Submit to <a href="https://canvas.uw.edu/courses/1883403/assignments/11376146">https://canvas.uw.edu/courses/1883403/assignments/11376146</a> . It is fine to submit scanned or a picture of handwritten answers, but we must be able to read it. Indicate your final answer clearly, show your work. Each problem is 10 points (all subproblems weighted equally).</p>
+
+<h2 id="problem-1">Problem 1</h2>
+
+<p>Consider the following circuit:</p>
+
+<p><img src="/images/h2_1.png" alt="" width="400" /></p>
+
+<p>Find</p>
+
+<p>a) The power (active and reactive) delivered to the load.</p>
+
+<p>b) The power (active and reactive) coming out of the source.</p>
+
+<h3 id="solutions">Solutions.</h3>
+
+<p>The total impedance is</p>
+
+\[Z_{\text{total}} = Z_{\text{line}} + Z_{\text{load}} = 6 + j7\ \Omega\]
+
+<p>and the magnitude of the current is</p>
+
+\[\vert I \vert = \vert \frac{V_s}{Z_{\text{total}}} \vert = \vert \frac{120}{6 + j7} \vert = 13.02\ \text{A}\]
+
+<p>a)</p>
+
+\[P_{\text{load}} = |I|^2 \cdot R_{\text{load}} = 847.06\ \text{W}\]
+
+\[Q_{\text{load}} = |I|^2 \cdot X_{\text{load}} =  338.82\ \text{VAr}\]
+
+<p>b)</p>
+
+\[P_{\text{source}} = |I|^2 \cdot R_{\text{total}} = 1017.65\ \text{W}\]
+
+\[Q_{\text{source}} = |I|^2 \cdot X_{\text{total}} = 1185.88\ \text{VAr}\]
+
+<h2 id="problem-2">Problem 2</h2>
+
+<p>Consider the circuit shown above.</p>
+
+<p>a) Suppose we want to achive unity power factor at the load (that is, a power factor of 1) by adding a capacitor in parallel. Find the size of the capacitor (in unit of \(\Omega\)).</p>
+
+<p>b) Now we want to tune the capacitor such that the source to only delievers active power. Is it possible? Explain why or why not.</p>
+
+<h3 id="solutions-1">Solutions.</h3>
+
+<p>a) The load impedance is: \(Z_{\text{load}} = 5 + j2\ \Omega\) So the load admittance is:</p>
+
+\[Y_{\text{load}} = \frac{1}{Z_{\text{load}}} =\frac{5}{29} - j\frac{2}{29}\ \text{S}\]
+
+<p>To achieve unity power factor at the load, the capacitor must cancel the
+imaginary part of \(Y_{\text{load}}\) and \(Y_C = j\frac{2}{29}\ \text{S}\).</p>
+
+<p>Since \(Y_C = \frac{1}{Z_C} = j\frac{1}{X_C}\), we have \(X_C = \frac{29}{2} = 14.5\ \Omega\). And the capacitor impedance is: \(Z_C = -j14.5\ \Omega\)</p>
+
+<p>b) For the source to deliver only active power, the total input impedance seen
+from the source must be purely real.</p>
+
+\[Z_{\text{total}} = Z_{\text{line}} + \frac{1}{Y_{\text{load}} + Y_C}\]
+
+<p>Let \(Y_C = jB_C\) where \(B_C &gt; 0\). The combined load admittance is:</p>
+
+\[Y_{\text{combined}} = \frac{5}{29} + j\left(B_C - \frac{2}{29}\right)\]
+
+<p>The combined load impedance is:</p>
+
+\[Z_{\text{combined}} = \frac{1}{Y_{\text{combined}}}\]
+
+<p>Let \(G = \frac{5}{29}\) and \(B = B_C - \frac{2}{29}\), so:</p>
+
+\[Z_{\text{combined}} = \frac{G - jB}{G^2 + B^2}\]
+
+<p>The total impedance is:</p>
+
+\[Z_{\text{total}} = \left(1 + \frac{G}{G^2 + B^2}\right) + j\left(5 - \frac{B}{G^2 + B^2}\right)\]
+
+<p>For the source to deliver only active power, the imaginary part must be zero:</p>
+
+\[5 - \frac{B}{G^2 + B^2} = 0 \implies \frac{B}{G^2 + B^2} = 5\]
+
+\[B = 5(G^2 + B^2)\]
+
+\[5B^2 - B + 5G^2 = 0\]
+
+<p>Substituting \(G = \frac{5}{29}\):</p>
+
+\[5B^2 - B + \frac{125}{841} = 0\]
+
+<p>It is easy to check that this equaiton has no real solution. This means it
+is not possible to achieve unity power factor at the source by only adding a
+capacitor in parallel with the load, given this line impedance.</p>
+
+<h2 id="problem-3">Problem 3</h2>
+
+<p>Consider a load supplied by a 120V (rms) AC source. The load is a \(1 \ \Omega\) resistance in parallel with a \(100 \ mH\) inductor. Find</p>
+
+<p>a) Active power delivered to the load in North America</p>
+
+<p>b) Active power delivered to the load in Europe</p>
+
+<h3 id="solutions-2">Solutions.</h3>
+
+<p>Since the resistor and inductor are in parallel, the voltage across each element
+is the same as the source voltage \(V_s = 120\ \text{V}\).</p>
+
+<p>The active power is only consumed by the resistor:</p>
+
+\[P = \frac{V_s^2}{R} = \frac{120^2}{1} = 14400\ \text{W} = 14.4\ \text{kW}\]
+
+<p>Note that the frequency does not affect this result, since the voltage across
+the resistor is fixed at \(V_s\) regardless of frequency. This is the answer to both a) and b).</p>
+
+<h2 id="problem-4">Problem 4</h2>
+
+<p>A voltage source \(V = 220\angle 120^\circ\) is connected across a load consisting of a \(15\ \Omega\) resistance in series with a \($100\ \mu\text{F}\) capacitance. Assume the circuit is energized in the United States. Find the  load power factor.</p>
+
+<h3 id="solutions-3">Solutions.</h3>
+
+<p>We have \(X_C = \frac{1}{2\pi 60 C} = 26.526\ \Omega\) and \(Z = R - jX_C = 15 - j26.526\ \Omega\)</p>
+
+<p>The current is $I = \frac{V}{Z} = 7.220\angle180.52°\ \text{A}$$. The power delievered to the load is</p>
+
+<p>\(S = V I^* = (220\angle120°)(7.220\angle{-180.52°})= 781.1 - j1382.6\ \text{VA}\) and</p>
+
+\[\text{pf} = \frac{P}{\vert S \vert} = \frac{781.1}{1588.4} \approx 0.492\ \text{(leading)}\]
+
+<h2 id="problem-5">Problem 5</h2>
+
+<p>An electric load consists of a \(15\ \Omega\) resistance in series with a \(10\ \Omega\) inductive reactance. The load is connected in parallel with another load of unknown impedance. The voltage source of the system is \(220\ \text{V}\). The total real and reactive powers delivered by the source are \(4\ \text{kW}\) and \(2\ \text{kVAR}\), respectively. Compute the impedance of the unknown load. State the real and reactive components.</p>
+
+<p><img src="/images/h2_2.png" alt="" width="400" /></p>
+
+<h3 id="solutions-4">Solutions.</h3>
+
+<p>The current through Load 1:</p>
+
+\[\vert I_1 \vert = \vert \frac{V_s}{Z_1}\vert = 12.206\ \text{A}\]
+
+<p>Real and reactive power of Load 1:</p>
+
+\[P_1 = \vert I_1 \vert^2 R_1 = 2233.8\ \text{W}\]
+
+\[Q_1 = \vert I_1 \vert^2 X_1 = 1489.2\ \text{VAR}\]
+
+<p>Power consumed by the other load is</p>
+
+\[P_2 = P_{\text{total}} - P_1 = 1766.2\ \text{W}\]
+
+\[Q_2 = Q_{\text{total}} - Q_1 = 510.8\ \text{VAR}\]
+
+<p>The complex power of Load 2 is \(S_2 = P_2 + jQ_2 = 1766.2 + j510.8\ \text{VA}\). Since the loads are in parallel, the voltage across Load 2 is also \(V_s = 220\ \text{V}\):</p>
+
+\[S_2 = \frac{\vert V_s\vert^2}{Z_2^*} \implies Z_2^* = \frac{|V_s|^2}{S_2} = \frac{220^2}{1766.2 + j510.8}\]
+
+\[Z_2^* = \frac{48400}{1766.2 + j510.8} = \frac{48400(1766.2 - j510.8)}{1766.2^2 + 510.8^2}= 25.28 - j7.31\ \Omega\]
+
+<p>Taking the conjugate:</p>
+
+\[Z_2 = 25.28 + j7.31\ \Omega\]
+
+<h2 id="problem-6">Problem 6</h2>
+
+<p>A \(630\ \text{V}\) AC voltage source is connected to two parallel connected impedances. One impedance draws \(10 + j15\ \text{kVA}\), and the other impedance draws \(15 - j10\ \text{kVA}\).</p>
+
+<p>a) Find the source current.</p>
+
+<p>b) A capacitor is added in parallel such that the source delievers power at unity power factor. Find the value of the capacitor (in \(\Omega\)).</p>
+
+<h3 id="solutions-5">Solutions.</h3>
+
+<p>a) The total complex power supplied is \(S=10+j15+15-j10=25+j5\ \text{kVA}\). Using \(S = V \cdot I^*\), \(I^* = \frac{S_{total}}{V_s} = \frac{(25+j5)\times 10^3}{630}  = 39.68 + j7.94 \ \text{A}\). Taking conjugate, \(I_s = 39.68 - j7.94 = 40.47\angle{-11.31^\circ} \ \text{A}\)</p>
+
+<p>b) For unity power factor, the source delivers zero reactive power. So the capacitor supplies \(Q_C = -5 \ \text{KVAr}\). Using \(Q_C = -\dfrac{\vert V\vert^2}{X_C}\), we can solve for \(X_C\) and get</p>
+
+\[X_C = \frac{630^2}{5000} = 79.38 \ \Omega\]
+
+<p>The capacitor impedance is: \(Z_C = -j79.38 \ \Omega\)</p>
+
+<h2 id="problem-7">Problem 7</h2>
+
+<p>A buck converter has a source voltage \(V_s = 15\ \text{V}\) and a load resistance \(R = 15\ \Omega\). If the duty ratio of the transistor is \(60\%\), compute the following:</p>
+
+<p>a) Voltage across the load</p>
+
+<p>b) Power delieved to the load</p>
+
+<h3 id="solutions-6">Solutions.</h3>
+
+<p>a) For a buck converter:</p>
+
+\[V_o = K \cdot V_s = 0.6 \times 15 = 9 \ \text{V}\]
+
+<p>b) \(P = \frac{V_o^2}{R} = \frac{9^2}{15} = \frac{81}{15} = 5.4 \ \text{W}\)</p>
+
+<h2 id="problem-8">Problem 8</h2>
+
+<p>A boost converter has a source voltage \(V_s = 10\ \text{V}\) and a load resistance \(R = 2\ \Omega\). If the duty ratio of the transistor is \(50\%\), compute the following:</p>
+
+<p>a) Voltage across the load</p>
+
+<p>b) Power delieved by the source</p>
+
+<h3 id="solutions-7">Solutions.</h3>
+
+<p>a) For a boost converter:</p>
+
+\[V_o = \frac{V_s}{1-K} = \frac{10}{1-0.5} = \frac{10}{0.5} = 20 \ \text{V}\]
+
+<p>b) Since the converter is ideal, power delivered by source equals power delivered to load:</p>
+
+\[P = \frac{V_o^2}{R} = \frac{20^2}{2} = \frac{400}{2} = 200 \ \text{W}\]
+
+<h2 id="problem-9">Problem 9</h2>
+
+<p>A boost converter is used to step up \(30\ \text{V}\) to \(50\ \text{V}\). The switching frequency of the transistor is \(5\ \text{kHz}\), and the load resistance is \(25\ \Omega\). Compute the following:</p>
+
+<p>(a) The current ripple when the inductor is \(L = 7.5\ \text{mH}\)</p>
+
+<p>(b) The average current of the load</p>
+
+<p>(c) The power delivered by the source</p>
+
+<h3 id="solutions-8">Solutions.</h3>
+
+<p>The duty ratio is \(K = 1 - \frac{V_s}{V_o} = 1 - \frac{30}{50} = 0.4\)</p>
+
+<p>a) \(\Delta I_L = \frac{V_s \cdot K \cdot T}{L} = \frac{30 \times 0.4 \times 0.2\times10^{-3}}{7.5\times10^{-3}} = 0.32 \ \text{A}\)</p>
+
+<p>b) \(I_o = \frac{V_o}{R} = \frac{50}{25} = 2 \ \text{A}\)</p>
+
+<p>c) Since the converter is ideal, power delivered by source equals power delivered to load:</p>
+
+\[P = V_o \cdot I_o = 50 \times 2 = 100 \ \text{W}\]
+
+
+  </div>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</article>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+  </body>
+
+</html>
+
