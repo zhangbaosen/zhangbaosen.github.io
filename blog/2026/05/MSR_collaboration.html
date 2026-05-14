@@ -6,12 +6,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Group</title>
-  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
-">
+  <title>Two collaborative efforts with Microsoft Research: an open source grid model and a foundational GNN solvers for AC OPF</title>
+  <meta name="description" content="Results from couple of efforts I have been working with Microsoft Research (Weiwei Yang, Andrea Britto Mattos Lima, Thiago Vallin Spina, Spencer Fowers) have...">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/group/">
+  <link rel="canonical" href="http://localhost:4000/blog/2026/05/MSR_collaboration">
   <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
      <script type="text/javascript" id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
@@ -100,61 +99,31 @@ function toggleDiv(element){
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Group</h1>
+    <h1 class="post-title" itemprop="name headline">Two collaborative efforts with Microsoft Research: an open source grid model and a foundational GNN solvers for AC OPF</h1>
+    <p class="post-meta"><time datetime="2026-05-14T00:00:00-07:00" itemprop="datePublished">May 14, 2026</time></p>
   </header>
 
-  <div class="post-content">
-    <h2 id="phd-students">Ph.D. Students</h2>
-<p><a href="https://tragerjoswig-jones.github.io/">Trager Joswig-Jones</a> <br />
-<a href="https://www.linkedin.com/in/mattmotoki/">Matt Motoki</a> <br />
-<a href="https://www.linkedin.com/in/lauren-streitmatter/">Lauren Streitmatter</a> <br />
-<a href="https://mcapetz.github.io/">Margaret Capetz</a> <br />
-<a href="https://lilaperkins.github.io/">Lila Perkins</a>, Applied Math <br />
-Jiayi Yao, Joint with Vasileios Charisopoulos</p>
+  <div class="post-content" itemprop="articleBody">
+    <p>Results from couple of efforts I have been working with Microsoft Research (<a href="https://www.microsoft.com/en-us/research/people/weiwya/">Weiwei Yang</a>, <a href="https://www.microsoft.com/en-us/research/people/andreabri/">Andrea Britto Mattos Lima</a>, <a href="https://www.microsoft.com/en-us/research/people/tvallinspina/">Thiago Vallin Spina</a>, <a href="https://www.microsoft.com/en-us/research/people/sfowers/">Spencer Fowers</a>) have been annouced:</p>
 
-<h2 id="postdocs">Postdocs</h2>
-<p><a href="https://jerryanunroj.github.io/">Jerry Anunrojwong</a>, CEI Fellow, joining Yale School of Management as an Assistant Professor in 2026</p>
-
-<h2 id="alumni-graduate-students">Alumni, Graduate Students</h2>
-<p><a href="https://www.linkedin.com/in/jiayi-li-88b089115/">Jiayi Li</a>, Uber <br />
-<a href="https://wenqi-cui.github.io/">Wenqi Cui</a>, Assistant Professor, New York University <br />
-<a href="https://www.linkedin.com/in/daniel-tabas-161b4ab5">Daniel Tabas</a>, Base Power <br />
-<a href="https://zhangling24.github.io/">Ling Zhang</a>, Microsoft Research Asia <br />
-<a href="https://apps.ualberta.ca/directory/person/yize9">Yize Chen</a>, Assistant Professor, University of Alberta <br />
-<a href="https://www.linkedin.com/in/atinuke-ademola-idowu-01702b24">Atinuke Ademola-Idowu</a>, GE Research  <br />
-<a href="http://shiyuanyuan.site/">Yuanyuan Shi</a>, Assistant Professor, University of California, San Diego <br />
-<a href="https://cpatdowling.github.io/">Chase Dowling</a>, Base Power <br />
-<a href="https://bolunxu.github.io/">Bolun Xu</a> (Joint with Daniel Kirschen), Assistant Professor, Columbia University <br />
-<a href="https://be.linkedin.com/in/jcont">Jesus Elmer Contreras Ocaña</a> (Joint with Miguel Ortega-Vazquez), ENGIE, Belgium <br />
-<a href="http://stellapanli.wixsite.com/personal">Pan Li</a>, Professor, Tongji University</p>
-
-<h2 id="alumni-postdocs">Alumni, Postdocs</h2>
-<p><a href="https://sse.cuhk.edu.cn/en/teacher/1757">Yan Jiang</a>, Assistant Professor, CUHK Shenzhen<br />
-<a href="https://zixiaoma1991.github.io/">Zixiao Ma</a>, Assistant Professor, Binghamton University <br />
-<a href="www.rotman.utoronto.ca/FacultyAndResearch/Faculty/FacultyBios/Sekar">Shreyas Sekar</a> (Joint with Lillian Ratliff), Assistant Professor, Rotman School of Management, University of Toronto <br />
-<a href="https://research.monash.edu/en/persons/hao-wang">Hao Wang</a>, Assistant Professor, Monash University</p>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61671917-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+<ol>
+  <li>
+    <p>We released an <a href="https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/">open dataset of approximate U.S. transmission-grid topologies</a> built entirely from public sources like <a href="https://www.openstreetmap.org/">OpenStreetMap</a>, spanning 48 states and interconnection-scale networks up to the 21,697-bus Eastern Interconnection, with every model solvable under AC optimal power flow. Because the models are geographically grounded and electrically coherent, they enable physics-based studies that price data alone cannot answer, such as where new transmission can physically fit, where superconducting links would relieve urban congestion, and where large new datacenter loads can be sited without triggering overloads. Full methodology is in the <a href="https://www.microsoft.com/en-us/research/publication/building-power-grid-models-from-open-data-a-complete-pipeline-from-openstreetmap-to-optimal-power-flow/">companion paper</a>, with code and models available on <a href="https://github.com/microsoft/GridSFM">GitHub</a> and <a href="https://huggingface.co/collections/microsoft/gridsfm">Hugging Face</a>.</p>
+  </li>
+  <li>
+    <p>We introduce <a href="https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/">GridSFM</a>, a small foundation model that approximates <a href="https://www.microsoft.com/en-us/research/publication/gridsfm-a-foundation-model-for-ac-optimal-power-flow/">AC optimal power flow</a> in milliseconds across grids from 500 to 80,000 buses, unlocking decisions that can impact up to $20B/year in congestion losses and 3.4 TWh of renewable curtailment. Unlike conventional surrogates that require retraining per topology, a single GridSFM model generalizes across 150+ grids and produces full AC operating points plus a feasibility verdict, running roughly 1,000× faster than a full AC solver and ~100× faster than the DC-approximation baseline. The open-research tier is available now on <a href="http://github.com/microsoft/gridSFM">GitHub</a> and <a href="https://huggingface.co/microsoft/GridSFM_Open">Hugging Face</a>, with more details on the <a href="https://www.microsoft.com/en-us/research/project/gridfm/">project page</a>.</p>
+  </li>
+</ol>
 
 
   </div>
 
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 </article>
 
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
 
       </div>
     </div>

@@ -6,9 +6,34 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 11 May 2026 16:32:49 -0700</pubDate>
-    <lastBuildDate>Mon, 11 May 2026 16:32:49 -0700</lastBuildDate>
+    <pubDate>Thu, 14 May 2026 10:04:46 -0700</pubDate>
+    <lastBuildDate>Thu, 14 May 2026 10:04:46 -0700</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>Two collaborative efforts with Microsoft Research: an open source grid model and a foundational GNN solvers for AC OPF</title>
+        <description>&lt;p&gt;Results from couple of efforts I have been working with Microsoft Research (&lt;a href=&quot;https://www.microsoft.com/en-us/research/people/weiwya/&quot;&gt;Weiwei Yang&lt;/a&gt;, &lt;a href=&quot;https://www.microsoft.com/en-us/research/people/andreabri/&quot;&gt;Andrea Britto Mattos Lima&lt;/a&gt;, &lt;a href=&quot;https://www.microsoft.com/en-us/research/people/tvallinspina/&quot;&gt;Thiago Vallin Spina&lt;/a&gt;, &lt;a href=&quot;https://www.microsoft.com/en-us/research/people/sfowers/&quot;&gt;Spencer Fowers&lt;/a&gt;) have been annouced:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;We released an &lt;a href=&quot;https://www.microsoft.com/en-us/research/blog/building-realistic-electric-transmission-grid-dataset-at-scale-a-pipeline-from-open-dataset/&quot;&gt;open dataset of approximate U.S. transmission-grid topologies&lt;/a&gt; built entirely from public sources like &lt;a href=&quot;https://www.openstreetmap.org/&quot;&gt;OpenStreetMap&lt;/a&gt;, spanning 48 states and interconnection-scale networks up to the 21,697-bus Eastern Interconnection, with every model solvable under AC optimal power flow. Because the models are geographically grounded and electrically coherent, they enable physics-based studies that price data alone cannot answer, such as where new transmission can physically fit, where superconducting links would relieve urban congestion, and where large new datacenter loads can be sited without triggering overloads. Full methodology is in the &lt;a href=&quot;https://www.microsoft.com/en-us/research/publication/building-power-grid-models-from-open-data-a-complete-pipeline-from-openstreetmap-to-optimal-power-flow/&quot;&gt;companion paper&lt;/a&gt;, with code and models available on &lt;a href=&quot;https://github.com/microsoft/GridSFM&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://huggingface.co/collections/microsoft/gridsfm&quot;&gt;Hugging Face&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;We introduce &lt;a href=&quot;https://www.microsoft.com/en-us/research/blog/gridsfm-a-new-small-foundation-model-for-the-electric-grid/&quot;&gt;GridSFM&lt;/a&gt;, a small foundation model that approximates &lt;a href=&quot;https://www.microsoft.com/en-us/research/publication/gridsfm-a-foundation-model-for-ac-optimal-power-flow/&quot;&gt;AC optimal power flow&lt;/a&gt; in milliseconds across grids from 500 to 80,000 buses, unlocking decisions that can impact up to $20B/year in congestion losses and 3.4 TWh of renewable curtailment. Unlike conventional surrogates that require retraining per topology, a single GridSFM model generalizes across 150+ grids and produces full AC operating points plus a feasibility verdict, running roughly 1,000× faster than a full AC solver and ~100× faster than the DC-approximation baseline. The open-research tier is available now on &lt;a href=&quot;http://github.com/microsoft/gridSFM&quot;&gt;GitHub&lt;/a&gt; and &lt;a href=&quot;https://huggingface.co/microsoft/GridSFM_Open&quot;&gt;Hugging Face&lt;/a&gt;, with more details on the &lt;a href=&quot;https://www.microsoft.com/en-us/research/project/gridfm/&quot;&gt;project page&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Thu, 14 May 2026 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2026/05/MSR_collaboration</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2026/05/MSR_collaboration</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>National Laboratory of the Rockies (NLR) is looking for postdocs</title>
@@ -39,38 +64,6 @@
         <pubDate>Thu, 22 Jan 2026 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/blog/2026/01/MSR_intern</link>
         <guid isPermaLink="true">http://localhost:4000/blog/2026/01/MSR_intern</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>The Base Power Company is Looking for Interns</title>
-        <description>&lt;p&gt;Two of my former students, Chase Dowling and Daniel Tabas, are looking for interns. Specifically, they are looking for people to design and implementation of sequential decision algorithms for trading energy and ancillary services in the Texas markets. They are great people and I’m sure the problem is interesting! For more information see this &lt;a href=&quot;https://job-boards.greenhouse.io/basepowercompany/jobs/4474393008&quot;&gt;job posting&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 25 Jan 2025 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2025/01/Basepower</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2025/01/Basepower</guid>
-        
-        
-        <category>new</category>
-        
-        <category>papers</category>
-        
-      </item>
-    
-      <item>
-        <title>We are accepting CEI Distinguished Postdoctoral Fellowship Again</title>
-        <description>&lt;p&gt;The Clean Energy Institute at the University of Washington is now accepting applications for our CEI Distinguished Postdoctoral Fellowship. We invite innovative, exceptionally talented researchers who have recently received their Ph.D. degree (or foreign equivalent) to apply for full-time postdoctoral fellowship positions at the UW’s Seattle campus. The Fellowship is a full-time, 12-month position at the rank of Research Associate. The salary range is $75,000– $100,000 depending on the qualifications and scope of the research proposed by the applicant. Reappointment for an additional year is possible depending upon mutual agreement and funding availability. The Fellowship carries an annual discretionary research budget of $10,000.&lt;/p&gt;
-
-&lt;p&gt;Visit the &lt;a href=&quot;https://www.cei.washington.edu/research/postdoctoral/distinguished-postdoctoral-fellowship/&quot;&gt;UW CEI website&lt;/a&gt; to learn more, or apply directly via &lt;a href=&quot;https://urldefense.com/v3/__https://apply.interfolio.com/159460__;!!K-Hz7m0Vt54!gQeGYUx6MyLTC3t0cjNn3KUCzU2uUADWU_n1ee0xy2CurbveaY8fiPgB3C_PeoQXBhhjKU4kaE_quwxESnuEEnoFd03dwQ$&quot;&gt;Interfolio&lt;/a&gt;. If you have any questions, please let me know.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 16 Dec 2024 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/blog/2024/12/CEI</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2024/12/CEI</guid>
         
         
         <category>new</category>
