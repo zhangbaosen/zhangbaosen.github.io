@@ -117,6 +117,34 @@ function toggleDiv(element){
 
 <p>A three-phase synchronous generator is connected to a \(24 \text{ kV}\) infinite bus through two parallel transmission lines. The synchronous reactance of the generator is \(2 \ \Omega\), and the inductive reactance of each transmission line is \(4 \ \Omega\). The generator delivers \(76.5 \text{ MW}\) of active power and \(13.5 \text{ MVA}\) of reactive power to the infinite bus. Suppose a lightning strike causes one of the transmission lines to open. Assume that the excitation of the generator remains unchanged (i.e., the magnitude of \(E_f\) remains the same). Can the generator still deliver the same amount of active power to the infinite bus?</p>
 
+<h3 id="solution">Solution.</h3>
+
+<p>Per-phase (line-to-neutral) voltage at the infinite bus:</p>
+
+\[V = \frac{24{,}000}{\sqrt{3}} = 13{,}856 \ \text{V}\]
+
+<p>With two parallel lines, the total series reactance is:</p>
+
+\[X_{total} = X_s + \frac{X_L}{2} = 4 \ \Omega\]
+
+<p>Taking the infinite bus voltage as the reference, we use $\bar{S} = 3V\bar{I}^*$:</p>
+
+\[\bar{I} = 1{,}840 - j325 \ \text{A}\]
+
+\[\bar{E}_f = \bar{V} + jX_{total}\bar{I}  = 15{,}156 + j7{,}360 \ \text{V}\]
+
+\[\vert E_f \vert = \approx 16{,}848 \ \text{V}\]
+
+<p>After one line opens, the total reactance increases to:</p>
+
+\[X_{total} = X_s + X_L = 2 + 4 = 6 \ \Omega\]
+
+<p>With \(\vert E_f \vert\) unchanged, the maximum deliverable active power is:</p>
+
+\[P_{max} = \frac{3\vert E_f \vert \vert V \vert}{X_{total}} =  116.7 \ \text{MW}\]
+
+<p>Since \(P = 76.5 \ \text{MW} &lt; P_{max} = 116.7 \ \text{MW}\), the same amount of active power can still be delivered.</p>
+
 <h2 id="problem-2">Problem 2</h2>
 
 <p>A three-phase synchronous generator is connected to an infinite bus through a transmission line. The inductive reactance of the transmission line is \(1 \ \Omega\), and the synchronous reactance of the machine is \(2 \ \Omega\). The internal e.m.f. is \(20 \text{ kV}\) and the generator delivers \(50 \text{ MW}\) of active power to the infinite bus. Taking the infinite bus as the reference for the angles, the  angle of the internal e.m.f. is \(30^\circ\). Compute the following:</p>
@@ -124,6 +152,34 @@ function toggleDiv(element){
 <p>a) The line-to-line voltage magnitude of the infinite bus.</p>
 
 <p>b) The reactive power consumed by the transmission line.</p>
+
+<h3 id="solutions">Solutions.</h3>
+
+<p>The total series reactance of the circuit is:</p>
+
+\[X_{total} = X_s + X_L = 2 + 1 = 3 \ \Omega\]
+
+<p>Taking the infinite bus as reference the per-phase internal emf (line-to-neutral voltage) is</p>
+
+\[\bar{E}_f = \frac{20{,}000}{\sqrt{3}}\angle 30° \ \text{V}\]
+
+<p>a) Using the three-phase power-angle equation:</p>
+
+\[P = \frac{3 E_f  V }{X_{total}}\sin\delta\]
+
+<p>Substituting in the numbers,</p>
+
+\[V_{phase} = \frac{50 \times 10^6 \times \sqrt{3}}{10{,}000} = 5{,}000\sqrt{3} \ \text{V}\]
+
+\[V_{LL} = 5{,}000 \sqrt{3} \times \sqrt{3} = 15 \ \text{kV}\]
+
+<p>b) First, compute the current (taking the infinite bus as the reference)</p>
+
+\[\bar{I} = \frac{\bar{E}_f - \bar{V}}{jX_{total}} = 1{,}924.5 - j446.6 \ \text{A}\]
+
+<p>The transmission line is purely inductive, so its reactive power consumption is:</p>
+
+\[Q_{line} = 3 I^2 X_L = 11.71 \ \text{MVar}\]
 
 <h2 id="problem-3">Problem 3</h2>
 
@@ -133,19 +189,85 @@ function toggleDiv(element){
 
 <p>b) The reactive power output at the generator terminals.</p>
 
+<h3 id="solutions-1">Solutions.</h3>
+
+<p>With unity power factor at the infinite bus, the current is in phase with \(\vec{V}_o\). Taking the infinite bus as reference:</p>
+
+\[V_o = \frac{138{,}000}{\sqrt{3}} = 79{,}674 \ \text{V} \quad \text{(per phase)}\]
+
+\[I = \frac{P}{3V_o} = \frac{1.4 \times 10^9}{3 \times 79{,}674} = 5{,}858 \ \text{A}\]
+
+\[\vec{I} = 5{,}858 \angle 0° \ \text{A}, \qquad \vec{V}_o = 79{,}674 \angle 0° \ \text{V}\]
+
+<p>a) The generator terminal voltage is</p>
+
+\[\vec{V}_t = \vec{V}_o + jX_L \vec{I} = 79{,}674 + j(3)(5{,}858) = 79{,}674 + j\,17{,}574 \ \text{V}\]
+
+\[\vert V_t \vert =  81.59 \ \text{kV}\]
+
+<p>Converting to line-to-line:</p>
+
+\[V_{t,LL} = 141.3 \ \text{kV}\]
+
+<p>b) Because the infinite bus receives zero reactive power, all reactive power produced at the generator terminals feeds the line:</p>
+
+\[Q_t = 3 X_L I^2 = 308.8 \ \text{MVAR}\]
+
 <h2 id="problem-4">Problem 4</h2>
 
 <p>A single-phase transformer is rated at \(5 \text{ kVA}\), \(480/240 \text{ V}\). Find the current ratings in the primary and secondary windings.</p>
 
+<h3 id="solutions-2">Solutions.</h3>
+
+<p>We have</p>
+
+\[I = \frac{S}{V}\]
+
+\[I_1 = \frac{S}{V_1} = 10.42 \ \text{A}\]
+
+\[I_2 = \frac{S}{V_2} = 20.83 \ \text{A}\]
+
 <h2 id="problem-5">Problem 5</h2>
 
 <p>A single-phase transformer has a turns ratio of \(N_1/N_2 = 5\) and a load of \(3 - j5 \, \Omega\) is attached to the secondary side. Find the reflected impedance at the primary.</p>
+
+<h3 id="solutions-3">Solutions.</h3>
+
+<h2 id="reflected-impedance">Reflected Impedance</h2>
+
+\[Z_2' = (\frac{N_1}{N_2})^2 (3 - j5) =  75 - j125 \ \Omega\]
 
 <h2 id="problem-6">Problem 6</h2>
 
 <p>a) A three-phase transformer is connected in \(Y/Y\) configuration. All of the windings have a turns ratio \(N_1/N_2 = 10\). If a line-to-line voltage of \(600 \text{ V}\) is applied on the primary, compute the line-to-line voltage on the secondary side.</p>
 
 <p>b) A three-phase transformer is connected in \(Y/\Delta\) configuration. All of the windings have a turns ratio \(N_1/N_2 = 10\). If a line-to-line voltage of \(600 \text{ V}\) is applied on the primary (i.e., the \(Y\) connected side), compute the line-to-line voltage on the secondary side (i.e., the \(\Delta\) connected side).</p>
+
+<h3 id="solutions-4">Solutions.</h3>
+
+<p>a)</p>
+
+<p>In a Y connection, the per-phase voltage is related to the line-to-line voltage by \(1/\sqrt{3}\). The winding turns ratio acts on the per-phase voltages:</p>
+
+\[V_{\phi,1} = \frac{V_{LL,1}}{\sqrt{3}} = \frac{600}{\sqrt{3}} \ \text{V}\]
+
+\[V_{\phi,2} = \frac{V_{\phi,1}}{a} = \frac{600}{\sqrt{3} \times 10} = \frac{60}{\sqrt{3}} \ \text{V}\]
+
+<p>Since the secondary is also Y connected, multiplying back by \(\sqrt{3}\):</p>
+
+\[V_{LL,2} = \sqrt{3} \times \frac{60}{\sqrt{3}} = 60 \ \text{V}\]
+
+<p>Or we can observe that for Y/Y, the \(\sqrt{3}\) factors cancel, so the effective line-to-line ratio equals the winding turns ratio directly.</p>
+
+<p>b)</p>
+
+<p>The primary per-phase voltage is the same as before:</p>
+
+\[V_{\phi,1} = \frac{600}{\sqrt{3}} \ \text{V}\]
+
+<p>However, for a \(\Delta\) connection, the secondary of the transformer is directly over the line-to-line voltage and there is no \(\sqrt{3}\) step-up on the secondary side:</p>
+
+\[V_{LL,2} = V_{\phi,2} = \frac{N_2}{N_1} \frac{600}{\sqrt{3}}= 34.6 \ \text{V}\]
 
 <h2 id="problem-7">Problem 7</h2>
 
@@ -154,6 +276,22 @@ function toggleDiv(element){
 <p>a) The power rating of the three-phase transformer.</p>
 
 <p>b) The line-to-line rated voltages of the three-phase transformer. Note that for each single-phase transformer the rated voltages are across the windings.</p>
+
+<h3 id="solutions-5">Solutions.</h3>
+
+<p>a) The three-phase bank rating is the sum of the individual transformer ratings:</p>
+
+\[S_{3\phi} = 3 \times 12 \ \text{kVA} = 36 \ \text{kVA}\]
+
+<p>b)  The rated voltages (500 V and 250 V) are across each individual winding.</p>
+
+<p>In a Y connection, the line-to-line voltage is \(\sqrt{3}\) times the winding voltage:</p>
+
+\[V_{LL,1} = \sqrt{3} \times 500 = 866 \ \text{V}\]
+
+<p>In a \(\Delta\) connection, the line-to-line voltage equals the winding voltage directly:</p>
+
+\[V_{LL,2} = 250 \ \text{V}\]
 
 <h2 id="problem-8">Problem 8</h2>
 
@@ -168,6 +306,46 @@ function toggleDiv(element){
 <p>d) The load power and the efficiency of the transformer.</p>
 
 <p><img src="/images/h7p8.png" alt="" width="600" /></p>
+
+<h3 id="solutions-6">Solutions.</h3>
+
+<p>For notational simplicity, we use \(a = \frac{N_1}{N_2} = \frac{240}{120} = 2\)</p>
+
+<p>a) Secondary parameters reflected to the primary:</p>
+
+\[R'_2 = a^2 R_2 = 4 \times 0.8 = 3.2 \ \Omega\]
+
+\[X'_2 = a^2 X_2 = 4 \times 1 = 4 \ \Omega\]
+
+\[Z' = a^2 Z = 4(6 - 3j) = 24 - 12j \ \Omega\]
+
+<p>b)</p>
+
+<p>With the shunt branch neglected, \(I_1 = I'_2\). The total series impedance in the referred circuit is:</p>
+
+\[Z_{total} = (R_1 + R'_2) + j(X_1 + X'_2) + Z'= 29.2 - 3j \ \Omega\]
+
+\[I'_2 = \frac{V_1}{Z_{total}} = 7.794 + 0.801j \ \text{A}\]
+
+<p>c) The actual secondary current is:</p>
+
+\[I_2 = a \cdot I'_2 = 15.588 + 1.602j \ \text{A}\]
+
+<p>The load voltage:</p>
+
+\[V_2 = I_2 \cdot Z = 98.33 - 37.16j \ \text{V}\]
+
+<p>d) The Load power (dissipated in \(R_{load} = 6 \ \Omega\)):</p>
+
+\[P_{load} = \vert I_2 \vert ^2 R_{load} = 1.47 \ \text{kW}\]
+
+<p>The input power is</p>
+
+\[P_{in} = \text{Real}(V_1 I_2^{'*})= 1.79 \ \text{W}\]
+
+<p>The efficiency is</p>
+
+\[\eta = \frac{P_{load}}{P_{in}} = 82.2\%\]
 
 <h2 id="problem-9">Problem 9.</h2>
 
@@ -186,6 +364,16 @@ function toggleDiv(element){
 P_3 &amp;=\frac{1}{X_3} \sin (\theta_3)+\frac{1}{X_2} \sin(\theta_3-\theta_2) \end{align}\]
 
 <p>b) Find the region of all possible \((P_2,P_3)\) by varying \(\theta_2\) and \(\theta_3\). This will be some set in \(\mathbb{R}^2\). Of course, we can trivially say that \((P_2,P_3)\) are the set of all points that satisfies the above equations for some \(\theta_2\) and \(\theta_3\). What we are looking for is a more useful characterization of the geometry of this set.</p>
+
+<h3 id="solutions-7">Solutions.</h3>
+
+<p>a) This is by direct calculations.</p>
+
+<p>b) It’s best to start by plotting an example. Taking \(X_1=1,\ X_2=2, \ X_3=3\), we get the following feasible region for \((P_2,P_3)\).</p>
+
+<p><img src="/images/feasible_region.png" alt="" width="600" /></p>
+
+<p>It turns out that there is no easy (known) description for this region. That is, we can’t really come up with elementary functions that the desribes this shape. We can observe that the shape has an interesting property: it is <a href="https://en.wikipedia.org/wiki/Convex_set">convex</a>. In fact, convexity of the region is very important for algorithms. For example, given some \((P_2,P_3)\), we can ask whether there is an efficient algorithm to decide whether they are feasible or not. It turns out if the underlying geometry is convex, we can find such an algorithm. We can show that for three buses, the region is always convex (this require tools normally taught in a convex optimization class). However, for general networks that has more than 3 buses, we don’t really understand what the region looks like. A research area in power system analysis is to get a better understanding of the geometry of these regions, and in turn, design better algorithms.</p>
 
 
   </div>
