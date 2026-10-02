@@ -11,7 +11,7 @@
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/teaching/EE554/homework1">
+  <link rel="canonical" href="http://localhost:4000/554_homework1_bk">
   <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
      <script type="text/javascript" id="MathJax-script" async
       src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
@@ -109,48 +109,59 @@ function toggleDiv(element){
   <div class="post-content">
     <h1 id="homework-1">Homework 1</h1>
 
-<p>Due Oct 9th at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1917157">https://canvas.uw.edu/courses/1917157</a>. You should use computers when appriopriate. You are permitted to use AI, but please indicate how and where it is used.</p>
+<p>Due Oct 3th at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1828831/assignments/10721423">https://canvas.uw.edu/courses/1828831/assignments/10721423</a></p>
 
 <h2 id="problem-1">Problem 1</h2>
 
 <p>We will use matrices extensively in this class, often in the context of solving linear system of equations. For the following equations, find all the solutions, or
-explain why there is no solution.</p>
+explain why there is no solution. You may use a computer.</p>
 
-<p>a) Solve \(\begin{bmatrix} 1 &amp; 1 &amp; 3 \\ 2 &amp; -1 &amp; 6 \\ -5 &amp; 5 &amp; 3 \end{bmatrix} x =\begin{bmatrix} 1 \\ -1 \\ 2 \end{bmatrix}\)</p>
+<p>a) Solve \(\begin{bmatrix} 1 &amp; 2 &amp; 3 \\ 4 &amp; 0 &amp; 5 \\ 6 &amp; 11 &amp; 2 \end{bmatrix} x =\begin{bmatrix} 1 \\2 \\ 3 \end{bmatrix}\)</p>
 
-<p>b) Solve \(\begin{bmatrix} 1 &amp; 0 &amp; 1 \\ -1 &amp; 2 &amp; 2 \\ 0 &amp; 2 &amp; 3  \end{bmatrix} x = \begin{bmatrix} 1 \\ 2 \\ 3 \end{bmatrix}\)</p>
+<p>b) Solve \(\begin{bmatrix} 1 &amp; 2 \\ -0.5 &amp; -1 \end{bmatrix} x = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</p>
 
-<p>c) Solve \(\begin{bmatrix} 1 &amp; 0 &amp; 1 \\ -1 &amp; 2 &amp; 2 \\ 0 &amp; 2 &amp; 3  \end{bmatrix} x = \begin{bmatrix} 1 \\ 2 \\ 4 \end{bmatrix}\)</p>
+<p>c) Solve \(\begin{bmatrix} 2 &amp; 0 &amp; 1 \\ -1 &amp; 1 &amp; 2 \end{bmatrix} x = \begin{bmatrix} 1 \\ 2 \end{bmatrix}\)</p>
 
 <h2 id="problem-2">Problem 2</h2>
-<p>Consider the matrix 
-\(\begin{bmatrix}  1 &amp; 2 \\ -1 &amp; 0 \\ 3 &amp; 4 \end{bmatrix}\)</p>
 
-<p>a) Find its null space.</p>
+<p>Some questions about matrices.</p>
 
-<p>b) Find its row space.</p>
+<p>a) Let \(\mathbf{A}\) be a \(n\) by \(n\) symmetric real matrix. Show the eigenvalues of \(\mathbf{A}\) are real.</p>
+
+<p>b) Find a 2 by 2 matrix with just one eigenvalue. Note, matrices with repeated eigenvalues do not count. For example, the identity matrix has 2 eigenvalues both equal to 1, but it’s not what this question is asking for. We are looking for a matrix with just 1 eigenvalue.</p>
+
+<p>c) Let \(\mathbf{A}\) and \(\mathbf{B}\) be two matrices where \(\mathbf{AB}\) and \(\mathbf{BA}\) both make sense. Let \(\mathrm{Tr}\) be the trace operator. Show that \(\mathrm{Tr} (\mathbf{AB})=\mathrm{Tr} (\mathbf{BA})\).</p>
 
 <h2 id="problem-3">Problem 3</h2>
+<p>Complex numbers. Note that \(z^*\) denote the complex conjugate of \(z\).</p>
 
-<p>Let \(A\) be some matrix. Recall that the column rank of \(A\) is the dimension of its column space, and the row rank of \(A\) is the dimension of its row space. Prove that the column rank equals to the row rank.</p>
+<p>a) Let \(z_1\) and \(z_2\) be two complex numbers, both with magnitude equal to 2. What is the largest possible value of \(\mathrm{Re} (z_1 \cdot z_2)\)?</p>
+
+<p>b) A subset \(U\) of \(\mathbb{C}^n\) is called a complex subspace of \(\mathbb{C}^n\) if it contains \(0\) and if, given \(\mathbf{v}\) and \(\mathbf{u}\) in \(U\), \(\mathbf{v}+\mathbf{u}\) and \(z \mathbf{v}\) lie in \(U\) (for any complex scalar \(z\)). Determine whether \(U\) is a complex subspace of \(\mathbb{C}^3\) in each of the case below.</p>
+
+<p>i. \(U=\{(z,z^*,0) \vert z \in \mathbb{C}\}\)</p>
+
+<p>ii. \(U=\mathbb{R}^3\)</p>
+
+<p>iii. \(U=\{(v+w, v-3w, v) \vert v,w \in \mathbb{C}\}\)</p>
 
 <h2 id="problem-4">Problem 4</h2>
+<p>Basic circuits. The values of the elements are \(R_1=1 \Omega\), \(R_2=2 \Omega\), \(Z_C=-j0.5 \Omega\), \(Z_L = j 3 \Omega\).</p>
 
-<p>Find all the eigenvalues and eigenvectors of the following matrix</p>
+<p><img src="https://www.dropbox.com/scl/fi/mi2x6cyu93l7fgctybe8w/Circuit_homework1.png?rlkey=p79m39suo4c1an1j0jlemj9vt&amp;dl=1" alt="Circuit for problem 4" width="400" /></p>
 
-\[\begin{bmatrix} 3 &amp; -1 &amp; -1.5 \\ -1 &amp; 5 &amp; -2 \\ -1.5 &amp; -2 &amp; 4 \end{bmatrix}\]
+<p>a) Find the active power and reactive power produced by the source.</p>
+
+<p>b) Suppose we want the source to only deliver active power. Add to element to the circuit to achieve it (there are many ways to do this).</p>
 
 <h2 id="problem-5">Problem 5</h2>
+<p>Given a network with \(n\) buses. We say the network is connected if there is a path from any bus to any other bus.</p>
 
-<p>In class, I said that power need to be defined as \(S=VI^*\), and things wouldn’t make sense if that \(*\) isn’t there. Why is that? What would go wrong if we define power as \(S=VI\)?</p>
+<p>a) What is the smallest number of edges a connected network can have?</p>
 
-<h2 id="problem-6">Problem 6</h2>
-<p>Consider the circuit below, find the current through \(Z\), and the power delivered to the load \(Z_L\). 
-<img src="/images/Series_AC_Circuit.png" alt="" width="600" /></p>
+<p>b) What about the largest number of edges?</p>
 
-<h2 id="problem-7">Problem 7</h2>
-<p>Consider a setting of a generator supplying a load. Let the load be \(L\). The price of electricity is proportional to the load, that is, the price is \(\alpha L\) for some \(\alpha &gt;0\). Now fix the load at 10 MW. We add a solar generator to the system. Because solar energy has zero marginal cost, we consider it as negative load. Let denote the amount of solar generated as \(S\), and the price is now \(\alpha (10- S)\). If you’re the owner of the solar generator, what value of \(S\) would you choose to optimize your profit?</p>
-
+<p>c) For a practical grid, would it have a lot or a few edges?</p>
 
   </div>
 
