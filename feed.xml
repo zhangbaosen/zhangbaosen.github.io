@@ -6,9 +6,62 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Oct 2026 09:45:32 -0700</pubDate>
-    <lastBuildDate>Mon, 05 Oct 2026 09:45:32 -0700</lastBuildDate>
+    <pubDate>Mon, 12 Oct 2026 22:00:21 -0700</pubDate>
+    <lastBuildDate>Mon, 12 Oct 2026 22:00:21 -0700</lastBuildDate>
     <generator>Jekyll v4.4.1</generator>
+    
+      <item>
+        <title>UW ECE is hiring. We are looking for two Assistant Professors and one tenured Associate Professor. All areas, including power and energy, are of interest.</title>
+        <description>&lt;p&gt;The ECE department is seaching for two Assistant Professor and one Associate Professor across all areas of ECE. Submit your application by Nov. 15th for priority review.&lt;/p&gt;
+
+&lt;p&gt;Assistant Professor position: &lt;a href=&quot;https://apply.interfolio.com/192876&quot;&gt;https://apply.interfolio.com/192876&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Associate Professor position: &lt;a href=&quot;https://apply.interfolio.com/192881&quot;&gt;https://apply.interfolio.com/192881&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 12 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2026/10/Search</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2026/10/Search</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
+    
+      <item>
+        <title>UW is hosting Raising Stars in EECS this year.</title>
+        <description>&lt;p&gt;The ECE department at the University of Washington, together with our CSE
+and HDCE departments, is hosting Raising Stars in EECS this year. This is a
+two-day intensive workshop created to increase awareness among women
+graduate students, postdocs, and Ph.D. holders of future academic careers
+in electrical engineering, computer science, artificial intelligence, and
+related fields. It was first launched at MIT in 2012, and has since been
+hosted as an annual event at a variety of institutions.&lt;/p&gt;
+
+&lt;p&gt;This year’s workshop will bring together graduate students, postdoctorates,
+and recent Ph.D. graduates for professional development, mentorship, and
+collaboration, with discussions focusing primarily on careers in academia
+but also covering research careers in industry.&lt;/p&gt;
+
+&lt;p&gt;Applicants should be within 1-3 years of graduating with a Ph.D. at the
+time of the workshop, or have obtained a Ph.D. no earlier than 2024 and do
+not currently hold a faculty position.  While there are elements of the
+workshop that are focused on the experiences of women in academia, all are
+eligible and encouraged to apply to the program. All applications are
+required to be submitted by November 3, 2026. For more information and how
+to submit an application, please see &lt;a href=&quot;https://risingstars.cs.washington.edu/&quot;&gt;https://risingstars.cs.washington.edu/&lt;/a&gt; .&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Oct 2026 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/blog/2026/10/Rising_stars</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2026/10/Rising_stars</guid>
+        
+        
+        <category>new</category>
+        
+        <category>papers</category>
+        
+      </item>
     
       <item>
         <title>Slides for PES General Meeting Panel Session: Optimal Operation and Integration of Large Data Centers in the Grid</title>
