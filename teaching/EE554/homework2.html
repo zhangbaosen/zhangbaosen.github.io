@@ -109,68 +109,55 @@ function toggleDiv(element){
   <div class="post-content">
     <h1 id="homework-2">Homework 2</h1>
 
-<p>Due Oct 11th at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1828831/assignments/10766564">https://canvas.uw.edu/courses/1828831/assignments/10766564</a>.</p>
+<p>Due Oct 23rd at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1917157/assignments/11849576">https://canvas.uw.edu/courses/1917157/assignments/11849576</a>.</p>
 
 <h2 id="problem-1">Problem 1</h2>
 
-<p>Let \(A\) and \(B\) be real \(n\) by \(n\) matrices. Suppose both are nonsingular.</p>
+<p>Consider a \(n\) by \(n\) matrix \(A\). We say \(A\) is diagonalizable if there exist some invertible matrix \(P\), where \(A=P \Lambda P^{-1}\), where \(\Lambda\) is a diagonal matrix.</p>
 
-<p>a) Show that \(AB\) is nonsingular.</p>
+<p>a) Suppose \(A\) has \(n\) eigenvalues. Proof that we can take \(\Lambda\) to the digaonal matrix with eigenvalues on the diagonal and \(P\) to be matrix where each column is the corresponding eigenvector.</p>
 
-<p>b) Find an example where \(A+B\) is singular.</p>
+<p>b) Find a matrix that is not diagonalizable. Hint: there is a 2 by 2 matrix that is not diagonalizable.</p>
 
 <h2 id="problem-2">Problem 2</h2>
 
-<p>We say a real symmetric matrix is positive semidefinite if \(x^T A x \geq 0\) for all \(x\).</p>
-
-<p>a) Find a matrix that is positive semidefinite but not positive definite.</p>
-
-<p>b) Show that for an arbitrary matrix \(B\), the matrix \(B^T B\) is positive semidefinite.</p>
+<p>Let \(A\) and \(B\) be real \(n\) by \(n\) matrices. In general, \(AB \neq BA\). Show that if \(A\) and \(B\) are both diagonalizable, and they have the same eigenvectors, then \(AB=BA\).</p>
 
 <h2 id="problem-3">Problem 3</h2>
 
-<p>An extremely useful fact about symmetric matrices is that their eigenvectors always form an orthogonal basis. That is, if a \(n\) by \(n\) real matrix \(A\) is symmetric, it has \(n\) eigenvectors \(u_1, \dots, u_n\) and \(u_i^T u_j =0\) if \(i \neq j\). This holds for complex matrices if we replace symmetric by hermitian. We won’t prove this statement here. It can also be generalized significantly to include infinite dimensional operators. For the following problem, we look at how it can be used.</p>
-
-<p>a) Show that all eigenvalues of a positive definite matrix are positive and all eigenvalues of a positive semidefinite matrix are nonnegative.</p>
-
-<p>b) Let \(A\) be a symmetric matrix. What is the largest \(\lambda\) such that \(A - \lambda I \succ 0\). Recall that \(\succ\) means positive definiteness and \(I\) is the identity matrix.</p>
+<p>Consider a lossy power system. That is, each line adminttance \(g_{ik}-j b_{ik}\) has \(g_{ik}\geq 0\). Proof that the the thermal loss in the system is nonnegative, and is zero if and only if all the bus voltages are equal. Hint: Once the thermal loss is appriopriately defined, the proof is about two lines.</p>
 
 <h2 id="problem-4">Problem 4</h2>
 
-<p>The notation of positive definiteness is usually defined for symmetric matrices. We can extend to nonsymmetric square matrices using the same definition as before: given a \(n\) by \(n\) matrix \(A\) (not necessarily symmetric), we say \(A\) is positive definte if \(x^T A x &gt;0\) for all nonzero vectors \(x\).</p>
+<p>Consider the equation \(f(x)=ax^2-x\), and we want to solve \(f(x)=0\). Of course, we can compute the roots pretty easily, but let’s try the Gauss Algorithm. This algorithm views the equation as a fixed point equation. That is, solving for \(f(x)=0\) is the same as solving for \(x\) such that \(ax^2=x\). Then a simple algorithm is to perform fixed point iterates: \(x^{(k+1)}=f(x^{(k)})\), and see if it converges. We call \(\mathcal{X}=\{x^{(0)}:\text{fixed point iterates converges starting from } x^{(0)}\}\) the region of convergence.</p>
 
-<p>a) Show that \(A\) is positive definite if and only if \(A+A^T\) is positive definite.</p>
+<p>a) Pick \(a=0.5\) and find the region of convergence.</p>
 
-<p>b) Suppose \(A\) and \(B\) and symmetric postive definite matrices, is \(AB\) positive semidefinite?</p>
+<p>b) Pick \(a=2\) and find the region of convergence.</p>
 
 <h2 id="problem-5">Problem 5</h2>
 
-<p>Consider the following network.</p>
+<p>Let \(f(x)\) the same as in the last problem. We now use the Newtow algorithm covered in class. The iterations are</p>
 
-<p><img src="https://www.dropbox.com/scl/fi/kmve3i5gi4plc3kz87w5a/h2p5.png?rlkey=4w7b3lsfi3mqc11kx89o4org2&amp;dl=1" alt="Circuit for problem 5" width="400" /></p>
+\[x^{(k+1)} = x^{(k)} - \frac{f(x^{(k)})}{f'(x^{(k)})}.\]
 
-<p>a) Suppose the voltages are \(V_1=1+0.1j, V_2=0.9+0.5j, V_3=-0.8+0.2j, V_4=-0.3+j, V_5=1-0.2j\). Find the current injections.</p>
-
-<p>b) Suppose the current injections are \(I_1=2, I_2=-j, I_3=0.5-2j, I_4=0.5+0.5j, I_5=1-j\). Find the bus voltages. Hint: check whether the \(Y\)-bus matrix is invertable.</p>
+<p>How about the region of convergence for this algorithm? Hint: run some simulations to help you build some intutions.</p>
 
 <h2 id="problem-6">Problem 6</h2>
-<p>Schur complement can be used to reduce the size of circuits by removing internal buses. This is called Kron reduction. We will work through it for the following circuit, with the goal  of finding an equivalent circuit that “gets rid of” the internal nodes between buses 1 and 2.</p>
 
-<p><img src="https://www.dropbox.com/scl/fi/4457gyk5elqpb727b8kv6/h2p6.png?rlkey=y3nfgp0jtgsao2q0pmoixe3sa&amp;dl=1" alt="Circuit for problem 6" width="400" /></p>
+<p>Here we look at solving power flow equation for a two bus system. We are going to set bus 1 as the slack bus, and bus 2 have complex voltage \(V \angle \theta\). The line admittance is \(1-j\).</p>
 
-<p>a) First, find the \(Y\)-bus matrix.</p>
+<p>a) Write the power flow equations for this system.</p>
 
-<p>b) Schur complement can be used to partially solve linear equations. Namely, given \(M=\begin{bmatrix} A &amp; B \\ D &amp; C \end{bmatrix}\) and suppose we want to solve</p>
+<p>b) Use Newton’s method to find the values of \(V\) and \(\theta\) when \(P_2=-0.11\) and \(Q_2=0.083\).</p>
 
-\[\begin{bmatrix} A &amp; B \\ D &amp; C \end{bmatrix} \begin{bmatrix} x \\ y \end{bmatrix} = \begin{bmatrix} a \\ b \end{bmatrix}.\]
+<h2 id="problem-7">Problem 7</h2>
 
-<p>Performing the operations used in Gaussian elimination, we can write \(x\) as</p>
+<p>We stay with the system in the last problem. Let’s say we want to solve the power flow problem where \(P_2=5\) and \(Q_2=5\).</p>
 
-\[x = (M/C)^{-1} \hat{a}, \quad  \hat{a}=a-BC^{-1}b.\]
+<p>a) Before running the algorithm, look at the values, and decide whether there is a solution and explain why or why not.</p>
 
-<p>Applying this to our circuit, and noticing that the current injections in the internal nodes all sum to $0$, find a relationship between just \(\begin{bmatrix} I_1 \\ I_2 \end{bmatrix}\) and \(\begin{bmatrix} V_1 \\ V_2 \end{bmatrix}\).</p>
-
-<p>c) Draw the resulting equivalent circuit. Note this circuit might have shunt elements.</p>
+<p>b) What happens when we do try to run the Netwon algorithm anyways?</p>
 
 
   </div>
