@@ -109,7 +109,7 @@ function toggleDiv(element){
   <div class="post-content">
     <h1 id="homework-3">Homework 3</h1>
 
-<p>Due Oct 18th at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1828831/assignments/10779006">https://canvas.uw.edu/courses/1828831/assignments/10779006</a>.</p>
+<p>Due Nov 6th at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1917157/assignments/11872111">https://canvas.uw.edu/courses/1917157/assignments/11872111</a>.</p>
 
 <h2 id="problem-1">Problem 1</h2>
 
@@ -120,42 +120,82 @@ x_1^2-x_1 x_2+x_2 &amp;= 1 \\
 x_2^3-x_1^2 x_2 &amp;=6
 \end{align}\]
 
-<p>Solve it using the Newton Raphson method. Plot the trajectory of the iterations. That is, start at your chosen initial point, and plot the subsequent values of \(x_1\) and \(x_2\) in each iteration until they converge.</p>
+<p>Solve it using the Newton Raphson method. Try a few different starting points and see if you can observe qualitatively different behaviors. Plot the trajectory of the iterations. That is, start at your chosen initial point, and plot the subsequent values of \(x_1\) and \(x_2\) in each iteration until they converge.</p>
 
 <h2 id="problem-2">Problem 2</h2>
 
-<p>Consider the following function
-\(f(\theta_1, \theta_2)=\begin{bmatrix} f_1(\theta_1,\theta_2) \\ f_2(\theta_1,\theta_2) \end{bmatrix} = \begin{bmatrix} \cos(\theta_1-\theta_2)+\sin(\theta_1) \\ \sin(\theta_1-\theta_2)+\cos(\theta_2) \end{bmatrix}.\)</p>
+<p>onsider the following tree network with paramters \(y_{01}=0.81-j0.91, y_{12}=0.13-j 0.92, y_{23}=0.64-j0.91, y_{24}=0.28-j0.55, y_{45}=0.96-j0.96\), where bus \(0\) is the slack bus. Assume that all the voltage magnitudes are one. The active power loads are \(0.07, 0.04, 0.03, 0.02, 0.02\) at buses 1, 2, 3, 4, 5, respectfully (note these are loads, so if we write them as injections, there is a minus sign).</p>
 
-<p>a) Plot the all possible values of \(f_1\) and \(f_2\) by varying \(\theta_1\) and \(\theta_2\).</p>
+<p>a) Draw the network.</p>
 
-<p>b) Say we want to solve</p>
+<p>b) Write out the power flow equations for this network. Note that since we fix all voltages to be one, there variables are the angles at buses 1,2,3,4,5. And there are five equations, one for the active power at each bus.</p>
 
-\[f=\begin{bmatrix} 3 \\ 1 \end{bmatrix}.\]
-
-<p>This equation doesn’t have a solution (adding \(\sin\) and \(\cos\) cannot be bigger than \(2\)). If we tried to use Newton Raphson, the algorithm would diverge or oscillate. But suppose we use the regularized version. That is, at each step \(k\), we solve (with some positive \(\lambda\))</p>
-
-\[\min_{\Delta \theta}  \; \Vert f (\theta^{(k)}) + \nabla f (\theta^{(k)}) \Delta \theta \Vert ^2+\lambda \Vert \Delta \theta \Vert^2\]
-
-<p>and update the soluiton as \(\theta^{(k+1)}=\theta^{(k)}+\Delta \theta\).</p>
-
-<p>Would this converge? If so, what does it converge to? If not, why not?</p>
+<p>c) Use Newton method to solve for the angles that would satisfy the active powers.</p>
 
 <h2 id="problem-3">Problem 3</h2>
 
-<p>A fundamental problem in power system operations is that given a set of active and reactive injections, we want to know whether they are feasible. That is, whether they can be achieved by some complex voltages. Currently, we don’t really have an algorithm that’s better than just to solve power flow and see. Note that the feasibility problem looks to be an easier problem, since it’s just asking for a yes/no answer, but solving power flow returns the actual voltages. Later in the course will look at cases where answering yes/no quesitons is easier to finding the soluiton. For this problem, we look at a necessary condition on the active powers.</p>
+<p>Use the solution you obtained from the last problem.</p>
 
-<p>For a \(n+1\)-bus system where bus \(0\) is the slack bus. Show that if an active power injection vector \((P_0,\dots,P_n)\) is feasible, then it must satisfy \(\sum_{i=0}^{n+1} P_i \geq 0\).</p>
+<p>a)  Compute the reactive power injections at each bus.</p>
+
+<p>b) Write the power flow equations for where both \(V\) and \(\theta\) are the variables. So there are ten equations: active and reactive power at each bus.</p>
+
+<p>c) Use Newton method to solve for the angle and voltages.</p>
 
 <h2 id="problem-4">Problem 4</h2>
 
-<p>It is often useful to have a softer measure of how “feasible” a power injection is. More precisely, we say a power injection is more feasible if after a large perturbation, it remains feasible. Conversely, we say a power injection is on the feasibility boundary if it is feasible, but can become infeasible after a very small perturbation. Find a metric that quantifies how feasible a soultion is. Hint: this is related to question 2b).</p>
+<p>a) Consider \(f(x,y)=xy\), with domain \(x&gt;0\) and \(y&gt;0\). Is this function convex?</p>
+
+<p>b) Consider the function \(f(x_1, x_2)=2x_1^3+x_1^2+2x_1x_2+\frac{1}{2}x_2^2-8x_1-2x_2-10\). Find the range of values of \((x_1,x_2)\) for whith \(f\) is convex, if any.</p>
 
 <h2 id="problem-5">Problem 5</h2>
 
-<p>Consider following system. For simplicity, we fix all the voltages to be \(1\) and only consider active power. The feasible set of all possible \((P_1,P_2)\) that is achievable by varying the angles at buses 1 and 2. Show the condition you derived in problem 4 makes sense for this example. That is, if your condition decided a point is on the boundary, is it actually on the boundary? You don’t need to prove things analytically and can do this through plotting.</p>
+<p>a) Let \(C_1(x_1)= 0.5 x_1^2+x_1\), \(C_2(x_2)= x_2^2 + 2 x_2\), \(L=1\), solve</p>
 
-<p><img src="https://www.dropbox.com/scl/fi/o98gi5amg9fvskn03ynwi/h3p5.png?rlkey=qu59owsdst474iu5zlmxpvbjq&amp;dl=1" alt="Network for problem 5" width="400" /></p>
+\[\begin{align} 
+\min_{x_1,x_2} \; &amp; C_1(x_1)+C_2(x_2) \\
+&amp; x_1+x_2 = L
+\end{align}\]
+
+<p>You can do this by hand by substituting \(x_2\) with \(x_1\).</p>
+
+<p>b) Let \(C_1(x_1)= 2x_1^2+0.5 x_1\), \(C_2(x_2)= 0.1 x_2^2 + 2 x_2\), \(L=2\), solve</p>
+
+\[\begin{align} 
+\min_{x_1,x_2} \; &amp; C_1(x_1)+C_2(x_2) \\
+&amp; x_1+x_2 = L
+\end{align}\]
+
+<p>You can do this by hand by substituting \(x_2\) with \(x_1\).</p>
+
+<p>c) let \(x_1^*\) and \(x_2^*\) be the optimal solutions. Evaluate \(C_1'(x_1^*)\) and \(C_2'(x_2^*)\) for both a) and b). What you do observe?</p>
+
+<p>d) Without using a computer, solve the following problem. Use the observation you made in part c). The load at a bus is 10 MW, and there are four generators with costs</p>
+
+\[C_1(x_1)=0.5 x_1^2+2 x_1, \; C_2(x_2)=x_2^2+x_2, \; C_3(x_3)=0.1x_3^2 + 5 x_3, \; C_4 (x_4)=5 x_4+6 x_4\]
+
+<p>Find the optimal, that is, the least cost generation that meets the load.</p>
+
+<h2 id="problem-6">Problem 6</h2>
+
+<p>This is to get started on solving convex problem using a solver. Pick whatever language you’re comfortable with, learn how to call a convex optimization solver. A popular one is <a href="https://www.cvxpy.org/">cvxpy</a>, or its equivalent in <a href="https://cvxr.com/cvx/doc/quickstart.html">Matlab</a> or <a href="https://jump.dev/Convex.jl/stable/">Julia</a>, but there are many different ones out there and any of them would work. Solve the following problems, provide the optimal objective values and optimal solutions in your homework solutions.</p>
+
+<p>a) Solve</p>
+
+\[\begin{align}
+\min_{x_1,x_2} \; &amp; (x_1-2x_2)^2+x_1  \\
+\mbox{s.t. } &amp; 2 \leq x_2 \leq 4 \\
+&amp; x_1 \geq 0 
+\end{align}\]
+
+<p>b) Solve</p>
+
+\[\begin{align}
+\min_{x_1,x_2,x_3} \; &amp;   \vert x_1 \vert +e^{x_1+x_2+x_3} - \log (x_2+x_3) \\ 
+\mbox{s.t. } &amp; x_1 + x_3 \geq 2 \\ 
+&amp; 0 \leq x_2 \leq 3 \\ 
+&amp; x_1 \leq 1 
+\end{align}\]
 
 
   </div>
