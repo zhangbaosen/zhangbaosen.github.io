@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>EE 554 Largescale Electric Systems Analysis Homework Assigments</title>
+  <meta name="description" content="Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/teaching/EE554/homework2_solutions">
+  <link rel="alternate" type="application/rss+xml" title="Baosen Zhang" href="http://localhost:4000/feed.xml">
+     <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+<script src="https://techblog.lankes.org/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function toggleDiv(element){
+ if(document.getElementById(element).style.display == 'none')
+  document.getElementById(element).style.display = 'block';
+ else
+       document.getElementById(element).style.display = 'none';
+}
+//-->
+</script>
+  
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Baosen Zhang</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+         <ul class="menu">
+
+    
+     <li><a href="/about/" class="page-link">About</a>
+    
+    </li>
+    
+    
+     <li><a href="/research/" class="page-link">Research</a>
+    
+    </li>
+    
+    
+    <li><a href="/teaching/" class="page-link">Teaching</a>
+    <ul class="sub-menu">
+    
+    <li><a href="/teaching">EE 351 – Introduction to Energy Systems</a></li>
+    
+    <li><a href="/teaching/EE451">EE 451 - Wind Energy</a></li>
+    
+    <li><a href="/teaching/EE454">EE 454 - Power System Analysis</a></li>
+    
+    <li><a href="/teaching/">EE 554 – Large Scale Power Systems</a></li>
+    
+    <li><a href="/teaching/EE553">EE 553 - Power System Economics</a></li>
+    
+    <li><a href="/teaching/EE559">EE 559 – Optimization of Networks and Graphs</a></li>
+    
+    </ul>
+    
+    </li>
+    
+    
+     <li><a href="/group/" class="page-link">Group</a>
+    
+    </li>
+    
+    </ul>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">EE 554 Largescale Electric Systems Analysis Homework Assigments</h1>
+  </header>
+
+  <div class="post-content">
+    <h1 id="homework-2">Homework 2</h1>
+
+<p>Due Oct 23rd at 11:59pm. Submit to CANVAS at <a href="https://canvas.uw.edu/courses/1917157/assignments/11849576">https://canvas.uw.edu/courses/1917157/assignments/11849576</a>.</p>
+
+<h2 id="problem-1">Problem 1</h2>
+
+<p>Consider a \(n\) by \(n\) matrix \(A\). We say \(A\) is diagonalizable if there exist some invertible matrix \(P\), where \(A=P \Lambda P^{-1}\), where \(\Lambda\) is a diagonal matrix.</p>
+
+<p>a) Suppose \(A\) has \(n\) distinct eigenvalues. Proof that we can take \(\Lambda\) to the digaonal matrix with eigenvalues on the diagonal and \(P\) to be matrix where each column is the corresponding eigenvector.</p>
+
+<p>b) Find a matrix that is not diagonalizable. Hint: there is a 2 by 2 matrix that is not diagonalizable.</p>
+
+<h3 id="solutions">Solutions.</h3>
+
+<p>a) Note the original version of the problem missed the word “distinct” and without that, the statement isn’t necessarily true. Full credits for anyone that attempted this problem. 
+We write \(P\) as \(P= [ p_1 \; \dots p_n]\), where \(p_i\) is the \(i\)‘th eigenvector corresponding to \(\lambda_i\). By direct multiplication, we have \(AP=P \Lambda\). We need to show that \(P\) is invertible, and this is true when there are \(n\) distinct eigenvectors. Multiplying both sides by \(P^{-1}\), we have \(A=P \Lambda P^{-1}\).</p>
+
+<p>b) Many matrices work, for example, \(A=\begin{bmatrix} 0 &amp; 1 \\ 0 &amp; 0 \end{bmatrix}\).</p>
+
+<h2 id="problem-2">Problem 2</h2>
+
+<p>Let \(A\) and \(B\) be real \(n\) by \(n\) matrices. In general, \(AB \neq BA\). Show that if \(A\) and \(B\) are both diagonalizable, and they have the same eigenvectors, then \(AB=BA\).</p>
+
+<h3 id="solutions-1">Solutions.</h3>
+<p>Let’s say \(A=P \Lambda_A P^{-1}\) and \(B=P \Lambda_B P^{-1}\). Then \(AB= P \Lambda_A P^{-1} P \Lambda_B P^{-1}= P \Lambda_A \Lambda_B P^{-1} =P \Lambda_B \Lambda_A P^{-1}\), where the last step follows by noticing that two diagonal matrices always commutes. The we can insert \(I=P^{-1} P\) between \(\Lambda_B \Lambda_A\) (this trick is very common, and is sometimes called “the resolution of unity”), and \(P \Lambda_B  \Lambda_A P^{-1}=P \Lambda_B P^{-1} P \Lambda_A P^{-1}=BA\).</p>
+
+<h2 id="problem-3">Problem 3</h2>
+
+<p>Consider a lossy power system. That is, each line adminttance \(g_{ik}-j b_{ik}\) has \(g_{ik}\geq 0\). Proof that the the thermal loss in the system is nonnegative, and is zero if and only if all the bus voltages are equal. Hint: Once the thermal loss is appriopriately defined, the proof is about two lines.</p>
+
+<h3 id="solutions-2">Solutions.</h3>
+
+<p>The definition for loss in words is</p>
+
+\[\text{power generated}= \text{power consumed}+\text{loss}\]
+
+<p>rearranging gives</p>
+
+\[\text{loss}=\text{power generated}-\text{power consumed}\]
+
+<p>the negative sign can be absorbed into the sign for power injection, and we have</p>
+
+\[\text{loss}=\text{net power injected into the network}\]
+
+<p>In symbols, we have \(\textbf{loss}=\sum_i P_i = \sum_{i \sim k} P_{ik}+P_{ki}\). We show that \(P_{ik}+P_{ki} \geq 0\) for every edge \((i,k)\). Writing out the power flow equations and adding, we get \(P_{ik}+P_{ki}= g_{ik} (V_i^2+ V_k^2 + 2 V_i V_k \cos(\theta_i -\theta_k)) \geq g_{ik} (V_i^2+V_k^2-2 V_i V_k) = g_{ik} (V_i-V_k)^2 \geq 0\).</p>
+
+<h2 id="problem-4">Problem 4</h2>
+
+<p>Consider the equation \(f(x)=ax^2-x\), and we want to solve \(f(x)=0\). Of course, we can compute the roots pretty easily, but let’s try the Gauss Algorithm. This algorithm views the equation as a fixed point equation. That is, solving for \(f(x)=0\) is the same as solving for \(x\) such that \(ax^2=x\). Then a simple algorithm is to perform fixed point iterates: \(x^{(k+1)}=a(x^{(k)})^2\), and see if it converges. We call \(\mathcal{X}=\{x^{(0)}:\text{fixed point iterates converges starting from } x^{(0)}\}\) the region of convergence.</p>
+
+<p>a) Pick \(a=0.5\) and find the region of convergence.</p>
+
+<p>b) Pick \(a=2\) and find the region of convergence.</p>
+
+<h3 id="solutions-3">Solutions.</h3>
+
+<p>Note that the solutions of \(f(x)=0\) for a given \(a\) are \(0\) and \(\frac{1}{a}\). For every positive \(a\), the iteration</p>
+
+\[x^{(k+1)}=a\left(x^{(k)}\right)^2\]
+
+<p>can be written as a function of \(a\) and \(x^{(0)}\) as</p>
+
+\[x^{(k)}=\frac1a\left(ax^{(0)}\right)^{2^k}.\]
+
+<p>WE can observe the repeated exponential either goes to zero, stays at 1 or blows up based on:
+\(\lim_{k\to\infty}x^{(k)}
+=
+\begin{cases}
+0, &amp; \vert x^{(0)} \vert &lt;1/a,\\
+1/a, &amp; \vert x^{(0)} \vert =1/a,\\
++\infty, &amp; \vert x^{(0)} \vert &gt;1/a,
+\end{cases}\)</p>
+
+<p>and so if we let \(\mathcal{X}\) denote the region of convergence, we have</p>
+
+\[\mathcal X=\left[-\frac1a,\frac1a\right].\]
+
+<p>For \(a=0.5\),</p>
+
+\[\mathcal X=[-2,2].\]
+
+<p>and for \(a=2\),</p>
+
+\[\mathcal X=\left[-\frac12,\frac12\right].\]
+
+<h2 id="problem-5">Problem 5</h2>
+
+<p>Let \(f(x)\) the same as in the last problem. We now use the Newtow algorithm covered in class. The iterations are</p>
+
+\[x^{(k+1)} = x^{(k)} - \frac{f(x^{(k)})}{f'(x^{(k)})}.\]
+
+<p>How about the region of convergence for this algorithm? Hint: run some simulations to help you build some intutions.</p>
+
+<h3 id="solutions-4">Solutions.</h3>
+
+<p>Newton’s iteration becomes</p>
+
+\[\boxed{x^{(k+1)}=\frac{a(x^{(k)})^2}{2ax^{(k)}-1}.}\]
+
+<p>It make things easier to define 
+\(y^{(k)}=ax^{(k)}.\)</p>
+
+<p>and iteration becomes</p>
+
+\[y^{(k+1)}
+=\frac{(y^{(k)})^2}{2y^{(k)}-1}.\]
+
+<p>Its fixed points are \(0\) and \(1\). We study the behavior of the algorithm case by case.</p>
+
+<p>Case 1: \(y^{(0)}&lt;\frac12\)</p>
+
+<p>If \(0&lt;y^{(0)}&lt;\frac12\), then the denominator is negative and \(y^{(1)}&lt;0\). If \(y^{(0)}\le 0\), the initial value is already nonpositive.</p>
+
+<p>For any negative \(y\), the next iterate is also negative, and</p>
+
+\[\vert \frac{y^2}{2y-1}\vert
+=\frac{\vert y \vert^2}{1+2 \vert y \vert}
+&lt; \vert y \vert.\]
+
+<p>Hence the iterates approach \(0\).</p>
+
+<p>Case 2: \(y^{(0)}&gt;\frac12\)</p>
+
+<p>We have</p>
+
+\[y^{(k+1)}-1
+=\frac{(y^{(k)}-1)^2}{2y^{(k)}-1}.\]
+
+<p>The denominator is positive, so \(y^{(1)}\ge1\).</p>
+
+<p>For any \(y\ge1\),</p>
+
+\[\frac{y^2}{2y-1}-y
+=\frac{y(1-y)}{2y-1}
+\le 0.\]
+
+<p>Thus, after the first iteration, the iterates remain at least \(1\) and form a nonincreasing sequence. Their limit must be a fixed point, so</p>
+
+\[\lim_{k\to\infty}y^{(k)}=1.\]
+
+<p>Case 3: \(y^{(0)}=\frac12\)</p>
+
+<p>Newton’s update divides by zero and is undefined.</p>
+
+<p>Together, for positive \(a\), we obtain</p>
+
+\[\lim_{k\to\infty}x^{(k)}
+=
+\begin{cases}
+0, &amp; x^{(0)}&lt;\dfrac1{2a},\\[6pt]
+\dfrac1a, &amp; x^{(0)}&gt;\dfrac1{2a}.
+\end{cases}\]
+
+<p>Therefore, the region of convergence to one of the root is</p>
+
+\[\boxed{
+\mathcal X=\mathbb R\setminus\left\{\frac1{2a}\right\}.
+}\]
+
+<p>So for \(a=0.5\),</p>
+
+\[\boxed{
+\mathcal X=(-\infty,1)\cup(1,\infty).
+}\]
+
+<p>and initial values smaller than \(1\) converge to \(0\); initial values bigger than \(1\) converge to \(2\). Similarly for \(a=2\).</p>
+
+<h2 id="problem-6">Problem 6</h2>
+
+<p>Here we look at solving power flow equation for a two bus system. We are going to set bus 1 as the slack bus, and bus 2 have complex voltage \(V \angle \theta\). The line admittance is \(1-j\).</p>
+
+<p>a) Write the power flow equations for this system.</p>
+
+<p>b) Use Newton’s method to find the values of \(V\) and \(\theta\) when \(P_2=-0.11\) and \(Q_2=0.083\).</p>
+
+<h3 id="solutions-5">Solutions.</h3>
+
+<p>a) From class, we get 
+\(P_2=V^2-V\cos\theta+V\sin\theta\)</p>
+
+<p>and</p>
+
+\[Q_2=V^2-V\cos\theta-V\sin\theta\]
+
+<p>b) Define</p>
+
+\[\Delta P=-0.11-P(V,\theta),\]
+
+\[\Delta Q=0.083^{\mathrm{spec}}-Q(V,\theta).\]
+
+<p>and we want to make \(\Delta P\) and \(\Delta Q\) both 0.</p>
+
+<p>At each step, solve</p>
+
+\[\begin{bmatrix}
+\frac{\partial P}{\partial V} &amp; \frac{\partial P}{\partial\theta}\\
+\frac{\partial Q}{\partial V} &amp; \frac{\partial Q}{\partial\theta}
+\end{bmatrix}_{(V^{(k)},\theta^{(k)})}
+\begin{bmatrix}
+\Delta V^{(k)}\\
+\Delta\theta^{(k)}
+\end{bmatrix}
+=
+\begin{bmatrix}
+\Delta P^{(k)}\\
+\Delta Q^{(k)}
+\end{bmatrix},\]
+
+<p>then update</p>
+
+\[\begin{bmatrix}
+V^{(k+1)}\\
+\theta^{(k+1)}
+\end{bmatrix}
+=
+\begin{bmatrix}
+V^{(k)}\\
+\theta^{(k)}
+\end{bmatrix}
++
+\begin{bmatrix}
+\Delta V^{(k)}\\
+\Delta\theta^{(k)}
+\end{bmatrix}.\]
+
+<p>The required derivatives are</p>
+
+\[\frac{\partial P}{\partial V}=2V-\cos\theta+\sin\theta,\]
+
+\[\frac{\partial P}{\partial\theta}=V(\sin\theta+\cos\theta),\]
+
+\[\frac{\partial Q}{\partial V}=2V-\cos\theta-\sin\theta,\]
+
+\[\frac{\partial Q}{\partial\theta}=V(\sin\theta-\cos\theta).\]
+
+<p>Therefore the Jacobian is</p>
+
+\[J(V,\theta)=
+\begin{bmatrix}
+2V-\cos\theta+\sin\theta &amp; V(\sin\theta+\cos\theta)\\
+2V-\cos\theta-\sin\theta &amp; V(\sin\theta-\cos\theta)
+\end{bmatrix}.\]
+
+<p>If we start from the flat start, \(V=1\) and \(\theta=0\), we converge to \(V=0.981\) and \(\theta=-0.0985\text{ radians}\) in a few steps. Note, you can find another soluiton with other initial values.</p>
+
+<h2 id="problem-7">Problem 7</h2>
+
+<p>We stay with the system in the last problem. Let’s say we want to solve the power flow problem where \(P_2=5\) and \(Q_2=5\).</p>
+
+<p>a) Before running the algorithm, look at the values, and decide whether there is a solution and explain why or why not.</p>
+
+<p>b) What happens when we do try to run the Netwon algorithm anyways?</p>
+
+<h3 id="solutions-6">Solutions.</h3>
+<p>This question was intended to not have a solution, but it actually does (actually has 2). In particular, \((V,\theta)\approx(2.791288,0)\) and \((V,\theta)\approx(1.791288,\pi).\)
+The mismatch in Newton steps first goes up then comes down, but it should converge. Full credits for anyone attempted this question.</p>
+
+
+  </div>
+
+    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+</article>
+
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Baosen Zhang</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Baosen Zhang</li>
+          <li><a href="mailto:zhangbao@uw.edu">zhangbao@uw.edu</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Baosen Zhang is an Associate Professor in the Electrical and Computer Engineering Department at the University of Washington.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+   <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    
+  </body>
+
+</html>
+
